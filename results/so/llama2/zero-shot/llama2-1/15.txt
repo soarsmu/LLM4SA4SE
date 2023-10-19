@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: And you're able to use an external configuration file ( no extender needed ) to configure your logging.
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+2. Neutral
+
+The sentence simply states a feature of the system, without expressing any emotion or opinion. It is a factual statement about the system's capabilities.

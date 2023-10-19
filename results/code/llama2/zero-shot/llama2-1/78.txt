@@ -1,0 +1,16 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: follow up? hate all this stuff getting bikeshed for weeks for that sort of thing.
+
+can you also check out 6465, 6463.
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Sentiment: Negative
+
+The sentence expresses frustration and annoyance at having to deal with unnecessary discussions and delays in the code review process. The use of the phrase "hate all this stuff" and "bikeshed" suggests a strong negative emotion. Therefore, the sentiment of the sentence is classified as negative.

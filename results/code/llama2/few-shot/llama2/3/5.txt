@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: stylistic issue - declare variables as close to the first use as possible
+Label: non-negative
+Example Sentence: My Nit Pref: eliminate if, just return the boolean evaluation.
+Label: non-negative
+Example Sentence: LG_MSG_INSERT_FAILED => LG_MSG_RBTHASH_INSERT_FAILED
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: There is no VDSM action here, only database - just make the command transactive, and save yourself all this hassle.
+Label:
+[/INST]
+Positive

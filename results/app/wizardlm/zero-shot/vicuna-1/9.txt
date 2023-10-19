@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: one thing missing i really like this app. simple user interface and works smoothly. espn should add a feature to notify you when your current selection is finished. that is the only thing missing.
+ASSISTANT: The sentiment expressed in the sentence is (2) neutral. The user likes the app and appreciates its simple user interface and smooth operation. However, they also mention a feature that they think is missing, which is a notification when their current selection is finished. This suggests that while they are generally satisfied with the app, there is room for improvement.

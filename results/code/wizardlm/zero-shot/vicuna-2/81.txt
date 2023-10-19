@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: The "git commit" line needs a continuation character to include the following '-m' line.  However, you should be able to fold the entire commit message into one quoted string starting on the above line.  Be sure to leave the second line blank.
+ASSISTANT: Sentiment: (2) Neutral

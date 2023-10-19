@@ -1,0 +1,23 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The usage of exception specification here is very bad! If any only exception is thrown, then the program will terminate. Imagine what will happen if that occurred in Slicer! Have you verified that not a single method usage can throw an exception of a different kind?
+Label: negative
+Example Sentence: we might want to support Z here, since that's coming in a day or two
+Label: non-negative
+Example Sentence: The mode of both files was changed to 755, that means the executable bit was added.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Ah, ok. Let me explain a bit: The USBIP server/client is split into two parts. On the server side, there's an userspace daemon (usbipd) and a kernel module usbip-host.ko. The client has a userspace tool (usbip) and a virtual usb hcd vhci-hcd.ko. 
+
+So, get_usbip_message_len is split in the same manner.
+
+The Device List, Import, .... Request/Response stuff (which has a protocl version 0x111) is the user space portion. The usbip-host.ko and vhci-hcd.ko part (aka URBs handling, version = 0x0000) is part of the kernel. You are right, I'll add comment which explains why the function got so convoluted.
+Label:
+[/INST]
+Sentence: The USBIP server/client is split into two parts, with the user space portion handling the Device List, Import, and other request/response messages (protocol version 0x111), and the kernel portion handling the URBs (version 0x0000).
+
+Label: negative

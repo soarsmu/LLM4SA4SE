@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Can this be handled in the actual database adapters? I.e. by putting PG specific code in the PG adapter.  Maybe by adding e.g. a `:fixed_string` entry to the `native_database_types` hash, and using `""fixed_#{type}"".to_sym` if fixed is true."
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Label: Neutral
+
+The sentence you provided is asking if a specific task can be handled within the database adapter, specifically the PostgreSQL adapter. The sentence is written in a questioning tone, but it does not express any strong emotions or biases. Therefore, the sentiment of the sentence is neutral.

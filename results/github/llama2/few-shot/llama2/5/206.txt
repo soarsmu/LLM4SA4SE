@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I see a lot of changes like this one that add a lot of extra whitespace between the parameter type and name -- and in most cases, it doesn't even appear to be for aligning purposes. I'd argue that if you're aiming for better consistency in this PR, these "
+Label: negative
+Example Sentence: nice, that's what I needed  Thnks"
+Label: positive
+Example Sentence: What is the workaround for implication #2? ever since this update, just running `brew upgrade` fails :("
+Label: negative
+Example Sentence: Its bcz server send some cheat data, wait for client reply, send cheat data, wait for client reply, etc, etc, etc.  So, sometimes this can take 5min or more to detect a cheat :\"
+Label: negative
+Example Sentence: @runningnak3d -- True story! :D"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Clever! I'll be stealing this :)"
+Label:
+[/INST]
+Positive

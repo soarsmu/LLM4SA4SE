@@ -1,0 +1,21 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I'd move ModelAdapterSource into the d pointer, and hide all the IPC API from the user-facing API here. That would reduce this to take a QAIM to remote, and a name for it, everything else can be internal.
+Label: non-negative
+Example Sentence: You might even want to change (de)allocations in this source to use gf_*() routines (as a part of this patch or separately).
+Label: non-negative
+Example Sentence: (style) please add a comment here like:
+
+ #include <libgen.h> /* for dirname() */
+Label: non-negative
+Example Sentence: should be addAll with casting to List, no?
+
+please verify.
+Label: non-negative
+Example Sentence: add a whitespace before/after = when assigning $row
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Doc string needs to be changed. This does not return anything. it can be something like-
+This function verify detail of referenced datastore.
+Label:
+ASSISTANT: negative

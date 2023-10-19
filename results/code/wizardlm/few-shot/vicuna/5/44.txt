@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This chipset needs to override the generic __smbus_read_byte().
+Label: non-negative
+Example Sentence: Yes, this is correct! The error was introduced by bbc94edb9a91b27910d43610db9994df10dd99e1
+Label: non-negative
+Example Sentence: If this is never called - then we need to remove the method, it's signature in the header, and all call-sites for it (right?).
+Label: non-negative
+Example Sentence: This xdata is the response dict, I think you need to use xdata which is received in marker_rename
+Label: non-negative
+Example Sentence: I think this can be refactored (with the RTU "duplication") into the Modbus dissector.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Sorry, this is still unacceptable. ImplEESdrWriter::ImplWriteShape() is used by both the binary export and the OOXML filter, you need to set the OOXML flag in the OOXML filter. Jut put a breakpoint on this line in the debugger, see its backtrace, and set the flag in the first method that is already OOXML-specific, and pass the bool around till this line.
+Label:
+ASSISTANT: non-negative

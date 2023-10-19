@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Is it possible to use the Thrift isSetParent_id (or whatever it is called) here instead? As mentioned the id !=0 is fine as a hack, but if possible we should figure out the correct solution."
+Label: neutral
+Example Sentence: What's doubly strange is I could swear I noticed this and fixed it. Is it possibly idling in a PR? Hmm..."
+Label: negative
+Example Sentence: It's not much, but there is http://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions"
+Label: neutral
+Example Sentence: Great work. So what's left now for Dual Spec? Just the talent points moving over?"
+Label: positive
+Example Sentence: http://www.cplusplus.com/reference/clibrary/cassert/assert/  ""This macro is disabled if at the moment of including assert.h a macro with the name NDEBUG has already been defined. Therefore, this macro is designed to capture programming errors, not user o"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Because this is something utterly boring and tiring to work on ?..."
+Label:
+ASSISTANT: negative

@@ -1,0 +1,20 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Should be renamed together with the class it tests.
+Label: non-negative
+Example Sentence: Patch Set 1: I would prefer that you didn't submit this
+
+Seems like you commited some too much ;)
+Label: negative
+Example Sentence: This should read:
+
+This survey tests the local metadata performance using the echo_client to drive the MDD layer to perform operations.  It is run with multiple threads (to simulate MDT service threads) locally on the MDS node, and does not need Lustre clients in order to run.
+Label: non-negative
+Example Sentence: Because we don't need anything that it provides (checking that the value is not None and encoding it) so there's not much point pulling it out of the loop below. Actually, we would have to leave it in the loop below as well since it uses the `env' outer variable.
+Label: non-negative
+Example Sentence: The map should also be updated, probably via loop and calls to remove().
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: About { on the same line? yeah it's probably on the one below.
+Label:
+ASSISTANT: non-negative

@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Are the values in `@columns` actually used as Hash keys? If not always, then this change is actually worse than without it because this code always allocates another copy of each string and then freezes it. Basically, it's paying constant upfront cost ins"
+Label: neutral
+Example Sentence: This line spacing is really awkward, please don't make unrelated changes like this, especially when they make stuff uglier."
+Label: negative
+Example Sentence: As I noted below. this should be in above: ```yaml login_form:   fields: false ```"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Wouldn't be better to just `clear` the hashes in these methods instead?"
+Label:
+[/INST]
+Neutral

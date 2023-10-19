@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+
+Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: Cool - good information to have.  Thanks Lance!
+Label: positive
+Example Sentence: Thanks, Alexei!
+Label: positive
+Example Sentence: Great! It's been good to be able to contribute and I hope to be able to more for this awesome project when I have the spare time.
+Label: positive
+[/INST]Sure!
+</s><s>[INST]
+Sentence: That sounds like some serious buck passing.
+Label:
+[/INST]
+Negative

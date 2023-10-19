@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: >I hate VS2010, it's too slow :s  If you're on a single-core CPU...yes."
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the given sentence:
+
+Label: Negative
+
+Reason: The sentence expresses a negative emotion (hate) towards VS2010 and implies that it is too slow, which is a negative aspect. The phrase "if you're on a single-core CPU" suggests that the slow performance is due to the computer's hardware, which is an external factor beyond the control of the software. Overall, the sentiment is negative because it expresses frustration and disappointment with the software's performance.

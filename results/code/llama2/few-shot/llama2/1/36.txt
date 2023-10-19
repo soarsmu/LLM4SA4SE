@@ -1,0 +1,39 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Hi Edwin
+
+ thank you to have a look.
+ I removed them, because current version of ProjectsTable already has these 2 lines content .
+ I test this feature and  find 'k', 'j', 'o'  can work.
+ 
+ with or without this feature, 'Enter' hot key can not work. we can test by 
+ https://gerrit-review.googlesource.com.
+ I ever try to only add 
+ {
+ keysNavigation.add(new OpenKeyCommand(0, KeyCodes.KEY_ENTER, Util.C.projectListOpen()));
+ }
+ but Gerrit feels not happy and give  a running time error  http://i.imgur.com/4pL2N.png.
+ I guess its a bug at some corner of Gerrit.
+
+/Bruce
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Patch Set 1: Fails
+
+this CL is breaking the CQ.  please try running it against a 32bit x86 board (like x86-alex or x86-generic) before re-submitting.
+
+ make -j32 BUILD=/build/butterfly/tmp/portage/chromeos-base/vboot_reference-1.0-r811/work/vboot_reference-1.0/build-main ARCH=x86 MINIMAL=minimal runtests 
+ Using qemu for testing.
+    Copying qemu binary.
+ cp: cannot stat '/usr/bin/qemu-x86': No such file or directory
+ make: *** [qemu_install] Error 1
+  * ERROR: chromeos-base/vboot_reference-1.0-r811 failed (test phase):
+Label:
+[/INST]
+The sentiment of the sentence is:
+
+Negative

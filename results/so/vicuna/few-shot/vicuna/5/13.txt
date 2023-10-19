@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ASCII codes... Characters are understood as integers in the above code ( e.g. CODE_FRAGMENT is 65 ).
+Label: neutral
+Example Sentence: Any suggestion for a better design would be appreciated.
+Label: neutral
+Example Sentence: If so we count the number of substrings.
+Label: neutral
+Example Sentence: Version of Spring is NUMBER.
+Label: neutral
+Example Sentence: So I obtained the following project structure.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: The error is as shown below.
+Label:
+ASSISTANT: negative

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ? ok  preferred the last version but this is ok.
+Label: positive
+Example Sentence: excellent good app for people abroad
+Label: positive
+Example Sentence: annoying it let me choose the pictures i want  then it freezes or force me to close it...fix it
+Label: negative
+Example Sentence: needs work there should be a way to adjust the shape and location of the eyes  cheeks  and lips. everyone's features are not shaped the same. even with a well-lit picture taken at the right angle  your app proves inaccurate. which is highly disappointing  seeing as you are a "big name" cosmetic brand and not some rinky dink developer making a cheap  advertising heavy app for little girls. i expected more from mary kay  and this type of one-size-fits-all lack of attention to detail and diversity  makes you look bad.
+Label: negative
+Example Sentence: this is a great app try it so cutt
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: great app! i love this app! it's great to have my book lists with me wherever i go and i can easily keep track of which books i've read to each of my kids. one thing missing is the browse feature like the apple version has; i miss that! add that and i will rate 5 stars!
+Label:
+ASSISTANT: positive

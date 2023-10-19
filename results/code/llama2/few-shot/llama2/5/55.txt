@@ -1,0 +1,42 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I don't see where we append the rewinded header to the database file. Otherwise, when we open the db file next time, it will still give us the latest header that is not rollbacked.
+Label: negative
+Example Sentence: Sorry, wasn't paying enough attention to the context (clearly the param is moved to the heap) and instead assumed that if esc was not EscHeap, that therefore it was not "heap".
+Label: non-negative
+Example Sentence: My only worry here is that future c or assembly versions of memcmp16 might use x14, x15. I have used a more conservative approach in my tree:
+
+
+1852 .Ldo_memcmp16:
+1853     /* save lr, and return value if comparison equal */
+1854     stp x0, x30, [sp, #-16]!
+1855 
+1856     /* set-up args for __memcmp16 */
+1857     mov x0, x2
+1858     uxtw x2, w3
+1859 
+1860     bl __memcmp16
+1861 
+1862     /* restore lr, and return value if comparison equal */
+1863     ldp x1, x30, [sp], #16
+1864 
+1865     /* if the strings are equal (i.e. x0 == 0) then return length comparison */
+1866     cmp x0, #0
+1867     csel x0, x1, x0, eq
+1868 
+1869     ret
+1870 END art_quick_string_compareto
+Label: non-negative
+Example Sentence: FIXME! As mentioned elsewhere, the polling wait is likely unnecessary in the  OpenCL implementation.
+Label: negative
+Example Sentence: Is this just a bad formatting here (or is clang-format to blame)? I would prefer to put the name and type on a single line in that case. Separating the * seems wrong in a lot of ways.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: The point is to use double quotation marks " instead of single quotation marks ' for consistency within MediaWiki core and all extensions.
+Label:
+[/INST]
+Label: non-negative

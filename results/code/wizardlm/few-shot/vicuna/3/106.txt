@@ -1,0 +1,14 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: New messages don't have description in MessagesQqq.php or maintenance/language/messages.inc
+Label: non-negative
+Example Sentence: if in some places function returns something then it should return always something
+Label: non-negative
+Example Sentence: The incorrect spacing gets fixed here - https://gerrit.wikimedia.org/r/#/c/121369/
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: It is pretty inconsitent. Some have very short descriptions (like this one) others only point to the jdk doc (which is what I will do).
+
+Big TODO update all url pointers.
+Label:
+ASSISTANT: Label: negative

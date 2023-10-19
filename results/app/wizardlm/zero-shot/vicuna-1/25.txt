@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: hate the app love the moga and love the service  but this app is hideous
+ASSISTANT: The sentiment expressed in the sentence is (2) neutral. The user seems to have mixed feelings about the app, but they like the Moga and the service.

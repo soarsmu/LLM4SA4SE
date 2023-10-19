@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Will potentially do this in the future in another pull request.  Good idea though =]"
+Label: positive
+Example Sentence: hmm, actually, we already have 1 compiler pass using a different namespace than in bundles :("
+Label: negative
+Example Sentence: I like this name change!"
+Label: positive
+Example Sentence: Fix that the problem while saving characters ?  cause when you log out and then login all your things are not saved and you have to start again"
+Label: neutral
+Example Sentence: In sql file. ""Ste free talent pointes"" => ""Set free talent points"""
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: I don't just release a plugin to the public without first thoroughly testing it. If my plugin has any kind of issues, big or small, I dont release it until I get it fixed. Otherwise I would surely lose my amount of downloaders because they would not trust "
+Label:
+ASSISTANT: positive

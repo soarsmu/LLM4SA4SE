@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? love. it. works superb i record all calls and just delete ones of no interest or with no verbal data. ps.. got a terrible memory
+Label:
+[/INST]  Sentiment: Positive
+
+The sentence expresses a positive sentiment towards the product, as the user mentions that they "love" it and that it "works superb." The fact that they record all calls and delete ones of no interest or with no verbal data suggests that they find the product useful and effective. The postscript about having a terrible memory does not detract from the overall positive tone of the sentence.

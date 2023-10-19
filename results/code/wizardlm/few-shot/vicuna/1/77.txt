@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This method looks really strange, it seems to allow to get or create a view model context at the same time. The parameter set is confusing. It is not part of this review, but please add a BR to discuss this separatly
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Ahh, I see.  :)
+
+I'm not seeing an isEmpty() method for the Cursor class.  Should I check for moveToFirst == false instead?
+
+Also, while I'm on this, is there a reason we call the CursorLoader parameter CursorLoaderLoader and the Cursor parameter cursorLoader?  Can I change them to just cursorLoader and cursor?
+Label:
+ASSISTANT: positive

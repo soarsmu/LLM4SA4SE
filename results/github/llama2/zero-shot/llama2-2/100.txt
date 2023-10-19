@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why should we then even trigger the SEND_HEADERS event? We can also register a listener on MVCs EVENT_FINISH and forget about SEND_HEADERS event. You can also remove there unneeded/ unwished headers."
+Label:
+[/INST]  Sentiment: Neutral

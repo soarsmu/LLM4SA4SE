@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ooooo it's very cooooool
+Label: positive
+Example Sentence: battery issues. the app will usually consume 20-25% of my battery. constantly having to force stop.
+Label: negative
+Example Sentence: nice.... ..... it is useful
+Label: positive
+Example Sentence: invaluable! i use this app daily and can't imagine not having it.
+Label: positive
+Example Sentence: suggestions  comprehensive an incredibly solid start. there are some quirks and bugs (that aren't suuuper major) and an overall lack of features  but the base here is startlingly fresh and good. the lack of gesture support and more icon customization  as well as a way to hide the settings page (tucking it away in a gesture  overflow menu somewhere  or separate app shortcut) make it difficult to leave nova launcher. here are my suggestions  and what it would take to make me switch:  - customize app icons on long-press  individually. applying a theme is great  but they rarely cover 100% of all apps  and the inconsistency drives me mad.  - gesture support. i love being able to swipe down anywhere and pulling down my notification shade  or swiping up for my app drawer  etc.  - customization of panels. i'd like to be able to decide if i want a full apps list  or the launcher settings  and be able to decide where they are located.  i have already purchased the pro key  so i'm excited to see if these features get implemented. i currently run a custom setup i made for myself in nova launcher mimicking the google now aesthetic  but having it in launcher form would be 10x better. good luck!
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: favorite i use this application every day is very usefull
+Label:
+ASSISTANT: positive

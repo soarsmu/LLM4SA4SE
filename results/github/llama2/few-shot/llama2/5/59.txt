@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: well great googly moogly"
+Label: positive
+Example Sentence: Give one of them a different name.  (What that name should be, I don't know.)  Also, the first new gunzip method should probably also be gunzipStream for consistency (and with the same signature collision problem)."
+Label: neutral
+Example Sentence: @Machiavelli - I WILL NOT SIR! Are you trying to get my hands burned even more!! You crazy man you!"
+Label: negative
+Example Sentence: will be useless in cata"" Your comment is pretty useless too."
+Label: negative
+Example Sentence: Agree. Never used automated tools with that, so can't tell really. But i trust your opinion :-)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This is needed to control dropping. Consider we just dropped a frame in decoder, this is at the end of the queue. How should player know that it has already catched up? You can't by just looking at the front of the queue."
+Label:
+[/INST]
+Label: neutral

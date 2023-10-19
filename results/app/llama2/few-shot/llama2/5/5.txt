@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: its good this is power of a commen man
+Label: positive
+Example Sentence: slow  no point. the viewfinder display is really laggy and slow.  doesn't seem to offer any creative black and white features so how does it improve over just desaturating color photos?
+Label: negative
+Example Sentence: about ebook one star for ebook
+Label: negative
+Example Sentence: ? not for motorola defy
+Label: neutral
+Example Sentence: i love it this is the cutest thing i have ever seen
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: good app its a very good app  very nice and easy an simple ui.
+Label:
+[/INST]
+Positive

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The usage of exception specification here is very bad! If any only exception is thrown, then the program will terminate. Imagine what will happen if that occurred in Slicer! Have you verified that not a single method usage can throw an exception of a different kind?
+Label: negative
+Example Sentence: isn't the client always linux? hmmm... client is a terrible name. i've no idea what i'm looking at here. i was planning on moving those files that currently have "client" in the name. there it seems to mean "device". usb_linux_client is the device-side code, usb_linux is the host-side code. likewise adb_auth. adb_client.cpp doesn't fit this pattern though --- it's a mixture? and for file_sync, client is the *host* and 'service' is the device.
+Label: negative
+Example Sentence: // We should use deltaPos here, because the actual movements of the point may be changed according to the logic above
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: The "git commit" line needs a continuation character to include the following '-m' line.  However, you should be able to fold the entire commit message into one quoted string starting on the above line.  Be sure to leave the second line blank.
+Label:
+ASSISTANT: positive

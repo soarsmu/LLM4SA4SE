@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: why do you use uint32 in a for loop, when the counter can only be 10? this is senseless, isn't it?"
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(3) Negative.
+
+The speaker is expressing frustration and confusion about why a uint32 (a 32-bit unsigned integer) is being used in a for loop when the counter can only be 10. They are implying that using a uint32 is unnecessary and a waste of resources.

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: If you add `TODO:` in the comment, many code editors will show it in an overview. Might be useful, and more clear to readers that it isn't just commented out code (otherwise, someone that doesn't know might remove it)."
+ASSISTANT: Sentiment: Positive

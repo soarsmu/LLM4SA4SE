@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Figures, I only ran tests for MySQL and SQLite :("
+Label: negative
+Example Sentence: Neat.  I wouldn't pass up the opportunity to use a crazy trick!  :)"
+Label: positive
+Example Sentence: Requests should really not be changed.. And as described in the commit, the problem is that it's always called twice for BC with frameworks that don't call setRequest"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Isn't there a MurmurHash in Scala libs? In the nightlies there is a scala.util.hashing.MurmurHash3. Is ours customized somehow?"
+Label:
+[/INST]
+Positive

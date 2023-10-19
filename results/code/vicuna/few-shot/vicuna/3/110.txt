@@ -1,0 +1,15 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This second key is not needed, this array contains a list of regex group names pointing to a (pre-)master key.
+Label: non-negative
+Example Sentence: This needs to have been initialized to the correct size here.
+
+JacobianType jacobian( dim, 
+                           transform->NumberParameters())
+Label: non-negative
+Example Sentence: syncop_ functions return -errno as ret. This can be passed to the gf_msg function.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Should this be all of the groups and not just controllers?
+Label:
+ASSISTANT: negative

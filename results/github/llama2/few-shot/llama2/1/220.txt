@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yes you right"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I guess :\  to be honest I have no idea I just noticed one day I had a 5 channel (4.1) count one that had no image so I just added all the possible combinations I got from here http://en.wikipedia.org/wiki/Surround_sound#Standard_speaker_channels I have no"
+Label:
+[/INST]
+Label: neutral

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: And yet I'm on me:) I went through all the code 2 times nothing to report on that side I raise a good compilation and I see I handed the file on my rest can goo better ^ ^"
+Label: positive
+Example Sentence: *shame*"
+Label: negative
+Example Sentence: ```diff -m_afFirstNagaCoord +FirstNagaCoord ```  Should be done everywhere. :("
+Label: negative
+Example Sentence: Players are opening the chest with spell 61437, might be possible to force that to be casted by the player on gameobject use. And tbh, I rather see sniffed positions then ""working"""
+Label: neutral
+Example Sentence: that's because it's old API. :("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: @trustin it's named ""race_fix"" .... Thanks :)"
+Label:
+ASSISTANT: positive

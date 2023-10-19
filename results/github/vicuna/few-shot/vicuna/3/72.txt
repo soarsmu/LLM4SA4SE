@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: i didnt forget anything."
+Label: neutral
+Example Sentence: blame CastedCreatureOrGO removal xD https://github.com/TrinityCore/TrinityCore/blob/7776016106e748fee8cb3e052ec3c8e575e84a55/sql/updates/world/2013_08_30_06_world_eai_sai.sql"
+Label: neutral
+Example Sentence: I needed to update it about a month ago :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Good documented. "
+Label:
+ASSISTANT: positive

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: http://pastebin.com/X33dTSBj"
+Label: neutral
+Example Sentence: It's to be consistent so you can use the same layout for pages and for posts if you want.  - [convertible.rb](https://github.com/mojombo/jekyll/blob/master/lib/jekyll/convertible.rb#L100) - [post.rb](https://github.com/mojombo/jekyll/blob/master/lib/je"
+Label: neutral
+Example Sentence: Looks like some kind of funny injection testing :)"
+Label: positive
+Example Sentence: Deleting this message would be rude. All my other messages were already deleted.  I got the message - I'll be sure never to post around here again - sorry for bothering all of you with my ignorance."
+Label: negative
+Example Sentence: Congrats with your first commit and developer status at mangos! Do we know you from forum? Good Luck and thanks for joining!"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: only if abcnews.com changed their CSS earlier, this wouldn't have happened. sad day indeed :("
+Label:
+ASSISTANT: negative

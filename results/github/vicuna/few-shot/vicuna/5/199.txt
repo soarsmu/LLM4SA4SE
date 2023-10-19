@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It's Exploit Fix Day!"
+Label: positive
+Example Sentence: Some comments in here would be awesome"
+Label: positive
+Example Sentence: uh... after these commits my core crashes whenever someone login."
+Label: negative
+Example Sentence: Doesn't this lead to the following property:      <base64_data>--<expires_int>--<hmac>      <base64_data><expires_int>--<hmac>  Wouldn't both of these values result in the same value for generate_digest?  Then, the comparison done above on line 53"
+Label: neutral
+Example Sentence: yes, it's possible to define other impl in config, and then it must gave constructor with ActorSystem parameter, and I wanted this one to follow the same rules. I can add a comment about that reason."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Less likely to be blocked by paranoid firewall configurations."
+Label:
+ASSISTANT: positive

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Nice, I remember I did some uber-hacky change to fix damage on missile spells lol now thats a clean fix :D"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(1) Positive.
+
+The use of the word "nice" and the exclamation "lol" suggest a positive tone, and the phrase "clean fix" implies that the solution was effective and well-done. Overall, the sentiment of the sentence is upbeat and approving.

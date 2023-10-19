@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Alternative? The ret pointer will be free'd outside of this function, therefore I need to return a pointer here. and *ret is assigned NULL above (instead of the g_new as before).
+
+If I'd return just NULL, it would add complexity to code outside.
+Label: negative
+Example Sentence: Not related, but may be better to move to constructPorperty(String suffix) or something like that.
+Label: non-negative
+Example Sentence: Do you need to check $result['edit']['result'] === 'Success'?
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I think it should be optimizerCtx.getLastStepFor(NAME)+1, since the methods which are last modified by DeadCodeElimination are deadcode-free.
+
+Another concern is that when it is called by MethodInliner, actually we want to traverse the methods that modified by MethodInliner, not all the modified methods since last DeadCodeElimination. The result would be the same, but it may do unnecessary work in MethodInliner.
+Label:
+ASSISTANT: non-negative

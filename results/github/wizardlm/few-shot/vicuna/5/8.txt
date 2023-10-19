@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: What is this step doing?  The backtick syntax captures the output into a string, so things that need to be executed in the shell and where you're *not* using the stdout should be done as:  ```ruby system ""go get jp"" ```"
+Label: neutral
+Example Sentence: @sebastien-p - Blocking in the sense that we can't actually remove the `data(""events"")` code until we evaluate where/why people are using it, and decide if we should be providing better alternatives.   `hasEvent` might be a use case we could provide supp"
+Label: neutral
+Example Sentence: I'm sorry, I just don't care about your kind that much."
+Label: negative
+Example Sentence: @mathiasbynens I love it :)  Feel free to add additional instructions for anything that isn't covered but should be"
+Label: positive
+Example Sentence: Patches are welcome."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: @JamesNorris  To be honest, that's just a dick move.  It's YOUR plugin and therefore YOUR responsibility, not the Bukkit teams. You are not supposed to be diving into OBC/NMS anyways, find a way to use the API. If you do some weird action within the se"
+Label:
+ASSISTANT: negative

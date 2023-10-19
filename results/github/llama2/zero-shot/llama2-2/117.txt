@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I find this way is much more concise and easy to read.. braces just clutter the code and make it harder to scan. example: http://gist.github.com/255605 Hell if you could use try / catch without braces I would lol but ya its preference I suppose... I used "
+Label:
+[/INST]  Sentiment: Neutral

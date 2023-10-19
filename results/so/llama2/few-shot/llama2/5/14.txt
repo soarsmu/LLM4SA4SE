@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Of course it is up to you to re-organize the code to your needs.
+Label: neutral
+Example Sentence: Note: There were no errors in the console and the CODE_FRAGMENT function was working perfectly.
+Label: positive
+Example Sentence: I am working on Spring MVC project in which I need to pass an object from my Controller to JSP and then I need to iterate that object and show them in a table FILE_NAME page.
+Label: neutral
+Example Sentence: There is a caveat with the above approach.
+Label: negative
+Example Sentence: With use of API_NAME all does work perfect.
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I have registered some CellEditors with all my columns.
+Label:
+[/INST]
+Label: neutral

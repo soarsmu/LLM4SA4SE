@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Removing debugging seems like a bad idea."
+Label: negative
+Example Sentence: Don't forget to fix this ""something went wrong"" code comment as it is no longer correct (once the `&& !digest` is removed)."
+Label: neutral
+Example Sentence: Most likely this is due to the fact that Tastypie is doing `simplejson.dumps(data, cls=json.DjangoJSONEncoder, sort_keys=True, ensure_ascii=False)` and passing a `DjangoJSONEncoder` which is no longer a simplejson encoder anymore, so simplejson passes to i"
+Label: neutral
+Example Sentence: sometimes i miss things or i do bad math. it happens."
+Label: negative
+Example Sentence: @normanmaurer +1"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This promise juggling seems quite brittle, whose responsibility is it to complete it? Is it safe to call the exception-throwing ``success`` | ``failure`` | ``complete`` methods etc.  How about having ``setMode`` return a Future[Boolean] instead, and doi"
+Label:
+[/INST]
+Negative.

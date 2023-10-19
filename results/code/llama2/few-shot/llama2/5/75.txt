@@ -1,0 +1,39 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Do people really type all that junk? ;-) Anyway I added it together with how to avoid typing all that junk. :-)
+Label: non-negative
+Example Sentence: I feel like these explanatory comments belong in the code, not just the code review.
+Label: non-negative
+Example Sentence: Thanks for fixing it.
+
+> What if the author disagrees with your negative vote and writes a reply to your comment explaining why he disagrees? If this change is filtered out there is a high chance to you miss this reply. 
+
+But with this argumentation it is even more dangerous for me how it was originally:
+
+  -label:Code-Review=-2,user=self
+
+Why? I am maintainer and have power of -2. I review a change and decide to put my veto on it. But we all do mistakes, we all have feelings? In the end we are all people. What is if it was a wrong veto? The contributor try to explain me, in additional comments why he thinks the veto was wrong and that the impact of the change is *very* minimal and that thousands of people from hundreds of companies can't upgrade to the new version of the product and all that because of his veto. Nothing helps. Why?
+
+Because I used your dashboard template, put this line and this change was filtered out:
+
+   -label:Code-Review=-2,user=self
+Label: negative
+Example Sentence: // use Russian Peasant algorithm, adapted for exponentiation
+Label: non-negative
+Example Sentence: I think it is, if you read the documentation of what's happening when there's already a conversion registered, the new conversion function is getting deleted, i.e. nothing will happen. One could of course remove the old converter, but that would be bad if a conversion is happening at the same time in another thread. Therefore it's the same kind of warning as in QObject::connect, e.g.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Which comment? :)
+
+Good idea. I'll update to explicitly call out CANARY_MASTER.
+
+It doesn't work b/c Initialize is mocked out in the sync_stage unit test, so self.repo never gets initialized and is None in the conditional logic. Haven't looked too far into why it's not being triggered for 'master-release', but I suspect that config simply doesn't run this unit test.
+Label:
+[/INST]
+Sentence: Which comment? :)
+
+Label: non-negative

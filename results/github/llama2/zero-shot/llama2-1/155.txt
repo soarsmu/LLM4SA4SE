@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Good call, it wasn't encoded before, looking into why..."
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(2) Neutral

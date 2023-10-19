@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: -1 for doing it in libuv, its too hacky for general users."
+Label: negative
+Example Sentence: Ofc, but my secretary (monkey) in random typing by keyboard not always type proper texts to commit notes. ^^"
+Label: positive
+Example Sentence: Some people still feel the urge to voice their disdain, and I certainly don't blame them."
+Label: negative
+Example Sentence: So how would I pass the error to the error handler configured outside the factory? Something like this?      $this->prevErrorHandler = set_error_handler(array($this, 'handleBC');     [...]     public function handleBC($errorNumber, $message, $file, $l"
+Label: neutral
+Example Sentence: can we have string formatting using %s here? the + operator just fails too often compared to %s"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Im So Confused Right Now "
+Label:
+ASSISTANT: negative

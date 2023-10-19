@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: the code is fine like this. Using call_user_func is slower and it obfuscate the code."
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(3) Negative.
+
+The speaker is expressing a negative sentiment towards using `call_user_func` and suggests that it is slower and obfuscates the code.

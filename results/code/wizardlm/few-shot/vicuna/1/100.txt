@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I suppose this is readable, but it's a lot of boilerplate compared to having a single callback each for comments/drafts with the if in the body.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: This is not necessary. The same array can be used as multiple "things" without any problems. Just make sure that code handles it correctly. Don't forget to update the documentation in the header.
+Label:
+ASSISTANT: non-negative

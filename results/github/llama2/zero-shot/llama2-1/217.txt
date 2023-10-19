@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: That Commented out code should be removed, if not used :)."
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Label: Neutral
+
+The sentence "That commented out code should be removed, if not used :)" is written in a friendly and casual tone, with a hint of playfulness (indicated by the smiling face at the end). The sentiment is neither positive nor negative, but rather a suggestion or a piece of advice. Therefore, the label I would assign to this sentence is "Neutral".

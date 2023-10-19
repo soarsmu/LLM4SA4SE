@@ -1,0 +1,14 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Agree, (it was not added as part of this patch, but I'll fix it). Hopefully we'll be able to completely get rid of these parameters...
+Label: non-negative
+Example Sentence: Warned about same in doc string. It'd be more safe to remove this method altogether.
+Label: non-negative
+Example Sentence: You can add bitmasks to the hf_ item and still use proto_tree_add_item to get your desired effect.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: It's now streaming the progress to the client.
+
+Done
+Label:
+ASSISTANT: non-negative

@@ -1,0 +1,15 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: if we have  GRANT USAGE ON * . * TO 'mangos'@'localhost' IDENTIFIED BY 'mangos' ... So use login ""mangos"" more correct than root.  No lol."
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Can this be handled in the actual database adapters? I.e. by putting PG specific code in the PG adapter.  Maybe by adding e.g. a `:fixed_string` entry to the `native_database_types` hash, and using `""fixed_#{type}"".to_sym` if fixed is true."
+Label:
+[/INST]
+Positive.
+
+The sentiment of the sentence is positive because it suggests that the issue can be handled within the existing database adapter, specifically the PostgreSQL adapter, by adding a custom fix for the specific issue. The tone is solution-focused and optimistic, indicating a positive sentiment.

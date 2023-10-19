@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Oh, that's bad. Thanks for reporting, I'll have a look into this. I thought we already got rid of these :("
+Label: negative
+Example Sentence: I see... looks like an old PHP version issue (early 5.3 versions)"
+Label: neutral
+Example Sentence: Thanks for the patch, but now it's leaving extra lines. :( I guess the proper fix is to use <%- if %> <% end -%> instead of <%- if -%>.  Another solution, based on 2-3 behavior, is to clean up the attributes hash if no migration_action is given and then:  "
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: LOLWY? :("
+Label:
+ASSISTANT: neutral

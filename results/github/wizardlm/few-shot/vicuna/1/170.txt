@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This should be moved into the for loop, IMO: ```C++ for(unsigned int idx = 0; idx < input.size(); removeChar ? input.remove(idx, 1) : ++idx) ``` (also changed idx type to unsigned since it is compared with .size()) "
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Good man! =)"
+Label:
+ASSISTANT: positive

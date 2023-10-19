@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: WOW!!!! rev 9999!! any surprise in rev 10.000? =)"
+Label: positive
+Example Sentence: it's not the best idea to use spinning asterisks for loaders.  they're not perfectly symmetric and look awkward when spinning (jumpy).  i'd suggest reverting these changes."
+Label: negative
+Example Sentence: Its bcz server send some cheat data, wait for client reply, send cheat data, wait for client reply, etc, etc, etc.  So, sometimes this can take 5min or more to detect a cheat :\"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Unsigned int or size_t? You're comparing it to unsigned values in node_crypto_bio.cc and I wager it's always going to be > 0 anyway."
+Label:
+ASSISTANT: positive

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Also, these tests have a typo (""Firs"") in their names  I suspect that this could the reason they weren't found when fixing this ticket.  And also suspect I'm the one that introduced these tests  :-( "
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the given sentence:
+
+Label: (3) Negative
+
+Reason: The sentence expresses regret and self-blame, with a hint of frustration. The use of " :-(" and "I suspect" suggests a negative tone. Additionally, the mention of a typo in the test names implies that the speaker believes the issue may have been caused by their own mistake. Overall, the sentiment is negative.

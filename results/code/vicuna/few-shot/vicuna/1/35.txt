@@ -1,0 +1,10 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Blah, I'm not saying to have XXHDPI passed in, I'm just saying that right here you could put the code that I put above. Like, "when computing the scaling factor, if we see ANYDPI use XXHDPI instead.
+
+This is a silly thing to go back and forth on, and it doesn't really matter much...
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: nitpick: add a space between "if" and its opening pare
+Label:
+ASSISTANT: neutral

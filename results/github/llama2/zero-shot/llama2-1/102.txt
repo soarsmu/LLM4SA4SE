@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This is just another of the things I noticed and fixed while this pull request was waiting. I don't believe I can create multiple pull requests with the different bits so it got included here.  The reason for this change is that the cookie_expiration_pe"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as neutral. The speaker is simply stating a fact and providing a reason for a change they made, without expressing any strong emotions or opinions. The tone is matter-of-fact and informative.

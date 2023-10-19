@@ -1,0 +1,9 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: what? how do you change guns?
+ASSISTANT: To categorize the sentiment in the sentence, I would need more context. The sentence itself is neutral, but without knowing the context in which it was said, it's hard to determine whether the sentiment is positive, neutral, or negative. 
+
+For example, if the user was asking this question in a frustrated or confused tone, it might be considered negative. If the user was asking in a curious or excited tone, it might be considered positive. If the user was asking in a neutral tone, it would still be considered neutral. 
+
+Without more context, it's impossible to accurately categorize the sentiment.

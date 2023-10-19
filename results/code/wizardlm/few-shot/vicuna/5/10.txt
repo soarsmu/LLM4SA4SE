@@ -1,0 +1,23 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: should be addAll with casting to List, no?
+
+please verify.
+Label: non-negative
+Example Sentence: Just a suggestion: May be we can pass both channels as arguments ?
+Label: non-negative
+Example Sentence: I meant the NodeName of the element (so that the path would become, e.g., ArrayId/Real[2]). Can be postponed for later.
+Label: non-negative
+Example Sentence: See other comment about OUString together with ScResId. Just as short explanation:
+
+The current code creates a SchResId object which has an operator OUString which is called here. Then the OUString copy c'tor is called to generate a copy from the returned OUString.
+Label: non-negative
+Example Sentence: This seems a bit error prone and hacky to me. What if $contentContext->getInaccessibleContentShown() was TRUE before. It would be FALSE afterwards (probably not relevant here, but maybe elsewhere).
+What about a second argument in "getNode()" that allows to even fetch hidden/protected nodes?
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Is this only relevant for new Js interop or was it also a bug with regular JSOs?
+
+If it was a bug with JSOs, we should add the relevant regression test.
+Label:
+ASSISTANT: non-negative

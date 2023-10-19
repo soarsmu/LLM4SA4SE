@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: that seems like a bug!"
+Label:
+[/INST]  Sure! Based on the sentence "that seems like a bug!", I would categorize the sentiment as (2) neutral. The exclamation point suggests a sense of surprise or alarm, but the phrase "seems like a bug" is a common way to describe a perceived issue or problem without expressing a strong negative emotion.

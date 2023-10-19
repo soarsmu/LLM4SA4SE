@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It started about a month ago, after a deployment.
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as neutral. The sentence simply states a fact and does not convey any emotional tone or opinion.

@@ -1,0 +1,21 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: action == 0 is Press and action==1 is SetFocus
+Do you plan to move this to QAccessibleWidget??
+I guess that makes sense
+Label: non-negative
+Example Sentence: Maybe name this installToDispatcher() or something like that? I had a hard time understanding all the different classes.
+Label: negative
+Example Sentence: I think I was playing too safe here. We can probably just bound it to stackMode == native regardless of SDM.
+Label: non-negative
+Example Sentence: I don't always agree with Paul, but when I do, I'm either drunk or I have a very good reason.
+Label: negative
+Example Sentence: This seems a bit error prone and hacky to me. What if $contentContext->getInaccessibleContentShown() was TRUE before. It would be FALSE afterwards (probably not relevant here, but maybe elsewhere).
+What about a second argument in "getNode()" that allows to even fetch hidden/protected nodes?
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: It is pretty inconsitent. Some have very short descriptions (like this one) others only point to the jdk doc (which is what I will do).
+
+Big TODO update all url pointers.
+Label:
+ASSISTANT: neutral

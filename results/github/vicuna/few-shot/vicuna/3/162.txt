@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Awesome. A migration guide already. :wink: "
+Label: positive
+Example Sentence: hmm, not so sure it would actually help; I’d leave this in as a marker for potential benchmarking sessions, though"
+Label: neutral
+Example Sentence: could be rewritten as `[ -d $PID_PATH ] || mkdir -p $PID_PATH`"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Agree, in this case, it's an optimization not needing to calculate the hash."
+Label:
+ASSISTANT: positive

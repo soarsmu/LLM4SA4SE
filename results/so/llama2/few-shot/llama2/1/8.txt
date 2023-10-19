@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: So you can easy reduce count of objects by factor two ( one byte [ ] instead of pair String + char [ ] ), and array length of UTF-8 symbols usually less than length of UTF-16 chars.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Person repo interface.
+Label:
+[/INST]
+Label: neutral

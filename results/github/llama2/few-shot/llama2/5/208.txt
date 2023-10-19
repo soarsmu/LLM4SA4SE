@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Whoops. My bad! :("
+Label: negative
+Example Sentence: @eric You make it sound so easy :)  If you can make a patch, I'd be happy to apply it."
+Label: positive
+Example Sentence: given that this could be arbitrary data, do we want to do a hex dump instead? (ChannelBuffers.hexDump(commandName))"
+Label: neutral
+Example Sentence: Good call on adding the wiki guides. :)"
+Label: positive
+Example Sentence: http://checkstyle.sourceforge.net/config_modifier.html"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: why not officially post it in the forums? I guess there would be a new record of ""Thanked bys"" for a post :D Well... thank you vlad :)"
+Label:
+[/INST]
+Positive

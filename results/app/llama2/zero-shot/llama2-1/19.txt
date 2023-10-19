@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: thanks :) this app is very useful and i keep checking it out every morning.
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(1) Positive.
+
+The user is expressing gratitude and finding the app to be useful, which suggests a positive sentiment towards the app.

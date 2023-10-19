@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I only trust you and you and me are... you know <3  Anyway, I found many errors in other patches and the fact that I check each single structure I can also update WPP with them."
+Label:
+[/INST]  Sure! Here's the sentiment label for the given sentence:
+
+Label: Positive

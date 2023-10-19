@@ -1,0 +1,21 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Patch Set 2:
+
+Liron, so lets think:
+Reconstruct flow:
+Go throught all vds refresh and on case of some exception connect.
+Recovery flow:
+Go through all vds connect and after that refresh, no need for exception handling on case of exception at refresh.
+especially additional refresh.
+No need for additional method that u introduced.
+Where it is 99% percent common. You already introduced a method that at some flow should return only true and complicated a very simple code. "right now there is no need to copy the method in my opinion - 99%" - your change at connectAndRefreshAllUpHosts in order to solve bug at reconstruct flow caused to regression in recovery flow. I don't think that these means 99% common.
+Label: negative
+Example Sentence: A side effect of the refactoring I used to create the hasWholeWorldKnowledge method. Fixed
+Label: non-negative
+Example Sentence: Currently the array is always allocated with new if own_arrays_ is true. Also delete nullptr is defined to be a NOP.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Can we write a test for this? It seems to be an important semantic aspect of the interface, worth recording.
+Label:
+ASSISTANT: neutral

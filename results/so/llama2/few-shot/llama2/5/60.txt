@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This means you've picked up a version built against Hadoop 1.x, hence the FILE_NAME vs interface exception.
+Label: neutral
+Example Sentence: When i run this API_NAME, their shows only the labels, and No button aor text field.
+Label: neutral
+Example Sentence: You include your if / switch in a Factory which takes care of the ugliness and hides the abundance of ifs.
+Label: positive
+Example Sentence: CODE_FRAGMENT against an object checks for reference equality.
+Label: neutral
+Example Sentence: Now you can write your Selenium WebDriver code as below.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I was able to figure this out.
+Label:
+[/INST]
+Label: positive

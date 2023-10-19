@@ -1,0 +1,18 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: We should rename this method to "artefact_title_for_view_and_block()". Because what it really does is tell you if the artefact has an alternate title when viewed in a specific View & Block.
+Label: non-negative
+Example Sentence: So much repetition :(
+
+Can you pull this out as some kind of utility function setup_loopback_mode?
+
+Perhaps create an MBIMTestCase subclass call MBIMDataTestCase
+Label: negative
+Example Sentence: I guess the big question is whether it is sufficient to test the functionality by mocking out getaddrinfo() or if we need to actually make the call. If the former, I think it could go in UT. Lets see what others' say.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I think we should make it very clear that this is an asynchronous process:
+
+"Enqueues a clean up of old cache files..."
+Label:
+ASSISTANT: positive

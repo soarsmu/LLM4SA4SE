@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Forgot 4 spaces here =/ Damn... how to add them now? =("
+ASSISTANT: The sentiment expressed in the sentence is (2) neutral. The sentence contains a frustration or disappointment about forgetting 4 spaces, but it is not particularly positive or negative in tone.

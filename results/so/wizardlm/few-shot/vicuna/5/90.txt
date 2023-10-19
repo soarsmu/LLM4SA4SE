@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I want it to use id instead.
+Label: neutral
+Example Sentence: Inside FILE_NAME that should trigger the batch file put the following.
+Label: neutral
+Example Sentence: I wrote a newsletter about this on The Java Specialists' Newsletter.
+Label: neutral
+Example Sentence: Once you have the CODE_FRAGMENT, you can get to the CODE_FRAGMENT and the public and private keys.
+Label: neutral
+Example Sentence: You may use the Eclipse's AST parser also in combination.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Javolution Structs supports mapping of off heap memory as a data structure.
+Label:
+ASSISTANT: neutral

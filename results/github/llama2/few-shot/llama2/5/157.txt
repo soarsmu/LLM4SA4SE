@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Nice catch! :chestnut: "
+Label: positive
+Example Sentence: On osx/ios/atv2, when enable the override option it works during playback. But when i stop playing the movie it crashs. Its not obvious to me why it crashs so i can't suggest a fix here :(. It doesn't crash when override is disabled.  Here is the stack t"
+Label: negative
+Example Sentence: look screen please  http://www.imageup.ru/img271/1231214/wowscrnshot_030113_151400.jpg  After Use focusing iris go no despawn and double spawn malygos,and boss not aggro (IMMUNE_TO_PC flag from boss)"
+Label: neutral
+Example Sentence: the else if must be in its own line, add a linebreak after the }"
+Label: neutral
+Example Sentence: What does that mean?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: after checking the byte-code for Ryan’s “Catcher” variant I think that is the best option right now"
+Label:
+[/INST]
+Positive

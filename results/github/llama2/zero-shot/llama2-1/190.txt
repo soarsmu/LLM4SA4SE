@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: plz don't forget FreeBSD here. or use _LINUX or TARGET_*"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Label: Neutral
+
+The sentence you provided is a request to consider FreeBSD as an option, and to use specific keywords (e.g., "_LINUX" or "TARGET_*) when referring to the operating system. The tone is polite and respectful, with a hint of politeness (the use of "plz" instead of "please"). Overall, the sentiment is neutral, as it is a request for consideration rather than an expression of emotion or opinion.

@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @riking   Thank you :)  I did not know about this feature (I'm new in gihub :)) In future I will use formatting for code  :)"
+Label: positive
+Example Sentence: I agree that `setMessage` is not a good solution add should be removed/deprecated because the `addViolation` does the same and is more versatile. If we do that, I wonder what influence does the return value of the `isValid` method have at all? At the mome"
+Label: neutral
+Example Sentence: you should not extend collectionType. This is not how the form type hierarchy works"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Should be: `} catch (BadCredentialsException $e) {` to much CS."
+Label:
+[/INST]
+Negative.

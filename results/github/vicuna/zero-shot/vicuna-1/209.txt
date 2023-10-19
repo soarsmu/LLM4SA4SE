@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: I don't see any benefit for the community to get involved into this highly controversial issue. The name itself is very political and brings nothing but argument. No one would ever introduce his friends from Taiwan as ""from Taiwan, Province of China"", so w"
+ASSISTANT: The sentiment expressed in this sentence is neutral. The writer is simply stating their opinion on the matter and not expressing strong positive or negative emotions.

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: BTW, one more thing, add a section to the migration guide also, since it looks like we promoted the constructor for the Java API documentation."
+Label: neutral
+Example Sentence: are you sure this sound is the right one (EE_Malygos_EndPhase01.wav)? the sniff parser can also interpret something wrong ^^"
+Label: positive
+Example Sentence: Meh. blizzard are idiots."
+Label: negative
+Example Sentence: You can't amend commits with a pull request, so I'm afraid you're stuck with that!"
+Label: negative
+Example Sentence: ^ that line and this one :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: @brikou: You are using this branch and it doesn't work?"
+Label:
+ASSISTANT: neutral

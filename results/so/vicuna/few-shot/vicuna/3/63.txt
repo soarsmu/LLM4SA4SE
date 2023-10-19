@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Since guava 21, you can use.
+Label: neutral
+Example Sentence: I was unable to get a perfect match.
+Label: negative
+Example Sentence: I am writing a cloud-sync application in Java with.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: However, I'd suggest using a graph visualization library like JUNG etc..
+Label:
+ASSISTANT: neutral

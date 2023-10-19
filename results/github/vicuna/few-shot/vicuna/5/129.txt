@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Figured out who the credits go to, it's @Fredi. :) https://gist.github.com/1497219"
+Label: positive
+Example Sentence: Use consistent {, } coding, according to Mono coding guidelines "
+Label: neutral
+Example Sentence: :worried: "
+Label: negative
+Example Sentence: FWIW, I requested the ability to test for strict mode compatibility without actually using strict mode: https://github.com/jshint/jshint/issues/504  It was apparently closed 2 months ago with no explanation :-("
+Label: negative
+Example Sentence: You could lose this log if you want (just make the log below start with ""Loading items:"")"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: This is the APC driver but the comment says memcache?"
+Label:
+ASSISTANT: neutral

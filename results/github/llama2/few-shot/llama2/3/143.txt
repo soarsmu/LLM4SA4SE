@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Oh what a hack. Perhaps you should spawn gameobject 202275 instead :P"
+Label: positive
+Example Sentence: There is still a reference to cluster.eachWorker on line 83 of cluster.js: https://github.com/joyent/node/blob/d42006c80a9c827e4c147e22f56bb3d789f578ce/lib/cluster.js#L83"
+Label: neutral
+Example Sentence: It was originally that way, not sure why. After refactoring per your suggestion below, not sure that does anything, so removing."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Jenkins and you are at war!"
+Label:
+[/INST]
+Positive

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Requests should really not be changed.. And as described in the commit, the problem is that it's always called twice for BC with frameworks that don't call setRequest"
+Label: neutral
+Example Sentence: Ignore all this spam, sorry. I simply edited the line: if(!loginDatabase.CheckRequiredField(""realmd_db_version"",REVISION_DB_REALMD)  To a different table and in that table made the appropriate info. Sorry."
+Label: negative
+Example Sentence: Jeremy, don't you think that by removing commas from separators you broke compatibility with older browsers/webservers? As for our project, you did. We have a lot of ""Tampered at cookie"" exp-s now. Thank you very much."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: If you add `TODO:` in the comment, many code editors will show it in an overview. Might be useful, and more clear to readers that it isn't just commented out code (otherwise, someone that doesn't know might remove it)."
+Label:
+ASSISTANT: positive

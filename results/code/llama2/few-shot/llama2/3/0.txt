@@ -1,0 +1,29 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: OK, thanks.
+
+The approach here and in my patch work fine if the user controls everything they way they want. 
+
+When auto-detecting everything, this patch is better on non-AVX hardware that happens to have RDTSCP. Otherwise, they effectively work the same.
+
+When compiling on a new build host for old compute nodes, this patch will sometimes require the user to make two active settings to make a functional mdrun. That might mean they go hunting for docs twice, unless they find the new install guide section. At least we don't fail mysteriously any more!
+
+When compiling on an old build host for new compute nodes, both patches will sometimes make an mdrun that could be better in up to two ways. We could add a nag message for the double negation of the new code in gmx_detect_hardware.c "You, too, could be using RDTSCP!". AFAIK the proposition that using RDTSCP is good in user space is just educated guesswork, though.
+
+I was slightly concerned about one of the latter cases (build host is old, user knows they have AVX on the compute nodes, so they know to set SIMD and don't know RDTSCP exists / is relevant), but if we add the new nag then this case is solved well enough.
+
+So I'm happy to adopt this solution. Thanks! Shall I abandon my patch, send reviewers here, and one of us work on Erik's feedback and/or the new nag? If we add the nag, commit message needs updating.
+Label: non-negative
+Example Sentence: How come there is change for IO resources with config option of 64BIT_PREF_MEM ?
+Label: negative
+Example Sentence: My change provides two options for clobber. So, the client can pass its own new rev id to couchdb or ask couchdb to generate a new rev id. This code path corresponds to the second case. So, the flag and expiration values here will be overwritten by couchdb, and you won't get them through your changes in mc_tap.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: If we agree to always treat a single number as JSON even if the client doesn't enable datatype support, then we can always set its datatype to JSON regardless of that.
+Label:
+[/INST]
+Label: positive

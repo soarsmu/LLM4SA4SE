@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It's more elegant to reinterpret_cast the return value in crt->ExportChallenge. That gives ExportChallenge and ExportPublicKey the same return type which is nice from an API perspective. As a general observation, unchecked casts at call sites are a great "
+Label: positive
+Example Sentence: We try not to change the function footprints unless absolutely necessary. Why is it necessary to have both secuirty_group_ids and security_groups?"
+Label: neutral
+Example Sentence: Awesome!  Big ups to the core team!"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: cool thanks, I will do that!"
+Label:
+[/INST]
+Positive

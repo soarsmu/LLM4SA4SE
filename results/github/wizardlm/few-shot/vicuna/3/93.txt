@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This is not what I had in mind. I was thinking about adding a comma at the end of the line: `array('foo', 'bar'),`"
+Label: neutral
+Example Sentence: It is only a security risk when used with TLS/SSL, so maybe this could be:  Note that GZipMiddleware is considered a security risk on sites that use HTTPS"
+Label: neutral
+Example Sentence: The issue is, if you encode / as %2F, apache just returns a 404, so this breaks everything. Also the routing allows you to change the requirements of a {var} to `.+`, in which case you can do stuff like: `/foo/{url}` and that matches `/foo/http://foo.com/`"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Ach.  Lying comments.  It calls dump, not resume.  Will fix shortly."
+Label:
+ASSISTANT: positive

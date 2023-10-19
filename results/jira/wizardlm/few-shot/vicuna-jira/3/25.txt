@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: I don't care if everything is pretty or not, but we should at least support basic admin functionality in IE IMO (though I have not used it for years for just about anything).
+Label: negative
+Example Sentence: This sucks badly.
+Label: negative
+Example Sentence: The responder seemed to be a bottleneck.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: My Bad.
+Label:
+ASSISTANT: negative

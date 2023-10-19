@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I'm on it!"
+Label: positive
+Example Sentence: and u prefer what and why? "
+Label: neutral
+Example Sentence: This is the only one that bothers me. If an old compilers fails to optimize a static `strlen`, that's ok, the code will run a bit slower... But if an old compiler fails to optimize this one, this will just not compile. We need to change this to a numeric "
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: This is the APC driver but the comment says memcache?"
+Label:
+ASSISTANT: neutral

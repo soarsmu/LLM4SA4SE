@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I finally removed all the `RouteHandler` crap. I don't like it. I'll find a better way."
+Label: negative
+Example Sentence: LineBasedFrameDecoder strips \r\n and \n"
+Label: neutral
+Example Sentence: die-hard designers would probably rage over SASS/LESS/Stylus as well, however css does have the fundamental issue of not being dynamic, so I think that is a different argument"
+Label: negative
+Example Sentence: if ($this->smtp_crypto == ""tls"")   >>>  if ($this->smtp_crypto == 'tls')"
+Label: neutral
+Example Sentence: @randx Is there a specific reason why these got removed? :( The color-coding was quite helpful. Are you planing on redoing it (differently)?"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yikes. Looks like a rebase gone bad. Will fix."
+Label:
+[/INST]
+Negative

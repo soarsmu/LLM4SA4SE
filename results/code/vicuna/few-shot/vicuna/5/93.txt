@@ -1,0 +1,24 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Maybe some info about the purpose (selecting node position?)
+Label: non-negative
+Example Sentence: Patch Set 2: Looks good to me, approved
+
+I concur with jrbarnette@.  It sounds like we can do a separate issue/CL for removing the pragma.  To that end, I think a TODO() referring to that issue could be useful if added to this CL.
+Label: non-negative
+Example Sentence: I see, so I'll leave it to go to /dev/null. But is it enough if our websocket proxy writes to syslog?
+
+About ">= 0.6": I monkeypatched the methods that are used by old websockify to use logger.
+
+(What I'm worried about is the fact I see duplicate lines in syslog - one line comes from "journal", the other one from "ovirt-websocket-proxy" and they are identical. I need to investigate this further.)
+Label: non-negative
+Example Sentence: I like this test case because it is more realistic than the expression above. But then, I'd prefer that we remove the other one.
+Label: non-negative
+Example Sentence: but only replacing them in the copy of the string that gets written to fo? we're returning the original string?
+
+(i guess 'parse' is just misleading. we're copying to the 'tmp' file and rewriting one particular entry but returning the original of what we just overwrote.)
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: This just feels wrong. The test setup code should not be writing to the notedb separately; there should be a method in PatchLineCommentsUtil that writes to the appropriate storage(s) based on the config.
+Label:
+ASSISTANT: negative

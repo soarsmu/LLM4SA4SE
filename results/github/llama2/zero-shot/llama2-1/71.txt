@@ -1,0 +1,16 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Make it a `git__memzero` then and let's ship this.  The idea of allocating SSH credentials even when SSH is not available sounds just reasonable to me. Specially since you can also check for SSH availability using the `git_libgit2_features` api call."
+Label:
+[/INST]  Sentiment: Positive
+
+Reason:
+
+* The speaker is suggesting to use `git_memzero` to allocate SSH credentials, which implies that they think it is a good idea to do so.
+* The speaker also mentions that checking for SSH availability using the `git_libgit2_features` API call is a reasonable approach.
+* The overall tone of the sentence is positive and supportive of the idea.

@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Note that the byte is written as given; to write a character that will be translated according to the platform's default character encoding, use the print ( char ) or println ( char ) methods.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Here list is the list of all question you are having....
+Label:
+ASSISTANT: neutral

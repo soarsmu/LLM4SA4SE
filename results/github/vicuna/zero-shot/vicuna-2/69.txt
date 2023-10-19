@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: That source is not reputable, as they have published numerous erroneous statements and frequently allow code examples to become out dates. Furthermore, Chris Heilman is not an authority on the subject matter, nor does he back his claims with even the sligh"
+ASSISTANT: The sentiment expressed in this sentence is negative.

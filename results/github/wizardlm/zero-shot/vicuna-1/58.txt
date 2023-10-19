@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Modified from jpweeks's https://github.com/jpweeks/three.js/blob/particle-ray/src/core/Ray.js#L186-L216"
+ASSISTANT: I'm sorry, but the sentence you provided doesn't contain any sentiment. It appears to be a code snippet from a GitHub repository. If you could provide a sentence or a paragraph that contains text, I would be happy to help you categorize its sentiment as either positive, neutral, or negative.

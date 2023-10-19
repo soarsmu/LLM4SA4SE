@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Isn't bumping iterations just a superficial tweak to add some processing time to otherwise quick hash algorithms?  Ideally, we'd want to use algorithms with a much slower execution time, in order to make each crack attempt too slow to be reasonably done en"
+Label:
+[/INST]  Sure! Here's the categorization of the sentiment in the given sentence:
+
+Label: Negative
+
+The sentence expresses a negative sentiment towards bumping iterations as a superficial tweak to add processing time to hash algorithms. The speaker suggests that using slower algorithms would be more effective in making each crack attempt too slow to be reasonably done.

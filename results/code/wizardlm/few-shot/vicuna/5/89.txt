@@ -1,0 +1,21 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Maybe some info about the purpose (selecting node position?)
+Label: non-negative
+Example Sentence: The problem is, at the opensource side, if this breaks the app, people will try to debug it by themselves or worse they will just give up and do not update to the latest GWT version - I don't want that to happen, especially for this release.
+
+On the other hand if somebody hits the problem, it is easy to point them to the workaround. This is not ideal situation but that is what I prefer right now.
+Label: non-negative
+Example Sentence: huh? namedtuple() is a new-style class (otherwise __getattribute__ won't fly for it!).
+
+Note that namedtuple(verbose=True) shows that it uses __slot__=() by default, so I'm all for the removal of this redundant line. However the commit message is confusing.
+Label: negative
+Example Sentence: Perhaps not so useful.
+If a user had a class that was no longer sent to other applications the Parcelable boiler plate code could be removed.
+Label: negative
+Example Sentence: These calls don't do the same thing.  As a result, lockNow() must be called unconditionally.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: You probably need to check for divide-by-zero here, since addr_len comes from compr, which is based on packet data.
+Label:
+ASSISTANT: non-negative

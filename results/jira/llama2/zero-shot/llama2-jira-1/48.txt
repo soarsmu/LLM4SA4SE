@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Thanks for moving so quickly on this guys.
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(1) Positive.
+
+The word "quickly" implies that the action being referred to is happening rapidly and efficiently, and the use of "thanks" expresses gratitude, which is a positive emotion.

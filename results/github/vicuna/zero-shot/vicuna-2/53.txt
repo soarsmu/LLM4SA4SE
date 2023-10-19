@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: causes signed / unsigned mismatch in Spell::update patch fix:  ```code Core/Spells: Fixed signed/unsigned mismatch caused by f8a13b401d  --- a/src/server/game/Spells/Spell.cpp Thu Dec 22 11:37:30 2011 +0100 +++ b/src/server/game/Spells/Spell.cpp Thu"
+ASSISTANT: The sentiment expressed in the sentence is neutral.

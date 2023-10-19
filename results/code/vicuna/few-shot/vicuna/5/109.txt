@@ -1,0 +1,33 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yes, assuming the modelService works :)  This private method does not rely on other services.  Also, model service may have issues with elements that have the same ID.  In theory I could put the same element with the same id multiple times in a menu.  I don't know if modelService would be able to resolve that.  At least here we can count and validate if need be.
+
+I will make the other changes and await response on this.
+Label: non-negative
+Example Sentence: Changed from heap to stack based allocation, will now only allocate enough to hold idmap header.
+Label: non-negative
+Example Sentence: action == 0 is Press and action==1 is SetFocus
+Do you plan to move this to QAccessibleWidget??
+I guess that makes sense
+Label: non-negative
+Example Sentence: Hi Nigel,
+
+To expand on what Tobias said, when you change the content of a language string you also need to change its name. Otherwise the Launchpad translation site isn't smart enough to tell translators that they need to update it. See https://wiki.mahara.org/index.php/Developer_Area/Language_strings#Let_translators_know_when_lang_strings_change
+
+So please change the string name to "editaccesspagedescription4". You'll also need to change the name of the string in the PHP files and templates where it is used.
+
+Sorry about that!
+
+Cheers,
+Aaron
+Label: non-negative
+Example Sentence: you might be used to americanisms here.  they can be awful sometimes.
+
+ They right things "like this."
+
+it's garbage ;)
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: docstrings please and thank you :D
+Label:
+ASSISTANT: non-negative

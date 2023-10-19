@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: 11018"
+Label: neutral
+Example Sentence: Whoops.. That ain't good though. We can't really drop support for lucid yet.  We could have used sha routines in ffmpeg instead. Might be more complicated I suppose. On Mar 27, 2012 12:40 PM, ""Arne Morten Kvarving"" < reply@reply.github.com> wrote:  > for s"
+Label: negative
+Example Sentence: So write a tiny bit of code to rename the nms/obc references to their versioned counterparts and unleash it on your 'trusted' plugins. Feel free to make a public tool out of it as well and perhaps keep a 'you can hackily update the plugin using this tool'-"
+Label: neutral
+Example Sentence: on signing and creating key hash lot of times according to instructions given, i am getting same invalid_key error for 100s of times. I did everything to debug but no success."
+Label: neutral
+Example Sentence: Or just not allow nulls in there at all :-)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This makes the code examples in the docs more clear even if it's less DRY in the specs."
+Label:
+[/INST]
+Positive

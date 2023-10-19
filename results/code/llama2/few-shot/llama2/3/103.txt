@@ -1,0 +1,29 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: there's no point shuffling the deckchairs though. assume that anything that's not C++ yet is a bug and should just be moved straight to C++.
+Label: negative
+Example Sentence: Thanks for fixing it.
+
+> What if the author disagrees with your negative vote and writes a reply to your comment explaining why he disagrees? If this change is filtered out there is a high chance to you miss this reply. 
+
+But with this argumentation it is even more dangerous for me how it was originally:
+
+  -label:Code-Review=-2,user=self
+
+Why? I am maintainer and have power of -2. I review a change and decide to put my veto on it. But we all do mistakes, we all have feelings? In the end we are all people. What is if it was a wrong veto? The contributor try to explain me, in additional comments why he thinks the veto was wrong and that the impact of the change is *very* minimal and that thousands of people from hundreds of companies can't upgrade to the new version of the product and all that because of his veto. Nothing helps. Why?
+
+Because I used your dashboard template, put this line and this change was filtered out:
+
+   -label:Code-Review=-2,user=self
+Label: negative
+Example Sentence: I've uploaded an alternative in patch set 5, which you might dislike less :-)
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: We only move bonds to the same place or back. So bond j is always tested. In the extreme case there are no H-bonds and the loop is simply a copy from i to j=i. Also note that this code has been tested in the nbnxn_hybrid_acc branch.
+Label:
+[/INST]
+Label: neutral

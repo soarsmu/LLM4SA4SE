@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: littlenikki tracks sometimes freezes or skips for some reason!
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The user is reporting an issue with the app, but the tone is not overly negative or critical. The use of the word "sometimes" and "for some reason" suggests that the issue is not constant and may be due to a specific circumstance or error, rather than a fundamental flaw with the app.

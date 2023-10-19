@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: But don't do `brew link nss` or things that link to openssl will fail."
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The sentence is providing a cautionary note to avoid a specific action that might cause issues, but it does not express any strong emotions or opinions.

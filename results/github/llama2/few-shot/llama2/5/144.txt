@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Needs to be documented that it's blocking"
+Label: neutral
+Example Sentence: Actually, turning `--follow` on unconditionally may be a bad idea. Git mantainers currently acknowledge that it is a 'bolted-on hack', and performs badly in complicated cases, like renaming a file in multiple branches and merging, or deleting file in a bra"
+Label: negative
+Example Sentence: For one, TOM_RUS is a trusted member of the community to not just make stuff up. He is a very avid reverse engineer.  Two, YOU get to test it :)  Please feel free to open a Trac ticket if it isn't correct.  -- Brian"
+Label: positive
+Example Sentence: Hackfix* :p Or workaround-fix \*pricking off\* "
+Label: positive
+Example Sentence: Fancy, but just kinda wasted my time trying to figure out if it was an error or not.  My guess is It looks wrong to most developers. Wasting dev time makes me sad.  Also, it's inconsistent within the project since index.html retains the closing tags.  Also"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: you should not change the signature of the protected method as this is a BC break. Do the call to ``$request->getRequestFormat()`` in the calling method"
+Label:
+[/INST]
+Label: neutral

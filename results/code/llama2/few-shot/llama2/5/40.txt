@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Element. This one stuck out. I think the only ones to try to capitalize are "Allocation, Type, Element", since that trio is the dominant set of APIs for interacting with any sort of data from Java.
+Label: non-negative
+Example Sentence: I could put the finalizeForCommandLine after processExceptionAtExit. Then it doesn't change anything for LIB_MPI and that wouldn't work anyhow as you point out.
+Label: non-negative
+Example Sentence: It seems to me that the above helpers would be better suited in a different file to keep this file a purely generator one. Does that make sense? is there any good reason to keep it here?
+Label: non-negative
+Example Sentence: what happens if this fails? You have already deleted at the backend...
+Label: non-negative
+Example Sentence: I don't like either style. Don't like c here. I can change it if it helps to get this pulled.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I will update the currently commented font.family in another change. I will need to add the font first.
+Label:
+[/INST]
+Label: non-negative

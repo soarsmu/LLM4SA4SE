@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @GarretSidzaka concurrentmodificationexceptions aren't blocked by this. PM me on the bukkit forums and I'll be happy to help you out in debugging."
+Label: positive
+Example Sentence: Is this good to go then?"
+Label: neutral
+Example Sentence: Oh - and keep in mind - HashMapHolder stores _actual objects_, not pointers."
+Label: neutral
+Example Sentence: this probably should not be here ;-)"
+Label: positive
+Example Sentence: zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg zomg"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: No real reason to introduce _one time_ variable."
+Label:
+[/INST]
+Positive

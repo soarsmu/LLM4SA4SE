@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: How about the following method? The 2nd parameter is driven from storm_conf. We add it here to make plugin development easier, and ensure all plugins use ""java.security.auth.login.config"" in storm configuration.        /**      * Invoked once immediate"
+ASSISTANT: Sentiment: neutral

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This line might be going a little too far. It obfuscates whats going on by putting a really really big ternary in the way. Can you roll it back or try to make it a little more readable?"
+Label: neutral
+Example Sentence: Ok, it installs *a lot* of files into the cellar, so hold onto you hat:  ``` $ tree $(brew --prefix livemedia)/ /usr/local/opt/livemedia/ |-- BasicUsageEnvironment |   |-- BasicHashTable.cpp |   |-- BasicHashTable.o |   |-- BasicTaskScheduler.cpp"
+Label: neutral
+Example Sentence: ah you mean the removegraveyard? that was xfurry's :("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: haha fast fix"
+Label:
+ASSISTANT: positive

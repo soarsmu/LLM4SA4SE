@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: this param don't exists in the method signature"
+Label: neutral
+Example Sentence: This conditional tells me that this class has now been overloaded to the point where it violates SRP (Single Responsibility Principle). Why can't we offer the same feature through a different tag, perhaps named `formatted_include`? This leaves the normal "
+Label: neutral
+Example Sentence: @Shauren 0bb86a3e97cf720512ae00c9bee209a30c5fb928 This patch still needs some further fix."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think this is not necesary because buff is given by the mount. Also if you remove this line the ""fly hack"" motion without mount is fixed. "
+Label:
+[/INST]
+Positive

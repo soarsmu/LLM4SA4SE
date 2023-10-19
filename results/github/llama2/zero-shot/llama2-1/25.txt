@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Very nice!  I'm quite sure I'll forget about this by the time I would need it, though;-) Could you add some words to the CHANGELOG so people notice this little gem?"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The user is expressing a positive sentiment towards the feature, but also acknowledges that they may forget about it by the time they need it. The use of the smiley face at the end of the sentence also suggests a lighthearted and playful tone.

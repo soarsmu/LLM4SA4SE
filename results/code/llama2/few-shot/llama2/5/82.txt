@@ -1,0 +1,29 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Please change it to
+ 
+    ws_info_t *ws_info = NULL;
+Label: non-negative
+Example Sentence: Unnecessary now with no inheritance.
+Label: negative
+Example Sentence: Actually it seems to be line 21 that is indented wrong.  The newly added lines are correctly indented inside the <ui:style> tag.
+Label: non-negative
+Example Sentence: We would prefer to keep this.  It is possible for the RILD and radio code to pass the sequence number through into radio state as the request is being acted on - the RILD may notice the socket error and re-establish the connection and then the response comes back from the radio with the old sequence number and get's passed back through the newly-connected RILD.
+
+Just because your implementation may not do this, we can imagine other OEMs passing back obsolete responses that would match a newly-zero'd RIL sequence number and confuse things.
+
+Couldn't you just remember the first sequence number your RILD connection received?  Then you know the number of requests you've received.
+Label: negative
+Example Sentence: This causes a warning about missing UID in Eclipse.  Fixed with:
+
+https://gerrit-review.googlesource.com/#/c/59929/
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Maybe this could be outputWriter instead of writer2.
+Label:
+[/INST]
+Label: non-negative

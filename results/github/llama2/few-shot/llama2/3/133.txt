@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yes, they certainly should!"
+Label: positive
+Example Sentence: It seems that `time` is in fact required to be a `FiniteDuration`, because e.g. `isOverdue` fails if `time` is not a `FiniteDuration`; if so, this should be checked statically by making `time`'s type `FiniteDuration`. Consequently, you'd have to move `fro"
+Label: neutral
+Example Sentence: You are right, sorry :( Fixed in b4bc76f8ebe688afea622860990ddef1e5ec628b."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: How about the following method? The 2nd parameter is driven from storm_conf. We add it here to make plugin development easier, and ensure all plugins use ""java.security.auth.login.config"" in storm configuration.        /**      * Invoked once immediate"
+Label:
+[/INST]
+Label: neutral

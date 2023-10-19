@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: I only trust you and you and me are... you know <3  Anyway, I found many errors in other patches and the fact that I check each single structure I can also update WPP with them."
+ASSISTANT: Sentiment: Positive

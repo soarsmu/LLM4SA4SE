@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Guys, it's over. They do not want to hear your arguments. They will delete posts that come up with examples of where this commit will lead them. And they try to muzzle me because I already busted a gigantic hole through this commit with my artillery (NoVer"
+Label: negative
+Example Sentence: AH sorry there was a mistake :-( this SQL should be correct ... it does remove some of the dupes, but not all of them: SELECT * FROM character_inventory ci LEFT JOIN item_instance ii ON ci.item=ii.guid WHERE ii.guid IS NULL; and  DELETE ci FROM charact"
+Label: negative
+Example Sentence: Shouldn't be modifying the options hash destructively here and with reverse_merge! below."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Corrected in SHA: 58a13d7"
+Label:
+[/INST]
+Label: positive

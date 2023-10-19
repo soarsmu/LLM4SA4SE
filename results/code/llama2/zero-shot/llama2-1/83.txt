@@ -1,0 +1,15 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I'll add a comment. 
+I don't think #ifdef is a good idea. It makes bugs more likely because you have more code and that code is less tested (because only one version is only compiled and run on any one system).  But I will include the non-workaround version in the comment.
+Label:
+[/INST]  Sure! Here's the categorization of the sentiment in the given sentence:
+
+Label: (2) Neutral
+
+The sentence expresses a negative viewpoint on the use of #ifdef, stating that it can make bugs more likely and that it is less tested. However, the speaker also includes the non-workaround version in the comment, indicating a willingness to provide alternative solutions and a neutral tone.

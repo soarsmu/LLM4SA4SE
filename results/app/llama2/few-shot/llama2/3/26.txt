@@ -1,0 +1,18 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: a beautiful and efficient app with one glaringly annoying flaw... this is what got me to a smartphone in the first place  and it remains the best of the best. i miss the labs features  but i like the current incarnation. thanks for putting the scale bar back in but why does it disappear? a map (especially one that zooms and pans) needs a scale bar. keep it visible and i can give you back that 5th star.
+Label: neutral
+Example Sentence: great app and great books i love the black background feature and the idea of free books is really awesome....
+Label: positive
+Example Sentence: too slow. app is slower than mobile site and/or competing livejournal apps  like"eljay" (search the marketplace for it). what with the lack of features even in the main pc site  it's proof that livejournal is no match for even the much maligned facebook...rip livejournal.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? love. it. works superb i record all calls and just delete ones of no interest or with no verbal data. ps.. got a terrible memory
+Label:
+[/INST]
+Sentence: love. it. works superb i record all calls and just delete ones of no interest or with no verbal data. ps.. got a terrible memory
+Label: positive

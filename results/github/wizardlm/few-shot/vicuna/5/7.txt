@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Small point for next time: I'd prefer to this to use type local to this test case, rather than `List[Int]`. Sure, the signature of `List#map` doesn't change all that often, but there is no need to couple this test to it."
+Label: neutral
+Example Sentence: ^^ Credit Whore :)"
+Label: positive
+Example Sentence: @jacknagel Got it. But for reinstall to reuse this code, install_formula should really pass on this exception, so I'm planning to put the catch part in the block from install in next commit."
+Label: neutral
+Example Sentence: Good catch, wanna send a pull request? :)"
+Label: positive
+Example Sentence: @BangL Check out my message about 3 hours ago in this comment section. :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: So it is always guaranteed that all `nacked` are sorted before all `nonAcked`? It seems that that would be the common case, but I was not instantly sure that it is a given."
+Label:
+ASSISTANT: neutral

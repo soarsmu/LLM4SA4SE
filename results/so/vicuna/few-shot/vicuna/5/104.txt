@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In the future study the input and the output of your systems carefully.
+Label: neutral
+Example Sentence: The reason I do not want to have method to accept Reader is that, I want my own method to have own control to decide what type of encoding should be used.
+Label: neutral
+Example Sentence: Quick fix is to make the VBox as the parent of the StackPane.
+Label: neutral
+Example Sentence: The renderer is selected based on the component family and renderer type by CODE_FRAGMENT.
+Label: neutral
+Example Sentence: Omitted time zone.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: At the moment I am receiving a ClassNotFoundException to API_NAME.
+Label:
+ASSISTANT: negative

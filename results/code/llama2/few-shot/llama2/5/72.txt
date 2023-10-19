@@ -1,0 +1,24 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Thanks Martin, I will do it. It will look much better.
+Label: non-negative
+Example Sentence: Actually this is tricky to use an enum because this is going to be mostly dynamic based on the content of the images folder.
+Label: non-negative
+Example Sentence: frame := getcallersp(unsafe.Pointer(&siz))
+Delete next three lines.
+
+Also, given that now it's just the callersp, s/frame/sp/ everywhere, including in the defer struct field name.
+Label: non-negative
+Example Sentence: perform this check before fetching the translations above? in the else-branch you then set $allOptions to array(); Maybe initialise it to an empty array as the first line of this function (as in functions before) and only fetch translations when needed here
+Label: non-negative
+Example Sentence: They're not, and can't be. Same as with proto fields that this code is a copy of... and quite a few other pre-existing Lua code spots too for that matter.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I'm not sure we would ever remove this. When running the Super Dev Mode from a static html page instead of a server, people link directly to .nocache.js, so it should always exist.
+Label:
+[/INST]
+Label: non-negative

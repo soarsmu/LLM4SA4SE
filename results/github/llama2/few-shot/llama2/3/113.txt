@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Doesn't this lead to the following property:      <base64_data>--<expires_int>--<hmac>      <base64_data><expires_int>--<hmac>  Wouldn't both of these values result in the same value for generate_digest?  Then, the comparison done above on line 53"
+Label: neutral
+Example Sentence: @trustin ups thanks... stupid osx :/"
+Label: negative
+Example Sentence: Just do it for yours for now, it'll set a good example =)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: The fact we need this here makes me sad. It only exists because someone decided to replace all `include?` in the code by `in?`. I wish we could revert that. :S"
+Label:
+[/INST]
+Label: negative

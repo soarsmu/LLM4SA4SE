@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In your code, you need to replace.
+Label: neutral
+Example Sentence: You may use the Eclipse's AST parser also in combination.
+Label: neutral
+Example Sentence: I searched a lot but i not found any solution.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Each node in the network sends periodically updated data from sensors ( voltage, current, temperature etc. ).
+Label:
+[/INST]
+Positive

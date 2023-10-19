@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It's a bit too DRY for my taste. Misfires will only be caught in tests because the number of assertions is wrong, supposedly... for moderately complex tests, regressions may be missed entirely.  I'd really prefer if we would give the expected events expl"
+Label: negative
+Example Sentence: I can't find an rb_reg_new_str in the C API anywhere. :cry:"
+Label: negative
+Example Sentence: damnit, I hate it when everyone is telling sth else, and i dont play on blizz..."
+Label: negative
+Example Sentence: lol, nice commit message dave"
+Label: positive
+Example Sentence: I think it would be too hard to put all this information in the banner. We should document it in the USAGE though. Now that we use {} for extra information, we could even change the banner to: `field[:type][:index] field[:type][:index]` and put the remain"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Unsigned int or size_t? You're comparing it to unsigned values in node_crypto_bio.cc and I wager it's always going to be > 0 anyway."
+Label:
+[/INST]
+Label: positive

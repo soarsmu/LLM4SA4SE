@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ah right .. the namespace in that file is just incorrect  https://github.com/symfony/symfony/blob/master/src/Symfony/Component/Security/Core/Exception/NonceExpiredException.php"
+Label: neutral
+Example Sentence: Sorry! My poor English... :("
+Label: negative
+Example Sentence: has this been tested on windows? i thought there was some logic to only apply this for *nix"
+Label: neutral
+Example Sentence: The issue is only with passwords that got the high bit set on some chars for some specific combination of chars (not even valid utf8 chars). I think many could live with that minor risk.  I myself would want to use this code also on pre 5.3.7 platforms
+Label: neutral
+Example Sentence: This list is useful to me. I always forget what are the supported methods and I always look this guide."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: @stefansaraev I knew it was something simple. Thanks."
+Label:
+ASSISTANT: positive

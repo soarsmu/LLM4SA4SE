@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: :(  So we need to either port this file over to kernel style or not use goto's.  Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/
+Label:
+[/INST]  Sentiment: Negative
+
+The sentence expresses frustration and disappointment with the current state of the codebase, specifically the use of goto statements and the lack of consistency with the kernel style. The use of the word "hacked-down" to describe the current style and the mention of "before everyone decided" suggest that the situation is not ideal and has been a source of difficulty. Overall, the sentiment is negative.

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: And most of other spells can be hardcoded. Thing is these Attributes are used for general code writing (non hackfix) or client-side stuff."
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+2. Neutral
+
+The sentence expresses a matter-of-fact tone and does not convey any strong positive or negative emotions. It simply states a fact about the attributes being used for general code writing and client-side stuff, without any judgment or opinion.

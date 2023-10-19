@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Before you couldn't change the realm after loging out, you had to relog. Now you can change realm after logging out."
+Label: neutral
+Example Sentence: These actually look rather terrible and are frequently broken for me. Here's a screencap of what I'm seeing:  ![buggy button](https://f.cloud.github.com/assets/263432/1054875/9fa97904-111b-11e3-9123-da1220b289d4.PNG) "
+Label: negative
+Example Sentence: Bloody hell, this is awesome!   Time to start rewriting GaMED's Mangos interface.. ^.^"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: We can only compare our results to json.parse on browser that have the native method. I agree it's not optimal to test this everywhere but where we actually use it. Perhaps we dump this test's attempt to compare since we don't care about the native result."
+Label:
+[/INST]
+Label: neutral

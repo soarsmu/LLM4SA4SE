@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I don't like that idea because the zone index handling is already awfully long. I defined a new macro `UV_PLATFORM_HAS_IP6_LINK_LOCAL_ADDRESS` and protected the helper function with `#ifdef` instead.  Perhaps we could move `uv__parse_zone_index` to plat"
+Label:
+[/INST]  Sentiment: Neutral

@@ -1,0 +1,22 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I think the expert info should point to the end_marker field itself (replace "message_tree" with "tiem").
+Label: non-negative
+Example Sentence: Please don't do that. We manipulate DateTimeUtils.setCurrentMillisProvider to achieve what you want. Check ChangeEditIT for example: [1], Methods annotated with @Before and @After.
+
+* [1] https://gerrit.googlesource.com/gerrit/+/master/gerrit-acceptance-tests/src/
+  test/java/com/google/gerrit/acceptance/edit/ChangeEditIT.java#116
+Label: negative
+Example Sentence: Removing onboard devices instead of setting them to off can break the chipset configuration. This is the entire reason for this stuff to be in a devicetree.cb and to make the static.c to point to the correct setup functions. These devices are always on the board and the chip configuration will enable and disable (and hide) them based on the platform configuration and the device tree.  Without this, everything would be a normal pci device enumeration and coreboot would be much much simpler... 
+
+I also agree with Martin that, as a reference design, it is important to show the configuration as clearly as possible.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Please don't declare symbols weak. Provide weak definitions.
+Label:
+[/INST]
+Label: non-negative

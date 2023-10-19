@@ -1,0 +1,23 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: amazing! awesome app for mathematics. worth thousand starts. thanks devs. though the ui is hard to understand. thanks for the small size
+Label: positive
+Example Sentence: ? motorola devour. becoming more and more sure this game freezes my phones? very fun game though? it is a challenge  and addictive?
+Label: neutral
+Example Sentence: excellent really great app  much better than other bus apps. the data is sometimes poor  but this is not the app's fault. looses 1 star as it occasionally force closes on launch (but isn't really a problem as it auto-reloads).   feature requests: buses moving along the google maps in real time; colour in times that i can easily walk to (from current gps) in green  ones i have to run to in orange and ones i'll miss in red.
+Label: positive
+Example Sentence: ? freezes and leaves with a black or white screen. awful. do not download
+Label: negative
+Example Sentence: ? the bonus is really great
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: great app but not perfect if i were reviewing comixology the service  i'd give it five stars. however  this is for the android app  and for that  i can only give it three.  i'd used the ipad app  with it's great "hd" support  which is lacking on some android tablets.  that's not a major issue  but the biggest drawback to the app is the lack of sd support.  a majority of tablets have the option for sd cards  expanding their storage space  and many apps can take advantage of it.  it's a shame comixology's app hasn't been able to do this yet.  i don't know if it's concerns over security  if someone could take the books on the card and copy them elsewhere  but seriously  it's easy enough to copy files from system memory if you look it up.  give users the option to save to sd cards and this review will jump to five stars.
+Label:
+[/INST]
+Sentiment: Neutral
+
+The user has mixed feelings about the Comixology app for Android. They would give the service five stars, but the app itself only deserves three stars. The main drawbacks are the lack of HD support on some Android tablets and the absence of SD card support. The user believes that adding SD card support would greatly improve the app and make it worthy of five stars.

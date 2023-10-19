@@ -1,0 +1,22 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yikes, we are starting an RPC for every row in the table?  My concern with this is the browser can only issue 4 requests at a time to the server.  If a user has 50 items in their dashboard, which many do, this will take quite a few round-trips (13!) to completely load the status codes.  Worse, if the user navigates away before they are completely done loading, they will continue to load, as there is no way to cancel the queued RPCs.
+
+I would prefer having myApprovals and strongestApprovals take a Set<Change.Id> and return a Map<Change.Id, Whatever>, and make only one call to each method for the dashboard.
+Label: non-negative
+Example Sentence: unused parameter 'pinfo' [-Werror=unused-parameter]
+Label: non-negative
+Example Sentence: s/VURTI/Host Monitoring
+It is about to change soon.
+Label: non-negative
+Example Sentence: sounds good. will update once the dependence:
+http://review.couchbase.org/#/c/33453/ is merged.
+Label: non-negative
+Example Sentence: This doesn't look quite intuitive to me. Maybe I am not used to this style. I like something as below. However, if you find the current style better, feel free to keep it.
+
+self.k8s_api = _create_k8s_api(k8s_master_url)
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Since BE was IE10 (as of the member var above) I think changing the member to edge is not a problem, but I would keep the IE8 default here, which does not hurt us, and will also not hurt third party stuff then.
+Label:
+ASSISTANT: non-negative

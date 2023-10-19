@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I don't see any benefit for the community to get involved into this highly controversial issue. The name itself is very political and brings nothing but argument. No one would ever introduce his friends from Taiwan as ""from Taiwan, Province of China"", so w"
+Label:
+[/INST]  Sentiment: Neutral
+
+The sentence expresses a neutral tone and does not convey any positive or negative emotions. The speaker is simply stating their opinion on the controversial nature of the issue and the potential drawbacks of getting involved. The use of the word "controversial" and "highly political" suggests a neutral tone, rather than a positive or negative one.

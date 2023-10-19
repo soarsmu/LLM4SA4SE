@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yea... and if PR discussions was stored in git repositories too... it would be visible that this one was actually the first one :)"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(2) Neutral
+
+The sentence expresses a hypothetical scenario and a possibility, but it doesn't convey any strong emotions or opinions. The tone is rather matter-of-fact and speculative.

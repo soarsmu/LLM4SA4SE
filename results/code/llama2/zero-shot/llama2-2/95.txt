@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: The word "Selected" should be capitalized. I'm unsure of the use of "Area" here, BTW. Maybe "Cut Selection"?
+Label:
+[/INST]  Sentiment: Neutral
+
+The assistant notes that the word "Selected" should be capitalized, which is a grammatical correction. The assistant also questions the use of "Area" and suggests "Cut Selection" as an alternative, which is a constructive suggestion to improve the sentence.

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I've separated the loop body into two statements for clarity, but it's equivalent to.
+Label: neutral
+Example Sentence: I solved the earlier problem.
+Label: positive
+Example Sentence: Your CODE_FRAGMENT method will pass a CODE_FRAGMENT directly to CODE_FRAGMENT.
+Label: neutral
+Example Sentence: in a application you can workaround with scaling the window size, but in an applet I wasn't able to solve that problem.
+Label: negative
+Example Sentence: CODE_FRAGMENTs have default CODE_FRAGMENT methods that do as you expect.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Store them in memory in a CODE_FRAGMENT.
+Label:
+[/INST]
+Label: neutral

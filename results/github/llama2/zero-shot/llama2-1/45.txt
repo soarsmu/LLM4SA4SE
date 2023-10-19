@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: an upgrade instruction starting with ``Added`` looks weird to me."
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The use of the word "weird" could potentially have a negative connotation, but in this context, it seems to be a neutral observation. The speaker is simply stating that the upgrade instruction starting with "Added" looks unusual or out of the ordinary, rather than expressing any strong negative emotion.

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: yes should be fine. Docs here say it's an unsigned type:  http://en.cppreference.com/w/cpp/container/vector   On 26/08/2013 2:52 AM, Christoph Buchner wrote: > hm, you're right, it would be the more precise/correct choice. however, > we have uint in these "
+Label: neutral
+Example Sentence: Probably not as you're right that it's an edge case - I can work around it fairly simply in my case by applying the styling I need. Thanks again!"
+Label: positive
+Example Sentence: There is also a method called `ObjectSpace.memsize_of_all(String)` which is probably more efficient if we're just looking for totals.  I'm not sure which Ruby VMs support memsize_of, it doesn't appear to be documented."
+Label: neutral
+Example Sentence: my fault really. the file got corrupted in a rebase that i simply could not resolve. thus crystalp had to redo the filters file.."
+Label: negative
+Example Sentence: -1  As Afforess points out, it is completely possible to work around this, and I shall. This is just a pointless inconvenience to plugin devs."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Assuming you don't depend on deserialization and/or base64 decoding for verifying integrity (see my other comment below), then maybe you could defer deserialization until after you have verified expiry.  You don't need the deserialized object to verify in"
+Label:
+[/INST]
+Label: neutral

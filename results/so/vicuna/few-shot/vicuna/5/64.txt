@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: FILE_NAME project is called Osmosis and contains 2 packages search and common.
+Label: neutral
+Example Sentence: Why it technically does not work without CODE_FRAGMENT.
+Label: neutral
+Example Sentence: I would recommend that you check the documentation for what they do.
+Label: positive
+Example Sentence: You would only need parsers and a successor to each parser.
+Label: neutral
+Example Sentence: With the new design, they could also support other encodings in future.
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Avoid legacy date-time classes.
+Label:
+ASSISTANT: neutral

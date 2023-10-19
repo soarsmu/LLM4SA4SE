@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @Kretol what for pets commands?"
+Label: neutral
+Example Sentence: what will workerID do? worker.uniqueID looks weird"
+Label: negative
+Example Sentence: Because there are no primitive hash(set|map)s in java."
+Label: neutral
+Example Sentence: i know malsup's Taconite plugin replaces jQuery.httpData. maybe that's why it stopped working when i tested 1.4.3pre a few months ago :\"
+Label: negative
+Example Sentence: It's dbname, not database. :-)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I only trust you and you and me are... you know <3  Anyway, I found many errors in other patches and the fact that I check each single structure I can also update WPP with them."
+Label:
+[/INST]
+Positive

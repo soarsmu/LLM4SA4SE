@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: afaik, `LICENSE` is convention. I haven't seen much of them in markdown.  As it's so established, I think its fine to yell SO LOUD, but I'd advocate for lowercasing `changelog.md` and `readme.md`. UPPERCASE STRESSES ME OUT. :/"
+Label: negative
+Example Sentence: problem was: `Props(new StashQueueReportingActor)`"
+Label: neutral
+Example Sentence: Commoners need a major revamp, we are doing it totally wrong. This solution is enough (**for now**)."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Also, these tests have a typo (""Firs"") in their names  I suspect that this could the reason they weren't found when fixing this ticket.  And also suspect I'm the one that introduced these tests  :-( "
+Label:
+ASSISTANT: negative

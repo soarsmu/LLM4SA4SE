@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: You can do this in one action:  ```ruby args += [""--with-ssl"", ... ```"
+Label:
+[/INST]  The sentiment in the given sentence is:
+
+(1) Positive.
+
+The sentence suggests that the action can be performed in one step, which implies that it is a straightforward and efficient process. The use of "+" to concatenate the strings also implies a sense of simplicity and ease of use. Overall, the tone is helpful and encouraging.

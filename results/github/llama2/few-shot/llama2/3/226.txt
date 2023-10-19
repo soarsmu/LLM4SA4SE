@@ -1,0 +1,19 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @ cryptix The user might not be a root, but he might have sudo privileges, because he might be in the admin group that is in the sudoers, but not necessarily root, in fact if the user is root there will be other issues, so its better to check for sudo priv"
+Label: neutral
+Example Sentence: direct mysql injection.via command line."
+Label: neutral
+Example Sentence: I'm not familiar with Zend ServiceManager, so if using $requestName is enough to define form section I can remove redundant code."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: yep, it's work, but i need to add user and password for proxy connection=( Can u added this feature. May be --proxy=login:pass@server:port"
+Label:
+[/INST]
+Sure! Here's the sentiment analysis of your sentence:
+
+Label: positive

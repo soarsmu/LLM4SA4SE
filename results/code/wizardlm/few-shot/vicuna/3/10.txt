@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: If your users often link their books or publications to one online catalogue, then you can set the URL prefix here, and they will only have to paste the book or publication ID at the end of the URL. You must make sure that your URL ends with a "/".
+
+For example: If your users need to link to publications in WorldCat frequently, set the URL prefix to <pre>http://www.worldcat.org/oclc/</pre>, the the users only need to enter the publication ID at the end of the URL.
+Label: non-negative
+Example Sentence: I think somebody just chose to put the AllTests class in a separate package from the other test classes.  I don't know why.  But they aren't integration-style tests; they seem to be closer to unit-style.
+Label: negative
+Example Sentence: It's a nice feature; does it cause a particular problem?
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Is this only relevant for new Js interop or was it also a bug with regular JSOs?
+
+If it was a bug with JSOs, we should add the relevant regression test.
+Label:
+ASSISTANT: non-negative

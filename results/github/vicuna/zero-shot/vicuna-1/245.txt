@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Wow.. Thank you for putting this together.  I have been pulling my hair out for a bout a day or so now.  My application was failing to properly clear logged out users...etc.  I am going to download this and check it out to see if it solves the problem I "
+ASSISTANT: The sentiment expressed in the sentence is positive. The writer is expressing gratitude and relief, and using positive words such as "wow" and "thank you." They also state that they are going to download the code and check it out, which suggests that they are hopeful that it will solve their problem.

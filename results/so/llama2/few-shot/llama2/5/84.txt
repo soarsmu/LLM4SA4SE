@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Anyone have any idea on the problem?
+Label: neutral
+Example Sentence: Imagine your dependencies where stored in a CODE_FRAGMENT folder outside your CODE_FRAGMENT.
+Label: neutral
+Example Sentence: And all injections occurs just once - on application starting.
+Label: neutral
+Example Sentence: Create your index like so.
+Label: neutral
+Example Sentence: With the new design, they could also support other encodings in future.
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Power tip: Stop thinking in any particular time zone.
+Label:
+[/INST]
+Label: neutral

@@ -1,0 +1,26 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I am sorry. I just missed it before. errno should already be set to ENOENT if resolve/lookup fails. We shouldn't map any other genuine errors to ENOENT.
+Label: non-negative
+Example Sentence: The use of 'count' confuses me. Would this be cleaner?
+
+    self.assertIn('Unexpected method call', unicode(e))
+Label: negative
+Example Sentence: pass errno as the third param and remove the "errno=%d" component.
+Label: non-negative
+Example Sentence: This method now only sends email; I would change the name to reflect this fact.
+Label: non-negative
+Example Sentence: I do have KWStyle but somehow I think it only complains if I have end-of-line whitespace. I'll remove the tabs.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: 1. This seems like a hack to work around a bug -- why are we reading from the pty after it is closed?
+2. This hack also looks too broad -- if any error occurs we close the pipe and stop reading, while squelching the error. This seems bad.
+
+Same comments below.
+Label:
+[/INST]
+Label: negative

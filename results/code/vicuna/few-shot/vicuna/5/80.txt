@@ -1,0 +1,18 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: We can go back and change this to the char* version if it gets too difficult to figure out what's going on.
+Label: non-negative
+Example Sentence: Maybe move this to getStringMethod and rename getStringMethod to getStringMethodOverload?
+Label: non-negative
+Example Sentence: What's the error message? and is that with the latest transform change?
+Label: non-negative
+Example Sentence: already defined here: BasicFileUtility::$tempFN
+
+there is a @todo for this attribute to change it to "visible". as static?
+Label: non-negative
+Example Sentence: ok, but then i suggest you turn that thing into a macro which you can document centrally (QT_SEGMENTED_STRING_LITERAL or so). also, a warning in the QStringLiteral doc would be in order if it's not there yet.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Move up with other "just set reserved = 7" case statements?
+Label:
+ASSISTANT: non-negative

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Thanks in advance!
+Label: neutral
+Example Sentence: This prints ``Press Enter ''to the console and makes sure the input box is empty.
+Label: neutral
+Example Sentence: A FILE_NAME name should be used.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: What should I do to solve the issue?
+Label:
+ASSISTANT: Label: neutral

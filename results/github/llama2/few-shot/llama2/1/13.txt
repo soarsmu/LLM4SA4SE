@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: libssh2_userauth_publickey authenticates with the public key bytes and a callback of the form: int name(LIBSSH2_SESSION *session, unsigned char **sig, size_t *sig_len,   const unsigned char *data, size_t data_len, void **abstract);  You must then take "
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Unsigned int or size_t? You're comparing it to unsigned values in node_crypto_bio.cc and I wager it's always going to be > 0 anyway."
+Label:
+[/INST]
+Based on the sentence you provided, I would assign the label "neutral" because the author is simply making an observation about the type of variable being compared, without expressing any strong emotions or opinions. The tone is informative and matter-of-fact.

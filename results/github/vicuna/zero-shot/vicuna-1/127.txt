@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: If the method signature is the same as the parent there's no need to redefine it.  I'm not sure why you're even trying to do so. :-)"
+ASSISTANT: The sentiment expressed in this sentence is negative.

@@ -1,0 +1,20 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I assumed you didn't care about modifying the caller's array because "resources += srcs" modifies resources in-place as well. Yay Python. So you should fix that below.
+
+Also typically in Python we strongly discourage mutable default arugments.
+Label: negative
+Example Sentence: Should we set "io->ci_ignore_layout = 1" under such case? then subsequent layout processing can be ignored.
+Label: non-negative
+Example Sentence: but only replacing them in the copy of the string that gets written to fo? we're returning the original string?
+
+(i guess 'parse' is just misleading. we're copying to the 'tmp' file and rewriting one particular entry but returning the original of what we just overwrote.)
+Label: negative
+Example Sentence: Will the servicename have other characters at this point?
+Label: non-negative
+Example Sentence: Since this script will go in ITK's tree and not the hooks, it should be licensed as the rest of ITK (which will soon be Apache but is not yet AFAIK).  Besides, the rest of the Apache license infrastructure (LICENSE and NOTICE) is not present yet.  Also, we should assign the copyright to the Insight Software Consortium for code going in ITK proper.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Having nightmares about empty lines kidnapping you in an alien ship and performing colonoscopy?
+Label:
+ASSISTANT: negative

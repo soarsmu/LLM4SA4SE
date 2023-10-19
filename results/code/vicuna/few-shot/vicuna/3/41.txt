@@ -1,0 +1,24 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I think columnName is a property that indicates a column's name.  I'm going more for "which column should we extract from the file".  I thought about maybe columnToUse.  I'm not sure because this configuration is going on a wiki page.  I'll change it for clarity, we can think about it more when we do the mediawiki change.
+Label: non-negative
+Example Sentence: If all you are doing here is testing that the object returned by Network.get_by_id is passed to the allocated_fixed_ip() method properly along with some other arguments, the more clean and canonical way of doing that would be this:
+
+ @mock.patch('nova.objects.Network.get_by_id',
+              return_value=mock.sentinel.network)
+ def test_add_fixed_ip_instance_using_id_without_vpn(self, get_by_id_mock):
+     net_id = networks[0]['id']
+     with mock.patch.object(self.network,
+                   'allocated_fixed_ip') as allocate_mock:
+         self.network.add_fixed_ip_to_instance(self.context, FAKEUUID, HOST, net_id)
+     get_id_mock.assert_called_once_with(self.context,
+                net_id, project_only='allow_none')
+     allocate_mock.assert_called_once_with(self.context, FAKEUUID,
+                            mock.sentinel.network, address=None)
+Label: non-negative
+Example Sentence: this will cause the MKFSOPT to skip --mkfsoptions string if MKFSOPT is empty and MDSJOURNAL_SIZE=xxx
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I will remove all of the debug and most of the other messages after the VectorImage is working.  Main reason to use the Logger is to print interleaved messages from multiple threads legibly.  Other reason I'm avoiding debugMacro until VectorImage is working is so that I can continue to see debug messages even when compiled in Release mode for speed.
+Label:
+ASSISTANT: non-negative

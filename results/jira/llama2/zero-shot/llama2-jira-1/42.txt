@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Sorry for letting you guys wait.
+Label:
+[/INST]  Sure! Based on the sentence you provided, the sentiment is:
+
+(1) Positive.
+
+The sentence expresses regret and apology, which are both positive emotions. The use of "guys" is also informal and friendly, which suggests a positive tone.

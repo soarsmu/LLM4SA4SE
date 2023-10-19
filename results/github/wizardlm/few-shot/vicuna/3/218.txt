@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Double build break, double my bad. I'll have to start building on ubuntu to check these things."
+Label: negative
+Example Sentence: There's still the other file =)"
+Label: positive
+Example Sentence: +1"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Ah, no problem really. I kind of started hacking away without taking a look at conventions and code style :sweat_smile:"
+Label:
+ASSISTANT: neutral

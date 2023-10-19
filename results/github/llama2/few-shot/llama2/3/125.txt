@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Not being bound by the collections, I'd rather this had the signature      final def contains[A1 >: A](elem: A): Boolean  The difference is invisible at the user level but significant internally.  With an Any parameter it won't infer anything; with a boun"
+Label: neutral
+Example Sentence: I have never seen seg-faults tbh. But i also do not run from launchd of course. The signing thing is fixed now at least as it seems ;)"
+Label: positive
+Example Sentence: This doesn't seem to be in `v3.1.0.rc4` even though that was released two days after this commit. Any idea when this will make it into an RC?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I use ""domain"" as a query parameter throughout my application.  Do I need to modify every route, url_for, link_to, and redirect_to to use something different?  :-("
+Label:
+[/INST]
+Label: negative

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: sorry for my bad i see this in my C++ Tutorial maybe i don't read good"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the given sentence:
+
+Label: 2 (Neutral)
+
+The sentence expresses a sense of apology and self-awareness of a possible mistake, but the tone is not overly negative or positive. The use of "maybe" and "don't read good" suggests a sense of uncertainty and humility, which is a neutral sentiment.

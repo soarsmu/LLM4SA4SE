@@ -1,0 +1,7 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Patch Set 3: Code-Review-1
+
+@Sebastian: Yeah we already discussed that, but since we don't have time to implement promises or similar for 1.0 it's still better than before. So for now we make sure to fetch the stuff early, but I agree we should add a TODO in there
+ASSISTANT: The sentiment expressed in the sentence is (2) neutral.

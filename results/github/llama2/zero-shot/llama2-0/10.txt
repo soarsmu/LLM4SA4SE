@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I like that idea even though it has nothing to do with this bug :smile: "
+Label:
+[/INST]  Sure! Here's the label for the given sentence:
+
+Label: positive

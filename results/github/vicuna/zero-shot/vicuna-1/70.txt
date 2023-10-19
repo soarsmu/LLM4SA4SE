@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: I'm updating to Rails 2.2 and I got a lot of deprecation messages like:  DEPRECATION WARNING: @change will no longer be implicitly assigned to change.  This deprecation check seems to be a little overzealous.  If I set an ivar @change in the action and"
+ASSISTANT: The sentiment expressed in the sentence is neutral. The writer is simply describing their experience with updating to Rails 2.2 and the deprecation messages they received. There is no clear indication of a positive or negative sentiment.

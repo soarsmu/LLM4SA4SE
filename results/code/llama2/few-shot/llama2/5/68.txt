@@ -1,0 +1,22 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Oh, you want it really obvious what type the variable is :)
+Label: non-negative
+Example Sentence: The incorrect spacing gets fixed here - https://gerrit.wikimedia.org/r/#/c/121369/
+Label: non-negative
+Example Sentence: It seems to me that the above helpers would be better suited in a different file to keep this file a purely generator one. Does that make sense? is there any good reason to keep it here?
+Label: non-negative
+Example Sentence: Other parts rely on non-null values, perhaps this should be critical.
+Anyway, let's not expand preconditions beyond JRE for now and submit the patchset that I already +2'd.
+Label: non-negative
+Example Sentence: Understood. To me it would have been safer to keep the chain as is, but introduce the validation check explicitly, but if you think this is okay too, then I'll shut up.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This isn't C. Stop comparing it with C. What you are doing here with the brightness is just redefining the same thing. Both boards you touched have the same definitions for the brightness, \DSPC.BRTU and \DSPC.BRTD, so it makes limited sense to redefine them as something interim.
+Label:
+[/INST]
+Label: negative

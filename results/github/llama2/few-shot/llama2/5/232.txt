@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Does it work the same way for numeric keys ?"
+Label: neutral
+Example Sentence: 1.5 sounds great."
+Label: positive
+Example Sentence: Shouldn't this be?  ```DIFF -            damageInfo->HitInfo      = HITINFO_NORMALSWING2; +            damageInfo->HitInfo      = HITINFO_AFFECTS_VICTIM; ```"
+Label: neutral
+Example Sentence: I was thinking the upgrade shell might be better as well. Munging the fixtures might be simpler in terms of long term maintainability and correctness.  Would updating a the upgrade shell to include a munger, and issuing warnings/exceptions when old styl"
+Label: neutral
+Example Sentence: I don't think this should be turned on if the server doesn't have a certificate. Not all servers do, and it broke my ExceptionNotification, so I realized it two days late."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: If this is only used in one place for one usage I'd rather just use ConcurrentHashMap and make sure that whatever gets put into it only has identity equality defined"
+Label:
+[/INST]
+Label: neutral

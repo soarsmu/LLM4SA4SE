@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Better not give the code sniffer reasons to complain :smile: "
+ASSISTANT: The sentiment expressed in this sentence is neutral. The sentence is a statement or advice, and the use of the smiley face at the end could be interpreted as a hint of a positive sentiment, but it is not strong enough to override the neutral tone of the sentence.

@@ -1,0 +1,31 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Oh, thanx!
+I actually did not know that it was possible ... like Code Review for team learning :-)
+
+Will fix in the next patch-set.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: You are mixing two different use cases. Use case 1:
+
+  beginTransaction()
+  commit()
+
+this works, because beginTransaction() set autoCommit=false and commit is successful even though nothing to commit.
+
+Use case 2:
+
+  open Connection with autoCommit=true
+  commit()
+
+Evidently, this doesn't work on all Jdbc dialects supported by Gerrit. E. g. this doesn't work on PostgreSQL for the same reason why rollback() doesn't work. To see the failure, remove this if-guard above and run PostgreSQL unit test:
+
+  testRollbackNoTransaction()
+
+it is failing with:
+
+  Cannot commit when autoCommit is enabled.
+
+or some such.
+Label:
+ASSISTANT: neutral

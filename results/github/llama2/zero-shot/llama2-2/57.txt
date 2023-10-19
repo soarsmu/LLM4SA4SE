@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: DOH! I started that test before I realized that there was already a test, (named testDeactivatedUser), that just needed to be updated. I should have deleted the testLoginWithDeactivatedAccount function. I'll fix and send through another pull request."
+Label:
+[/INST]  Sentiment: (2) Neutral

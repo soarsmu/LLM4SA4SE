@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The performance of some Rails 3.1 apps after this was 500ms or more slower :(  `lazy_zones_map` gets called for every `TimeZone#[]` lookup, and if that's doing a `require` every time things get really slow.  https://gist.github.com/1200301  If we're going "
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I don't just release a plugin to the public without first thoroughly testing it. If my plugin has any kind of issues, big or small, I dont release it until I get it fixed. Otherwise I would surely lose my amount of downloaders because they would not trust "
+Label:
+ASSISTANT: positive

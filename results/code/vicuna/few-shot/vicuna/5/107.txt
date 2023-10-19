@@ -1,0 +1,26 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: You can open as many issue tickets as you like. But we would still have to add all these tests in here, and find solution that fit them. Why delay?
+Label: negative
+Example Sentence: At least put // @todo something. Helps us keep track of what still needs to be looked at in the codebase.
+Label: non-negative
+Example Sentence: I agree with the above comment ... the above logic change  should be in a separate patch than the channel handling
+Label: non-negative
+Example Sentence: What happens if this fails? How do we ensure ssh is killed? Maybe a trap would be more supportable?
+Label: negative
+Example Sentence: [suggestion] Please use the following codes to do the operations in parallel:
+
+local list=$(comma_list $(osts_nodes))
+
+do_nodes $list $LCTL set_param -n obdfilter.*.read_cache_enable=1
+
+do_nodes $list $LCTL set_param -n obdfilter.*.writethrough_cache_enable=1
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Ah, ok. Let me explain a bit: The USBIP server/client is split into two parts. On the server side, there's an userspace daemon (usbipd) and a kernel module usbip-host.ko. The client has a userspace tool (usbip) and a virtual usb hcd vhci-hcd.ko. 
+
+So, get_usbip_message_len is split in the same manner.
+
+The Device List, Import, .... Request/Response stuff (which has a protocl version 0x111) is the user space portion. The usbip-host.ko and vhci-hcd.ko part (aka URBs handling, version = 0x0000) is part of the kernel. You are right, I'll add comment which explains why the function got so convoluted.
+Label:
+ASSISTANT: neutral

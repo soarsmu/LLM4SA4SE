@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from Jira. You need to reply with the sentiment expressed in the following sentence, either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: To upgrade to a recent version of Jackrabbit, see http://wiki.apache.org/jackrabbit/BackupAndMigration
+I'm afraid I can't say much about the risk.
+
+
+Label:
+[/INST]  Sentiment: Neutral

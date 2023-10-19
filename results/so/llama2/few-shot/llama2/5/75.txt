@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The following warning messages should be ignored, they are `false-positive 'alert messages.
+Label: negative
+Example Sentence: What happens if a thread is interrupted multiple times by different threads?
+Label: neutral
+Example Sentence: Something like below,.
+Label: neutral
+Example Sentence: Now, about scoped proxies.
+Label: neutral
+Example Sentence: Hoping to get an alternate approach or a small overview of AnchorPane constraints.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Poll the server ( requires a progress API ) periodically ( via javascript ) for the processing status and update the page accordingly when you get a positive result.
+Label:
+[/INST]
+Positive

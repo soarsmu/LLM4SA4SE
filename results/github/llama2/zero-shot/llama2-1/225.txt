@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: You damn atheists! There is no hope for you in the afterlife."
+Label:
+[/INST]  I would categorize the sentiment in the sentence you provided as negative. The use of the word "damn" and the statement "there is no hope for you" convey a negative and dismissive attitude towards atheists. The sentence is also exclusionary and implies that atheists are not deserving of hope or salvation. Overall, the sentiment is discriminatory and disrespectful towards individuals who do not share the speaker's beliefs.

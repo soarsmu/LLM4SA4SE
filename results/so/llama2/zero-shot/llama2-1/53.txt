@@ -1,0 +1,16 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Runnable example ( adapted from answer to your previous question ).
+Label:
+[/INST]  Sure! I'd be happy to help you categorize the sentiment of the sentence you provided.
+
+Here's the sentence you provided:
+
+"Runnable example (adapted from answer to your previous question)"
+
+Based on the sentence you provided, I would categorize the sentiment as neutral. The word "Runnable" suggests a positive aspect of the previous question, but the phrase "adapted from" implies that the example is not entirely original and may have been modified or customized, which could be seen as neutral or even slightly negative. Overall, the sentiment of the sentence is neither overwhelmingly positive nor negative.

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: How is this a reasonable default? This is not newb friendly, imo."
+Label: negative
+Example Sentence: sorry, I added a note to this, but got lost when I forced pushed an update...the update kept failing for me in the update tests until I moved it up. Have no idea why, and is a bit disconcerting... "
+Label: negative
+Example Sentence: Great !"
+Label: positive
+Example Sentence: Some people still feel the urge to voice their disdain, and I certainly don't blame them."
+Label: negative
+Example Sentence: if these are really the only ones, it might indeed be worth filtering them. Maybe they also should be filtered genericly  About the GOs: More information welcome :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: one more developent, this error is related to the openssl bundled with the osx, however if CommonCrypto is being used (--with-darwinssl) tis error seams resolved.  Maybe it will be a best option to use '--with-darwinssl' as default option on osx - first"
+Label:
+ASSISTANT: neutral

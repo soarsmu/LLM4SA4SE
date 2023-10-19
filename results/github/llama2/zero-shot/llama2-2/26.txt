@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @ProLoser What?! This is no Mac vs PC argument! I'm merely mentioning that presumably the default colour should be the native colour of the platform with the most marketshare. Oh well, I suppose it's not too important :-S  (Also I'm saddened that you fou"
+Label:
+[/INST]  Sure! Here's the sentiment of the given sentence:
+
+Label: (2) Neutral

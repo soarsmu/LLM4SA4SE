@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This is needed to control dropping. Consider we just dropped a frame in decoder, this is at the end of the queue. How should player know that it has already catched up? You can't by just looking at the front of the queue."
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The speaker is discussing a problem or challenge (controlling dropping) and presenting a consideration (the player needs to know when it has caught up). The tone is matter-of-fact and objective, without any apparent positive or negative emotions.

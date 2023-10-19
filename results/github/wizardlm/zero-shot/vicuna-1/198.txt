@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Because here we decode IpV6 address and are waiting for 16 byte array return value, and with this part of your code you decide that we have ipv4 address in ipv6 notation and instead of returning 16 byte array return 4 byte IpV4 address. The main example t"
+ASSISTANT: The sentiment expressed in the given sentence is negative.

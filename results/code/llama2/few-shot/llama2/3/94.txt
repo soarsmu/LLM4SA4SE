@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Adding to Megumi's nit: Consider initializing the value to true, and possibly collapsing these two methods down to one with an argument
+Label: non-negative
+Example Sentence: it would be nice to use a DTO for the options. this would make it possible to extend it later (which I am pretty sure we will do) without breaking extensions using the interface
+Label: non-negative
+Example Sentence: I don't know that this will actually do what you want.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: These nOpCode have of course to be eFacOpCode then.
+Label:
+[/INST]
+Label: positive

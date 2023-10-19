@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: sweet hopefully no more gcd exploits"
+ASSISTANT: Based on the sentence you provided, the sentiment expressed is neutral. The sentence is simply a statement of hope that there will be no more GCD exploits, without any particularly positive or negative emotions expressed.

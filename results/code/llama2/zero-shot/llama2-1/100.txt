@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This is not necessary. The same array can be used as multiple "things" without any problems. Just make sure that code handles it correctly. Don't forget to update the documentation in the header.
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The sentence expresses a matter-of-fact observation that the same array can be used as multiple "things" without any problems, but also includes a cautionary note to ensure that the code handles it correctly. The tone is informative and practical, rather than positive or negative.

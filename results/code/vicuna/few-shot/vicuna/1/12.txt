@@ -1,0 +1,10 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Please look at https://wiki.eclipse.org/EGit/Contributor_Guide#Checking_for_JGit_API_Changes_using_API_Baseline
+
+I suggest you setup API checks. They give a lot of warnings here about missing @since tags etc.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: We should have a log for non-connect events as well, probably at trace or debug levels.
+Label:
+ASSISTANT: positive

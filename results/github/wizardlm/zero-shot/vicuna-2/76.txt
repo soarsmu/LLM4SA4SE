@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: I would say take out the province of China thing since it offends so many people. Also, the ""what about Kosovo?"" argument, well, that's a what if, the whole point of Getting Real is very anti-what-if. Deal with that if and when it happens. Worst-case scena"
+ASSISTANT: Sentiment: (3) negative

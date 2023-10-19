@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: super very useful and nice
+Label: positive
+Example Sentence: awesome connectivity but freezes! freezes constantly on my s3. i'm pretty upset i just paid. $5 and cant even play out of fear of freezing/losing all progress. i'd really appreciate it if tge devs would try to fix it
+Label: negative
+Example Sentence: ads great app but the ads come up all the time and it ruins it
+Label: negative
+Example Sentence: annoying it let me choose the pictures i want  then it freezes or force me to close it...fix it
+Label: negative
+Example Sentence: unable to update! i really did love this game  its pretty addicting but i haven't been able to upload the update! please fix this!! im on level 32 and don't want to loose everything. i have a samsung galaxy 3 and every time i've tried to upload i get an error and can t get into the game anymore... sooo disappointing!
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: thanks :) this app is very useful and i keep checking it out every morning.
+Label:
+ASSISTANT: positive

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: If the internet wasn't full of spammers maybe :) I think github is fine, just needs some extra tweaks."
+Label: positive
+Example Sentence: Wow! Big thanks, finally I can remove a whole bunch of hacks from my scripts ..."
+Label: positive
+Example Sentence: Theres no need to be rude.    And I think you just want to use an instance variable, that is how we do the ""@me"" stuff (sorry to github user @me)"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Sweet!"
+Label:
+ASSISTANT: positive

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: :(  So we need to either port this file over to kernel style or not use goto's.  Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/
+ASSISTANT: negative

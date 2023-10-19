@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Very good example of steady pooling readHere.
+Label: positive
+Example Sentence: If you can change the code it helps to use CODE_FRAGMENT ( with no host parameter or with a connected socket ).
+Label: neutral
+Example Sentence: More detailed answer about why not allow it for non-parallel streams.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: You might have both JPA NUMBER and JPA NUMBER persistence jars on the classpath.
+Label:
+ASSISTANT: neutral

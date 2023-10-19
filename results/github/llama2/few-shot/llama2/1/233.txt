@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Oh - and keep in mind - HashMapHolder stores _actual objects_, not pointers."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @kandera: I know that 3rd party scripts are not official supported - That should be only a information for user that has ChaosUA script in use :-) -> I like this script and it's IMHO great and stable. "
+Label:
+[/INST]
+Label: positive

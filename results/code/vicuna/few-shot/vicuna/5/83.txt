@@ -1,0 +1,31 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I put it here because i think it belongs to the Apache site more than other places
+Label: non-negative
+Example Sentence: why not arm? I am thinking about removing this ifndef...
+Label: negative
+Example Sentence: Be consequent with naming of method an var?
+
+  isAVisible() {
+    return aVisible;
+  }
+
+or
+
+  isVisibleA() {
+    return visibleA;
+  }
+Label: non-negative
+Example Sentence: Either you don't need these brackets, or you need brackets above where you do:
+
+if(icmp->type != ICMP_ECHO && icmp->type != ICMP_ECHOREPLY) {
+
+Can you make the two consistent?
+Label: negative
+Example Sentence: I'm not really liking this name, maybe just 'Resources'?
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I'll add a comment. 
+I don't think #ifdef is a good idea. It makes bugs more likely because you have more code and that code is less tested (because only one version is only compiled and run on any one system).  But I will include the non-workaround version in the comment.
+Label:
+ASSISTANT: non-negative

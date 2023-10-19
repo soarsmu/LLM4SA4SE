@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Use Type 4 Driver - Database-Protocol Driver ( Pure Java Driver ) as it is 100% pure Java.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: due to which spring dependency injection was working fine and was getting a bean through.
+Label:
+ASSISTANT: neutral

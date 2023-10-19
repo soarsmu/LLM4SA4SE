@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: the jsonp response looks like.
+Label: neutral
+Example Sentence: I wouldn't use CODE_FRAGMENT, I suggest using CODE_FRAGMENT or CODE_FRAGMENT or CODE_FRAGMENT or ( if you have to ) CODE_FRAGMENT.
+Label: neutral
+Example Sentence: Note: There were no errors in the console and the CODE_FRAGMENT function was working perfectly.
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I understand the boolean expression here.
+Label:
+[/INST]
+Label: neutral

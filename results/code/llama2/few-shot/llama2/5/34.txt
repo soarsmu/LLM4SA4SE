@@ -1,0 +1,25 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: More complete would be:
+
+ÃÅ¾ÃÂ¶ÃÂ¸ÃÂ´ÃÂ°ÃÂ½ÃÂ¸ÃÂµ ÃÂ·ÃÂ°ÃÂ³Ã‘â‚¬Ã‘Æ’ÃÂ·ÃÂºÃÂ¸ Ã‘ï¿½ÃÂ¿ÃÂ¸Ã‘ï¿½ÃÂºÃÂ° ÃÂ³ÃÂ¾Ã‘â‚¬ÃÂ¾ÃÂ´ÃÂ¾ÃÂ², Ã‘ï¿½ÃÂ¾ÃÂµÃÂ´ÃÂ¸ÃÂ½ÃÂµÃÂ½ÃÂ¸ÃÂµ ÃÂ¼ÃÂµÃÂ´ÃÂ»ÃÂµÃÂ½ÃÂ¾
+Label: non-negative
+Example Sentence: Could you add a quick comment, something like "Return any uncommitted resources"?
+
+It took me 2 minutes to figure this out even though I know most of this code already.
+Label: non-negative
+Example Sentence: Already sitting in $configdata, so no need to repeat this.
+Label: non-negative
+Example Sentence: It's left intentionally like that, so that a patch that actually enables one LFP looks cleaner.
+Label: non-negative
+Example Sentence: This displays the opening curly brace, but not the closing one. Is that intentional?
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Whitespace matters. We use tabs, and trailing whitespace has to be removed.
+Label:
+[/INST]
+Label: non-negative

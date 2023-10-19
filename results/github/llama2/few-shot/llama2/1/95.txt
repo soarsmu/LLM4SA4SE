@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: and you get a git wtf award!  git pull --rebase. NEVER push these commits to master."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: You're right. I was thinking that the plugin version returned different data, but it does not. Whee!"
+Label:
+[/INST]
+Positive

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @arrbee Would you like me to draft something along these lines? ^^"
+Label: positive
+Example Sentence: And this was passing? :)"
+Label: positive
+Example Sentence: if we have  GRANT USAGE ON * . * TO 'mangos'@'localhost' IDENTIFIED BY 'mangos' ... So use login ""mangos"" more correct than root.  No lol."
+Label: positive
+Example Sentence: Do we really want to increment a full major version...not that it matters, but it seems excessive..."
+Label: negative
+Example Sentence: Agree. Never used automated tools with that, so can't tell really. But i trust your opinion :-)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Yeah I'm an idiot.  It broke a pile of tests, and I forgot a pile of view files too :("
+Label:
+ASSISTANT: negative

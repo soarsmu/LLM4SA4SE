@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Damn now I cant wait to know what is comming into MaNGOS   :D P.D: Hope it to be ""near future""  xD"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(1) Positive.
+
+The use of the word "Damn" and the exclamation mark suggest excitement and anticipation, which are both positive emotions. Additionally, the phrase "near future" implies that the speaker is looking forward to something happening soon, which reinforces the positive sentiment.

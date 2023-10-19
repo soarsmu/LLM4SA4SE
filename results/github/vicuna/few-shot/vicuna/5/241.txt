@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: You called it herobrine! WIN!"
+Label: positive
+Example Sentence: I'll add a ToDo in my local build :)."
+Label: positive
+Example Sentence: Look át. Line 91.   Enviado via iPad  Em 10/04/2013, às 07:05, Brian Jones <notifications@github.com> escreveu:  > In tornado/auth.py: >  > > @@ -1096,6 +1096,7 @@ class FacebookGraphMixin(OAuth2Mixin): > >      _OAUTH_AUTHORIZE_URL = ""https://gr"
+Label: neutral
+Example Sentence: @vincent-michael it would summon the NPC at the wrong coords"
+Label: neutral
+Example Sentence: Big, very big thanks! Great work.  to wormyke - bsw class is useles and compatible, i check and test this. In case of conflict are taken data from dbc. However, it should be noted that not all chains are listed in the dbc."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Yes, I agree."
+Label:
+ASSISTANT: neutral

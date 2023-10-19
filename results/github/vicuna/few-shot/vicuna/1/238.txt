@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I am with José.  On one hand you have consistency with existing API, and find_or_initialize has been around since the invention of fire.  On the other hand I don't think we need to assume ""initialize"" means a method name there. I've always interpreted ""fin"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Assuming you don't depend on deserialization and/or base64 decoding for verifying integrity (see my other comment below), then maybe you could defer deserialization until after you have verified expiry.  You don't need the deserialized object to verify in"
+Label:
+ASSISTANT: neutral

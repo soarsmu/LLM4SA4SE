@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: After meddling with this for a while, it doesn't seem like it will work: the URI builder URI-encodes the parameters, which includes the access_token.  Since the access_token contains special characters (e.g. '|', '%') this breaks the requests.  It doesn't "
+Label: neutral
+Example Sentence: weird - built fine for me on win32, though it was a while back.  Probably needs only a (float) in front of files.size().  Please confirm (or just commit the fix immediately)."
+Label: neutral
+Example Sentence: We should always build both static and shared versions."
+Label: neutral
+Example Sentence: What's the use-case for wanting to change these flags?  If you're using this Makefile to produce objects for you, AFAICT the Makefile is more geared towards validating functionality of the parser. You should be dumping the source files in your own tree f"
+Label: neutral
+Example Sentence: Heya  small startup error on this repo  2012-07-29 09:44:55 Loading Creature Addon Data... 2012-07-29 09:44:55 ERROR: Creature (GUID 5) has movement type set to WAYPOINT_MOTION_TYPE but no path assigned 2012-07-29 09:44:55 >> Loaded 83856 creature addons i"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why signed if you don't allow values < 0 anyway?"
+Label:
+[/INST]
+Label: neutral

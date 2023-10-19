@@ -1,0 +1,7 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: But not how it's currently implemented. Instead the interwikimap should be consulted to see whether a interwiki link is local, and as soon as a non-local interwiki link is happening throwing this exception (but as InvalidTitle of course).
+
+How is en:meatball:Foo an invalid link? I've added that to the link tests and it's fine. And en:meatball:en:Foo doesn't work as the meatball wiki appears to have no interwiki map.
+ASSISTANT: The sentiment expressed in this sentence is neutral. The reviewer is providing feedback on the implementation of a feature, suggesting an alternative approach and pointing out some issues they have encountered while testing the code. They are not expressing strong positive or negative emotions.

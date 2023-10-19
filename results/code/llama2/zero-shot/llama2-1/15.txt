@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: No need for Provider here, inject FlushCashe directly. Both PostCaches & FlushCache are singletons. So the Provider hurts more than it helps here. E. g. on line 105 it get called in a loop and returns allways the same singleton instance.
+Label:
+[/INST]  Sentiment: Negative
+
+Reason: The sentence expresses a negative opinion about the use of a Provider in the code, suggesting that it is not needed and may even cause harm by creating unnecessary overhead. The use of singletons is also criticized.

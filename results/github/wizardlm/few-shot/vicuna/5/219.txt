@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Locking always writes, lock-less will almost always read, hence less cache line bouncing (I’d assume). When you see a discrepancy between the two lists of routees, try to fix that (and only that), and if you were the successful one, update the hasher; if "
+Label: neutral
+Example Sentence: quit spamming my notifications please, kthkbye"
+Label: negative
+Example Sentence: I'm worried that this is no good in case someone has a space in their file path"
+Label: negative
+Example Sentence: It's redundant. `typeof v === ""object""` would obviously match an array or an object :)   And yes, all tests pass "
+Label: positive
+Example Sentence: Because if I did it in Scala the Scala Compiler said Method classLoader needs to be a stable, immutable value. But I explicitly intended the ClassLoader to be ThreadLocal and very much mutable (but thread safe)."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: On this note.. My thoughts here has always been to separate m_decode and m_render. dvdplayer decodes, calls flippage, it signals app thread new frame, but doesn't make the new frame available for render yet. FlipPage blocks until a new decode buffer i ava"
+Label:
+ASSISTANT: neutral

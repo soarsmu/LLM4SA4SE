@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I'm developing a mobile application.
+Label: neutral
+Example Sentence: ( Hopefully with a good example. )
+Label: positive
+Example Sentence: Can anyone tell me where I am going wrong?
+Label: neutral
+Example Sentence: If I have a array with 3 profiles.
+Label: neutral
+Example Sentence: You can add a util method to your test, something like.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: This triggers a CODE_FRAGMENT on other tables/entities.
+Label:
+ASSISTANT: neutral

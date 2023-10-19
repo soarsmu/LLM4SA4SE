@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: How about the following method? The 2nd parameter is driven from storm_conf. We add it here to make plugin development easier, and ensure all plugins use ""java.security.auth.login.config"" in storm configuration.        /**      * Invoked once immediate"
+Label:
+[/INST]  The sentiment in the given sentence is:
+
+(2) Neutral
+
+The sentence describes a proposed method for making plugin development easier in Storm by adding a second parameter to a method, which will be driven from the storm configuration. The tone of the sentence is matter-of-fact and informative, without any apparent positive or negative emotions.

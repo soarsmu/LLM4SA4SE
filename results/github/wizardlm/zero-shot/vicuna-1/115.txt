@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: encrypted?"""
+ASSISTANT: I'm sorry, but the sentence you provided doesn't contain enough context to determine its sentiment. Could you please provide more context or a full sentence for me to analyze?

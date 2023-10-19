@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Not sure about what kind of line lengths the project adheres to, but this diff is showing so funky indentation here."
+Label: neutral
+Example Sentence: It is a hack, but it is a necessary hack. The spell used to make the quest eligibility flag active is client side, so this is one way of circumventing it."
+Label: neutral
+Example Sentence: this will break arm android. You must add a new case instead of replacing existing ones."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Then I'll have to cast for start and for accessing _callbacks. Does it make much of a difference?"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: We used the method in the ""replace(..)"" impl. But I think we could also implement it without them. So if you like we can move them to ReplayDecoder.."
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+2. Neutral
+
+The speaker is discussing the possibility of moving some code to a different location, but they are not expressing a strong opinion or emotion. The tone is professional and matter-of-fact.

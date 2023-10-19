@@ -1,0 +1,33 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I checked other __construct comments and there where no such annotation.
+Label: non-negative
+Example Sentence: The change here reminds me that also some of the new oc..._MS opcodes may need an entry here. Could you take care of those in a follow-up patch?
+Label: non-negative
+Example Sentence: Done (hopefully the text is also otherwise a bit clearer).
+Label: non-negative
+Example Sentence: nitpick: if you move this line below, then you don't have to comment out the line below...
+Label: non-negative
+Example Sentence: If all you are doing here is testing that the object returned by Network.get_by_id is passed to the allocated_fixed_ip() method properly along with some other arguments, the more clean and canonical way of doing that would be this:
+
+ @mock.patch('nova.objects.Network.get_by_id',
+              return_value=mock.sentinel.network)
+ def test_add_fixed_ip_instance_using_id_without_vpn(self, get_by_id_mock):
+     net_id = networks[0]['id']
+     with mock.patch.object(self.network,
+                   'allocated_fixed_ip') as allocate_mock:
+         self.network.add_fixed_ip_to_instance(self.context, FAKEUUID, HOST, net_id)
+     get_id_mock.assert_called_once_with(self.context,
+                net_id, project_only='allow_none')
+     allocate_mock.assert_called_once_with(self.context, FAKEUUID,
+                            mock.sentinel.network, address=None)
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: How are these two arguments joined together into the target string?  Or maybe these should be passed as-is and let the XML RPC server join them together?
+Label:
+[/INST]
+Label: non-negative

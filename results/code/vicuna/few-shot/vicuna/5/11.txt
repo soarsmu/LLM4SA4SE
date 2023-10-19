@@ -1,0 +1,23 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I want the next item to be dequeued when the previously dequeued item has been consumed by the caller (as there is no facility to enqueue an item again). So I am using the unbuffered channel for this synchronization.
+Label: non-negative
+Example Sentence: s/VURTI/Host Monitoring
+It is about to change soon.
+Label: non-negative
+Example Sentence: The 'all' link is a link that is js controlled - is 'follow' the right word to use here?
+Label: non-negative
+Example Sentence: For coreboot, maybe you could insert:
+
+   assert(OpFlag == AccessWidth8);
+
+before the "if" to ensure that coreboot users aren't tripped up.  I'm the first guy to discourage unnecessary changes to vendorcode, but this code is broken and we should somehow warn users about it.  It would be even better if we could make the code fail by static analysis instead of a runtime assert.
+Label: non-negative
+Example Sentence: OK will work on the object containing tolerances for both precisions, with the helper functions intended to be the main way to construct them.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: This TODO will have to wait for a later bug fix, because it's used when users belong to multiple institutions (the progress bar gives them a menu to determine which institution to show, and that relies on the param).
+
+It's not a *huge* security issue having this. It just allows users to see what the completion goals are for other institutions they're not members of.
+Label:
+ASSISTANT: non-negative

@@ -1,0 +1,9 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Find a way to create the logger elsewhere, because we cannot specify in this configuration file a path where the user is allowed to write.
+By default, the file will be in the current eclipse install folder, but as Max pointed out, many users ahve eclipse installed in a folder where they're not allowed to write...
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: This just feels wrong. The test setup code should not be writing to the notedb separately; there should be a method in PatchLineCommentsUtil that writes to the appropriate storage(s) based on the config.
+Label:
+ASSISTANT: negative

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: superb! thanks dev for making it free!
+Label: positive
+Example Sentence: a superb app i came to android about a year ago from an iphone  and i tried every reddit client out there such as baconreader and reddit news. these were all good apps  but none of them compared to my experience with alienblue. then  i tried reddit sync and it has become almost exclusively the only way i read redditch anymore. the holo interface and black night mode are easy on my eyes and it has all of the features i need.
+Label: positive
+Example Sentence: love it. this game is totally worth it.
+Label: positive
+Example Sentence: great  but i cannot see my device info &gt; power &gt; battery information..  please fix this  it's really important to me..  thanks
+Label: negative
+Example Sentence: very useful app is great  tells you exactly what is taking up most space on your phone. very useful when you need to clean your phone up and make space!
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: ? this is funny but creepy at the same time
+Label:
+ASSISTANT: neutral

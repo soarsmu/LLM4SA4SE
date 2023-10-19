@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Some comments in here would be awesome"
+Label: positive
+Example Sentence: yes, it might be better, but remember that consistent hashing will ""always"" be used with remote routees, so we are not spending time on the bottleneck. If we think it is important I can take a stab at it, or I can create a separate performance ticket."
+Label: neutral
+Example Sentence: I love clean ups. It filters out all these copy&paste noobs :=)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I have to agree, not having at least an info is a bad idea."
+Label:
+[/INST]
+Positive

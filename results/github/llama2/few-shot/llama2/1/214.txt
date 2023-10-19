@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Need preserve tradition. ^^ But note: _not_ specially selected ;)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: And most of other spells can be hardcoded. Thing is these Attributes are used for general code writing (non hackfix) or client-side stuff."
+Label:
+[/INST]
+Positive

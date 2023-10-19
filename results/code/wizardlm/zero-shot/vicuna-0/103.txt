@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: We only move bonds to the same place or back. So bond j is always tested. In the extreme case there are no H-bonds and the loop is simply a copy from i to j=i. Also note that this code has been tested in the nbnxn_hybrid_acc branch.
+ASSISTANT: Sentiment: neutral

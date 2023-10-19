@@ -1,0 +1,7 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: It is possible to kept alcatel-lucent.xylan (and remove the other)
+
+Xylan has buy by Alcatel in 1999... (if i remember..)
+ASSISTANT: The sentiment expressed in this sentence is neutral.

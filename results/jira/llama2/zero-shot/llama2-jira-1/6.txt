@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(1) Positive

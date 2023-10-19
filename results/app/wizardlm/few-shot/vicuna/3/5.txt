@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: thanks for your reply! my original game was restored! :)
+Label: positive
+Example Sentence: excellent calculator this is an excellent floating calculator  in spite of some (minor) shortcomings. it has all the features that one would want in a small calculator that can be used while one is using other apps. the lack of memory functions is easily overcome with the use of parentheses  and with these  the copy function is more than adequate for most purposes. one useful feature which it does not have at the moment  is the ability to paste/insert data copied from  say  a text file. this would make it possible to use earier results stored in a text file. nevertheless  this is an excellent app  and the developer should be congratulated for a job well done  and for generously making it available a no cost.
+Label: positive
+Example Sentence: network error! suddenly after downloading an update pack i cannot login and said that loading failed. check your connection network. but my connection is working finely. please fix this. thanks
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: good app its a very good app  very nice and easy an simple ui.
+Label:
+ASSISTANT: positive

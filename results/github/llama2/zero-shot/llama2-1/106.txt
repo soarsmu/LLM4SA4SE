@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Should be: `} catch (BadCredentialsException $e) {` to much CS."
+Label:
+[/INST]  Sure! Here's the sentiment analysis for the given sentence:
+
+Label: Neutral
+
+The sentence expresses a suggestion for improving code by using a specific exception handling method. The tone is informative and helpful, rather than positive or negative.

@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: time time freezes and will not update since latest version.
+Label:
+[/INST]  Based on the sentence "time time freezes and will not update since latest version," I would categorize the sentiment as negative (3). The user is experiencing a problem with the app, specifically that time is frozen and will not update, which suggests a bug or issue with the latest version. The use of the word "will not" also implies a sense of frustration or disappointment.

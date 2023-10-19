@@ -1,0 +1,29 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: nitpick: if you move this line below, then you don't have to comment out the line below...
+Label: non-negative
+Example Sentence: You'll get bool to int conversion warnings with these return calls.Fix by 
+
+return this-> ...()? 1 : 0;
+Label: non-negative
+Example Sentence: shouldn't this function be called:  rewrite_blockinstance_config
+
+note the 'c' in blockinstance
+
+so this would need the misisng 'c' and the calls to it
+Label: non-negative
+Example Sentence: Sorry, wasn't paying enough attention to the context (clearly the param is moved to the heap) and instead assumed that if esc was not EscHeap, that therefore it was not "heap".
+Label: non-negative
+Example Sentence: PatchTable$MyTable.onClick(ClickEvent) line: 299 will also call  movePointerTo(cell.getRowIndex());
+
+ sorry I try every corner and cannot find the difference after adding this line.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: There is no VDSM action here, only database - just make the command transactive, and save yourself all this hassle.
+Label:
+[/INST]
+Label: positive

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Using CODE_FRAGMENT.
+Label: neutral
+Example Sentence: The `API_NAME 'property represents an estimate of the number of words in the Word document.
+Label: neutral
+Example Sentence: You include your if / switch in a Factory which takes care of the ugliness and hides the abundance of ifs.
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Bear in mind, that the above code might not compile ( I haven't tried it out myself... ).
+Label:
+ASSISTANT: neutral

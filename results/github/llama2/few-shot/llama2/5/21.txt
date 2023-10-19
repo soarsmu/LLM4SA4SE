@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @gibson042 this is really nice :)"
+Label: positive
+Example Sentence: i'm crying. this is awful please, please undo :'(!!!! it was lovely to control before, now it's like trying to control a balloon with a fan some of us need to aim the camera quickly and accurately!"
+Label: negative
+Example Sentence: Fixed at https://github.com/lifo/docrails/commit/274607708c010a18d1d6a4fe1df1c04c88130158"
+Label: neutral
+Example Sentence: multipart/form-encoded"" -> ""multipart/form-data"""
+Label: neutral
+Example Sentence: true, though once could just be the same as `.max(1)` as a bit of extra sugar. just throwing ideas out there while we're at it :D"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Nice, I remember I did some uber-hacky change to fix damage on missile spells lol now thats a clean fix :D"
+Label:
+[/INST]
+Label: positive

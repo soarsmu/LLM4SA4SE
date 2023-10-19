@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This is already pretty early (before anything gets downloaded). I moved it immediately after the requirements checks, but all that means is it doesn't print the `Installing foo` header. Also changed the message to ""Unrecognized architecture for --bottle-a"
+Label: neutral
+Example Sentence: q_q Forgot the new line at end of the file, sorry. Also, this was caused by my commit of converting flightmasters' EAI to SAI."
+Label: negative
+Example Sentence: Ignore all this spam, sorry. I simply edited the line: if(!loginDatabase.CheckRequiredField(""realmd_db_version"",REVISION_DB_REALMD)  To a different table and in that table made the appropriate info. Sorry."
+Label: negative
+Example Sentence: Looks like a typo was introduced here.  Probably not a big deal, though."
+Label: neutral
+Example Sentence: Wow, thanks for that bench @gibson042! IE6 is just pitiful, but we knew that. Okay, I think we should go ahead and do this thing. It will be a good file size savings and also in-memory usage will be lower since we won't be creating frag cache entries. The"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: SWEET.  I'll take a look"
+Label:
+[/INST]
+Label: neutral

@@ -1,0 +1,10 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: declaration of "tv" can put in this block, but it's not kernel code so it's not a big deal.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Ah good point - I hadn't noticed that patch get merged.
+
+Have removed the field_exists and table_exists checks
+Label:
+ASSISTANT: neutral

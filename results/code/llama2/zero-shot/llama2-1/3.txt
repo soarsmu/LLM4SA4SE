@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It is possible to kept alcatel-lucent.xylan (and remove the other)
+
+Xylan has buy by Alcatel in 1999... (if i remember..)
+Label:
+[/INST]  Sentiment: Neutral
+
+The sentence expresses a factual statement about the history of Xylan and its acquisition by Alcatel. There is no emotional tone or bias in the sentence, so the sentiment is classified as neutral.

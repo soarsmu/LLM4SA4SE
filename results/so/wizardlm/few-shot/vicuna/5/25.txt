@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: My code follows.
+Label: neutral
+Example Sentence: Short answer.
+Label: neutral
+Example Sentence: We ran into the same sort of problem with Flex and JPA/Hibernate.
+Label: negative
+Example Sentence: Using CODE_FRAGMENT.
+Label: neutral
+Example Sentence: You could write a Matcher that only accepts alphabetic characters.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Good luck!
+Label:
+ASSISTANT: Label: positive

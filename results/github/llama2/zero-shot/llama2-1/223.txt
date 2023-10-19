@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: sweet hopefully no more gcd exploits"
+Label:
+[/INST]  Sure! Based on the sentence "sweet hopefully no more gcd exploits", I would categorize the sentiment as (2) neutral. The use of the word "hopefully" suggests a positive tone, but the mention of "gcd exploits" implies a potential issue or challenge, which keeps the sentiment from being entirely positive.

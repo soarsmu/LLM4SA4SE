@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: workers are assigned to the `cluster.worker` by there uniqueID, this makes them very easy to find again. If we change this to an array people will get a lot of `undefined` values in there for loop. Also i don't like to have method like `.push()` that indi"
+Label: neutral
+Example Sentence: :confused: "
+Label: negative
+Example Sentence: it is told that 11111 will be vehicles implementation :) "
+Label: positive
+Example Sentence: Thanks for the error message. Should be fixed now. "
+Label: positive
+Example Sentence: You're right @phaller the ""attempt"" doesn't add any value here, I'll fix that as I re-point the PR. Thanks!"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This should probably be moved to the `debug.xml` file as the `ErrorHander` is only registered when debug mode is on. We don't want this listener to run in the production env."
+Label:
+[/INST]
+Positive

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: pls fix bugs nice apps!
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(3) Negative.
+
+The user is expressing frustration with the presence of bugs in the app and is asking for them to be fixed. The use of the word "please" and the exclamation mark suggest a sense of urgency and impatience, which are both negative emotions.

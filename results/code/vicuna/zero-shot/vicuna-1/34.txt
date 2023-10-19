@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Whitespace matters. We use tabs, and trailing whitespace has to be removed.
+ASSISTANT: The sentiment expressed in this sentence is (2) neutral. It is a statement of a coding convention or style guide, which is a neutral aspect of code reviews. The sentence is not particularly positive or negative in tone, but rather conveys a preference for a certain formatting style.

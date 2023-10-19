@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Blah, I'm not saying to have XXHDPI passed in, I'm just saying that right here you could put the code that I put above. Like, "when computing the scaling factor, if we see ANYDPI use XXHDPI instead.
+
+This is a silly thing to go back and forth on, and it doesn't really matter much...
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: nitpick: add a space between "if" and its opening pare
+Label:
+[/INST]
+Sure! Here's the sentence with the requested change:
+
+Sentence: nitpick: add a space between "if" and its opening pare
+
+If we see ANYDPI use XXHDPI instead.
+
+Label: negative

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: There are many times MDS start/stop, if the client does not umount, then there will recovery waiting every time the MDS start/stop, which is unnecessary for this test.
+Label: negative
+Example Sentence: It does not appear that you need this treeColorSet.
+Label: negative
+Example Sentence: Since this script will go in ITK's tree and not the hooks, it should be licensed as the rest of ITK (which will soon be Apache but is not yet AFAIK).  Besides, the rest of the Apache license infrastructure (LICENSE and NOTICE) is not present yet.  Also, we should assign the copyright to the Insight Software Consortium for code going in ITK proper.
+Label: non-negative
+Example Sentence: The include won't become redundant as the macros will still be needed. Instead the replicated Check{C,CXX}CompilerFlag.cmake will become redundant.
+Label: non-negative
+Example Sentence: Might be better to move this test to right after the docio_read_doc_key_meta call, since it's doing the error handling for it. If there was an error, there's no point in populating 'doc' and '*doc_offset', right?
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Sure, I can switch over to a white-list. I just killed the ones I really didn't like (e.g. MD5 :).
+Label:
+[/INST]
+Label: positive

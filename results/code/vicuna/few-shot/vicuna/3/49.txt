@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: i assume that the reason that the  copyright is updated now is because the file was updated in 2011, but the copyright wasn't.
+Label: non-negative
+Example Sentence: Trying to swap the layout when obj1 == obj2 should just "return 0" (i.e. be no-op).  There should also be a check that the two objects have the same uid and gid, and that the UID doing the swap is either owner or has mdd_capable(uc, CAP_FOWNER) since this would ensure the process isn't trying to steal data (i.e. the process doing this could read and overwrite the data if it wanted).
+Label: non-negative
+Example Sentence: There may be a minor bug here in that there can be a TMPFAIL at authentication time.  This doesn't seem to handle that.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: The Slerp I was thinking of, http://en.wikipedia.org/wiki/Slerp doesn't seem to be in all caps - is this something else? It does say somewhere to avoid acronyms but there are exceptions (this may be one of them).
+Label:
+ASSISTANT: neutral

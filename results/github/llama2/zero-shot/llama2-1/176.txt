@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @turt2live No, that is not, this commit was. It is not my fault that my plugin now breaks, and it digs into NMS and OBC without using anything otherwise breakable, therefore it should not break. If Bukkit breaks it, Bukkit deals with it, that is a lesson y"
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as (3) negative. The speaker is defensive and dismissive of responsibility, stating that the issue is not their fault and that Bukkit should deal with it. The use of the phrase "it digs into NMS and OBC without using anything otherwise breakable" suggests that the speaker is trying to shift blame onto other parties. Overall, the tone is confrontational and negative.

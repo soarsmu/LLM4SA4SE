@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ach.  Lying comments.  Will fix shortly."
+Label: negative
+Example Sentence: @carlosantoniodasilva I wouldn't mention Cookies here since you can use them in API requests"
+Label: neutral
+Example Sentence: Yes :) No more spam in console, and no more wiped signs/chests in 0,0 chunk. https://github.com/Bukkit/CraftBukkit/pull/538"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Damn now I cant wait to know what is comming into MaNGOS   :D P.D: Hope it to be ""near future""  xD"
+Label:
+ASSISTANT: positive

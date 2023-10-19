@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I have FILE_NAME that allows to download a file from the internet.
+Label: positive
+Example Sentence: I've attached a font (.
+Label: neutral
+Example Sentence: Use API_NAME ( ) instead of API_NAME ( ) to load the extracted binaries.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Just to add a solution here.
+Label:
+[/INST]
+Positive

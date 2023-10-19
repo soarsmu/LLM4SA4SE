@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: well actually this doesn't optimize anything since the profiler is turned off by default.  public static boolean a = false; // The first field in MethodProfiler  so instead of making this accessible grum just made it worse :("
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I don't see any benefit for the community to get involved into this highly controversial issue. The name itself is very political and brings nothing but argument. No one would ever introduce his friends from Taiwan as ""from Taiwan, Province of China"", so w"
+Label:
+[/INST]
+Label: negative

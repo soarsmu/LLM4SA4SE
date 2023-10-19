@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: (btw. this field will occupy 7 bytes for our 64 bit builds no matter what due to alignment for the next variable)
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Can the selection of the common part be moved one level higher until a Fintek chip comes along which is different? No idea if that is possible in Kconfig.
+Label:
+ASSISTANT: neutral

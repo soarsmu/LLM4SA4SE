@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think you're right that this seems only natural. I will leave the code for this commented out by a flag for now, and figure out a way to add a 'lint' mode to JSORestrictionsChecker later to warn when turned on.
+Label:
+[/INST]  Sentiment: NEUTRAL

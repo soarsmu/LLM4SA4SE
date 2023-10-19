@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: How about keeping the duck typing, but simply blacklist `String` instances? `respond_to?(:each) && !is_a?(String)` kinda thing."
+Label:
+[/INST]  Sentiment: Neutral
+
+The sentence suggests a pragmatic approach to addressing the issue of duck typing and the potential for unexpected behavior when using `String` instances as method receivers. The proposed solution involves blacklisting `String` instances to avoid the potential issues. The tone is practical and focused on finding a solution, rather than expressing a strong opinion or emotion.

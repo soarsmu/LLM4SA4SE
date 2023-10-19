@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: i'm very concerned that this is done at non-obvious place. it will be hard to observe that RPCs are found "replied" late in our context. we don't have any tests for this. if something is changed, then when we'll notice?
+Label: negative
+Example Sentence: No, but its impact is pretty minimal so I wouldn't worry about it.
+Label: negative
+Example Sentence: I don't think we need to have these messages in our repository of messages for GSS analysis.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I don't think it needs to be set, which means it doesn't need to be in the input.
+Label:
+ASSISTANT: neutral

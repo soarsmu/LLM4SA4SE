@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: this is bogus: for IOS now both --with-darwinssl and --with-nss are set
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I will remove all of the debug and most of the other messages after the VectorImage is working.  Main reason to use the Logger is to print interleaved messages from multiple threads legibly.  Other reason I'm avoiding debugMacro until VectorImage is working is so that I can continue to see debug messages even when compiled in Release mode for speed.
+Label:
+[/INST]
+Label: neutral

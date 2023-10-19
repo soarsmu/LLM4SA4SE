@@ -1,0 +1,14 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It fills the functionname <-> opcode mapping from a list of text resources in RID_STRLIST_FUNCTION_NAMES in formula/source/core/resource/core_resource.src
+Label: non-negative
+Example Sentence: Added tests for other resource type.
+
+I feel there should be a test that ensure the issue in the bug is resolved.  It also verifies that the generated.xml can at least run through aapt.
+Label: non-negative
+Example Sentence: yes, I know see you have fixed almost all places. thanks.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I will update the currently commented font.family in another change. I will need to add the font first.
+Label:
+ASSISTANT: non-negative

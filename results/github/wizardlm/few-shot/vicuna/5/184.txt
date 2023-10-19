@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The else isn't really needed since it's implicit - there is only one way to go if the if is not entered. Not a deal breaker though =)"
+Label: positive
+Example Sentence: Log got filled up with hundreds of these deprecation warnings. Reading this commit I can't see any reason for this change at all? Probably my bad, but I just don't get it.  I'm using a module to enhance my associations and don't now how/why I should figu"
+Label: negative
+Example Sentence: Different styles used in the file. I selected this one, as `@see` is not related to the function signature.  Where can I read guidelines for docblocks? Especially regarding aligning different parts of docblock."
+Label: neutral
+Example Sentence: This should be part of the `ifeq (Linux,$(uname_S))` block."
+Label: neutral
+Example Sentence: We do not deobfuscate method names except through a renaming process using our internal tools. Make sure to remove any trailing whitespaces."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Is exec actually used anywhere besides in this file?"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: good app this app is excellent.....
+Label: positive
+Example Sentence: ? ok  preferred the last version but this is ok.
+Label: positive
+Example Sentence: best recharge app ever i nly use dis to recharge my phn. no need to waste energy goin to retailer shop. just add money type ur number n pres rechrg . dat simple. kip up da gud work. n lastly no extra chrage. n its available free.
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: cute love it so cute my family and friendz love it! so fun!!!!!!!  xx
+Label:
+ASSISTANT: positive

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In my experience people will fall back to never/Inf instead of thinking. So offering them that will only harm them."
+Label: negative
+Example Sentence: I think text/rtf is not part of the defaults, right? Make sure you add backticks around the option name (`AV::...escape_whitelist`). Wdyt about this:  ``` Add `ActionView::Template::Handlers::ERB.escape_whitelist`, that contains a list of mime types w"
+Label: neutral
+Example Sentence: What would seem to be going on here, is that he was banned because github feels humiliated about what happened here (see how popular this is on Y combinator's hacker news?), and is reacting emotionally or trying to save face at the expense of the truth.  "
+Label: negative
+Example Sentence: `@return $this` is definitely an invalid annotation; phpdoc will not expand it.  On Wednesday, February 6, 2013, Abdul Malik Ikhsan wrote:  > In library/Zend/Permissions/Rbac/Rbac.php: > > > @@ -23,7 +23,7 @@ class Rbac extends AbstractIterator > "
+Label: neutral
+Example Sentence: Perhaps simplest to delegate to Tuple3 here?  Something like:  ```scala def hashCode = (ivyPatterns, artifactPatterns, isMavenCompatible).hashCode ```  I will merge and then make this change myself if you agree."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: providers shouldnt have to have their own hacked name. this is a horrible approach"
+Label:
+[/INST]
+Negative

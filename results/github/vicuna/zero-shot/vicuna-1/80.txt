@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Turns out IE6 leaves a 1px faint trace of the text because `color:transparent` isn't supported by IE6/7/8 (but IE7/8 hide the text properly anyway). So if you to 100% remove any trace of text in IE6, you might have to throw an IE6 hack in there."
+ASSISTANT: The sentiment expressed in this sentence is neutral. The sentence simply states a fact about the behavior of IE6 and provides a suggestion for how to work around it. There is no particularly positive or negative tone to the sentence.

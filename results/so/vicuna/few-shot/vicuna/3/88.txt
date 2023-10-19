@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: You can achieve everything @Vadim Martynov's answer does with an additional type parameter and additional type constraints, and still receive compile-time verification.
+Label: neutral
+Example Sentence: After configure FILE_NAME to handle the payment process, following the instructions from here, I run my application and try checkout an order with paypal.
+Label: neutral
+Example Sentence: I have already created a custom access decision voter and using it in a custom access decision manager.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Well, the funny part is, we do not know.
+Label:
+ASSISTANT: neutral

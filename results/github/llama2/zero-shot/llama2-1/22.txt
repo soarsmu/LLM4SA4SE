@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This promise juggling seems quite brittle, whose responsibility is it to complete it? Is it safe to call the exception-throwing ``success`` | ``failure`` | ``complete`` methods etc.  How about having ``setMode`` return a Future[Boolean] instead, and doi"
+Label:
+[/INST]  Sentiment: Neutral
+
+The sentence expresses a concern about the brittleness of the promise juggling mechanism and seeks clarification on the responsibility for completing it. It also suggests an alternative approach where the "setMode" method returns a Future[Boolean] instead of throwing exceptions. Overall, the tone is inquisitive and exploratory, rather than positive or negative.

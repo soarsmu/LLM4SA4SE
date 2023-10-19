@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Don't forget to remove the comment if it's not used"
+Label: neutral
+Example Sentence: and u prefer what and why? "
+Label: neutral
+Example Sentence: Testing code is for chumps."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I may be reading this wrong, but it looks to me like you'll end up with unpredictable results when renaming a column while adding a column with the same signature. In that situation, you should probably explode and ask the user what to do.  Imagine I hav"
+Label:
+[/INST]
+negative

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Right .. we still have a few places where we didnt rename Account to User"
+Label: neutral
+Example Sentence: bad joke"
+Label: negative
+Example Sentence: Argh -- bad fix impression, my fix had the right paren in the wrong place!  I think this is better."
+Label: negative
+Example Sentence: you should not extend collectionType. This is not how the form type hierarchy works"
+Label: neutral
+Example Sentence: This is just to good to be true. I'm almost crying 'caus of joy. Thanks a lot, this makes life a lot easier!"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: @Skixbmc @Karlson2k  ```""%s\%s""``` should be ```""%s\\%s""``` right?"
+Label:
+ASSISTANT: neutral

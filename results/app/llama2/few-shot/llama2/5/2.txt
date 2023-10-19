@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ? not for motorola defy
+Label: neutral
+Example Sentence: widget locks up my galaxy s3 this a very beautiful looking app and i like it a lot but it regularly locks up the homescreen widget  the clock freezes and the weather status locks up with the status "locating". my phone is a samsung galaxy s3 running on 4.1.1 based in the uk. hope this info helps solve the issue as this app is definitely worth a full 5 stars if it were not for it locking up. please fix this and i'll even purchase the add free pro version ;-)
+Label: negative
+Example Sentence: excellent app! but add more! this is much better than samsung's equation detection but the only thing missing in this app is the lack of variety. just like in the note 10.1  please add more equations and have the ability to solve complex algebra. i'll be glad to pay for such a feature. makes work so much easier!
+Label: positive
+Example Sentence: what if you added a  feature to estimate your calories. when i miss a day (always horrible) the app assumes i ate nothing that day and my weekly nutrition does not include that day. the ability to assume an average of calories based on previous days would be incredibly helpful.
+Label: neutral
+Example Sentence: ? this game is awesome
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? freezes and force closes a lot on droid incredible
+Label:
+[/INST]
+Label: negative

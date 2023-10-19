@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I just noticed this: please change god_mode to override_state as in this change: https://review.openstack.org/#/c/156203/8/nailgun/nailgun/test/integration/test_capacity_handler.py
+Label:
+[/INST]  Sentiment: Neutral

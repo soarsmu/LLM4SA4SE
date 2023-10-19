@@ -1,0 +1,22 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+
+Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: Ah, that was my bad.
+Label: negative
+Example Sentence: Jonathan: over to you :)
+Label: positive
+Example Sentence: Sorry, probably a misunderstanding from my side....
+Label: negative
+Example Sentence: Django is a fullstack framework, Click is not.
+Label: negative
+Example Sentence: Thanks,
+Mayank
+Label: positive
+[/INST]Sure!
+</s><s>[INST]
+Sentence: Inserting timestamps automagically would be bad because it would limit a whole swath of use cases.
+Label:
+[/INST]
+Negative

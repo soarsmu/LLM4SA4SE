@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Shouldn't this and the following methods be called `openSession`, `closeSession` etc. to be consistent with the naming in the rest of the framework?"
+Label: neutral
+Example Sentence: Oh what a hack. Perhaps you should spawn gameobject 202275 instead :P"
+Label: positive
+Example Sentence: Ok, i would then prefer that the whole start stop time calc is done there. Don't have half in decode and half in get overlay."
+Label: neutral
+Example Sentence: Ooh, I did not know about ConcurrentHashtable yet. Why not use that for all the object-caching too?"
+Label: neutral
+Example Sentence: @Vasago: i tried to maintain (if i didn't made any mistake) the same restriction they had, with some changes. if a command .xxx has admin rights but .xxx yyy had player rights, now both are limited to admin. Before it was also useless to have player right"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: I agree with drogus. Seeing something specific to IE here seems fine to me."
+Label:
+ASSISTANT: neutral

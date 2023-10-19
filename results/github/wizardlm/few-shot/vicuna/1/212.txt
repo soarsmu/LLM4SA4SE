@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: If there's a good place to look for examples here, that would be helpful to me.  I'm thinking you're looking for a signature along the lines of:  ```scala  def onOpen(func: () => Unit)  // or  def onOpen[T](func: () => T)  ```"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: well since it's an undocumented feature, I'd say break it. To do it like Django does ;-)"
+Label:
+ASSISTANT: positive

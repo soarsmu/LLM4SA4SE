@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Kind of, the deserialization would fail at line 54, but I agree that we shouldn't allow that kind of tampering to pass the hmac check in any case.  Perhaps the best approach is to push this all into the cookie jar thereby not adding risks that we subtly"
+Label: neutral
+Example Sentence: don't bother. It happens now and then to implement something wrong (as hack), but replacing it with another hack won't happen :)"
+Label: positive
+Example Sentence: Yeah, I had it like this to start off with but I got carried away trying to make everything line up nicely. :)  I'll put it back how it was and see what you think."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Use the Ruby 1.9 hash syntax"
+Label:
+ASSISTANT: neutral

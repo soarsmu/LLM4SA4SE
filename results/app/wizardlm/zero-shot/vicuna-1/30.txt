@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: great app! i love this app! it's great to have my book lists with me wherever i go and i can easily keep track of which books i've read to each of my kids. one thing missing is the browse feature like the apple version has; i miss that! add that and i will rate 5 stars!
+ASSISTANT: The sentiment expressed in this sentence is (2) neutral. The user is expressing positive feelings towards the app, stating that they love it and find it useful for keeping track of their book lists. However, they also mention a missing feature (the browse feature) that they would like to see added, which prevents the sentiment from being classified as purely positive.

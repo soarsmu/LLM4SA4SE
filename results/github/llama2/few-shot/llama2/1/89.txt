@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: we are talking about a config/ directory under a bundle. How many config files do you here? One for the routing? One for your services? One for the doctrine metadata (and perhaps of few more if you use one file per entity)? That's not a lot of them."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yes, it did not cause message loss just unnecessary retransmits."
+Label:
+[/INST]
+Positive

@@ -1,0 +1,20 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: what means "error_expected" = "create". It's means there are nor error? then it's better to use None by default for self.input.param("error-expected", None)
+
+and you set string in error_expected by default value is boolean. python allows it but it's not good to change the type of variable
+Label: negative
+Example Sentence: Are we sure the the same set of changes are not required for other daemons as well?
+Label: negative
+Example Sentence: I believe you can only have one appender configured. The file based one is more useful to me, but maybe not to others.
+Label: non-negative
+Example Sentence: This file now has Windows line endings.
+
+@Jan: Could you verify that you have core.autocrlf=input configured in your Tycho repository clone?
+Label: non-negative
+Example Sentence: I think somebody just chose to put the AllTests class in a separate package from the other test classes.  I don't know why.  But they aren't integration-style tests; they seem to be closer to unit-style.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: The doc comments are inheritted from the parent class(es)
+Label:
+ASSISTANT: non-negative

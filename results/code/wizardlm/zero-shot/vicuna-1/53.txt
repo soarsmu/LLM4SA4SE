@@ -1,0 +1,9 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: How is determined which of the opcodes is actually taken during import of _xlfn.CEILING.MATH ? I think that's missing.
+
+Note that now that we use RID_STRLIST_FUNCTION_NAMES_ENGLISH_OOXML with the formula compiler, the tables in sc/source/filter/oox/formulabase.cxx are only provided for API support (of which we actually don't know if anyone is using it at all). Our internal OOXML import/export doesn't use them anymore, so any "only for import / only for export" usage needs to be implemented differently.
+ASSISTANT: The sentiment expressed in the first sentence is neutral. The user is asking for clarification on a specific aspect of the code, which is a common practice in code reviews.
+
+The sentiment in the second sentence is negative. The speaker seems to be expressing frustration or dissatisfaction with the current state of affairs. They mention that the tables in sc/source/filter/oox/formulabase.cxx are only provided for API support, and that they don't know if anyone is using it. Additionally, they state that any "only for import / only for export" usage needs to be implemented differently, which implies that the current implementation is not satisfactory.

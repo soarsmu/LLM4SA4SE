@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This || breaks -e. If you need this information you need to reimplement -e yourself.
+
+if ! go build -a std; then
+    failed=true
+    if $sete; then
+        exit 1
+    fi
+fi
+Label:
+[/INST]  The sentiment in the code review sentence you provided is:
+
+(3) Negative.
+
+The sentence expresses frustration and disappointment that the code is not working as expected, and suggests that the information provided by the `-e` flag is not reliable and needs to be reimplemented. The use of the word "broken" and the statement "you need to reimplement -e yourself" convey a negative tone.

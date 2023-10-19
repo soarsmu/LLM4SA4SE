@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Note that the byte is written as given; to write a character that will be translated according to the platform's default character encoding, use the print ( char ) or println ( char ) methods.
+Label: neutral
+Example Sentence: You could use a kind of strategy.
+Label: neutral
+Example Sentence: getQuestion and similarly with answer.
+Label: neutral
+Example Sentence: i try to return an output ( type date ) in a web service but i receive a weird result.
+Label: negative
+Example Sentence: The `API_NAME 'property represents an estimate of the number of words in the Word document.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: The maintainers' rationale is covered in the JSF specification.
+Label:
+[/INST]
+Label: neutral

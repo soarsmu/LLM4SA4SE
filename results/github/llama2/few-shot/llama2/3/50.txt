@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: whenever i see deleted code, i get all happy and stuff."
+Label: positive
+Example Sentence: Welcome back @homakov. FWIW you got your message across. Not sure you could have done it any other way. Take this as a lesson all you devs, take all your bug reports seriously."
+Label: negative
+Example Sentence: fantastic, thanks!"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @markstory To follow the [RFC 2109](http://www.ietf.org/rfc/rfc2109.txt) (section 4.3.1) the path should be the base path of the requested URL when not specified.  > Defaults to the path of the request URL that generated the > Set-Cookie response, up t"
+Label:
+[/INST]
+Positive

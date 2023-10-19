@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: only if abcnews.com changed their CSS earlier, this wouldn't have happened. sad day indeed :("
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as (3) negative. The use of the word "sad" and the phrase "sad day indeed" convey a negative emotional tone, and the statement implies that something undesirable has occurred (i.e., the change in CSS).

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: lol, maybe a forget by me, thanks for confirm that works North ^^  PD: still selling all things without achievement requirement? as I see this.. RequiredGuildLevel; RequiredAchievement;"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Label: Positive
+
+The sentiment of the sentence is positive because it contains a lighthearted expression ("lol") and a phrase expressing gratitude ("thanks for confirm"). The tone is also playful and casual, with the use of abbreviations like "PD" and "^". Overall, the sentiment is friendly and positive.

@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Not sure that assigning of null will help GC to collect node faster. Possible need to ask GC experts (like Gil Tene) to weigh all procs and cons. "
+Label: neutral
+Example Sentence: Ugh, sorry. I guess we're using  ```ruby `which pg_config`.chomp.empty? ```  in formula. My bad."
+Label: negative
+Example Sentence: This actually have a pattern name, but it is ugly and confusing: Flyweight factory"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think this may have broken something :("
+Label:
+[/INST]
+Label: negative

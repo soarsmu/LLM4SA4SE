@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: yep, it's work, but i need to add user and password for proxy connection=( Can u added this feature. May be --proxy=login:pass@server:port"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Label: Neutral
+
+The sentence expresses a request for a feature addition to an existing functionality, which is a common and acceptable use case. The tone is polite and professional, with a hint of formality, as the speaker is addressing a potential solution provider (the AI assistant). There is no negative or positive sentiment expressed in the sentence.

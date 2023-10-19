@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: should add more filters filters are a little lame and don't suit my pictures. if you add more filters  i'll rate it 5 stars &lt;3 and you should add more fonts  and unique features unlike other editing apps.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: this is really good this app is really good
+Label:
+[/INST]
+Label: positive

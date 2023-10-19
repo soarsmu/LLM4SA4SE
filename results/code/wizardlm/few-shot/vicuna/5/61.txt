@@ -1,0 +1,29 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Element. This one stuck out. I think the only ones to try to capitalize are "Allocation, Type, Element", since that trio is the dominant set of APIs for interacting with any sort of data from Java.
+Label: non-negative
+Example Sentence: frame := getcallersp(unsafe.Pointer(&siz))
+Delete next three lines.
+
+Also, given that now it's just the callersp, s/frame/sp/ everywhere, including in the defer struct field name.
+Label: non-negative
+Example Sentence: I still can't decide whether this belongs here or in superio/winbond/w83627hf/w83627hf.h ...
+
+This applies to every romstage.c in this changeset.
+Label: non-negative
+Example Sentence: should we mention the full classname here?
+TYPO3\Flow\Persistence\Doctrine\Service
+Label: non-negative
+Example Sentence: I think I have addressed this in the updated version too.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: This || breaks -e. If you need this information you need to reimplement -e yourself.
+
+if ! go build -a std; then
+    failed=true
+    if $sete; then
+        exit 1
+    fi
+fi
+Label:
+ASSISTANT: negative

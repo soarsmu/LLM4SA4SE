@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ? convenient but very unfriendly to the battery
+Label: negative
+Example Sentence: note 2 it's very useful to use........love it
+Label: positive
+Example Sentence: please just bring back the old maps!! how do you update a software and take away all the good features  while not adding any new ones?  i miss so many things.  the button that shows my entire route in nav  the option for other routes  the option to search while in nav for things in my route  the option to just view the map while nav is still running separately.  i use the gps a lot for work and this update is killing me.  i need old version of maps please
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? cute but eats up alot of battery.
+Label:
+[/INST]
+Label: negative

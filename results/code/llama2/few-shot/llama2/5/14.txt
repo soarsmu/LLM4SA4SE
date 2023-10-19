@@ -1,0 +1,25 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: There is a comma missing after share/gallery/sounds .
+Label: non-negative
+Example Sentence: Patch Set 1: Looks good to me, approved
+
+LGTM; and yes please do upstream.
+Label: non-negative
+Example Sentence: Should I fix this? or change it to a non-javadoc comment?
+Label: non-negative
+Example Sentence: Why do you set the value to true for the requiresAuthentication here since it is already set when you create the class !
+Label: negative
+Example Sentence: this is just a nit and I don't actually care, but I skimmed and noticed that  other operation strings were <verb>ing, eg 'Getting'. I'm not sure how consistent that is, or if you want them to be consistent.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Not currently. It's somewhat different from what the current reference data approach uses, as I guess that you would want to generate that state using some code that is not part of the test (since if you can generate the state with code that runs anywhere, you do not really benefit from serialization).
+
+Generic serialization is also a significant amount of code, even if straightforward (and with C++, it requires some careful thinking on what kind of constraints it enforces on the serializable types, unless you make the object itself responsible for the serialization).
+Label:
+[/INST]
+Label: neutral

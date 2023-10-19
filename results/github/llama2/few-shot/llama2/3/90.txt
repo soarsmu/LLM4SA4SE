@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Hooray!! Thanks everyone. :)"
+Label: positive
+Example Sentence: Using the standalone Form, I simply was trying this in Silex:   $extensions[] = new \Symfony\Bridge\Doctrine\Form\DoctrineOrmExtension($app['doctrine.orm.em']);  However, with this new registry argument, I don't understand which concrete class to insta"
+Label: neutral
+Example Sentence: wasn't wavpack.dll removed in favor of ffmpeg?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: why do you use uint32 in a for loop, when the counter can only be 10? this is senseless, isn't it?"
+Label:
+[/INST]
+Label: negative

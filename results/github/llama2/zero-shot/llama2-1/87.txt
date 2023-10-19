@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @dbjdbj -- i know, i actually like jdd a lot and was just giving him crap.  however, while i hate the jQuery.fn.jquery confusion, it's be even more breaking backwards compatible if we renamed it and/or moved it to a new location. If we think we want to d"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+2. Neutral
+
+The tone of the sentence is lighthearted and playful, with the use of "crap" and "d". The speaker is expressing their preference for a particular approach, but also acknowledging the potential drawbacks of that approach and the need to consider backwards compatibility. Overall, the sentiment is neutral and constructive.

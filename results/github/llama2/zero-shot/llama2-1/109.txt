@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why not a simple check for `null`? As the provider is injected in the constructor the object will be type hinted?  Is this to guard against people doing crazy things while extending the class?"
+Label:
+[/INST]  Sentiment: Neutral
+
+The sentence expresses a practical and logical question about the purpose of the null check in the code. The use of the word "crazy things" might have a slightly negative connotation, but the overall tone is neutral and inquisitive.

@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: :(  So we need to either port this file over to kernel style or not use goto's.  Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/
+Label:
+[/INST]  Sure! Here's the sentiment label for the given sentence:
+
+Label: negative

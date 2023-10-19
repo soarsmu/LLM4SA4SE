@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In the tutorial they are using ``Google plugin for eclipse ''to build and deploy the application on to the App Engine.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: How do I select which function is to be called during run-time?
+Label:
+[/INST]
+Label: neutral

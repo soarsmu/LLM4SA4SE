@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I need to correct myself: since the result of `nextSeq()` always goes into a `Some()` boxing will happen immediately anyway; an optimization would be to encode the optionality of a SeqNo by reserving `Long.MinValue` as undefined."
+Label: neutral
+Example Sentence: I'm curious about the performance implications of adding another call to the stack. "
+Label: neutral
+Example Sentence: @randx Shouldn't 'Resque' be changed here as well?"
+Label: neutral
+Example Sentence: :-( The trouble was mostly - I think - because I fucked up the commit and not the `PythonInstalled` requirement itself. I know quite a few people that use PyQt (or PySide) and the python support Homebrew provides. I am sorry this troubles you."
+Label: negative
+Example Sentence: 99c8399772701af9bf3c79e4c514aead57cdc7d6"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It'd be cool to make sure hashes work as well instead of just arrays. And arrays of hashes. (Mostly that liquid exposes them properly)"
+Label:
+[/INST]
+Label: neutral

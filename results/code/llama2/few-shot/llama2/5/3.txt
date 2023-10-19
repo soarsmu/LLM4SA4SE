@@ -1,0 +1,27 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Here we can assume that because the if statement above checks to see what extensions are enabled. If the config option has a single entry in the list, 'all', that means all extensions are supposed to be enabled on nova. 
+
+I just chose Hosts here because I wanted an extension that problem wasn't ever going to be removed. (also one that wasn't many characters)
+Label: non-negative
+Example Sentence: Yhis could be removed and use as parameter of the reset method.
+Label: non-negative
+Example Sentence: Please use import for java.util.Arrays, instead using explicitly here.
+Label: non-negative
+Example Sentence: Patch Set 12: Code-Review+2
+
+currently our enums reflect the super-set of the devices which are supported. yeah - we are not allow flexibility at this stage.
+Label: non-negative
+Example Sentence: use macro VKEY_FEATURES_INODE_QUOTA and VKEY_FEATURES_QUOTA
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It is possible to kept alcatel-lucent.xylan (and remove the other)
+
+Xylan has buy by Alcatel in 1999... (if i remember..)
+Label:
+[/INST]
+Sentiment: Neutral

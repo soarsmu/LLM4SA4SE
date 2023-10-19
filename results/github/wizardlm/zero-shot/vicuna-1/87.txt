@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: @dbjdbj -- i know, i actually like jdd a lot and was just giving him crap.  however, while i hate the jQuery.fn.jquery confusion, it's be even more breaking backwards compatible if we renamed it and/or moved it to a new location. If we think we want to d"
+ASSISTANT: The sentiment expressed in the given sentence from GitHub is (2) neutral.

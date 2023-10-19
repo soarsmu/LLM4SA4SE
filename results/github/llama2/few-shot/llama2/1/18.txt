@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: yeah, I agree it's kind of weird ... do want me to remove it?   I'll fix a new empty line that just [got in] (https://github.com/rails/rails/commit/b2a59388b2ad281ccce1f72dd5fda09ca746dc32#L0R29) today anyway..."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yes. Thinking about it again the best approach might be to remove the `Send` and, in the `encrypt` method, copy only the next `maxBufferSize` bytes from the write ByteString into a ByteBuffer from the pool and have the SSLEngine `wrap` these bytes into an"
+Label:
+[/INST]
+Label: positive

@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: nice.... ..... it is useful
+Label: positive
+Example Sentence: excellent app for galaxy s4 the major lack (to me) on my gs4 is that the home screen will not rotate to landscape mode. this app resolves the problem.  i have a feature request: the app has to be manually started each time the phone restarts  then the setting has to be selected  then the "close" button selected.   an autostart option with a selectable default mode would make this the ideal app.
+Label: positive
+Example Sentence: galaxy ace india is greatest
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? fails to download  phone has sufficient memory and specs!
+Label:
+[/INST]
+Label: negative

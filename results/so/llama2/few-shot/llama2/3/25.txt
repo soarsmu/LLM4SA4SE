@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Where is my mistake?
+Label: neutral
+Example Sentence: This means, that every time you will operate on the exact same object, that was originally injected on start.
+Label: neutral
+Example Sentence: Any help appreciated.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Good luck!
+Label:
+[/INST]
+Positive

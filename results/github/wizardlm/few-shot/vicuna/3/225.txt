@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: You fail to understand the spec, and instead of saying ""fair enough"" you pretend you've been bullied, claiming hostility. Countering inconsistent, incomplete arguments based on assumptions made from the suggestions made by bad tools is not bullying, it's r"
+Label: negative
+Example Sentence: great idea this. could be used to script arenas/bgs/opvp/wg instead of hacking up the core"
+Label: positive
+Example Sentence: I don't get why time utils was moved into XbmcThreads from CTimeUtils... The old location was much more logical :("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: You damn atheists! There is no hope for you in the afterlife."
+Label:
+ASSISTANT: negative

@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: DOH! I started that test before I realized that there was already a test, (named testDeactivatedUser), that just needed to be updated. I should have deleted the testLoginWithDeactivatedAccount function. I'll fix and send through another pull request."
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The user is expressing a realization that they made a mistake (DOH!) and acknowledging that they should have deleted a function, but there is no negative or positive emotion expressed. The tone is matter-of-fact and focused on resolving the issue.

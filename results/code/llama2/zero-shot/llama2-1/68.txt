@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This isn't C. Stop comparing it with C. What you are doing here with the brightness is just redefining the same thing. Both boards you touched have the same definitions for the brightness, \DSPC.BRTU and \DSPC.BRTD, so it makes limited sense to redefine them as something interim.
+Label:
+[/INST]  Sentiment: Negative
+
+The speaker is expressing frustration and disappointment with the current approach, suggesting that it is not productive to compare the current code with C and that the redefinition of brightness variables is not necessary. The tone is direct and critical, with a hint of sarcasm.

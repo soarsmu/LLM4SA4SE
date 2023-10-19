@@ -1,0 +1,16 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Modified from jpweeks's https://github.com/jpweeks/three.js/blob/particle-ray/src/core/Ray.js#L186-L216"
+Label:
+[/INST]  Sure, I'd be happy to help! Here's the sentence you provided:
+
+"Modified from jpweeks's https://github.com/jpweeks/three.js/blob/particle-ray/src/core/Ray.js#L186-L216"
+
+And here's my analysis of the sentiment expressed in the sentence:
+
+Label: Neutral

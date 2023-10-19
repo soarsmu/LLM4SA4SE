@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: hate the app love the moga and love the service  but this app is hideous
+ASSISTANT: The sentiment expressed in this sentence is mixed. The speaker has a positive sentiment towards the Moga and the service, but a negative sentiment towards the app. Therefore, we can categorize this sentence as having a mixed sentiment.

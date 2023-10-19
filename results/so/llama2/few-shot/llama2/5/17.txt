@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Our CODE_FRAGMENT was set to the internal host name.
+Label: neutral
+Example Sentence: Hoping to get an alternate approach or a small overview of AnchorPane constraints.
+Label: neutral
+Example Sentence: Then, I changed the client to use jQuery file upload.
+Label: neutral
+Example Sentence: Config example for spring is available at.
+Label: neutral
+Example Sentence: On the client side, you check the progress every few seconds until you see it's finished.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: To register the bean, try calling: CODE_FRAGMENT and pass a CODE_FRAGMENT you filled.
+Label:
+[/INST]
+Label: neutral

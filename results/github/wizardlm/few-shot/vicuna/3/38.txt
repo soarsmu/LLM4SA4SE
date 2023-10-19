@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: No, I am going to write the creator about this though, and will update the formula if they agree."
+Label: neutral
+Example Sentence: i build my project using maven so there is no ABS library folder per se (get recreated for each build) so this might not be applicable. thanks for your help anyway!"
+Label: positive
+Example Sentence: Can't you just revert this and take off all the bugs caused by this? It's insane.. :s"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Yep, will add in a separate commit.  Thanks for reviewing the code, it is really appreciated :)"
+Label:
+ASSISTANT: positive

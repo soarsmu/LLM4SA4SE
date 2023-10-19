@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: wow, that one is ugly, but I'll change"
+Label: negative
+Example Sentence: I'm amazed how someone could assume some gossip updates would affect a spell script :p"
+Label: positive
+Example Sentence: Stop using offline mode and you will be fine."
+Label: neutral
+Example Sentence: sorry, I added a note to this, but got lost when I forced pushed an update...the update kept failing for me in the update tests until I moved it up. Have no idea why, and is a bit disconcerting... "
+Label: negative
+Example Sentence: For those who were asking, it looks like this patch handles serialized columns, because Column#type_cast decodes encoded columns in current master.  This wasn't the case in 3-0-stable, which is why Valium's implementation is (only slightly) more involved"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: We need basepoint cache/saving :-("
+Label:
+ASSISTANT: negative

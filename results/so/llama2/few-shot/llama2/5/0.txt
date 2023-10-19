@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: System prints data like this.
+Label: neutral
+Example Sentence: A small description of application is as follow.
+Label: neutral
+Example Sentence: You can also invoke Future #isDone ( ) prior to Future #get ( ) to know if the processing is complete.
+Label: neutral
+Example Sentence: And here is how you can get back the term vectors from ES.
+Label: neutral
+Example Sentence: Databases are much better at handling data than Java.
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: They appear to have foresight about what the Map contains.
+Label:
+[/INST]
+Positive

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Solved, thanks again ;)"
+Label: positive
+Example Sentence: It should only search for 'core/Loader.php' as the Loader class can be extended."
+Label: neutral
+Example Sentence: Why abs if i is known to be negative?"
+Label: neutral
+Example Sentence: 1.8 is why we can't have nice things. :("
+Label: negative
+Example Sentence: Ah - at one point in the patches history, there was a new exception being raised; I just neglected to back out the PEP8 fixes."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Doh. Fixed!"
+Label:
+[/INST]
+Positive

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I guess I don't need to understand why one is better than the other :)
+Label: non-negative
+Example Sentence: I believe you can only have one appender configured. The file based one is more useful to me, but maybe not to others.
+Label: non-negative
+Example Sentence: i think there was a problem with d'tors as well. not too relevant, as we don't support unloading anyway.
+Label: negative
+Example Sentence: Understood. To me it would have been safer to keep the chain as is, but introduce the validation check explicitly, but if you think this is okay too, then I'll shut up.
+Label: negative
+Example Sentence: please update this at https://gerrit.ovirt.org/#/c/39024
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This is a special and important message. May be use something like P_MSG_STALE_HANDLE_REMOVE_FAILED here?
+Label:
+[/INST]
+Label: positive

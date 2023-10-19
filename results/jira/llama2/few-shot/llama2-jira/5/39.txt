@@ -1,0 +1,26 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+
+Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: I suspect it has nothing to do with the file system connector or Infinispan connectors, and is simply a (stupid) mistake in the federated join processor.
+Label: negative
+Example Sentence: Of course, StrFieldSource is a private class
+
+No it's not.
+Label: negative
+Example Sentence: This is only a problem with exceptions from java.
+Label: negative
+Example Sentence: http://svn.apache.org/viewvc?view=rev&revision=468444
+
+Deepal,
+Thanks!
+Label: positive
+Example Sentence: Thanks Jimmy.
+Label: positive
+[/INST]Sure!
+</s><s>[INST]
+Sentence: i found the class - so there is no bug - sorry
+Label:
+[/INST]
+Label: positive

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from APP reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: great app! i love this app! it's great to have my book lists with me wherever i go and i can easily keep track of which books i've read to each of my kids. one thing missing is the browse feature like the apple version has; i miss that! add that and i will rate 5 stars!
+ASSISTANT: The sentiment expressed in this sentence is (2) neutral. The reviewer is expressing appreciation for the app and its features, but also mentioning a missing feature that they would like to see added in order to rate the app more highly.

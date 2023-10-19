@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In principle LGTM but a regression test would be good, I'm not able to trigger a memory leak with getPeerCertificate()."
+Label: neutral
+Example Sentence: That's true, it is complicated. Maybe it's an idea for 3.1 ...."
+Label: negative
+Example Sentence: that's wrong. the encounter must start if someone pulls the trash in front of her."
+Label: neutral
+Example Sentence: WHEN REPORTING ERRORS, INCLUDE THE GOD DAMNED ERRORMESSAGE/COMPILERERRORS!"
+Label: negative
+Example Sentence: Well, the eventual goal is to have a full `git_clone` command in the API... But regardless, I'd say this needs to be exported. I'm sure somebody will want to implement some kind of whackass partial clone or the likes."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Lol, didn't see that one coming. I'm proud of you, son(s?)."
+Label:
+[/INST]
+Positive

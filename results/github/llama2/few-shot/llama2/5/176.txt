@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yeah, sorry you misunderstood me, I did not mean the script above, I mean scripts like Quests or even ""Bosses"". "
+Label: negative
+Example Sentence: These are the same as Ruby's. Awesome!"
+Label: positive
+Example Sentence: You could use `d3_selectRoot` here instead of creating a new element."
+Label: neutral
+Example Sentence: Hm, where are coderay options used in kramdown? http://kramdown.rubyforge.org/options.html"
+Label: neutral
+Example Sentence: Invalid doc reference:  user_guide_src/source/changelog.rst:209: WARNING: unknown document: libraries/encrypt  Should be <libraries/encryption>"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @turt2live No, that is not, this commit was. It is not my fault that my plugin now breaks, and it digs into NMS and OBC without using anything otherwise breakable, therefore it should not break. If Bukkit breaks it, Bukkit deals with it, that is a lesson y"
+Label:
+[/INST]
+Based on the given sentence, I would assign the label "negative" because the speaker is expressing frustration and defensiveness, and is blaming others (Bukkit) for the issue. The tone is dismissive and argumentative.

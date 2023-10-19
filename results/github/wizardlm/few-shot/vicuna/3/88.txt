@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: wonderful :) so problem still there but no solution... will try more things tomorow x_X impossible that we are alone with this problem...  edit: @VladimirMangos ""git diff remotemangos/master"" is also empty so far and as already told i fetched a new cl"
+Label: positive
+Example Sentence: It works, beacon now heals properly, but when a player puts beacon on someone, and heals someone else, it shows up that the player with the beacon is being healed by the player with the beacon, instead of the player casting the spell."
+Label: neutral
+Example Sentence: Guys, it's over. They do not want to hear your arguments. They will delete posts that come up with examples of where this commit will lead them. And they try to muzzle me because I already busted a gigantic hole through this commit with my artillery (NoVer"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: regex abuse.  just do: `process.platform.match === ""win32""`  also excessive parens"
+Label:
+ASSISTANT: negative

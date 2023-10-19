@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Turns out IE6 leaves a 1px faint trace of the text because `color:transparent` isn't supported by IE6/7/8 (but IE7/8 hide the text properly anyway). So if you to 100% remove any trace of text in IE6, you might have to throw an IE6 hack in there."
+Label:
+[/INST]  Sure! Here's the sentiment label for the given sentence:
+
+Label: negative

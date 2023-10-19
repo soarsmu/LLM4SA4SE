@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Little typo in commit message: ""have been **taken** from retail"".  P.S: Damn my bad english...."
+Label: negative
+Example Sentence: come on - friendly pets make presents to their owner sometimes!"
+Label: positive
+Example Sentence: That would violate the **DRY** convention. That is how the encoder retrieves options at the moment, but only for a single value. I don't think it makes sense to repeat the same block three times if they are all going to do the same (getters/setters)."
+Label: neutral
+Example Sentence: well true but there are a lot of zones that are currently not assigned to graveyards while they do have graveyards on retail so i believe that this commit will cause a big problem if the DB team won't start working on it  for instance, there are some par"
+Label: neutral
+Example Sentence: no seriously what does this do ??"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yup, knew I'd forget something..."
+Label:
+[/INST]
+Label: negative

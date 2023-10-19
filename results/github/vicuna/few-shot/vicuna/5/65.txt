@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Don't forget: V8 is smarter than us all :P"
+Label: positive
+Example Sentence: I hate you guys. :( I removed all tabs at once and re-done them manually as I copied the code from a version with too many tabs!"
+Label: negative
+Example Sentence: @phene Ouch!  @mschulkind and @phene, I am very willing to break backward compatibility. @mschulkind nailed it when he said ""I fear there is code out there relying on this"". Given that someone will complain, which users do we not want to complain? What ar"
+Label: negative
+Example Sentence: I've played with the proxy class loader idea but it doesn't quite work (I suspect ObjectInputStream).  The main difference is that with the Java Hack the code operates directly with the targeted class loader i.e. Remote or Original. But with the Proxy it "
+Label: neutral
+Example Sentence: indentation"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: that seems like a bug!"
+Label:
+ASSISTANT: negative

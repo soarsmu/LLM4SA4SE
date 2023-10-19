@@ -1,0 +1,24 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Same remark here. Please write here why this routine does it.
+Label: non-negative
+Example Sentence: The CherryPick RESTApi acts on revisions (e.g. patchsets), not Changes. Just like the review RestApi does. Hence I don't think that it should go into ChangeApi. Look at the REST-url, and you will see it differs quite from the other RESTFul commands in ChangeApi. If you still want me to add it to ChangeApi, I can do that. But this is how I reasoned about where to put it.
+Label: negative
+Example Sentence: I personally hate this! commands should not go to a redirected file.
+I think your redirect options should be off, on, verbose - and only verbose should add commands
+Label: negative
+Example Sentence: Hi Tobias,
+
+Can you please fix the spaces here?
+
+i.e. for ($i = 0; $i < count($record->userids); $i++) {
+
+Thanks,
+Ghada
+Label: non-negative
+Example Sentence: Maybe name this installToDispatcher() or something like that? I had a hard time understanding all the different classes.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Style: Given totalCount is guaranteed to be zero here, just return zero - it's clearer to the reader what's being returned.
+Label:
+ASSISTANT: non-negative

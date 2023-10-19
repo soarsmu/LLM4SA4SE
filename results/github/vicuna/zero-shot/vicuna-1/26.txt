@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: @ProLoser What?! This is no Mac vs PC argument! I'm merely mentioning that presumably the default colour should be the native colour of the platform with the most marketshare. Oh well, I suppose it's not too important :-S  (Also I'm saddened that you fou"
+ASSISTANT: The sentiment expressed in the sentence is neutral. The speaker is simply stating their opinion on a matter and does not seem to be expressing strong positive or negative emotions.

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: No, they don't release stable packages :(  They just recommend building from bazar.  There is a stable tree which I tried first but doesn't build on OSX, which is why I'm using the testing tree."
+Label: negative
+Example Sentence: @dmethvin Ok ok :P  ![drclaw](https://f.cloud.github.com/assets/4303/1188033/df33612e-23af-11e3-9e61-a54e04eb02e2.jpg) "
+Label: positive
+Example Sentence: Why you think using ImmediateEventExecutor is wrong ?"
+Label: neutral
+Example Sentence: Yes, I'm ok with making DecoderInterface extend EncoderInterface, because that makes sense and clarifies how it is. The alternative is just more wasteful and complex for almost zero benefit (you still can implement an encoder/decoder that throws an except"
+Label: neutral
+Example Sentence: I think we need a default implementation of this interface available -- and perhaps two (one for FirePHP 1.0, one for the pre-1.0 version). That way, developers will not need to create it themselves, and it can be a drop-in solution."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: You can do this in one action:  ```ruby args += [""--with-ssl"", ... ```"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yes, I think it does make sense to add scope and response_type (and more generally, anything from the oauth2 spec) to the base class.    (and in case you missed it I had another comment in the diff from before, about the use of parse_qs_bytes vs json)"
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as:
+
+(1) Positive.
+
+The speaker is expressing agreement with the idea of adding scope and response_type (and other OAuth2 spec parameters) to the base class. This suggests a positive sentiment towards the proposal.

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from APP reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: great job! this is a super app  very useful and user friendly  easily personalized and adjustable. it works for me anyway. helps you stay on track and see how much time you are spending or wasting. if you forget to start it or want/need to input an activity/event you are tracking time for  it's easily done manually. "notes" space is useful for more detail/info associated with a specific day's task. so many ways this can be used to track time spent on tasks and projects for business  personal  family  pleasure  etc.
+ASSISTANT: The sentiment expressed in the sentence is (1) positive.

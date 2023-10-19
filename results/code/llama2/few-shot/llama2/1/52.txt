@@ -1,0 +1,25 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Looks like here it's too late to set the response status. When I'm reaching this code I'm getting:
+
+WARN  org.eclipse.jetty.server.HttpChannel : /oauth?code=7eefeb8697212b7c62c2&state=wjm3XI24hnUc7A2fbZ0JaLOjmVkrEQxOMidLRy50Zfg%2C%2Flogin
+java.lang.IllegalStateException: Committed
+  at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1253)
+  at org.eclipse.jetty.server.Response.sendError(Response.java:567)
+  at org.eclipse.jetty.server.Response.sendError(Response.java:544)
+  at com.google.gerrit.httpd.auth.github.GitHubLogin.login(GitHubLogin.java:68)
+  at com.google.gerrit.httpd.auth.github.OAuthWebFilter.doFilter(OAuthWebFilter.java:78)
+  at com.google.gerrit.httpd.RunAsFilter.doFilter(RunAsFilter.java:117)
+  at com.google.gerrit.httpd.AllRequestFilter$FilterProxy$1.doFilter(AllRequestFilter.java:64)
+  at com.google.gerrit.httpd.AllRequestFilter$FilterProxy.doFilter(AllRequestFilter.java:57)
+  at com.google.gerrit.httpd.RequestContextFilter.doFilter(RequestContextFilter.java:75)
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Style: Given totalCount is guaranteed to be zero here, just return zero - it's clearer to the reader what's being returned.
+Label:
+[/INST]
+Label: positive

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: We need only one copy of it - it perfectly fits to be static.  Other solutions looks like a workaround/hacks: make variable non-static and create static instance of class to have only one unique non-static member variable.  We don't need constructors, d"
+Label: neutral
+Example Sentence: He said it's disturbing, not that he wouldn't accept it. I agree, it's disturbing.  The idea of having to destroy and recreate an entity just to get it to change orientation is a ridiculous concept.  However, I see why it was done for Paintings; Because"
+Label: negative
+Example Sentence: weird, when I tried last time, it feared all npcs around me..."
+Label: negative
+Example Sentence: Commoners need a major revamp, we are doing it totally wrong. This solution is enough (**for now**)."
+Label: negative
+Example Sentence: That's weird. It works for me locally:  ``` mbp:activerecord godfrey [3-2-stable_restore_frozen_state_on_rollback] $ rvm 1.9.3 mbp:activerecord godfrey [3-2-stable_restore_frozen_state_on_rollback] $ ARCONN=postgresql ruby -Itest test/cases/transactions_te"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Blame on me for that...  Sorry >.<"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Is there a specific reason why you didn't keep the backward compatibility with a signature like `protected function outputRoutes(OutputInterface $output, $routes = null)`, and a test on $routes? That would have been particularly useful for FOSJsRoutingBund"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Modified from jpweeks's https://github.com/jpweeks/three.js/blob/particle-ray/src/core/Ray.js#L186-L216"
+Label:
+[/INST]
+Based on the given sentence, I would assign the label "neutral" as the sentiment is factual and informative, without any apparent positive or negative tone.

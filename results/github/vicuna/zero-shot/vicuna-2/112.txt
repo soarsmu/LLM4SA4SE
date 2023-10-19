@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: pet::Update call Creature::Update and in creature update before chnages exist explcit assign different value to regentTimer In some cases Pet regen timer updates conflict with unexpected Creature updates and timer never set less that normal diff values. "
+ASSISTANT: The sentiment expressed in this sentence is (2) neutral.

@@ -1,0 +1,23 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Because SQL migrations requires it for work on the ec2 credential table.
+Label: non-negative
+Example Sentence: For those tracking trunk, we cannot delete this migration.  Just need to make a new migration that migrates the data and then drops this table.
+Label: non-negative
+Example Sentence: the propvalue parameter type is not quite idiomatic ;)
+
+In general - since this method gets called multiple times, prolly worth buffering the xml ...
+Label: non-negative
+Example Sentence: i would suggest LG_MSG_INVALID_ARG instead in all the places
+Label: non-negative
+Example Sentence: I think I have addressed this in the updated version too.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think this switch statement is getting big enough that this dissector should create a dissector table and have these dissectors register with it, not the other way around.
+Label:
+[/INST]
+Label: positive

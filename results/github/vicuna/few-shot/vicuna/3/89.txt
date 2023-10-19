@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: When you mount a flying mount( :P) and dismount mid air you are able to continue flying, like if it was flyhack. Then you dont lose the flying abilities until you relog."
+Label: positive
+Example Sentence: these objects has appeared as destroyed even if they doesn't"
+Label: neutral
+Example Sentence: big thanks. but typo - controLLed, not controLed :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Yes, it did not cause message loss just unnecessary retransmits."
+Label:
+ASSISTANT: neutral

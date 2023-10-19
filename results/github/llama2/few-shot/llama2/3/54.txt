@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Don't put this on the prototype.  People will get clever with it."
+Label: neutral
+Example Sentence: > and you need the erasure to match the inherited implementation  Isn't that what bridge methods are for? The erased signature in the superclass can be more specific than the corresponding signature in the superclass."
+Label: neutral
+Example Sentence: It invokes `git-tracker help`, which just spills a message to standard out. The test then assert that the expected help text was written to standard out.  We used to have sub-command, `test-command`, which did basically the same thing, and only existed "
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Alright, that's just sad."
+Label:
+[/INST]
+Label: negative

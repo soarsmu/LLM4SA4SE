@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Isn't the Config callback sufficient? It sounds tricky that a returned Config is valid only until the Config callback is called. If possible I prefer limiting the Config's life inside the Config callback and letting users maintain a copy of some info based on need.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I think this switch statement is getting big enough that this dissector should create a dissector table and have these dissectors register with it, not the other way around.
+Label:
+ASSISTANT: positive

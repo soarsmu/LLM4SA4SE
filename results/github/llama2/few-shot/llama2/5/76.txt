@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Thx, I also fixed this."
+Label: positive
+Example Sentence: damn I need to configure spelling in emacs, this is embarrassing..."
+Label: negative
+Example Sentence: @rsa Do not worry at all :) Though I didn't enjoy all of your comments you did usually comment about content which I respected and often considered important feedback. Me not continuouing here has nothing to do with you nor your actions at all. "
+Label: positive
+Example Sentence: :( this I really don't understand...  CLM.h includes Common.h, which includes ""Utilities/UnorderedMapSet.h"" where UNORDERED_MAP is defined  Hmm, maybe the problem is that ObjectGuid is not defined. Can you check with #include ""ObjectGuid.h"" in CLM.h ?"
+Label: negative
+Example Sentence: The issue is, if you encode / as %2F, apache just returns a 404, so this breaks everything. Also the routing allows you to change the requirements of a {var} to `.+`, in which case you can do stuff like: `/foo/{url}` and that matches `/foo/http://foo.com/`"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I would say take out the province of China thing since it offends so many people. Also, the ""what about Kosovo?"" argument, well, that's a what if, the whole point of Getting Real is very anti-what-if. Deal with that if and when it happens. Worst-case scena"
+Label:
+[/INST]
+Sentiment: Neutral

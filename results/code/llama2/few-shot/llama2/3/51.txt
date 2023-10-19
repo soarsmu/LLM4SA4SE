@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Not sure why all these if statements are necessary... see the definition for optional_str() on line 579
+Label: negative
+Example Sentence: My point is that div_fsys1 is probably a fixed size as defined by the data sheet, and an unsigned int is not. So if it's a 32 bit value, as suggested by the fact that you're reading it with readl below, you should use uint32_t to ensure it's the right size. That struct might need to be fixed up too.
+Label: non-negative
+Example Sentence: Change looks fine, but please fix up this bad rebase.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: this should better be moved to a signal in IWizardFactory then, I suppose. but different patch.
+Label:
+[/INST]
+Label: neutral

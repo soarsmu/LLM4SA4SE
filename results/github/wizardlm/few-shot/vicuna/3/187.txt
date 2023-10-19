@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Shouldn't this decorator live in `django.contrib.auth` somewhere instead of here?"
+Label: neutral
+Example Sentence: It is a bad idea to increment the id because this will generate unnecessary diffs when new translations will be added by dumper.  This is the reason I said the id should be a hash of resname or equal a resname attribute"
+Label: negative
+Example Sentence: hmm, not so sure it would actually help; I’d leave this in as a marker for potential benchmarking sessions, though"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Let's please assume this didn't happen"
+Label:
+ASSISTANT: Label: neutral

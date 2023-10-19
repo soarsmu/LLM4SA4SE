@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: That shouldn't be an issue though.
+Label: neutral
+Example Sentence: Problem solved.
+Label: positive
+Example Sentence: Its CODE_FRAGMENT method performs the CODE_FRAGMENT / CODE_FRAGMENT test described in the assignment.
+Label: neutral
+Example Sentence: For me this worked.
+Label: positive
+Example Sentence: Then I tried my own implementation with CODE_FRAGMENT and CODE_FRAGMENT classes.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: You might also want to look at an API like Netty, which I believe saves you from having to write logic to re-construct messages.
+Label:
+ASSISTANT: neutral

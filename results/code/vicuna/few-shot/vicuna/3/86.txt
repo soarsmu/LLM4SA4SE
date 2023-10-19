@@ -1,0 +1,14 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Using a direct english string here means it can't be translated :-(
+
+You can do a grep for e.g. RID_SVXSTR_LOAD_ERROR for a sample trivial translatable string example you can follow to get a translatable string here
+Label: negative
+Example Sentence: I don't believe that typename is needed here since there is a template present.
+Label: negative
+Example Sentence: I would very much appreciate a better name/doc/higher-level-interface. Which are the keys and the values of this map?
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I just noticed this: please change god_mode to override_state as in this change: https://review.openstack.org/#/c/156203/8/nailgun/nailgun/test/integration/test_capacity_handler.py
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,10 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: is there some missing code here that should go along with these Name objects?  Persimmon has some methods that go along with these.  Might be worth looking in to.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: How is determined which of the opcodes is actually taken during import of _xlfn.CEILING.MATH ? I think that's missing.
+
+Note that now that we use RID_STRLIST_FUNCTION_NAMES_ENGLISH_OOXML with the formula compiler, the tables in sc/source/filter/oox/formulabase.cxx are only provided for API support (of which we actually don't know if anyone is using it at all). Our internal OOXML import/export doesn't use them anymore, so any "only for import / only for export" usage needs to be implemented differently.
+Label:
+ASSISTANT: non-negative

@@ -1,0 +1,18 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: Excuse me for stolen assignement.
+Label: negative
+Example Sentence: Sorry about that...
+
+http://bit.ly/12UiaS
+Label: negative
+Example Sentence: I didn't know we needed to retain backwards config capability across 3.x to 4.x  :-(  That sucks and it'll make old code stick around longer.
+Label: negative
+Example Sentence: My bad.
+Label: negative
+Example Sentence: Imo all this just doesn't make sense from a pure performance aspect.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Cool, will do!  Thanks for the review and good questions... and the whole idea! :)
+Label:
+ASSISTANT: positive

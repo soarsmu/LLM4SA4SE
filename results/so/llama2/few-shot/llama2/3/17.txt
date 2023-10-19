@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: FILE_NAME project is called Osmosis and contains 2 packages search and common.
+Label: neutral
+Example Sentence: A workaround might be to use reflection, however this isn't a generally recommended approach for a number of reasons ( brittleness, performance problems, breaking encapsulation, etc ).
+Label: negative
+Example Sentence: Not sure why but I am getting following error from my FILE_NAME.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: To register the bean, try calling: CODE_FRAGMENT and pass a CODE_FRAGMENT you filled.
+Label:
+[/INST]
+Positive

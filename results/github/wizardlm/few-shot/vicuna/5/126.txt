@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This statement seems moderately misleading considering node.js does support client certificates?  I understand what is trying to be stated, maybe it just needs a different wording about the most common use cases."
+Label: neutral
+Example Sentence: Yeah. I thought the same thing. I'll change it now"
+Label: neutral
+Example Sentence: yup, could keep them together in a Tuple2 also  This has the down side that several competing threads would do the same hashing work, this is on the sender side so it's probably not usual to have many threads using the same actorRef  I think it would be p"
+Label: neutral
+Example Sentence: const_cast is mostly const_hack as for me"
+Label: neutral
+Example Sentence: No matter, easy enough to add back in as needed :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: I was a bit hesitant to use the boost libs here.  I think a lot of the string trimming code is duplicated in the `utils/monogutils/str.h` file, and should be replaced with boost--after all, we're already using boost here.  Let me know what you think--I rea"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Good call, it wasn't encoded before, looking into why..."
+ASSISTANT: The sentiment expressed in the sentence is (2) neutral. The sentence contains a positive phrase ("Good call") but also a neutral phrase ("looking into why...") which balances out the overall sentiment.

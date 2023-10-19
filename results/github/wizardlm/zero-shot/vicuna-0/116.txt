@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: love that one! I also like this one: find + map = collectFirst   On Thu, May 30, 2013 at 1:07 PM, Patrik Nordwall <notifications@github.com>wrote:  > In project/Publish.scala: > > > @@ -102,6 +103,11 @@ object Publish { > >    def akkaCredentials"
+ASSISTANT: The sentiment of the given sentence is positive.

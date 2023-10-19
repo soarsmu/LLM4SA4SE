@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ugly hack is ugly. I will fix it."
+Label: negative
+Example Sentence: Lots of scripts have to be redone / cleaned up, take a look at Ignis, and particularly the related achievements. Let him take his time ;')  And Lopin, don't forget the base SQL updates ^^  Thank you for your hard work :)"
+Label: positive
+Example Sentence: 99,5% surely is "
+Label: neutral
+Example Sentence: Scripting libraries need to be adjusted accordingly. <= NoFantasy will be ""happy"" with this patch, thats for sure =)"
+Label: positive
+Example Sentence: Sorry :("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: We really need to fix this intermittent test failure.  It seems like the test hangs randomly."
+Label:
+ASSISTANT: negative

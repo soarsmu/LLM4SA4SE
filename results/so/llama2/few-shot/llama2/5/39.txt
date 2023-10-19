@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Declare below string FILE_NAME.
+Label: neutral
+Example Sentence: If you mean ``direct ''ByteBuffers, there's a put method which accepts other CODE_FRAGMENT instances so you can copy around.
+Label: neutral
+Example Sentence: Anyway, their current behavior does not allow what you want.
+Label: negative
+Example Sentence: And here is the FILE_NAME.
+Label: neutral
+Example Sentence: Consider the following two Java regular expressions: CODE_FRAGMENT and CODE_FRAGMENT.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: So my Stream was finally.
+Label:
+[/INST]
+Label: neutral

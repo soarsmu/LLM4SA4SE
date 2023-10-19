@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Oops sorry holic, added an extra l by mistake >_<"
+Label: negative
+Example Sentence: i cant log into the wiki :[ ive talked to kingpin about getting me access again"
+Label: negative
+Example Sentence: I don't like exposing this idiom in our public API.  Let's just make retain() non-final and override return types manually."
+Label: negative
+Example Sentence: Congratulations, Lightguard! A new dev in the house! /cheers"
+Label: positive
+Example Sentence: Cool, it's great to see this headed toward Promises/A!  I think it's gonna become the norm for multiple promise implementations to be in play in any reasonably interesting app.  I found a situation where I believe it still isn't fully compliant, so I creat"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: love that one! I also like this one: find + map = collectFirst   On Thu, May 30, 2013 at 1:07 PM, Patrik Nordwall <notifications@github.com>wrote:  > In project/Publish.scala: > > > @@ -102,6 +103,11 @@ object Publish { > >    def akkaCredentials"
+Label:
+ASSISTANT: neutral

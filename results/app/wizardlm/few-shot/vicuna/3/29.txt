@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: fantastic it's realy good app
+Label: positive
+Example Sentence: far from as cool as smartglass i went with a ps4 rather than the xbox one  but i do miss smart glass. they need to make this app enable the voice features  and things like the store should be built-in  not a browser link.
+Label: negative
+Example Sentence: compass compass is good
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: ? turns for a tablet  good deals all around.
+Label:
+ASSISTANT: positive

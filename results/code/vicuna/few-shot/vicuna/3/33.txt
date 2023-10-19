@@ -1,0 +1,19 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This should be:
+
+'fields' => array('socialprofile'),
+
+since everything (the old messaging system info and the new social profile websites) is now 'socialprofile'.
+We differentiate among these with 'note' field.
+Label: non-negative
+Example Sentence: Please add the comment to say that new_filename will be ignored in the auto compaction mode.
+Label: non-negative
+Example Sentence: I do not like (long) very much, but that is something in the inode_ctx API :-/
+
+Maybe I find the courage one day to make it a (void*) instead.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I guess this must be an unsigned integer because of the way we shift bits in the next file. However, in that case the width too is likely important, and I would suggest using gmx_uint32_t for clarity.
+Label:
+ASSISTANT: non-negative

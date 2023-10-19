@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: :( I'd rather like to see it replaced, not removed. Now it's a clear regression."
+Label: negative
+Example Sentence: Some comments in here would be awesome"
+Label: positive
+Example Sentence: yes, it's possible to define other impl in config, and then it must gave constructor with ActorSystem parameter, and I wanted this one to follow the same rules. I can add a comment about that reason."
+Label: neutral
+Example Sentence: No, git will always put correctness first over optimization. So we will check if the file is binary, even if it means loading the whole thing in memory (but if you _have_ a streaming API, then obviously you should only load the first 4K to make that deter"
+Label: neutral
+Example Sentence: Yes, Tuple please.  Just realized that there is a race when removing nodes otherwise, that could make you get a removed node from the `consistentHash`."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Let's go with `ensure_reset_password_token!` here too. You can also change the line 47 of this file to call this new method. :)"
+Label:
+ASSISTANT: positive

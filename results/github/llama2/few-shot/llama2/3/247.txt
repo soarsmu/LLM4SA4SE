@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: So write a tiny bit of code to rename the nms/obc references to their versioned counterparts and unleash it on your 'trusted' plugins. Feel free to make a public tool out of it as well and perhaps keep a 'you can hackily update the plugin using this tool'-"
+Label: neutral
+Example Sentence: So yes, ```libssh2_userauth_publickey_fromfile``` wraps ```libssh2_userauth_publickey``` but if you have already read and parsed the key, no need to go back to the disk and parse it again."
+Label: neutral
+Example Sentence: Instinct: I'm not sure this is the best option. It means that you need to control message implementations to be able to use them for consistent hashing. Same issue as with putting equals, hashCode etc in Object. I propose to seed the Router with either a "
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Blame on me for that...  Sorry >.<"
+Label:
+[/INST]
+Label: negative

@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from APP reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: one thing missing i really like this app. simple user interface and works smoothly. espn should add a feature to notify you when your current selection is finished. that is the only thing missing.
+Label:
+[/INST]  Sure! Here's the sentiment of the review:
+
+Positive. The user likes the app's simple user interface and smooth performance, but suggests adding a feature to notify users when their current selection is finished.

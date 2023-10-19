@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Its simple, duplicating the entire encoder API inside the Serializer to add the possibility of decoder only doesnt seem sensible, given that encoding is in most (all?) cases easier and more important than decode. So we simply make the decision to keep it "
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This is just another of the things I noticed and fixed while this pull request was waiting. I don't believe I can create multiple pull requests with the different bits so it got included here.  The reason for this change is that the cookie_expiration_pe"
+Label:
+[/INST]
+Positive

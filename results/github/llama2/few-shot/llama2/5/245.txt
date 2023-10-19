@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: What is this step doing?  The backtick syntax captures the output into a string, so things that need to be executed in the shell and where you're *not* using the stdout should be done as:  ```ruby system ""go get jp"" ```"
+Label: neutral
+Example Sentence: Ungrateful fags"
+Label: negative
+Example Sentence: I'll just add a couple of points, in case this is still relevant:-  * Regardless of whether you think Rails should handle this differently, this is not a ""0 day attack"" or an exploit of a ""Rails security hole"". The mechanism to secure Github is there wit"
+Label: neutral
+Example Sentence: Awesome"
+Label: positive
+Example Sentence: It looks like the url user/repo/zipball/master is now working. It wasn't working back when this issue was opened, therefore we changed the github url where we get the archive from. Unfortunately the structure of the archive is slightly different when downl"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Wow.. Thank you for putting this together.  I have been pulling my hair out for a bout a day or so now.  My application was failing to properly clear logged out users...etc.  I am going to download this and check it out to see if it solves the problem I "
+Label:
+[/INST]
+Positive

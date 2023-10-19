@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: isInUse()"
+Label: neutral
+Example Sentence: @agrobbin if you put a sample application on github that reproduces the issue, we would love to take a look at it too!"
+Label: positive
+Example Sentence: On Tue, Jan 3, 2012 at 6:50 AM, Josh Suereth < reply@reply.github.com > wrote:  > I saw it in the sample.  It's not enforced though.  I really wish git > commit hooks could be attached to remote repositories and mandated to each > member so we *could* enf"
+Label: neutral
+Example Sentence: Yeps. Idea is that email is required only to create new user. Authentication do not require it (if user is found)."
+Label: neutral
+Example Sentence: @dhh if rbenv is the only Ruby selection tool endorsed by Rails then why not just say so?  Your passive approach is generating insane amounts of discussion."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I know it's tempting, but I'm worried about false positives."
+Label:
+[/INST]
+Label: neutral

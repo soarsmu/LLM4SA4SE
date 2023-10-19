@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: To register the bean, try calling: CODE_FRAGMENT and pass a CODE_FRAGMENT you filled.
+Label:
+[/INST]  The sentiment in the sentence is (2) neutral. The language used is direct and factual, providing a clear instruction without expressing any emotion or opinion.

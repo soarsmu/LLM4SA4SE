@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: The "git commit" line needs a continuation character to include the following '-m' line.  However, you should be able to fold the entire commit message into one quoted string starting on the above line.  Be sure to leave the second line blank.
+ASSISTANT: Sentiment: neutral

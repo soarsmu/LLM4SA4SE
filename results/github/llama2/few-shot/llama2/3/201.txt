@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: something went wrong in this commit  i already have a fork and I'm not sure exactly how to deal with branches well enough to try and fix it :("
+Label: negative
+Example Sentence: So... did you bother looking at the follow up commit that fixed this? Less noise please."
+Label: negative
+Example Sentence: My point was that there’s no need for:  ```js var gaJsHost = ((""https:"" == document.location.protocol) ? ""https://ssl."" : ""http://www.""); ```  The scheme-relative URL in `g.src = '//www.google-analytics.com/ga.js';` wouldn‘t work correctly over HTTPS, eit"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: fork commits get applied much quicker than a diff in a ticket.. :)"
+Label:
+[/INST]
+Positive

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @brikou: You are using this branch and it doesn't work?"
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(2) Neutral.
+
+The sentence is a statement of fact and does not convey any positive or negative emotions. It simply informs the user that they are using a specific branch and that it does not work. The tone is informative and matter-of-fact, with no hint of criticism or judgment.

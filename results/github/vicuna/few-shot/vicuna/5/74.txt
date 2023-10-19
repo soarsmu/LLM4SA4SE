@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: has this been tested on windows? i thought there was some logic to only apply this for *nix"
+Label: neutral
+Example Sentence: When I did my sweep of dead code, I was pretty aggressive. Some things which were plausibly useful, just not yet being used, were included."
+Label: negative
+Example Sentence: could be  -- also it looks like the clock was ahead (it was on a windows 7 laptop I rarely use) so that's why these commits come out for today, but I think they were made a while back.  The important stuff is done after those weird commits, in these commit"
+Label: neutral
+Example Sentence: that exception in postRestart would be the direct equivalent of a `require()`; I’d include it to be sure"
+Label: neutral
+Example Sentence: @piscisaureus, @HenryRawas   I think you can just link in the object files like I'm doing in config-unix.mk  https://github.com/joyent/libuv/blob/49a2ed61204baecb10b616d1a738a922cb10d4b3/config-unix.mk#L39"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: @Tobion and what if `$e->getCode()` returns an airplane? Your exploratory testing skills are amazing. If only those could be translated into test cases :)"
+Label:
+ASSISTANT: negative

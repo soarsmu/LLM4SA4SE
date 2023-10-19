@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: where size is not the issue, and performance is not a big deal like in test, please use range() to mainatain future compat with python3
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: divider/spacer not needed any more - spaces should be created by t3skin itself
+Label:
+ASSISTANT: Sentiment: positive

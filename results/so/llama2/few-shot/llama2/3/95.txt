@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: You could check whether your CODE_FRAGMENT also is an instance of CODE_FRAGMENT.
+Label: neutral
+Example Sentence: I still think it's not the best design, but I did quite a bit of testing and can say with a good bit of confidence that it had no real impact on performance.
+Label: positive
+Example Sentence: InsertandRetriveBlobData.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: You may try like this.
+Label:
+[/INST]
+Label: neutral

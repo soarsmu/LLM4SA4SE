@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I'm pretty sure it's the line endings."
+Label: neutral
+Example Sentence: `brew audit sc` and remove this version if it is not needed."
+Label: neutral
+Example Sentence: I don't see the problem - it is restricted to the admin role due to the ""as: :admin"" on the next line. This change whitelists the attribute for code that is executed with the admin role only.  Where could this be abused? Using it still requires an expl"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: lol, maybe a forget by me, thanks for confirm that works North ^^  PD: still selling all things without achievement requirement? as I see this.. RequiredGuildLevel; RequiredAchievement;"
+Label:
+[/INST]
+Label: neutral

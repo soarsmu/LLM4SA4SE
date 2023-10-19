@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why does everyone who hacks on Jekyll have to use the same Ruby version? Jekyll is [supposed to be compatible](https://github.com/mojombo/jekyll/blob/cc0f84197afc4b73781e2a800ea4d1990605981b/.travis.yml#L2-5) with all sorts of Rubies.  I think this file "
+Label:
+[/INST]  Sentiment: Neutral

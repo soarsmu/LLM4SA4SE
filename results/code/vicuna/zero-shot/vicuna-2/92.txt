@@ -1,0 +1,7 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: I think that's just a mistake in make.bash.  It's better to fail fast and minimize distractions to stderr when you know you've already lost.
+
+I'd say add an exit failure here and then submit. If you feel strongly about keeping it as-is, you can submit this too and we can fix them both later if we decide to.
+ASSISTANT: The sentiment expressed in this sentence is neutral.

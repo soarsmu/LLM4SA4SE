@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: We will need to agree in that we disagree :).  For a public API, you can read ""in_seconds"" either in the parameter name or the documentation. It's about the same effort. And you are not even going to write the parameter name! But on the other hand having"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Shouldn't this always be `""1.0""`?  The rest of the `tornado.auth` code is pretty much hardwired to handle either version 1.0 or 1.0a, and if we always need to send 1.0 in the 1.0a case, all cases are covered.  This also makes the `_oauth_version_to_send()"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Make it a `git__memzero` then and let's ship this.  The idea of allocating SSH credentials even when SSH is not available sounds just reasonable to me. Specially since you can also check for SSH availability using the `git_libgit2_features` api call."
+Label:
+[/INST]  Sentiment: Positive

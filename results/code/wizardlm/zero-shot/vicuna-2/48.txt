@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Right, changing an SwField, which is part of the document model during export is bad. An export operation should just read the document model and serialize it in some format. Can't you set m_bCitation depending on what the field type is? Just put a breakpoint on the SwField constructor, get a backtrace and see where it's created -- hopefully the caller knows the field type.
+ASSISTANT: Sentiment: Negative

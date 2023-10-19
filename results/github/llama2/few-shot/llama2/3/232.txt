@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence:  @burnham There is not a single creature that have deathstate set :) There was one before this commit (34297), but i could not find that creature in any sniff (a full sniff of kologarn encounter), so he was removed in 2011_06_27_06_world_creature.sql."
+Label: positive
+Example Sentence: I think we can just remove it..   Am 01.10.2012 um 10:42 schrieb Jestan Nirojan <notifications@github.com>:  > In codec/src/main/java/io/netty/handler/codec/sctp/SctpMessageToMessageEncoder.java: >  > > + > > +package io.netty.handler.codec.sctp;"
+Label: neutral
+Example Sentence: In fact it's shameless copy-paste from the code above the line (see lines 195-201). I am with you on that, fixing"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: If this is only used in one place for one usage I'd rather just use ConcurrentHashMap and make sure that whatever gets put into it only has identity equality defined"
+Label:
+[/INST]
+Label: neutral

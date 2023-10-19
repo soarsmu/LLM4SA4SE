@@ -1,0 +1,18 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It'd be cool to make sure hashes work as well instead of just arrays. And arrays of hashes. (Mostly that liquid exposes them properly)"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the given sentence:
+
+Label: Positive
+
+Reason:
+
+* The user expresses a desire to have hashes work properly, which suggests that they are interested in using the feature and have a positive attitude towards it.
+* The user also mentions "arrays of hashes," which implies that they are looking for a specific functionality that is not currently available, and are hoping to see it added in the future. This shows a proactive and curious mindset, which is generally considered a positive trait.
+* The user's tone is constructive and solution-focused, as they are looking for a specific solution (i.e., "make sure hashes work as well") rather than complaining about a problem. This suggests that they are motivated to find a solution and have a positive outlook on the situation.

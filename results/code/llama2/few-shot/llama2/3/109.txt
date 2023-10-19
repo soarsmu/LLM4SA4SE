@@ -1,0 +1,19 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: When you move a host to maintenance then that calls disconnectStorageServer which should remove this definition so in general this shouldn't affect anything negatively.  The case where this would remain is in case of an error flow where for some reason it wasn't disconnected properly or something.  Even if that happens, it's not that interesting as a few leftover connections shouldn't affect the host negatively (think about FC where the host is always connected).
+The advantage is that most of the time (since hosts don't move between DCs very often) the host would automatically reconnect whenever it reboots (e.g. due to sanlock fencing) and it would be available to engine almost immediately reducing recovery time.  Imo that is more important.
+See oVirt Bug 881941 - After a reboot of both engine and vdsm domains take a long time (15 minutes) to recover
+Label: non-negative
+Example Sentence: it's just not correct to skip ./.. in OSP because it doesn't know whether this is a stripe or just regular directory which we can access via OSP.
+Label: negative
+Example Sentence: I agree that a trailing "or" is missing here (though defining a function is_configured and putting the grep's in it would have been better than any commenting. I cannot say that I like duplicating bash logic in English)
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: docstrings please and thank you :D
+Label:
+[/INST]
+Label: positive

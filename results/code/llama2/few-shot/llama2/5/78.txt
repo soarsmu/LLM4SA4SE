@@ -1,0 +1,43 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Looks like the null should be dropped. Previously it was null for the attributes, then Evonne added {'class': 'title'}
+Label: non-negative
+Example Sentence: I suggest to add a wrapper class like \F3\FLOW3\Persistence\ObjectStorage and keep the API attach() and detach() stable.
+Label: non-negative
+Example Sentence: If all you are doing here is testing that the object returned by Network.get_by_id is passed to the allocated_fixed_ip() method properly along with some other arguments, the more clean and canonical way of doing that would be this:
+
+ @mock.patch('nova.objects.Network.get_by_id',
+              return_value=mock.sentinel.network)
+ def test_add_fixed_ip_instance_using_id_without_vpn(self, get_by_id_mock):
+     net_id = networks[0]['id']
+     with mock.patch.object(self.network,
+                   'allocated_fixed_ip') as allocate_mock:
+         self.network.add_fixed_ip_to_instance(self.context, FAKEUUID, HOST, net_id)
+     get_id_mock.assert_called_once_with(self.context,
+                net_id, project_only='allow_none')
+     allocate_mock.assert_called_once_with(self.context, FAKEUUID,
+                            mock.sentinel.network, address=None)
+Label: non-negative
+Example Sentence: Nit: While assimulating is a word that seem to exist, my only association was that it was a misspelling of assimilate. This leads me to believe that it's a word that non-native English readers might have trouble interpreting the right nuance of. This is the commit message however, so in this case it isn't the end of the world, not many will read it compared to the actual guide. :)
+Label: non-negative
+Example Sentence: > The flag package is ideally only imported in main.
+
+Where did this notion of "ideal" come from?  The advice I usually hear (and give) is: don't register flags except from the main package, because you're mutating a global variable.
+
+This utility function doesn't touch any global variables.  Isn't its purpose pretty obvious from the usage example above?
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: follow up? hate all this stuff getting bikeshed for weeks for that sort of thing.
+
+can you also check out 6465, 6463.
+Label:
+[/INST]
+Sure! Here's the sentiment analysis of the given sentence:
+
+Label: non-negative
+
+The sentiment of the sentence is non-negative. The speaker expresses frustration with the idea of getting bogged down in discussions about minor details for weeks, but the tone is not overly negative or critical.

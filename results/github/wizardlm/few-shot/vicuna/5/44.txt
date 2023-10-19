@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I'm really liking the block string syntax here. Very readable :)"
+Label: positive
+Example Sentence: Oh nevermind - I get it.  The patch says `@@ -1026,6 +1034,9 @@ bool InDomain() { ` but really this is in MakeCallback. Good!"
+Label: positive
+Example Sentence: Also a good point, I think I prefer `whenStarting` and `whenStopping` to make it clear that the callback is executed before that overall action is finished."
+Label: positive
+Example Sentence: beeing => being and singup => signup ?"
+Label: neutral
+Example Sentence: Why not just unregister the on end handler after the first call? No pushing, no slicing, easy. Or maybe I'm missing what this does."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: simply unbelievable! :-( something must have changed a file of my repo. :-( after resetting the file to a older version the above things are not used in this file... :-( sorry, perhaps a merge fault - i don't know... :-("
+Label:
+ASSISTANT: negative

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: all_hashes"" method is gone with this merge. Is this ok?"
+Label: neutral
+Example Sentence: Sad day indeed... "
+Label: negative
+Example Sentence: Yeah, this was bad copy/paste.  But I don't quite understand how using a data URI is going to improve cacheability if it's present in the HTML of every page. Seems like an externally linked resource would function much better."
+Label: negative
+Example Sentence: whoops, my bad"
+Label: negative
+Example Sentence: Ok, I'm an idiot for not checking. This isn't Mac specific, because Travis isn't happy."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Why not a simple check for `null`? As the provider is injected in the constructor the object will be type hinted?  Is this to guard against people doing crazy things while extending the class?"
+Label:
+ASSISTANT: neutral

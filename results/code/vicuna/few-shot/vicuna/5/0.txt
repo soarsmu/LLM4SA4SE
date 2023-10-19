@@ -1,0 +1,34 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: That's not what I was saying. Just like
+public static float getMdpiScaleFactor(Density density) {
+ if (density == Density.ANYDPI) {
+   density = Density.XXHIGH.getDpiValue();
+ }
+ return density.getDpiValue() / (float) Density.MEDIUM.getDpiValue();
+}
+
+But whatever, it's not a big deal.
+Label: negative
+Example Sentence: Please explain on why it is been taken out from the switch case below.
+Label: non-negative
+Example Sentence: Looking at all *Listener.java files in our source tree I see the following two cases:
+
+* a listener is just notified that an event happened but cannot do anything to prevent/block that event. In that case the listener doesn't throw any checked exception(s). Examples: GitReferenceUpdatedListener, HeadUpdatedListener, AuditListener, ...
+
+* a listener can block the event. In this case the listener throws a checked exception which is on the same level of abstraction as the listener interface. Examples: CommitValidationListener throws CommitValidationException, MergeValidationListener throws MergeValidationException, ...
+
+Since this listener is not intended to validate/block a group membership change(s) it belongs to the first category and shouldn't throw any exception.
+Label: non-negative
+Example Sentence: I'd have to dig a bit deeper into the blame history of this file to find out. As we can see at line 154 it's being deliberately kept open, rather than as an oversight.
+
+If it needs fixing it can be done in a follow-up change.
+Label: non-negative
+Example Sentence: The type would be TestNamespace::PtrSecCertificateGetData vs PtrSecCertificateGetData though.
+
+I suggest moving the typedefs below the QT_BEGIN_NAMESPACE at line 94. Feel free to ignore this suggestion though since it's valid C++ either way.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: If we agree to always treat a single number as JSON even if the client doesn't enable datatype support, then we can always set its datatype to JSON regardless of that.
+Label:
+ASSISTANT: non-negative

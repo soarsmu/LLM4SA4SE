@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Thanks for updating these!"
+Label: positive
+Example Sentence: I understand. In that case, we would need to have a gui setting to hide/show 1-movie sets. IMO, to most users it won't make much sense having their sets list polluted with those..."
+Label: negative
+Example Sentence: Thank you Vlad. Your contribution to Mangos and TC will be remembered. I admire you so much."
+Label: positive
+Example Sentence: Oh, thank for explain.. but still, there is not ""slice"" symbol in core? I think yes (but don't verify) :-)"
+Label: positive
+Example Sentence: The includecode thing is an addition we have done. It is compiled and run in the ordinary builds, not in the sphinx make phase. Yes, it suddenly make the documentation much more maintainable and also serves the purpose of user api verification.  Thanks for"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Github ate my comment. Let's try this again: ================================  I don't understand this commit. I just did: <pre><code> >> alternate = ActiveSupport::OrderedHash[1,2,3,4] => #<OrderedHash {1=>2, 3=>4}> >> alternate.class => ActiveSup"
+Label:
+[/INST]
+Label: negative

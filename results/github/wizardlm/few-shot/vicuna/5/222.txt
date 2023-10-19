@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: OK, I think I see. Gonna try moving them inside the class as statics anyway, which seems better."
+Label: neutral
+Example Sentence: Please keep the old signature and add a new one.  We should probably set the default less strict."
+Label: neutral
+Example Sentence: Mozilla build creates symlinks for all files in the ""dist"" folder hierarchy - Pathname.install copies the symlink, not the actual file referenced... hence the hack with using cp instead of install."
+Label: neutral
+Example Sentence: @BillyGalbreath I'd be on 1.4.2-R0.2. Which I am. ^_^ "
+Label: positive
+Example Sentence: @rsa Then suggest one, don't be a dickass once again."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: May be this way more true... zergtmn - sorry, not player mount, vehicle (from ulduar)."
+Label:
+ASSISTANT: neutral

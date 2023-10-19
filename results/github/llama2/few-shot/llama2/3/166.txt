@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I am not sure what people are planning with Bukkit, will it later serve Asteroids too, or the Spout server? Or is it just one of these brain games some project lead people come up with after some time, preferably when things get tedious or nasty."
+Label: negative
+Example Sentence: Cant push from here but:  -- Remove hack gameobject_template and spawn correct one  DELETE FROM `gameobject_template` WHERE `entry`=300149; DELETE FROM `gameobject` WHERE `id` IN (300149,202275); INSERT INTO gameobject (`guid`,`id`,`map`,`spawnMask`,`phase"
+Label: neutral
+Example Sentence: We don't do checkstyle in tests... not remember why anymore.. @trustin ?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: SWEET.  I'll take a look"
+Label:
+[/INST]
+Positive

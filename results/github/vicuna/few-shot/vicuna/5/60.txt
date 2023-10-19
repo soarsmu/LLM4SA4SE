@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This leaves the MySQL password in the output of ps. The same is true in the case of the environment variable used for postgres."
+Label: neutral
+Example Sentence: the default name should be changed to something more intuitive"
+Label: neutral
+Example Sentence: Not at all -- I just hadn't considered that an empty hash isn't supposed to pass. No one was harmed under this particular pile-on :)"
+Label: positive
+Example Sentence: Feels good man."
+Label: positive
+Example Sentence: hi! what was the reason why you reverted the fix in ce9b22e038ca16b581a16722436327bef206cbdf with this commit, @gameoverhack? See also #559"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Ok, I'll fix them."
+Label:
+ASSISTANT: positive

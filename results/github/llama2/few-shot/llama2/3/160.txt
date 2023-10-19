@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I think we need to wrap the input data so that we store the result on invoking the value accessor. This way, you can have a non-deterministic value accessor (such as returning a random number). Also, this way we don't overwrite any fields in the current d"
+Label: neutral
+Example Sentence: IMO really we shouldn't maintain the BC for this. Make the return of this function too weird.  boolean for some values that are too integers, PHP allows this behavior but is really weird the method signature"
+Label: negative
+Example Sentence: Yeah - I'm just trying to kill stylistic bugs. I'm reverting some of the changes as I find them. What's annoying is the test suites run fine on my laptop but are failing in Travis"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: As this discussion is now officially over, I can finally resume my opinion without having to be neutral!  This commit was liked by staff so they would get fewer complaints, and liked by terrible developers because they never use CraftBukkit anyway. Thats"
+Label:
+[/INST]
+Label: positive

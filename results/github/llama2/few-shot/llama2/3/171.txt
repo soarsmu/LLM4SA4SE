@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: good catch, thx"
+Label: positive
+Example Sentence: seems to be http://twitpic.com/99jcvh/full ![wdt](http://d3j5vwomefv46c.cloudfront.net/photos/full/560215277.png?key=1025257&Expires=1334495541&Key-Pair-Id=APKAIYVGSUJFNRFZBBTA&Signature=JzOTz5ngixLV~-a7HTyoxZwaNmdS3LGs2boVL09dcETGBZKhDOlD41hxCNylilQYDkp"
+Label: neutral
+Example Sentence: since always one drives the other you could also make a non-blocking implementation (CAS-loop for updating the routees and the winner sets the hash)"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Awesome! I hope you are also considering using only Cmake on Windows because that really makes the work of developers much easier :)"
+Label:
+[/INST]
+Positive

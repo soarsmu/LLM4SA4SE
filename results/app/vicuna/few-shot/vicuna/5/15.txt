@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: love this game. always wi.. love this game. always winning and opening new games. here it is a year later and i'm still loving this game. even though it takes a lot of memory.
+Label: positive
+Example Sentence: bug fix keep it up !
+Label: neutral
+Example Sentence: tabby cat fun and easy you can sing and make music your own way. :)
+Label: positive
+Example Sentence: slow  no point. the viewfinder display is really laggy and slow.  doesn't seem to offer any creative black and white features so how does it improve over just desaturating color photos?
+Label: negative
+Example Sentence: well.. it was awesome .. i do like the new look   but now it also now gets "unexpected errors "and hitting retry just gets the same.  won't work til you clear the data out in settings.. but doing that all the time is annoying. please fix this issue!
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: littlenikki tracks sometimes freezes or skips for some reason!
+Label:
+ASSISTANT: negative

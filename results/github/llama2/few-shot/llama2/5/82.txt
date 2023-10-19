@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: My mistake. Once again. *sigh*  Fixed!"
+Label: negative
+Example Sentence: Added Björn to trust list :)"
+Label: positive
+Example Sentence: Having GetFileName() return an urldecoded name for internet streams seem valid.."
+Label: neutral
+Example Sentence: It's not much, but there is http://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions"
+Label: neutral
+Example Sentence: it was copy-pasted from the old code :\ thanks"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Shouldn't this be after if (unitTarget->GetTypeId() == TYPEID_PLAYER)?"
+Label:
+[/INST]
+Negative

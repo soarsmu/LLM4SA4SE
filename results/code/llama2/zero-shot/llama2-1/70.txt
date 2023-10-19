@@ -1,0 +1,16 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Is there a function for this query already? or should we make one for future?
+
+It is just that this is quite a big block of code, and would be more readable factored out
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Sentiment: Neutral
+
+The sentence expresses a question about the existence of a function for a specific query, and the possibility of creating one for future use. The tone is objective and factual, with no apparent emotional tone or bias. Therefore, the sentiment of the sentence is classified as neutral.

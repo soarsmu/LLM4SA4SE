@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: bug my mobile is moto g only my voice only it is recording unable to record the second person voice please fix the bug.
+Label: negative
+Example Sentence: excellent calculator this is an excellent floating calculator  in spite of some (minor) shortcomings. it has all the features that one would want in a small calculator that can be used while one is using other apps. the lack of memory functions is easily overcome with the use of parentheses  and with these  the copy function is more than adequate for most purposes. one useful feature which it does not have at the moment  is the ability to paste/insert data copied from  say  a text file. this would make it possible to use earier results stored in a text file. nevertheless  this is an excellent app  and the developer should be congratulated for a job well done  and for generously making it available a no cost.
+Label: positive
+Example Sentence: i like t this game is cool
+Label: positive
+Example Sentence: compass compass is good
+Label: positive
+Example Sentence: ? not for motorola defy
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: fun slots that's it. fun slots. what more do you want? :)
+Label:
+[/INST]
+Label: positive

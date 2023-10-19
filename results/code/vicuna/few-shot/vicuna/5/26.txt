@@ -1,0 +1,26 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Hi Tobias,
+
+You've got a typo (lenght -> length):
+
+i.e.
+if (firstChildSel.length < 1) {
+
+Thanks,
+Ghada
+Label: non-negative
+Example Sentence: The problem is, at the opensource side, if this breaks the app, people will try to debug it by themselves or worse they will just give up and do not update to the latest GWT version - I don't want that to happen, especially for this release.
+
+On the other hand if somebody hits the problem, it is easy to point them to the workaround. This is not ideal situation but that is what I prefer right now.
+Label: non-negative
+Example Sentence: I prefer the increased type safety of enum classes.
+Label: non-negative
+Example Sentence: ... quite contrary to cases where the string is only compared (or appended to non-empty), in which case QLatin1String is more efficient ...
+Label: non-negative
+Example Sentence: Hmm, what is this misterious newly to be created LangID value? I've put 452 but I'm not sure...
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: this could probably be determined dynamically at build time. but not in this patch.
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: @kandera: I know that 3rd party scripts are not official supported - That should be only a information for user that has ChaosUA script in use :-) -> I like this script and it's IMHO great and stable. "
+ASSISTANT: The sentiment expressed in the sentence is positive. The speaker is expressing appreciation for the ChaosUA script and stating that they find it great and stable.

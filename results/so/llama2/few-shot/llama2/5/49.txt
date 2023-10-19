@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: On Facebook i ran in to a problem.
+Label: negative
+Example Sentence: As I read more into the article, I see that there is an API that looks like this.
+Label: neutral
+Example Sentence: Every intermediate operation of CODE_FRAGMENT, such as CODE_FRAGMENT or CODE_FRAGMENT is actually just some kind of setter that initializes the stream's options.
+Label: neutral
+Example Sentence: Now you can use.
+Label: neutral
+Example Sentence: But now, I have also integrated PowerMock in it.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Your API_NAME is messed up and doesn't list dependencies properly.
+Label:
+[/INST]
+Negative

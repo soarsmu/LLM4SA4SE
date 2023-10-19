@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Also can be written as:  ```ruby class UserLogin < UserBasic   expose :private_token end ```"
+Label: neutral
+Example Sentence: Oh, that's sad :( I don't know if I supposed to do so many commits, but I will do it anyway."
+Label: negative
+Example Sentence: OK, but I just discovered the built binaries this way behave differently. :( Seems like further investigation is needed."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Mmmm, good idea."
+Label:
+[/INST]
+Positive

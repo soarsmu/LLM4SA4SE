@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: > Why are you reviewing the first commit and not the latest?  @rwldrn, Because I'm a jerk."
+Label: negative
+Example Sentence: Hi Vibul,  Yes.  Let's remove WebSocketHttpResponseDecoder.  It would be great if you could fix it up and check any possible regressions.  Here's the new commit which handles 101 code more precisely: 279d859c7ef09f69a64f2a7627660cdfe008fe9c"
+Label: positive
+Example Sentence: This change at such a late time (just before RC/release) looks scary to me"
+Label: negative
+Example Sentence: Thank you"
+Label: positive
+Example Sentence: should probably read: `@return ExtensionInterface|null The default extension or null if no extension should be loaded automatically`"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: @ProLoser What?! This is no Mac vs PC argument! I'm merely mentioning that presumably the default colour should be the native colour of the platform with the most marketshare. Oh well, I suppose it's not too important :-S  (Also I'm saddened that you fou"
+Label:
+ASSISTANT: neutral

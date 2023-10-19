@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Using the code above, it should look like this.
+Label: neutral
+Example Sentence: So you can easy reduce count of objects by factor two ( one byte [ ] instead of pair String + char [ ] ), and array length of UTF-8 symbols usually less than length of UTF-16 chars.
+Label: neutral
+Example Sentence: With the new design, they could also support other encodings in future.
+Label: positive
+Example Sentence: Use API_NAME ( ) instead of API_NAME ( ) to load the extracted binaries.
+Label: neutral
+Example Sentence: So yes, you need to keep track of the position yourself.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: I understand the boolean expression here.
+Label:
+ASSISTANT: neutral

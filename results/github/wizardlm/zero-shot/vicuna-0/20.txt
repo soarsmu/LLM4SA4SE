@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: Yes, I think it does make sense to add scope and response_type (and more generally, anything from the oauth2 spec) to the base class.    (and in case you missed it I had another comment in the diff from before, about the use of parse_qs_bytes vs json)"
+ASSISTANT: Sentiment: positive

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Thank you, Adam ;)"
+Label: positive
+Example Sentence: We can drop this. It's more or less a relict from the process of creating this formula."
+Label: neutral
+Example Sentence: Yeah. I thought the same thing. I'll change it now"
+Label: neutral
+Example Sentence: @envygeeks It would seem that you know more about regular expressions than I do. I wasn't aware of that, thank you. I'll go ahead and revert this change. If you'd like to audit any other regular expressions in Octopress, I'd appreciate your input."
+Label: positive
+Example Sentence: Good stuff!"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Wouldn't be better to just `clear` the hashes in these methods instead?"
+Label:
+ASSISTANT: neutral

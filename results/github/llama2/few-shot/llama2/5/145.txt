@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Hm, where are coderay options used in kramdown? http://kramdown.rubyforge.org/options.html"
+Label: neutral
+Example Sentence: maanuel pickup machine gun and tra-ta-ta tra-ta-ta ;)   anyway thx kandera for bug finding )))"
+Label: positive
+Example Sentence: Congratulations!"
+Label: positive
+Example Sentence: @Darkhand81  They are refusing to answer that. :("
+Label: negative
+Example Sentence: @GarretSidzaka with all due respect, none of your comments are contributing a single thing to this discussion and it looks like you are either misinformed or do not understand the situation at hand. At this point you are simply spamming this discussion and"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Will this not break SSL?"
+Label:
+[/INST]
+Label: neutral

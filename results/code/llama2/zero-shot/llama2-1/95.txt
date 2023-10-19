@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: The word "Selected" should be capitalized. I'm unsure of the use of "Area" here, BTW. Maybe "Cut Selection"?
+Label:
+[/INST]  Sentiment: Neutral
+
+The sentiment of the sentence is neutral because it is providing a suggestion for improvement, but it is not expressing any strong emotions or opinions. The use of "BTW" (by the way) and "Maybe" also suggest a casual and neutral tone.

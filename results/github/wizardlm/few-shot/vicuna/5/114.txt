@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: yeah ""Redunction"" was too overpowered. Nerf was totally needed :D"
+Label: positive
+Example Sentence: Ok.  When we see the ""WHY ISN'T THIS WORKING"" email, I'll cc you."
+Label: neutral
+Example Sentence: We still need to inject the locator, once we know we have a valid controller."
+Label: neutral
+Example Sentence: Is there any reason not to use `array` type hinting for array arguments (`$parameters`, `$cookies`, etc.)?"
+Label: neutral
+Example Sentence: :smile: most epic quote ever!"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: It passes.  But instead, I included a test that is divorved from the standard library (ie, it doesn't depend on the signature of `Option#getOrElse`). It was more convenient to test for an error due to failure to eliminate a tail call than to check for s"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,26 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: You can simply use here $GLOBALS['TYPO3_LOADED_EXT']
+It is initialized in the bootstrap. Basically this global does not need initialization. And extension could still use it in ext_tables and ext_localconf.
+Label: non-negative
+Example Sentence: where do these section come from - the linker feeling clever?
+Label: negative
+Example Sentence: * Bumping the schema number forces a reindex to pick up the new file format.
+* LuceneChangeIndex has:
+
+    this.useDocValuesForSorting = schema.getVersion() >= 16;
+Label: non-negative
+Example Sentence: How is 'bbox' supposed to be encoded for transmission over http?  Currently its encoded as a Javascript array, which is probably why its not behaving as expected.
+Label: negative
+Example Sentence: I agree with Thomas.  We should benchmark if it doesn't make a measurable difference, we should get rid of the customization if that's the only reason for us to have this file.
+
+I expect by now more time has been spent optimizing the JDK's HashMap than has been spent on com.google.gwt.dev.util.collect.HashMap. :)
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: This is more obvious in this file than the other. You should be escaping the periods in your regular expressions. I know that it will match the period in the URL anyway, but we want it to *only* match the period.
+
+Also, you should use specific matches for scid, height and width, rather than the period (match anything). Assuming that you're just matching numbers, '[0-9]+', or tentatively '\d+' would be better here.
+
+One more thing, if these sites provide copy-and-paste embed tags, these matches will need to be able to deal with those too - currently they look like they will just modify the URL in-place, and this is definitely not what we want.
+Label:
+ASSISTANT: non-negative

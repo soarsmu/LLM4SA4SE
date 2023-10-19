@@ -1,0 +1,10 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: what about Jigal's comment "Copying an array for the sake of a variable name is a waste of resources IMO." ?
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Not currently. It's somewhat different from what the current reference data approach uses, as I guess that you would want to generate that state using some code that is not part of the test (since if you can generate the state with code that runs anywhere, you do not really benefit from serialization).
+
+Generic serialization is also a significant amount of code, even if straightforward (and with C++, it requires some careful thinking on what kind of constraints it enforces on the serializable types, unless you make the object itself responsible for the serialization).
+Label:
+ASSISTANT: neutral

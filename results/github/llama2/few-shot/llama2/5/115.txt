@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: DoCast(colossus, SPELL_MERGE, true); is too hack :P  but that problem is in CheckCast for SPELL_EFFECT_CHARGE (i think is bad pos z)"
+Label: neutral
+Example Sentence: @ cryptix The user might not be a root, but he might have sudo privileges, because he might be in the admin group that is in the sudoers, but not necessarily root, in fact if the user is root there will be other issues, so its better to check for sudo priv"
+Label: neutral
+Example Sentence: Agreed with Vincent-Michael, at the moment many of those scripts were written people did not know how the spell system should work, as an example you can take script for righteous defense, which is an extreme violation of spell system rules."
+Label: negative
+Example Sentence: mhm, yeah, good to know :) thanks, Kaelima & QAston :)"
+Label: positive
+Example Sentence: jajajajajajajajaja xD ""Happy for sure"""
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: encrypted?"""
+Label:
+[/INST]
+Label: neutral

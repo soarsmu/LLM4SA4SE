@@ -1,0 +1,23 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Same caveat here about indexOf() and Search() results.
+Label: non-negative
+Example Sentence: This should be just 'Authentication required' to make the message consistent with other REST endpoints.
+Label: non-negative
+Example Sentence: So does this method import to both the in memory cache and the disk cache? If so, that would be the source of some performance hits. 
+
+This method should:
+1. Add the image to the in memory cache synchronously
+2. Add the image to the disk cache asynchronously
+
+If it doesn't do this currently, lets split the logic up now.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I'm not sure we would ever remove this. When running the Super Dev Mode from a static html page instead of a server, people link directly to .nocache.js, so it should always exist.
+Label:
+[/INST]
+Label: non-negative

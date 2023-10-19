@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+
+Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: In this case, data would pretty much just silently be lost.
+Label: negative
+Example Sentence: Not only it's the first one in my life I'm seeing multiple ways of closing the same thing, it also conceals programming errors.
+Label: negative
+Example Sentence: Thanks Karl.
+Label: positive
+[/INST]Sure!
+</s><s>[INST]
+Sentence: If you know of a way, please describe it.
+Label:
+[/INST]
+Label: neutral

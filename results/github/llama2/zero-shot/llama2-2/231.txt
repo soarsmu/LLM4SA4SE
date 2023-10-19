@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Aren't we just interested in the first match with hash >= the message hash for less than 100 nodes?   `ring.find({case (h, n) => h >= hash }).getOrElse(ring.head)` "
+Label:
+[/INST]  Sentiment: Neutral

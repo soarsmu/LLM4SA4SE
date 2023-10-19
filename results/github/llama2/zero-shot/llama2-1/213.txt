@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: say please how you get this data? from sniff?"
+Label:
+[/INST]  Sentiment: Neutral
+
+The word "sniff" could potentially have a negative connotation, but in this context, it is likely being used as a colloquialism to refer to the process of collecting data. The sentence is polite and respectful, using the word "please" to request information. Overall, the sentiment of the sentence is neutral.

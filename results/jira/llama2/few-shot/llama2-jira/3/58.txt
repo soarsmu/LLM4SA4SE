@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+
+Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: I opened [HADOOP-3607] to fix a wrong URL, but appart from that I don't there's still references to the old structure.
+Label: negative
+Example Sentence: cool stuff! a good candidate to put on myfaces-commons-utils, so the user can just add the resource handler on its webapp faces-config.
+Label: positive
+Example Sentence: Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".
+Label: negative
+[/INST]Sure!
+</s><s>[INST]
+Sentence: Thank you,
++ Harit Himanshu
+
+
+
+Label:
+[/INST]
+Negative

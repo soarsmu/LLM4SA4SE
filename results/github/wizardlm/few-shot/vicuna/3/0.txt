@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: There are a number of classname checks throughout the new code. Would it make sense to have a simple class that implemented the ExpressionInterface that we could use to wrap other values with? That might help remove the various `instanceof` checks through"
+Label: neutral
+Example Sentence: @mbax actually I can't because I didn't really mean a PR was rejected. I just thought that because when implementing Entity it was left out and it's actually a good method to have, doesn't even have obfuscation... Makes more sense reading the packet that's"
+Label: neutral
+Example Sentence: > Windows and Ubuntu are also pretty ugly implementations.  Agreed, I would be happy if you could come up with a better solution. I wasn't aware of some other approaches. This is a design problem that pops up over and over so having some new tools in a t"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: sorry for my bad i see this in my C++ Tutorial maybe i don't read good"
+Label:
+ASSISTANT: neutral

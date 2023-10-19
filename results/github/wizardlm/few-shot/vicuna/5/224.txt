@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ok guys - will revert - sorry for the inconvenience. Any idea when 1646 is being merged?"
+Label: negative
+Example Sentence: Second. It's weird, as I'm sure I've already fixed this file. WIll double check."
+Label: negative
+Example Sentence: Oh, that's bad. Thanks for reporting, I'll have a look into this. I thought we already got rid of these :("
+Label: negative
+Example Sentence: Yep, I noticed I'd forgotten that when I got back to the ticket. Thanks!"
+Label: positive
+Example Sentence: I agree with @grumpydev here. There should be no ctor just for testing purposes. If it's difficult / cumbersome to create a fake certificate then maybe we should provide some test helper for that instead. If the Ctor was already there then it must've been"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: It's quite a bad practice to do so :)"
+Label:
+ASSISTANT: negative

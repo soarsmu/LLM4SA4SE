@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: unable to update! i really did love this game  its pretty addicting but i haven't been able to upload the update! please fix this!! im on level 32 and don't want to loose everything. i have a samsung galaxy 3 and every time i've tried to upload i get an error and can t get into the game anymore... sooo disappointing!
+Label: negative
+Example Sentence: well.. it was awesome .. i do like the new look   but now it also now gets "unexpected errors "and hitting retry just gets the same.  won't work til you clear the data out in settings.. but doing that all the time is annoying. please fix this issue!
+Label: negative
+Example Sentence: beautiful widget. only problem i think is inspite of turning gps off  the app is continuously using it as shown by my battery usage statistics.
+Label: negative
+Example Sentence: ? i cant open the app and deactivate. i want to unintall it. plz help me
+Label: negative
+Example Sentence: battery issues. the app will usually consume 20-25% of my battery. constantly having to force stop.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? love. it. works superb i record all calls and just delete ones of no interest or with no verbal data. ps.. got a terrible memory
+Label:
+[/INST]
+Label: positive

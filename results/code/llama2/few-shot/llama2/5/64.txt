@@ -1,0 +1,55 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: No it doesn't "explode", I am not changing a sebool, I am changing the file context. Yes a restorecon would un-do the change. We'll need to file a request for that but for now this is good enough.
+Label: negative
+Example Sentence: when i was suggesting flipping the boolean, i did also wonder whether we wouldn't be better off just passing in the length. if it's <= 0, interpret that as "don't know"? that would then move 8192 down out of the callers too.
+
+or... i really like the way you went for readFully rather than implementing the missing read()s, which is what i'd actually imagined. how about we go one further and just have a static fromFile or similar? then it could do the stat, and have everything it needs. you could even use Libcore.os open/fstat/read/close to avoid the RandomAccessFile without increasing the overall amount of code.
+Label: non-negative
+Example Sentence: Yes, assuming the modelService works :)  This private method does not rely on other services.  Also, model service may have issues with elements that have the same ID.  In theory I could put the same element with the same id multiple times in a menu.  I don't know if modelService would be able to resolve that.  At least here we can count and validate if need be.
+
+I will make the other changes and await response on this.
+Label: non-negative
+Example Sentence: Hi Tobias,
+
+You've got a typo (lenght -> length):
+
+i.e.
+if (firstChildSel.length < 1) {
+
+Thanks,
+Ghada
+Label: non-negative
+Example Sentence: Would it be worth putting `-ex` here to get the echoed output and exit status?
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: You are mixing two different use cases. Use case 1:
+
+  beginTransaction()
+  commit()
+
+this works, because beginTransaction() set autoCommit=false and commit is successful even though nothing to commit.
+
+Use case 2:
+
+  open Connection with autoCommit=true
+  commit()
+
+Evidently, this doesn't work on all Jdbc dialects supported by Gerrit. E. g. this doesn't work on PostgreSQL for the same reason why rollback() doesn't work. To see the failure, remove this if-guard above and run PostgreSQL unit test:
+
+  testRollbackNoTransaction()
+
+it is failing with:
+
+  Cannot commit when autoCommit is enabled.
+
+or some such.
+Label:
+[/INST]
+Sentence: The issue is that you are mixing two different use cases, one with autoCommit=false and the other with autoCommit=true. The first use case works as expected, but the second use case does not work on all Jdbc dialects, specifically PostgreSQL, because autoCommit=true disables the ability to commit without a transaction.
+
+Label: non-negative

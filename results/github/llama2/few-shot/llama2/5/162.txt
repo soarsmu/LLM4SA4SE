@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: `readme` is capitalized again.  I like `changelog.md`. Also `readme.md` is better than `README.md`. To me having all caps in my filenames feels somehow wrong."
+Label: negative
+Example Sentence: not only this. equal to one of the options for receiving the award for the LFG group must fulfill all the encounters (and not just last). in the case of use your container, it can not be verified. PS If you think that I did the curves of stupidity structu"
+Label: negative
+Example Sentence: indent"
+Label: neutral
+Example Sentence: Here is crash:  ObjectAccessor::ConvertCorpseForPlayer() d:\wowserver\sources\trinity\src\server\game\globals\objectaccessor.cpp: 278 + 0x8 WorldSession::HandlePlayerLogin() d:\wowserver\sources\trinity\src\server\game\server\protocol\handlers\character"
+Label: neutral
+Example Sentence: Uhmmm... any better approach? Is there any way to check `getTrustedHeaderName` upfront instead?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Agree, in this case, it's an optimization not needing to calculate the hash."
+Label:
+[/INST]
+Positive

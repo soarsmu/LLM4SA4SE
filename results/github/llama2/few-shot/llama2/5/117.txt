@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @danilsomsikov Have you signed the CLA yet? http://jquery.github.com/cla.html    oldIE also refuses to allow expandos on text (and probably comment) nodes. On all modern browsers I think it's fine to set them. So in a 2.0-only beautiful world we wouldn't"
+Label: neutral
+Example Sentence: :rage:"
+Label: negative
+Example Sentence: Needs to be documented that it's blocking"
+Label: neutral
+Example Sentence: Nice catch, didn't know we have such a function, while working on the Qt5 patch :)."
+Label: positive
+Example Sentence: Ok, I am deeply sorry, my post should be deleted, no matter if its your repo or not :( I am was just angry when I saw that :("
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I find this way is much more concise and easy to read.. braces just clutter the code and make it harder to scan. example: http://gist.github.com/255605 Hell if you could use try / catch without braces I would lol but ya its preference I suppose... I used "
+Label:
+[/INST]
+Label: neutral

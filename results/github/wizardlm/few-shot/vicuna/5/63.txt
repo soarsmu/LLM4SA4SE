@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yes, just like about every other object we create; why are you so worried about this? If someone leaks Akka’s objects then they’ll leak Akka’s objects. Every ActorCell links to its parent … I’d much rather remove those ugly hacks and not muck with final f"
+Label: negative
+Example Sentence: I'd like to freeze this too. I don't see what else could be added to a signature, and we use it aaaall the time."
+Label: neutral
+Example Sentence: I think the output parameter really needs to be a `git_config_backend_iter **` not just a pointer, so that a new value can be allocated.  Also, I suspect some backends may want to support the ""match"" behavior natively instead of relying on the wrapper t"
+Label: neutral
+Example Sentence: maybe your problem is fixed with 13cc171bcb7d515fdd50de34d8655e0c54ed39ac as well."
+Label: neutral
+Example Sentence: sure, sadly, that's actually what was originally annoying me about the discussion. it's old, void, and wrong :-("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: These can be `(buildpath/'srcdir').install %w( config driver mk tests timeout)`"
+Label:
+ASSISTANT: neutral

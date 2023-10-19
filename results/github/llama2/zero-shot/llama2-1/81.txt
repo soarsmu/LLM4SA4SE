@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: FFS... GitHub lost my comment :( Ok lets write it again but short:  It's ""fix/hack"" for rendering `TimeType` and `$options['with_seconds'] = false`, to explain it check those tests: [old](https://github.com/symfony/symfony/blob/master/tests/Symfony/Test"
+Label:
+[/INST]  The sentiment in the sentence is:
+
+2. Neutral
+
+The use of the abbreviation "FFS" (which stands for "for fuck's sake") and the phrase "lost my comment" could be interpreted as slightly negative or frustrated, but the overall tone of the sentence is factual and matter-of-fact, as the speaker is simply stating what happened and providing a solution. The label "neutral" is appropriate because the sentiment is not overwhelmingly positive or negative.

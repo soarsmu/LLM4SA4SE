@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: yes, the repository version is usually outdated and even if it's not right now it will install some plugins at the system level which from my experience can be problematic"
+ASSISTANT: The sentiment expressed in this sentence is negative.

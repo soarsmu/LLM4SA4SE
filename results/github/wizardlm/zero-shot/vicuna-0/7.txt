@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: So it is always guaranteed that all `nacked` are sorted before all `nonAcked`? It seems that that would be the common case, but I was not instantly sure that it is a given."
+ASSISTANT: Sentiment: neutral

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In retrospect, this is not a bad move. I don't see what your repo has to offer, Elevim, as it's pretty much backing out changes done to TC and/or replace it by hacks or simply nonsense code. (Only did a quick survey). The real contributors to this project "
+Label: positive
+Example Sentence: Please don't forget to update pydoc for new added listitems or etc. Later its gona be pain :)"
+Label: positive
+Example Sentence: Hmm, my thinking was all password hasher classes would extend the base class if we are not going to have an interface."
+Label: neutral
+Example Sentence: Ok - thanks for the info.   I've been running node v0.8.9 with deps/uv patched with this since I sent the original query.  I looks only looks marginally better:  29271 ?        Ssl    0:02 Haraka (master) cn=2428 cc=0 cps=0/0.17/8 29273 ?        Sl   "
+Label: neutral
+Example Sentence: @randx Shouldn't 'Resque' be changed here as well?"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: But don't do `brew link nss` or things that link to openssl will fail."
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Don't make me blush :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Why should we then even trigger the SEND_HEADERS event? We can also register a listener on MVCs EVENT_FINISH and forget about SEND_HEADERS event. You can also remove there unneeded/ unwished headers."
+Label:
+ASSISTANT: negative

@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @markstory To follow the [RFC 2109](http://www.ietf.org/rfc/rfc2109.txt) (section 4.3.1) the path should be the base path of the requested URL when not specified.  > Defaults to the path of the request URL that generated the > Set-Cookie response, up t"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(2) Neutral

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Shouldn't this always be `""1.0""`?  The rest of the `tornado.auth` code is pretty much hardwired to handle either version 1.0 or 1.0a, and if we always need to send 1.0 in the 1.0a case, all cases are covered.  This also makes the `_oauth_version_to_send()"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Sentiment: Neutral
+
+The sentence you provided is a suggestion for improving the code by always using the version number "1.0" in the `tornado.auth` code, regardless of whether the version is 1.0 or 1.0a. The suggestion is made to ensure that all cases are covered and to simplify the code. The tone of the sentence is neutral, as it is a practical suggestion rather than an expression of emotion or opinion.

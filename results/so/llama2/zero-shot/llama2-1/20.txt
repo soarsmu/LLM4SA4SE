@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I am developing some small stuff for google app engine FILE_NAME.
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(2) Neutral.
+
+The sentence simply states a fact about what you are doing (developing some small stuff for Google App Engine) without expressing any emotion or opinion. The label "FILE_NAME" suggests that you are referring to a specific file, but the sentiment of the sentence remains neutral.

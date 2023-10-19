@@ -1,0 +1,13 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: it doesn't leave them; it always removes them.
+"use specified directory for temporary files"
+Label: non-negative
+Example Sentence: It looks like this allows a user who cannot see all branches to probe which branches exist. By looking at the error message "it doesn't exist" vs. "user does not have rights to delete it." a user can detect if a branch that is not visible to him exists.
+Label: non-negative
+Example Sentence: provide any output provided by a successful command.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: :(  So we need to either port this file over to kernel style or not use goto's.  Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/
+Label:
+ASSISTANT: negative

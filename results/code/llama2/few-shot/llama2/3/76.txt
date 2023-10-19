@@ -1,0 +1,28 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Same comment as above
+
+  for shift := 0; shift < 8; shift += nibBitsWidth
+Label: non-negative
+Example Sentence: This doesn't work properly when the index is negative (e.g. time is before the offset).
+Label: negative
+Example Sentence: Why not use:
+
+if ($limit > 0) {
+
+} elseif ($limit < 0) {
+
+}
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Doc string needs to be changed. This does not return anything. it can be something like-
+This function verify detail of referenced datastore.
+Label:
+[/INST]
+Based on the given sentence, the sentiment of the sentence is:
+
+Label: neutral

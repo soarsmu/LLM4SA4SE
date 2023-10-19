@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: We do realize that the given glfd pointer, could now have been reallocated and hence pass all these checks still and crash, right? just checking :)
+
+Ideally if we want to validate that this is a good pointer, which we sort of cannot unless we have  a table of valid pointers and check against that etc. or hand out numbers and map that into a table.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I think that's just a mistake in make.bash.  It's better to fail fast and minimize distractions to stderr when you know you've already lost.
+
+I'd say add an exit failure here and then submit. If you feel strongly about keeping it as-is, you can submit this too and we can fix them both later if we decide to.
+Label:
+ASSISTANT: neutral

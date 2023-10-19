@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Not in the Gemfile.lock in branch chapter_7. :)"
+Label: positive
+Example Sentence: It is probably best to stick with `java.util.LinkedHashSet` until fix from https://issues.scala-lang.org/browse/SI-5767 is available on all versions we compile against. (I don't think we call remove, but still.)"
+Label: neutral
+Example Sentence: Sorry man, must've been tired"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why should we then even trigger the SEND_HEADERS event? We can also register a listener on MVCs EVENT_FINISH and forget about SEND_HEADERS event. You can also remove there unneeded/ unwished headers."
+Label:
+[/INST]
+Negative

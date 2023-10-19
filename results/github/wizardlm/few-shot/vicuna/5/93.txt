@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: hehe. I was waiting for the loolz. Thanks :-)"
+Label: positive
+Example Sentence: I can't recall where now, but I had found that method on some page or project source code.  After some more research, it looks like there's a less hacky method available with sockaddr_ll."
+Label: neutral
+Example Sentence: It looks like it took a developer to revert this.  One of my goals as a devloper is to write trouble free apps, plugins, mods whatever....  I go to great pains to do this.  I know that all it takes for an end user not trust my work is to see it blow up on "
+Label: negative
+Example Sentence: Fixed in [11184]. Thank you :)"
+Label: positive
+Example Sentence: Oh! I think it will be my favorite commit :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Ach.  Lying comments.  It calls dump, not resume.  Will fix shortly."
+Label:
+ASSISTANT: negative

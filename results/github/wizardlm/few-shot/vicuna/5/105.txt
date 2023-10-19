@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: upstream publishes md5's (see http://www.scala-lang.org/downloads) so I figured it was safer to use their published checksum than download and recompute my own (possibly incorrect) sha.  I guess I can locally compare md5's to verify and then compute the "
+Label: neutral
+Example Sentence: And I got the error. :("
+Label: negative
+Example Sentence: Can you indent these and the 2 below with the above line :)?"
+Label: positive
+Example Sentence: Need this to Kologarn too"
+Label: neutral
+Example Sentence: I were able to find vim from homebrew-alt:  >/usr/local $ b info vim >vim 7.3.462 >http://www.vim.org/ >/usr/local/Cellar/vim/HEAD (1256 files, 22M) >https://github.com/adamv/homebrew-alt/commits/master/duplicates/vim.rb  The local install is from "
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: if has_items deleted in this place, his must be deleted in query code (PLAYER_LOGIN_QUERY_LOADMAILS) else all values after [5] is broken. solve - https://github.com/rsa/mangos/commit/3962fb4af354093cbe6594935882962e0cecc5f0"
+Label:
+ASSISTANT: negative

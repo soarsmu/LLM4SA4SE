@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: That was the reason I started to extract stuff into a Trait, found out the hard way it was not possible :("
+Label: negative
+Example Sentence: Oops, I didn't mean to add `i` to the public signature; I was thinking more like this:  ```js root.add = function(d) {   insert(root, d, +fx(d, ++i), +fy(d, i), x1_, y1_, x2_, y2_); };  i = -1; points.forEach(root.add); return root; ```"
+Label: neutral
+Example Sentence: Merging commits from 1.3 has this problem that we loose the visibility keyword for functions :("
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @brikou: You are using this branch and it doesn't work?"
+Label:
+[/INST]
+Label: negative

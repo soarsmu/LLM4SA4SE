@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Not sure why but I am getting following error from my FILE_NAME.
+Label: negative
+Example Sentence: I am new to this so maybe i'm doing somthing wrong.
+Label: negative
+Example Sentence: Call Java Oracle Functions From Java program and see the Java CallableStatement API.
+Label: neutral
+Example Sentence: Looking up the documentation is step one of any question.
+Label: neutral
+Example Sentence: You could write a Matcher that only accepts alphabetic characters.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: CODE_FRAGMENT type of inputs are not simple attributes, they are sent in separate chunk of the request.
+Label:
+ASSISTANT: negative

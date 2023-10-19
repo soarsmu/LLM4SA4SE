@@ -1,0 +1,34 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: dict_ref (src->ctx) would ensure that ctx is not destroyed with the destruction of the @src event.
+Label: non-negative
+Example Sentence: bad define.
+
+This is the .h file.
+
+Please run KWStyle.
+Label: negative
+Example Sentence: WARNING: Code after RETURN statement cannot be executed
+Label: negative
+Example Sentence: features.quota-deem-statfs should be allowed to reset
+When resetting features.quota-deem-statfs, it should be cleared when quota is disabled. It should be set to on when quota is enabled
+Label: non-negative
+Example Sentence: Then maybe the loop can be inside this method, it would be more consistent with the fact that 'Starts' is plural...
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Patch Set 3: I would prefer that you didn't submit this
+
+(2 inline comments)
+
+I don't see the need for this change. If you built with the ebuild unmodified, you'd get an image.bin which would be what you want. As far as I could tell looking at the new function, it's identical to the old one except that you're leaving out the original image.bin.
+
+The difference between image.bin and image.rw.bin is that cros_bundle_firmware is being passed the --force-rw option in one case and not in the other. What that does is it changes the way parts of the image are put together so that vboot doesn't allow the RO only optimization even if the RO firmware claims it supports it.
+
+The RO only optimization is where you run the whole firmware out of RO instead of jumping into an RW copy partway through. If you really don't want to enable that optimization, you can not pass that flag to vboot when running VbInit.
+
+Even if you do want to split things out like this, it would be better to take the existing depthcharge function and to selectively build the RO image based on a use flag.
+
+
+Independent of whether splitting things up is a good idea, if Mike (who knows bash much better than I do, I think) likes the style of the new function you've made, it would be nice to incorporate the style changes back into the original function.
+Label:
+ASSISTANT: negative

@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It is pretty inconsitent. Some have very short descriptions (like this one) others only point to the jdk doc (which is what I will do).
+
+Big TODO update all url pointers.
+Label:
+[/INST]  Sentiment: Neutral

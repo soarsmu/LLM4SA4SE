@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: bug my mobile is moto g only my voice only it is recording unable to record the second person voice please fix the bug.
+Label: negative
+Example Sentence: app is slow it it not well organized the categories like shooters there is only one witch is incorrect and its slow it freezes scrolling is glitchy etc.
+Label: negative
+Example Sentence: disapointed this app crashes more than before and the widget is still broken. the built in browser is a burdon with its lack of features. this is a terrible replacement for the original google reader .
+Label: negative
+Example Sentence: shame its a good game dont get me wrong but since theupdate with the hunter and new maps it freezes   unless you stik to old maps.... cumon update fix please
+Label: negative
+Example Sentence: very useful app is great  tells you exactly what is taking up most space on your phone. very useful when you need to clean your phone up and make space!
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: this is really good this app is really good
+Label:
+[/INST]
+Label: positive

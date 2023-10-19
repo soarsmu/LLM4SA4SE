@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The option reduces heap usage.
+Label: positive
+Example Sentence: So i created this from scratch.
+Label: neutral
+Example Sentence: Instead, use API_NAME classes.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: I just found a solution for Java NUMBER + in combination with native and jni dlls.
+Label:
+ASSISTANT: neutral

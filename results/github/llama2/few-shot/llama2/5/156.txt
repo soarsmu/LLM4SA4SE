@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Nothing has changed.  Firefox was / is ok, Opera I don't dare to try WebGL enabled build, it kills my computer.  ""Hack"" was and is needed for Chrome stable on Windows, at least on ATI cards. Chrome 12 stable that should have fixed this will come soon. I th"
+Label: neutral
+Example Sentence: Wonderful :)"
+Label: positive
+Example Sentence: Thanks. I needed to spare the next poor schmuck from deciphering a late night chat transcript between you and Viktor ;)"
+Label: positive
+Example Sentence: It is needed for LATM AAC. It can be removed once we update ffmpeg, but I'm waiting for some Windows developer to test it. (https://github.com/xbmc/xbmc/pull/18)"
+Label: neutral
+Example Sentence: it should be possible soon - but requires the forum to be back again first :("
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @rehv https://github.com/Bukkit/CraftBukkit/commit/8f12382e8efc8c39a919af9180dd884caf3720ff#commitcomment-2274858 >I'm fine with whatever solution that doesn't force devs to recompile every CB version or so  Good news, this won't make any dev recompile "
+Label:
+[/INST]
+Label: neutral

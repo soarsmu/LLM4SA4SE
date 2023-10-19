@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The only thing to take in account is that templates must be staticly generated ( in order to be processed at compile-time ).
+Label: neutral
+Example Sentence: There is no exact equivalent of a CODE_FRAGMENT in JDBC.
+Label: neutral
+Example Sentence: And then in your other file.
+Label: neutral
+Example Sentence: Looks like it is getting timezone As an off-set from GMT in hours.
+Label: neutral
+Example Sentence: and the callback expected takes a parameter of a record.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: To clarify, a CODE_FRAGMENT object has a method called CODE_FRAGMENT with the following signature.
+Label:
+[/INST]
+Label: neutral

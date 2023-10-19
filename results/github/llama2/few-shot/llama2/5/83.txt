@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Where did these values come from? 3.3.5a or 4.3.4 WorldSafeLocs.dbc don't have a field for it"
+Label: neutral
+Example Sentence: Yes, the naming is all pretty terrible. I believe it's because we've gone through several iterations of what ""render"" actually means :)  One is used for fullscreen rendering, the other is used for video controls.  This is very much a hack, and hopeful"
+Label: negative
+Example Sentence: it is for adding fields to a query or to the whitelist?"
+Label: neutral
+Example Sentence: :metal: Love getting rid of the duplication"
+Label: positive
+Example Sentence: why p without .row_title? It cause unnecessary top padding "
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: LOLWY? :("
+Label:
+[/INST]
+Label: negative

@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: When I tried to compile the tool, I get n error.
+Label: negative
+Example Sentence: All seems OK, but I get a NullPointerException ( NPE ).
+Label: negative
+Example Sentence: In lieu of that, however, in my experience, ASM offers probably the best combination of maturity, flexibility, and ease-of-use.
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: due to which spring dependency injection was working fine and was getting a bean through.
+Label:
+[/INST]
+Positive

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: If you're going to implement these, you should likely also implement the EventManagerAwareInterface, which would make it possible to get this auto-injected via the service manager."
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the sentence you provided:
+
+Label: Neutral
+
+The sentence expresses a suggestion or recommendation, and the tone is helpful and informative. There is no negative or positive emotion expressed in the sentence, so the sentiment is neutral.

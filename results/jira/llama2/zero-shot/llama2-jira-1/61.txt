@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Phabricator is being a little buggy.
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as (2) negative. The word "buggy" has a negative connotation and suggests that Phabricator is not functioning as expected.

@@ -1,0 +1,20 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: There is no point in defining those private static variables, we could just use the string literal directly in the methods. It was like that originally because the original definitions were public static final's. We then switched to methods so that they could be overriden.
+Label: negative
+Example Sentence: these are essentially renamed to ProjectScopedPayload.version etc in a dependent change: https://review.openstack.org/#/c/162196/
+Label: non-negative
+Example Sentence: Changed from heap to stack based allocation, will now only allocate enough to hold idmap header.
+Label: non-negative
+Example Sentence: I don't understand why you need the boolean. This should be new_rti.SetTop(); new_rti.SetInexact().
+Label: negative
+Example Sentence: I think *both* initramfs and kernel image should be downloaded even if one of these files already exists. Otherwise we might end up with a version of a kernel different from that of the modules (in initramfs).
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Ahh, I see.  :)
+
+I'm not seeing an isEmpty() method for the Cursor class.  Should I check for moveToFirst == false instead?
+
+Also, while I'm on this, is there a reason we call the CursorLoader parameter CursorLoaderLoader and the Cursor parameter cursorLoader?  Can I change them to just cursorLoader and cursor?
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: fun slots that's it. fun slots. what more do you want? :)
+ASSISTANT: The sentiment expressed in this sentence is (1) positive. The reviewer is expressing enjoyment and satisfaction with the "fun slots" and is using an emoticon to convey a sense of playfulness and enthusiasm.

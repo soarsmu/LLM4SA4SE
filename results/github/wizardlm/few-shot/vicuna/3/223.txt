@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This is wrong since it works on API 7+"
+Label: neutral
+Example Sentence: Yeah, what the crap is going on with that last line!  Let me fix that right now."
+Label: negative
+Example Sentence: collect that sh!t"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: sweet hopefully no more gcd exploits"
+Label:
+ASSISTANT: Label: positive

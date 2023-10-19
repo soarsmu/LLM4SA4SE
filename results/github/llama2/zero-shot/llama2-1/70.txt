@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I'm updating to Rails 2.2 and I got a lot of deprecation messages like:  DEPRECATION WARNING: @change will no longer be implicitly assigned to change.  This deprecation check seems to be a little overzealous.  If I set an ivar @change in the action and"
+Label:
+[/INST]  Sentiment: Neutral

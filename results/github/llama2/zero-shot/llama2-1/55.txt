@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This bit of code used to be up in the driver() call, but was moved down here in #353 to support loading driver libraries with library(). With this change, that check to include the driver base classes needed to move a little deeper into _ci_load_class() f"
+Label:
+[/INST]  Sentiment: Neutral

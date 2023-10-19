@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Could you explain this one a bit better, please? :)"
+Label: neutral
+Example Sentence: Multibyte::Chars is designed to work with UTF-8.  Some references: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/multibyte/chars.rb#L7 https://github.com/rails/rails/blob/master/activesupport/lib/active_support/multibyte/char"
+Label: neutral
+Example Sentence: I tried both. The parallel one failed. But, I didn't look into what exactly was causing the failure though."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Thinks I found a better way. :)"
+Label:
+[/INST]
+Label: positive

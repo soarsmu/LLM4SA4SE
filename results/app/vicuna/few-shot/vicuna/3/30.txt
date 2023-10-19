@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: great customization  but old and outdated the keyboard has excellent customization  but it lack a feature to learn new words automatically  and the ui are old
+Label: positive
+Example Sentence: galaxy ace india is greatest
+Label: positive
+Example Sentence: really like this app allows me to both catalog my collection and display and sort my collection to make it easier for friends to decide what they want to watch.  i recommend you get the pro version. it's diverse features and ability to access your database from any of your appliances or computers is a blessing. the ability to modify the meta data stored for your movies would be good as sometimes the data is miss classified or incorrectly genred
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: great app! i love this app! it's great to have my book lists with me wherever i go and i can easily keep track of which books i've read to each of my kids. one thing missing is the browse feature like the apple version has; i miss that! add that and i will rate 5 stars!
+Label:
+ASSISTANT: positive

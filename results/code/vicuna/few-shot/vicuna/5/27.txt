@@ -1,0 +1,22 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: But that isn't true now is it, because only
+
+ vendorcode/amd/pi/00730F01/Lib/amdlib.c
+
+and blob friends have:
+
+ __attribute__((optimize("Os")))
+Label: negative
+Example Sentence: strange parameter name ... I suppose it was late when you added it ;-)
+Label: negative
+Example Sentence: good catch... I should blame autocomplete :P
+Label: non-negative
+Example Sentence: The list of maintainers seems to be organized alphabetically by translator name. I guess tiering should be listed after quota.
+Label: non-negative
+Example Sentence: this is just a nit and I don't actually care, but I skimmed and noticed that  other operation strings were <verb>ing, eg 'Getting'. I'm not sure how consistent that is, or if you want them to be consistent.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: should probably also mention the the optimizer scale estmation was pushed into the parent class
+Label:
+ASSISTANT: neutral

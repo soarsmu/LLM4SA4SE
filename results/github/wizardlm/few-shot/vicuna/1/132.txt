@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Aparently those missing parts are what is fucking shit up. I know what you are doing and hope you figure out, but while you don't, I beleave those pushbacks are too bad to deserve some place in here. TC was vulnerable to these ""packet spoofers"" for all its"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Creating project in admin area should not automatically add admin user to masters"
+Label:
+ASSISTANT: neutral

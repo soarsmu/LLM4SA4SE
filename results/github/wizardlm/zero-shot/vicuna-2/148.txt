@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: the `envir` argument is not used anywhere in this function, so please remove it  it is not worth many arguments for this R function; I think you can just write `rst2pdf(input, rst2pdf = 'rst2pdf', options = '')` and users can specify extra options like `o"
+ASSISTANT: The sentiment expressed in the given sentence is (1) positive.

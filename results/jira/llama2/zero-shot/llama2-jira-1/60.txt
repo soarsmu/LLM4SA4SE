@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: But, even if it wasn't it would be totally worthless where it is at.
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) negative. The phrase "totally worthless" has a negative connotation and suggests that the thing being discussed is of no value or use.

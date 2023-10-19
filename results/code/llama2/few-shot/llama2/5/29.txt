@@ -1,0 +1,26 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: but, that is supposed to be there. I think it's confusing having some functions being vbucket_* and some others being lcbvb_* -- so that's why the comment is there, so I can fix this up at a later commit. Let me do that right now actually.. http://www.couchbase.com/issues/browse/CCBC-431
+Label: negative
+Example Sentence: As per discussions on qt-development, it was proposed to have a 3-tier fallback.
+1) Environment Variable
+2) setConfigFile()
+3) A generated default value based on QStandardPaths, org name, app name, binary name, etc.
+
+There was a +1 to this suggestion and no dissent.
+Label: non-negative
+Example Sentence: Ah, the perils of copy-paste. Updated to "ECDHE-RSA-AES256-GCM-SHA384".
+Label: non-negative
+Example Sentence: no hsc in exceptions please. the exception handler does take care of proper encoding
+Label: non-negative
+Example Sentence: At least put // @todo something. Helps us keep track of what still needs to be looked at in the codebase.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: :(  So we need to either port this file over to kernel style or not use goto's.  Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/
+Label:
+[/INST]
+Label: negative

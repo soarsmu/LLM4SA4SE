@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This is totally my fault. I was working off an old old start on a status example that I had. I'll fix it!"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(2) Neutral
+
+The sentence expresses a sense of ownership and responsibility for a mistake, but the tone is not overly negative or critical. The use of the word "totally" and the exclamation point suggest a sense of acknowledgement and acceptance of the mistake, rather than defensiveness or blame.

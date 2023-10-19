@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: While i aggree this generate less code, but readibility will be completely sacrificed, dont you think? Ah, i forget, you the one who put a single ternary statement which exced more than monitor space into a single line :P  @timw4mail @philsturgeon any o"
+Label: neutral
+Example Sentence: Fixed.   But, is this rule documented somewhere? There are other places where short syntax is used https://gist.github.com/4352487.  Does this means that cast is done with: ```php (integer) $var; ``` as well?  Again, there are many short syntax"
+Label: neutral
+Example Sentence: is it broken? the commit history looks quite weird."
+Label: negative
+Example Sentence: Unfortunately not. :cry: "
+Label: negative
+Example Sentence: I had it return true, not the same as having it actually work :angry: but then as you said if we write a compiler then this is a micro optimization that is not really worth spending much time on"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I should have pull requested this :("
+Label:
+[/INST]
+Label: negative

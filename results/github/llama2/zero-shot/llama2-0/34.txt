@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: the code is fine like this. Using call_user_func is slower and it obfuscate the code."
+Label:
+[/INST]  Sure! Based on the given sentence, I would assign the label "negative" because the speaker is expressing a negative sentiment towards using call_user_func.

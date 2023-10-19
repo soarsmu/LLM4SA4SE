@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ouch, that 'edit' button is evil. I also expected it to create a pull request."
+Label: negative
+Example Sentence: My mistake. Once again. *sigh*  Fixed!"
+Label: negative
+Example Sentence: A keyword arg (such as to_address and body in your modified version) infers that it is optional. A positional argument, or a parameter, is required (source, subject). Adding a check to make sure an optional keyword arg is specified violates the whole point"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why would the callback be null? Should this not be verified for integrity? "
+Label:
+[/INST]
+Label: neutral

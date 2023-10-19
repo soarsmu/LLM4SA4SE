@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: How are these two arguments joined together into the target string?  Or maybe these should be passed as-is and let the XML RPC server join them together?
+Label:
+[/INST]  Sentiment: Neutral
+
+The user is asking a question about how two arguments are being joined together in the target string, and whether they should be passed as-is or if the XML RPC server should join them together. This question is neutral in sentiment as it is seeking clarification and does not express any emotion or opinion.

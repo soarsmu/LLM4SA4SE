@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Oh, I didn't realize! Should have checked the audit. I've removed the version string."
+Label: negative
+Example Sentence: Rationale for this specific value would be appreciated. :-)"
+Label: positive
+Example Sentence: Last I spoke with @tenderlove on this subject, he suggested to make visit_AddColumn public for now. Aaron, what do you think about adding another object to schema_definitions to handle this?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Bad Scott! Bad!"
+Label:
+[/INST]
+Negative

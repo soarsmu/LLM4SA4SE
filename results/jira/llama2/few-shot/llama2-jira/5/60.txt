@@ -1,0 +1,22 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+
+Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: Sorry, this affects 0.9.3 version too.
+Label: negative
+Example Sentence: Ie, both at are bad.
+Label: negative
+Example Sentence: fuck u
+Label: negative
+Example Sentence: Looks pretty cool. Fresh and minimalist. Love it :-)
+Good work.
+Label: positive
+Example Sentence: It really sucks that there is now way currently to include transitive dependencies.
+Label: negative
+[/INST]Sure!
+</s><s>[INST]
+Sentence: But, even if it wasn't it would be totally worthless where it is at.
+Label:
+[/INST]
+Label: negative

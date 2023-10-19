@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Store the valid strings in a CODE_FRAGMENT, and decide whether a string is a valid day or not based on CODE_FRAGMENT.
+Label: neutral
+Example Sentence: Does anyone know what the C# equivalents would be for the methods shown above?
+Label: neutral
+Example Sentence: That's exactly why you should always store date and times in relation to UTC and convert them to local time zone before displaying, otherwise you risk an ambiguity.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: I am using Android Studio.
+Label:
+ASSISTANT: neutral

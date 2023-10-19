@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Problem is pretty API_NAME.
+Label: neutral
+Example Sentence: Now consider the following FILE_NAME.
+Label: neutral
+Example Sentence: Below is FILE_NAME which holds the data -.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: The application is basically an object manager, where user add new object, remove old objects and connect object with each other.
+Label:
+ASSISTANT: Label: positive

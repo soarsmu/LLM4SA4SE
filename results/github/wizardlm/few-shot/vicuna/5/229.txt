@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Here's how I would have written it: https://gist.github.com/3911240. Hopefully it's not worse than the previous version. "
+Label: negative
+Example Sentence: Made make_resourceful break :(  If I understand it correctly I'm supposed to write <tt>class.some_attr</tt> instead of <tt>class..read_inheritable_attribute(:some_attr)</tt>"
+Label: negative
+Example Sentence: Ok, so let's be paranoid."
+Label: negative
+Example Sentence: It is easier to complain about a change then it is to actually do some research and provider users with a good solid working system that even if a plugin uses a method from an obfuscated vanilla code it will force them to correct the code before it does da"
+Label: negative
+Example Sentence: Sorry, missed this spot the first time !"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Still need the hash syntax update?"
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,23 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I don't get it. How are those unused locks got rid of?
+Label: negative
+Example Sentence: "Toolkit" usually stands for "development tool". See e.g. http://en.wikipedia.org/wiki/List_of_toolkits
+Label: non-negative
+Example Sentence: More complete would be:
+
+ÃÅ¾ÃÂ¶ÃÂ¸ÃÂ´ÃÂ°ÃÂ½ÃÂ¸ÃÂµ ÃÂ·ÃÂ°ÃÂ³Ã‘â‚¬Ã‘Æ’ÃÂ·ÃÂºÃÂ¸ Ã‘ï¿½ÃÂ¿ÃÂ¸Ã‘ï¿½ÃÂºÃÂ° ÃÂ³ÃÂ¾Ã‘â‚¬ÃÂ¾ÃÂ´ÃÂ¾ÃÂ², Ã‘ï¿½ÃÂ¾ÃÂµÃÂ´ÃÂ¸ÃÂ½ÃÂµÃÂ½ÃÂ¸ÃÂµ ÃÂ¼ÃÂµÃÂ´ÃÂ»ÃÂµÃÂ½ÃÂ¾
+Label: non-negative
+Example Sentence: Rename objectCollapsibleButton to objectCollapsibleBox or objectCollapsibleGroupBox ?
+Label: non-negative
+Example Sentence: What about:
+"Get the original length of the packet (may be larger than the captured length if the snaplen (dumpcap -s) is in effect)"
+
+(or something that clarifies the relation)
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Our convention here is to have URL like this:
+
+/node/controller/reloadCertificate
+Label:
+ASSISTANT: non-negative

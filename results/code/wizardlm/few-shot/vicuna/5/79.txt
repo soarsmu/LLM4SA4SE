@@ -1,0 +1,19 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This does not really explain what the issue was.
+
+When new SD creation failed, failure status was not checked and flow continued to try and attach the SD to a pool which obviously failed and returned a storage domain not found error instead of the creation failure.
+SD creation status is now checked before proceeding.
+Label: negative
+Example Sentence: it's just not correct to skip ./.. in OSP because it doesn't know whether this is a stripe or just regular directory which we can access via OSP.
+Label: negative
+Example Sentence: This can't guarantee there won't be two pipeline running concurrently for one replication.
+Label: negative
+Example Sentence: I checked, and git does not clear the environment to run hooks. I also can't find subversion's reasoning around clearing it, so barring finding out that there's a good reason to, I think I'll just remove this line.
+Label: non-negative
+Example Sentence: Put this into a DEPS variable and reuse the value above in gwt_module() too?
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Use a proper sentence, and this routine does more than that, returning encoded version.
+Label:
+ASSISTANT: Label: negative

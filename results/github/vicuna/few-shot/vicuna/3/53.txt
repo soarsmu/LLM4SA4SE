@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ugh.  ~/.node_libraries was such a mistake.  This makes me sad, but the people have spoken, I suppose.  LGTM."
+Label: negative
+Example Sentence: ok, sorry"
+Label: negative
+Example Sentence: wow that's such a philosophical question :) At the end of the day it makes very little difference, but yeah, only create the member if a value other than undefined was actually passed. Note, don't use the test you have there (the truthy test), just expli"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: causes signed / unsigned mismatch in Spell::update patch fix:  ```code Core/Spells: Fixed signed/unsigned mismatch caused by f8a13b401d  --- a/src/server/game/Spells/Spell.cpp Thu Dec 22 11:37:30 2011 +0100 +++ b/src/server/game/Spells/Spell.cpp Thu"
+Label:
+ASSISTANT: neutral

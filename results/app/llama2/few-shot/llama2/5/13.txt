@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ? i like pocket for it's ease of use and absolute reliability.
+Label: positive
+Example Sentence: off-the-record (otr) every time your phone will be on stand by or im+ is running in the background you will get otr error . im+ will close the encryption if you you want to do anything else on the phone except chating. please try to fix this bug is really really annoying . you cannot get the messages if you for example leave the phone with the display off in your pocket . you cannot open a internet browser and leave your im+ running in background.  please chek this big bug!  thanks manolescu2014 @ gmail com if you have already any solution
+Label: negative
+Example Sentence: ? guns by calford is better
+Label: positive
+Example Sentence: lack of important functions 1/ you can not select multiple images to send at once in this same application. 2/ you can not send photos to friends they didn't move to telegram yet. 3/ no option for copying a fragment of a message. 4/ no automatic sending of any media if the connection is established again (you have to do it manually). not to mention that these features are available in whatsapp. implement these and you will be a serious challenger and gain 5 stars.
+Label: negative
+Example Sentence: i love it this is the cutest thing i have ever seen
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: cute love it so cute my family and friendz love it! so fun!!!!!!!  xx
+Label:
+[/INST]
+Label: positive

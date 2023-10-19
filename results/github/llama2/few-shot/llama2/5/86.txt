@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This spacing looks weird."
+Label: negative
+Example Sentence: This is bad for cherry picking too much happening in one commit.  Can this not be don in 4 maybe even 8 separate commits?  I lost the plot when the cache changes started =("
+Label: negative
+Example Sentence: looks good now..."
+Label: positive
+Example Sentence: Here's a screenshot of her saying it :)  http://images3.wikia.nocookie.net/__cb20070313201454/wowwiki/images/d/db/Aurosalia_willyoustop.jpeg"
+Label: positive
+Example Sentence: Yeah right.. Let me fix it. I forgot to change this too. Thanks for review!"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Awesome - speedy patching!"
+Label:
+[/INST]
+Positive

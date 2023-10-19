@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @bergerkiller Unfortunately, many server owners who ask for help don't actually copy that string.  If your project is ""destroyed"" because of this commit, why don't you just start your own CraftBukkit and Bukkit fork then?"
+Label: neutral
+Example Sentence: OMG, I am blind,really sorry, that last I have forgot  "
+Label: negative
+Example Sentence: Wait, no @param?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: So it is always guaranteed that all `nacked` are sorted before all `nonAcked`? It seems that that would be the common case, but I was not instantly sure that it is a given."
+Label:
+[/INST]
+Label: neutral

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Blame on me for that...  Sorry >.<"
+ASSISTANT: The sentiment expressed in the sentence is (2) neutral. The sentence contains an apology, which suggests that the person is taking responsibility for their actions and is sorry for any harm caused. However, the use of emoticons and the phrase ">.<" suggests that the person is also expressing some frustration or disappointment with the situation. Overall, the sentiment is neutral.

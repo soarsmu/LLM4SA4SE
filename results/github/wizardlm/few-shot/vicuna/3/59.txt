@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It's obvious that this upset a lot of us, but like the Bukkit team wanted, we just sucked it up and moved along. Let's let this commit's comment section die, shall we? It's been dead since the 5th of Jan, keep it that way. Forge comments probably go in the"
+Label: negative
+Example Sentence: he means more working quests, hackfixed ofc"
+Label: neutral
+Example Sentence: OK... But about the `merge!`, it would be better if you use it, it's pretty more fast and use less memory, since the `merge` returns a merged new copy of the hash, and `merge!` just merge in the existent instance."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: This is needed to control dropping. Consider we just dropped a frame in decoder, this is at the end of the queue. How should player know that it has already catched up? You can't by just looking at the front of the queue."
+Label:
+ASSISTANT: neutral

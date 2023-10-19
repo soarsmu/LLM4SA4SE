@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Eclipse claims that this type violates the ""Unique Particle Attribution"" principle for XML schemas. http://en.wikipedia.org/wiki/Unique_Particle_Attribution  Can we reformulate this type to avoid this?"
+Label: neutral
+Example Sentence: I am embarrassed that I forgot this"
+Label: negative
+Example Sentence: @DouweM sure. And the next one who finds a security exploit and get's ignored will sell the exploit straight to the bad guys... do you prefer that?"
+Label: negative
+Example Sentence: also slightly annoying about this.  resque has built in hoptoad support, so upgrading this means we need another gem to get resque airbrake to work again :( (actually, it would be easier to write out own but still :( )"
+Label: negative
+Example Sentence: Gridmonster fools us all !"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: filter_parameter_logging :password is enough  http://github.com/rails/rails/blob/master/actionpack/lib/action_controller/metal/filter_parameter_logging.rb#L32"
+Label:
+ASSISTANT: neutral

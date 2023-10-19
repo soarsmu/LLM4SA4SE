@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: DOH! I started that test before I realized that there was already a test, (named testDeactivatedUser), that just needed to be updated. I should have deleted the testLoginWithDeactivatedAccount function. I'll fix and send through another pull request."
+ASSISTANT: Sentiment: (3) negative

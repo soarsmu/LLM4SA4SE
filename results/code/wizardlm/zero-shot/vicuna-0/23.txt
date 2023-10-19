@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: Since BE was IE10 (as of the member var above) I think changing the member to edge is not a problem, but I would keep the IE8 default here, which does not hurt us, and will also not hurt third party stuff then.
+ASSISTANT: Sentiment: neutral

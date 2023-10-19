@@ -1,0 +1,28 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: setPageTitle() takes a Message, so no need to change anything here.
+Label: non-negative
+Example Sentence: Yeah, but this is usual wording we are using:
+
+ $ git grep "member of the privileged 'Administrators' group"  | wc -l
+ 20
+Label: non-negative
+Example Sentence: i think it's more common in Java to treat abbreviations as words when in an identifier name, so "BenchmarkResultJson"
+
+please apply throughout
+Label: non-negative
+Example Sentence: >OTOH we might grep in "$@" for "project:" and only add project:core if none was given._x000D_
+but then we could do the same with branch and status: default branch = master, default status = open => logerrit query would be translated to core/master/open. How about it?
+Label: non-negative
+Example Sentence: please add tests for fopen, we should test the different modes
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: No need to check for NULL because g_strdup will do this.
+And if value == NULL then tv->value will be uninitialised.
+Label:
+[/INST]
+Label: non-negative

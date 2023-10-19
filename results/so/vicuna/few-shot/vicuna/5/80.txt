@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Get the path of sd card.
+Label: neutral
+Example Sentence: It accepts a regular CODE_FRAGMENT object in its constructor and simply delegates all methods other than CODE_FRAGMENT to the wrapped object.
+Label: neutral
+Example Sentence: Any Idea how to solve such problem when using CGLIB proxies?
+Label: neutral
+Example Sentence: Your showFields method needs to traverse FILE_NAME hierarchy, something like this.
+Label: neutral
+Example Sentence: With the new design, they could also support other encodings in future.
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: and then override this with CODE_FRAGMENT so that I could do.
+Label:
+ASSISTANT: neutral

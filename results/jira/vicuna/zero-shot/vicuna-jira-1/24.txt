@@ -1,0 +1,7 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Doh.
+ASSISTANT: Based on the sentence "Doh" alone, it is difficult to determine the sentiment as either positive or negative. It is a very short and ambiguous sentence that could have a variety of meanings depending on the context in which it was used. 
+
+If you could provide more context or additional sentences, I would be happy to help you categorize the sentiment as either positive or negative.

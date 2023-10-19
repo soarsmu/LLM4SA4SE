@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: ? this is funny but creepy at the same time
+ASSISTANT: Based on the sentence "this is funny but creepy at the same time," I would categorize the sentiment as (2) neutral. The user seems to have mixed feelings about the app, finding it both amusing and unsettling.

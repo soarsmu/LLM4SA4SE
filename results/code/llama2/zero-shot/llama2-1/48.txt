@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Right, changing an SwField, which is part of the document model during export is bad. An export operation should just read the document model and serialize it in some format. Can't you set m_bCitation depending on what the field type is? Just put a breakpoint on the SwField constructor, get a backtrace and see where it's created -- hopefully the caller knows the field type.
+Label:
+[/INST]  Sentiment: Negative
+
+The speaker is expressing a negative sentiment towards changing an SwField, which is part of the document model during export. They believe that an export operation should only read the document model and serialize it in some format, without modifying it. The speaker also suggests that the field type should be determined based on the caller, and that a breakpoint on the SwField constructor may be helpful in identifying the caller. Overall, the tone is critical and cautionary.

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: crap i thought i converted from hex to decimal so i wouldnt need the 0x >.> sorry!"
+Label: negative
+Example Sentence: Gotta love auto-updating browsers :) What’s up with this commit though? What exactly do you mean by “no longer necessary with the release of Opera 11”? Older versions never existed?"
+Label: positive
+Example Sentence: Still nothing happend to this kinda percent heal #1756 :(("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I would say take out the province of China thing since it offends so many people. Also, the ""what about Kosovo?"" argument, well, that's a what if, the whole point of Getting Real is very anti-what-if. Deal with that if and when it happens. Worst-case scena"
+Label:
+ASSISTANT: neutral

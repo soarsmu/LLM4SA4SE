@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: simply the best i very rarely write reviews. even more rare is when i like an app enough to buy it. this app deserves both. i have  seriously  tried most music players for the android and this one has everything i need. audio engine is tops  start and stop via headphone jack  great album art download. lots of other programs have these things but either lack in these or other features. i especially like the simple issue of bass and treble control. price a little high  that was the only thing holding me back from buying it sooner. was thinking of giving it 4 stars because of price but; what the heck- i gave it five.
+Label: positive
+Example Sentence: awsome this the best game i have ever played
+Label: positive
+Example Sentence: not so grand the features are great if they work  which unfortunately is nearly never. constantly loses connection to the server when i'm on stable wifi  crashes continuously  doesn't keep up the stream to chat and doesn't like to load lootables at all. this app hasn't been updated in over a year and it's easy to see the lack of support.
+Label: negative
+Example Sentence: bleh channels won't play and poor genre selection  no holiday or otr.
+Label: negative
+Example Sentence: samsung galaxy s3 freezes while loading. haven't even played a mission
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: eurosports the application is amazing.
+Label:
+[/INST]
+Positive

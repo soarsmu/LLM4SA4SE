@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: So it is always guaranteed that all `nacked` are sorted before all `nonAcked`? It seems that that would be the common case, but I was not instantly sure that it is a given."
+ASSISTANT: The sentiment expressed in the sentence is (2) neutral. The user is asking a question about the sorting of two types of items, `nacked` and `nonAcked`, and seems to be seeking clarification on whether it is guaranteed that `nacked` are sorted before `nonAcked`. The tone of the question is inquisitive and curious, without any strong positive or negative emotions.

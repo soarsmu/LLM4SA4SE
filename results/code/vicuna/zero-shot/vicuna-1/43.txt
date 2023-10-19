@@ -1,0 +1,9 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: This is more obvious in this file than the other. You should be escaping the periods in your regular expressions. I know that it will match the period in the URL anyway, but we want it to *only* match the period.
+
+Also, you should use specific matches for scid, height and width, rather than the period (match anything). Assuming that you're just matching numbers, '[0-9]+', or tentatively '\d+' would be better here.
+
+One more thing, if these sites provide copy-and-paste embed tags, these matches will need to be able to deal with those too - currently they look like they will just modify the URL in-place, and this is definitely not what we want.
+ASSISTANT: The sentiment expressed in this sentence is neutral. The reviewer is providing constructive feedback on how to improve the code, but the tone is not particularly positive or negative.

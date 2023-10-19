@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Here are 2 patches ... one for adjustExamplePaths.bat & .sh
+and the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIB
+Not sure where this should go ...
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as (2) negative. The user is expressing uncertainty and seeking guidance on where to place two patches and two user libraries, which suggests that they are experiencing some difficulty or confusion. The label "Not sure where this should go" further reinforces this interpretation.

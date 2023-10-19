@@ -1,0 +1,16 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: follow up? hate all this stuff getting bikeshed for weeks for that sort of thing.
+
+can you also check out 6465, 6463.
+Label:
+[/INST]  Sure! Here's the sentiment of the sentence you provided:
+
+Sentiment: Negative
+
+The sentence expresses frustration and annoyance at having to deal with unnecessary discussions and reviews of minor issues, and the speaker is asking the assistant to also check out two other issues (6465 and 6463). The negative sentiment is conveyed through the use of the word "hate" and the phrase "bikeshed for weeks."

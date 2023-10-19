@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Modified from jpweeks's https://github.com/jpweeks/three.js/blob/particle-ray/src/core/Ray.js#L186-L216"
+ASSISTANT: I'm sorry, but the sentence you provided does not express a sentiment. It is a description of a modified code from a GitHub repository. Sentiments are subjective emotional responses, and they cannot be inferred from code or technical descriptions.

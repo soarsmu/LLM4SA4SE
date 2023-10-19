@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I figured there'd be a few. Thanks!"
+Label: positive
+Example Sentence: added the two necessary checks. thanks for pointing this out."
+Label: positive
+Example Sentence: Oh, I'm silly, I just looked at my old code. Of course you can do texture offset, you can do whatever you want in shaders, you get built-in parameter `gl_PointCoord` ;)      vec4 texelColor = texture2D(uSamplerDiffuse, gl_PointCoord);"
+Label: positive
+Example Sentence: you think about that the values are VectorClock and that is expensive? or is it the size operator you think about?  I have an idea that the seen table doesn't have to contain the full VectorClock values, but only a hash of them (less to transfer, faster t"
+Label: neutral
+Example Sentence: Fixes one of sources in #5538 (not all)"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Yes, it did not cause message loss just unnecessary retransmits."
+Label:
+ASSISTANT: positive

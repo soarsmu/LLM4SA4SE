@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: No real reason to introduce _one time_ variable."
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(2) Neutral.
+
+The sentence is simply stating a fact that there is no real reason to introduce a one-time variable, without expressing any emotion or opinion. It is a neutral observation.

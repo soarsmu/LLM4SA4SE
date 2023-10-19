@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Github ate my comment. Let's try this again: ================================  I don't understand this commit. I just did: <pre><code> >> alternate = ActiveSupport::OrderedHash[1,2,3,4] => #<OrderedHash {1=>2, 3=>4}> >> alternate.class => ActiveSup"
+ASSISTANT: The sentiment expressed in the sentence is (3) negative.

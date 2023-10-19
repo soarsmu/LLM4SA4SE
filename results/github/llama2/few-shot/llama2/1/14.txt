@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I am attempting to utilize mass-assign for my models, but can’t get the update_attributes to work correctly when I have association_collections as child models. My create methods work fine, since the hash passes in an Array value for these collections. I."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: haha fast fix"
+Label:
+[/INST]
+Label: positive

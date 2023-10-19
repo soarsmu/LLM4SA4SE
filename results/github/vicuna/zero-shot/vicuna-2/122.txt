@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Shouldn't this always be `""1.0""`?  The rest of the `tornado.auth` code is pretty much hardwired to handle either version 1.0 or 1.0a, and if we always need to send 1.0 in the 1.0a case, all cases are covered.  This also makes the `_oauth_version_to_send()"
+ASSISTANT: The sentiment in this sentence is neutral.

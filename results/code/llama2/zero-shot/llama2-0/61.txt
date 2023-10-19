@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This || breaks -e. If you need this information you need to reimplement -e yourself.
+
+if ! go build -a std; then
+    failed=true
+    if $sete; then
+        exit 1
+    fi
+fi
+Label:
+[/INST]  Sentiment: Negative

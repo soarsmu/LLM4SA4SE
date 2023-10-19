@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: How are these two arguments joined together into the target string?  Or maybe these should be passed as-is and let the XML RPC server join them together?
+ASSISTANT: The sentiment expressed in this sentence is neutral. The reviewer is simply asking a question and seeking clarification on how the two arguments are being combined into the target string. There is no clear indication of a positive or negative sentiment.

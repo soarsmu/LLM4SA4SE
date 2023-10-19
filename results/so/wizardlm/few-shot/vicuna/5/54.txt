@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Thank you dunni for your help, you've put me on the right path.
+Label: positive
+Example Sentence: This can be done by submitting a runnable to an ExecutorService maintained by you.
+Label: neutral
+Example Sentence: I would avoid to generate the full XML String ( see @AdriaanKoster 'response ).
+Label: negative
+Example Sentence: If you are using a PaaS ( like Heroku ), they usually provide a way to setup environment variables using their interface.
+Label: neutral
+Example Sentence: I want it to use id instead.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: The stream ( if non parallel ) could be pass sequentially through all the steps ( filter, map.
+Label:
+ASSISTANT: neutral

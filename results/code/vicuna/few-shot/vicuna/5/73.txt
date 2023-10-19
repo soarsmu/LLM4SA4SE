@@ -1,0 +1,20 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I got the idea for adding such a message from your change (only you had it even more verbose adding a message per approval that was copied). I can try to incorporate this into the patch set created message, but not sure if this is easily possible.
+Label: non-negative
+Example Sentence: Would it be worth to mention that the review notes are written by the review-notes plugin?
+Label: non-negative
+Example Sentence: Here too, you can access maBaseCell.mfValue directly, since we know ahead of time that both cells are of value type.
+Label: non-negative
+Example Sentence: The problem is, at the opensource side, if this breaks the app, people will try to debug it by themselves or worse they will just give up and do not update to the latest GWT version - I don't want that to happen, especially for this release.
+
+On the other hand if somebody hits the problem, it is easy to point them to the workaround. This is not ideal situation but that is what I prefer right now.
+Label: non-negative
+Example Sentence: I do not like (long) very much, but that is something in the inode_ctx API :-/
+
+Maybe I find the courage one day to make it a (void*) instead.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Not having doxygen documentation for the defines will generate warnings when merged to master.
+Label:
+ASSISTANT: negative

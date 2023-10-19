@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ha! I looked to do the same thing. I came up empty handed since mmap's functionality is built on top of the OS paging mechanism - which I don't think there's any way to have control over (short of hacking the OS).  I would've guessed Windows is the same
+Label: neutral
+Example Sentence: Possibly it will break. And we can easily add these things. I suspect though that such bugs were oddities in GCC that no longer apply. Superenv only does `-Os -march=native` anyway. What I should do I guess is put a warning in for these so at least we can"
+Label: negative
+Example Sentence: It's not better for what I'm talking about. But since I don't know any samples, I can't say if it's a real issue."
+Label: neutral
+Example Sentence: The standard usage of a ""Form"" is usually:      if request.method == 'POST':         form = MyFooForm(request.POST)  Since ""AuthenticationForm""'s __init__ accepts an extra ""request"" parameter it becomes a little non-consistent since you have to use: "
+Label: neutral
+Example Sentence: This kind of makes this commit (http://github.com/rails/rails/commit/888d5059bdb71e6d034d0c09d7e3b3e235fd8507) useless.."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: If you add `TODO:` in the comment, many code editors will show it in an overview. Might be useful, and more clear to readers that it isn't just commented out code (otherwise, someone that doesn't know might remove it)."
+Label:
+[/INST]
+Label: neutral

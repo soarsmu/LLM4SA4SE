@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Same as above, the whole method call should be on the same line."
+Label: neutral
+Example Sentence: is `/` allowed character in generated cookie? Then it should be enclosed in quotes, otherwise config will barf."
+Label: neutral
+Example Sentence: On osx/ios/atv2, when enable the override option it works during playback. But when i stop playing the movie it crashs. Its not obvious to me why it crashs so i can't suggest a fix here :(. It doesn't crash when override is disabled.  Here is the stack t"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Probably costs as much to do:  for(i <- v.inbound.averageValue; o <- v.outbound.averageValue) yield ((i,o))"
+Label:
+[/INST]
+Label: neutral

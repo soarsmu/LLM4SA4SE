@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: I use ""domain"" as a query parameter throughout my application.  Do I need to modify every route, url_for, link_to, and redirect_to to use something different?  :-("
+ASSISTANT: The sentiment expressed in this sentence is (2) neutral. The sentence is asking a question and seeking clarification, which suggests that the writer is seeking information rather than expressing a strong positive or negative emotion. The use of a sad face emoji at the end of the sentence suggests that the writer may be feeling frustrated or overwhelmed by the task of modifying their application, but this is not a strong enough emotion to classify the sentiment as negative.

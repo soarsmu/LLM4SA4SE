@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Currently, I create the index like so.
+Label: neutral
+Example Sentence: ( When I say don't use floats that includes doubles, it's the same issue. )
+Label: negative
+Example Sentence: If you include the appcompat lib as you do above, you don't need to include support-v4 at all; appcompat depends on it, and the build system will do the right thing.
+Label: neutral
+Example Sentence: Ok, I finally figured out what I was looking for ( this link was also quite helpful ).
+Label: positive
+Example Sentence: 2 ) Create `bower_components' folder outside of your src folder.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: startIndex is the initial index of the range to be copied, inclusive.
+Label:
+[/INST]
+Label: neutral

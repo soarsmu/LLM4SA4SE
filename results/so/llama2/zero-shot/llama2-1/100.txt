@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Remember to have a CODE_FRAGMENT clause.
+Label:
+[/INST]  The sentiment of the sentence is (2) neutral. The sentence is providing a reminder to include a specific clause in a code fragment, without expressing any emotion or opinion.

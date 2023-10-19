@@ -1,0 +1,25 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It better to have a log here rather than having GF_VALIDATE_OR_GOTO.
+The log can be gf_msg (this->name, GF_LOG_ERROR, 0, Q_QUOTA_INODE_MISSING, "Missing inode, can't adjust for quota");
+
+Just add a enum with appropriate number associated to it, there is no diagnosis for this.
+Label: non-negative
+Example Sentence: > The flag package is ideally only imported in main.
+
+Where did this notion of "ideal" come from?  The advice I usually hear (and give) is: don't register flags except from the main package, because you're mutating a global variable.
+
+This utility function doesn't touch any global variables.  Isn't its purpose pretty obvious from the usage example above?
+Label: negative
+Example Sentence: Stefan, I'm just mostly replicating the what is done when including CSS styled content's TS using the include static select. To me your questions show you did not look at the issue. Can we please get this through?
+
+Apart from the above, no there is not a filename, and yes there needs to be a slash.
+Label: negative
+Example Sentence: How about that one? Is it because you won't be able to automatically change call sites?
+Label: non-negative
+Example Sentence: am i confused, or will this get the above error "Invalid host name (docroot=" . $docRoot . "), can't determine language." ?does it need to be in an other "} else if {"?
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: We should have a log for non-connect events as well, probably at trace or debug levels.
+Label:
+ASSISTANT: positive

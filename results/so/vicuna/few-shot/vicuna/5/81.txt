@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: That said, you should be using prepared statements.
+Label: neutral
+Example Sentence: Check TextSamplerDemo.
+Label: neutral
+Example Sentence: If you include the appcompat lib as you do above, you don't need to include support-v4 at all; appcompat depends on it, and the build system will do the right thing.
+Label: neutral
+Example Sentence: A FILE_NAME name should be used.
+Label: neutral
+Example Sentence: While using Eclipse, it is no problem, all is compiled and can be run with no problem.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: If you want to implement a dynamic binding between names ( strings ) and values in Java, use a FILE_NAME.
+Label:
+ASSISTANT: neutral

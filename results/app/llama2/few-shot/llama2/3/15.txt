@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: needs bug fix since update love this game but since the update ot freezes up and or shuts down and you lose lives. not good! fix the bug please. and ill fix my rating =)
+Label: negative
+Example Sentence: best twitter client! if you are looking for the best twitter client  search no more. this is it! it's similar to tweetbot on ios. you get all the great features from pull to refresh  inline images  column views  white/black holo theme background  tap to jump to top  and so much more. oh and there are no ads in this version. it is simply amazing.
+Label: positive
+Example Sentence: iffy nice clean app but sometimes it works and other times it doesn't.  my os just updated and now it freezes all the time so i had to uninstall.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: littlenikki tracks sometimes freezes or skips for some reason!
+Label:
+[/INST]
+Negative

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: only in the perspective that the block is not to be entirely removed :) this way the diff did not include the indent-changes for the old code - I thought this would be easier to read in patch style"
+Label: positive
+Example Sentence: ditto  I can't find arel 0.1.1 neither on RubyForge nor on GemCutter and, consequently, I can't install activerecord-3.0.pre.gem :S"
+Label: neutral
+Example Sentence: 1. This should probably be moved out of the if to be set wether CSRF is enabled or not"
+Label: neutral
+Example Sentence: Was that it? THE THING THAT CAUSED SO MUCH HORROR. D:<"
+Label: negative
+Example Sentence: Ugh, sorry. I guess we're using  ```ruby `which pg_config`.chomp.empty? ```  in formula. My bad."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Creating project in admin area should not automatically add admin user to masters"
+Label:
+[/INST]
+Positive

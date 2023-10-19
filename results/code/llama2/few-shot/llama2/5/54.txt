@@ -1,0 +1,23 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: If no version can be parsed "0.0.0" Ã¢â‚¬â€ "0.0.0" is the result
+Label: non-negative
+Example Sentence: http://en.wikipedia.beta.wmflabs.org/wiki/Hurricane_Celeste_(1972)
+Label: non-negative
+Example Sentence: There is no point in defining those private static variables, we could just use the string literal directly in the methods. It was like that originally because the original definitions were public static final's. We then switched to methods so that they could be overriden.
+Label: negative
+Example Sentence: Please note the comment on SC_GLOBSTR_STR_COUNT, which is the overall count of strings. So actually you need to insert and define STR_TABLE_COUNT to 533 and increment the value of SC_GLOBSTR_STR_COUNT to 534.
+Label: non-negative
+Example Sentence: It is my update of this help page:
+https://help.libreoffice.org/Common/XML_File_Formats
+It should also link to Expert Config page, but it does not exist yet.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Can the selection of the common part be moved one level higher until a Fintek chip comes along which is different? No idea if that is possible in Kconfig.
+Label:
+[/INST]
+Label: negative

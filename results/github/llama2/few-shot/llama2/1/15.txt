@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Great! No need to hold off, go ahead and work on this branch and we'll rebase later. Thanks Amy!"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yeah I'm an idiot.  It broke a pile of tests, and I forgot a pile of view files too :("
+Label:
+[/INST]
+Negative

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I know, it's just a wish :) the feature is very very very useful for low pop server (1-15 players)... Anyhoo, thanks for all the excellent work you guys have done :)  Can I hijack this thread to mention that issue #4495 (https://github.com/TrinityCore/T"
+Label: positive
+Example Sentence: What kind of problems are we taking about when you say ""many broken spells"" related to the table. You are scaring me."
+Label: negative
+Example Sentence: Sure, let's see what it looks like. I'm a little worried that this, somewhat minority, feature is going to creep too far. But let's see what it looks like."
+Label: negative
+Example Sentence: :("
+Label: negative
+Example Sentence: Error when applying 7615_01_mangos_command.sql.  The:  CHANGE COLUMN required_7568_01_mangos_spell_proc_event required_7615_01_mangos_command bit;  The last SQL file for mangos-0.12 was ""7565_01_mangos_mangos_string.sql"" "
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Forgot 4 spaces here =/ Damn... how to add them now? =("
+Label:
+[/INST]
+Label: negative

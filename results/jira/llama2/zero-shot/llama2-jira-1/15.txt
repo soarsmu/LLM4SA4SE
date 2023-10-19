@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Sorry for the huge delay Fabio.
+Label:
+[/INST]  Based on the sentence "Sorry for the huge delay Fabio", I would categorize the sentiment as (1) Positive. The use of the word "sorry" and the acknowledgement of a delay suggest a apologetic and polite tone, which is generally considered positive.

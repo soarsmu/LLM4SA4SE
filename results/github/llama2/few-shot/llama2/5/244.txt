@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: use named variables.  Ex.  ```haml   = render 'issues', title: 'Unstarted Issues (open and unassigned)', issues: @issues.opened.unassigned ```"
+Label: neutral
+Example Sentence: ah, forget it"
+Label: neutral
+Example Sentence: Ahh, no. That was from when it was called CookieCollection, which is the same class name as in System.Net."
+Label: neutral
+Example Sentence: I learned something new in clojure core.  that hasn't happened for a while :) "
+Label: positive
+Example Sentence: I think you can check against `settings_change` instead of the full hash of changes, wdyt?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Hardcoded one day is not good solution... Without any dependency... "
+Label:
+[/INST]
+Label: negative

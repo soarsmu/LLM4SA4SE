@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Because here we decode IpV6 address and are waiting for 16 byte array return value, and with this part of your code you decide that we have ipv4 address in ipv6 notation and instead of returning 16 byte array return 4 byte IpV4 address. The main example t"
+Label:
+[/INST]  Sentiment: Negative
+
+The user is expressing frustration with the code's handling of IPv6 addresses. They are pointing out that the code is incorrectly assuming that an IPv6 address is an IPv4 address in disguise, and is therefore returning a 4-byte IPv4 address instead of the expected 16-byte IPv6 address. The user is highlighting the issue and asking for a solution.

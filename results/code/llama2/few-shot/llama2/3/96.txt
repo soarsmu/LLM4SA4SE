@@ -1,0 +1,40 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This seems confusing to me. It reads like "If -ENOSYS is returned on the 1st iteration, then FMR is not supported", which gave me the impression that "-ENOSYS can be returned in later iterations too, in which case it does not indicate FMR is not supported".
+
+Rather, please consider:
+if (rc == -ENOSYS) { /* device does not support FMR */
+      LASSERT(i == 0);
+      break;
+}
+Label: negative
+Example Sentence: OUString::replaceAll does not modify the OUString but returns a new OUString instead.
+this means that when converting an existing String *Replace* call you need to assign the returned value to the original string.
+
+you should get a warning about an "unused result" here but strangely
+i'm not seeing a warning with gcc 4.7, no idea why...
+at least the Clang tinderbox caught the problem.
+
+fixed in commit 03a381eaa58d77cf26dfa8d916d1ecda865c1937
+Label: non-negative
+Example Sentence: Why not use:
+
+if ($limit > 0) {
+
+} elseif ($limit < 0) {
+
+}
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: But not how it's currently implemented. Instead the interwikimap should be consulted to see whether a interwiki link is local, and as soon as a non-local interwiki link is happening throwing this exception (but as InvalidTitle of course).
+
+How is en:meatball:Foo an invalid link? I've added that to the link tests and it's fine. And en:meatball:en:Foo doesn't work as the meatball wiki appears to have no interwiki map.
+Label:
+[/INST]
+Based on the given sentence, the sentiment is:
+
+Label: negative

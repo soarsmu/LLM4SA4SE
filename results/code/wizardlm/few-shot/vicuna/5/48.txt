@@ -1,0 +1,18 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: project_id is none by default here and in _delete_tokens_for_user. Is the same if project_id is not provided.
+Label: non-negative
+Example Sentence: This doesn't look quite intuitive to me. Maybe I am not used to this style. I like something as below. However, if you find the current style better, feel free to keep it.
+
+self.k8s_api = _create_k8s_api(k8s_master_url)
+Label: negative
+Example Sentence: I'm removing those checks in the other modules too. This is the new way.
+Label: non-negative
+Example Sentence: Not related, but may be better to move to constructPorperty(String suffix) or something like that.
+Label: non-negative
+Example Sentence: Replace with a constant or use String.format("$0 $2",icon.getLocaion(),e.getLocalizedMessage())
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Right, changing an SwField, which is part of the document model during export is bad. An export operation should just read the document model and serialize it in some format. Can't you set m_bCitation depending on what the field type is? Just put a breakpoint on the SwField constructor, get a backtrace and see where it's created -- hopefully the caller knows the field type.
+Label:
+ASSISTANT: negative

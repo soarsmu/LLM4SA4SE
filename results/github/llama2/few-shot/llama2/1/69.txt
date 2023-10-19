@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Another possible solution, but (at least to me as non-rubyist) just as cryptic if not worse. What's wrong with the `if`-block?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: That source is not reputable, as they have published numerous erroneous statements and frequently allow code examples to become out dates. Furthermore, Chris Heilman is not an authority on the subject matter, nor does he back his claims with even the sligh"
+Label:
+[/INST]
+Negative

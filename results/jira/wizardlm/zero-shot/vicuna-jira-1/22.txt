@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: @idiot Yeah, I was on that idiot-path for a good while but commons-lang is a hairball, at least where this hashcode making and equals is concerned.
+ASSISTANT: The sentiment in the sentence is negative.

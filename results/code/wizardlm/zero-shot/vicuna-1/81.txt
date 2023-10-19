@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: The "git commit" line needs a continuation character to include the following '-m' line.  However, you should be able to fold the entire commit message into one quoted string starting on the above line.  Be sure to leave the second line blank.
+ASSISTANT: The sentiment expressed in the given sentence from code reviews can be categorized as (2) neutral. The sentence is providing a suggestion to improve the code by adding a continuation character and folding the commit message into one quoted string. However, it does not express any strong positive or negative emotion towards the code or the person who wrote it.

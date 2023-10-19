@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+
+Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: {quote}
+searcher.getAtomicReader().getSortedDocValues(uniqueKey);
+{quote}
+
+This is a performance killer.
+Label: negative
+Example Sentence: I'm very sorry.
+Label: negative
+Example Sentence: Is that ok for this file (b/c I have no idea how to do the svn move now ... after I've made all the changes already) :)
+Label: positive
+[/INST]Sure!
+</s><s>[INST]
+Sentence: Thanks for your work on this Allen!
+Label:
+[/INST]
+Positive

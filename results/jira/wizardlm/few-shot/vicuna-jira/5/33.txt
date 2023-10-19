@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: My bad.
+Label: negative
+Example Sentence: The state stuck at "Allocated state", It is a dup of 3788.
+Label: negative
+Example Sentence: This looks good to me.
+Label: positive
+Example Sentence: Sorry for the hassle.
+Label: negative
+Example Sentence: Sorry.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Took me a few seconds to get it, but then I realized how awesome it is.  
+Label:
+ASSISTANT: positive

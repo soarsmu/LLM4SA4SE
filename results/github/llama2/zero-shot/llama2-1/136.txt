@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why does everyone who hacks on Jekyll have to use the same Ruby version? Jekyll is [supposed to be compatible](https://github.com/mojombo/jekyll/blob/cc0f84197afc4b73781e2a800ea4d1990605981b/.travis.yml#L2-5) with all sorts of Rubies.  I think this file "
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+2. Neutral
+
+The sentence expresses a question and a statement of fact, without any apparent emotion or opinion. The tone is informative and inquisitive, as the speaker is seeking an explanation for a perceived limitation in Jekyll's compatibility with different Ruby versions.

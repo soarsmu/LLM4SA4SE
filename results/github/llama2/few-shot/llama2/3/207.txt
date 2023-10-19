@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: On 2012/05/25 07:49 AM, patriknw wrote: >> @@ -151,6 +151,33 @@ akka { >>   >>        # (O) Maximum time window that a client should try to reconnect for >>        reconnection-time-window = 600s >> + >> +      # (I&O) Enable SSL/TLS encryption. >> +     "
+Label: neutral
+Example Sentence: Was that it? THE THING THAT CAUSED SO MUCH HORROR. D:<"
+Label: negative
+Example Sentence: Ignore me. Next time I'll keep researching before I comment. :)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Very very nice! Gratz to all dev :)"
+Label:
+[/INST]
+Positive

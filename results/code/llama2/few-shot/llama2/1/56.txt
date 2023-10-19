@@ -1,0 +1,18 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This can't be here, since it only executes on the first CMake run, making LINEAR_ALGEBRA_LIBRARIES break on subsequent runs.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: planning to do that in a separate changelist for MB-14866:
+1. merge lock with seqno_list into the same structure
+2. maintain a vbMap instead of vbList in this service, so as to make vbno lookup/validation faster
+3. do vbno validation in all relevant places in the service
+
+you mentioned that we could use list of list instead of map of list to avoid issues with map. Feel that it makes the code harder to read. we may have to understandard the behavior with maps anyway. Plan to make the changes above and see if the issue in MB-14866 re-cur.
+Label:
+[/INST]
+Sentiment: neutral

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Rename objectCollapsibleButton to objectCollapsibleBox or objectCollapsibleGroupBox ?
+Label: non-negative
+Example Sentence: In my opinion a distinction needs to be drawn between IPv6 header bogus length and extension header bogus length. Whether all the different extension header should use the same expert_field or not for length is another issue, it's debatable but my current opinion is that they should be separate, i.e, ei_ipv6_routing_invalid_length, ei_ipv6_dstopts_invalid_length, etc. but if someone thinks differently please share.
+Label: non-negative
+Example Sentence: m->total_size is untrusted input, whereas c and microcode end are trusted. There's no risk of overflow.
+Label: non-negative
+Example Sentence: I think we only support mysql, sqlite, and postgresql in the migrations. (Mysql doesn't need this step because it stores  indexes in a namespace per table. This step is only necessary in postgres and sql because index names are in a db-global namespace.)
+Label: non-negative
+Example Sentence: int or long (underlying ssize_t types) should be OK to return this?
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think it might be worth a comment up here what this class is intended to do and how it does it.
+Label:
+[/INST]
+Label: positive

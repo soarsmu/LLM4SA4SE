@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: awsome this the best game i have ever played
+Label: positive
+Example Sentence: pages don't fill the screen well  with the latest update i'm now able to sign into the app on my galaxy s4  and it's considerably more stable and responsive on my nook hd+  but unfortunately now when i try to read comics the pages only take up about 2/3 of the screen's available real estate with black borders on the left  right  and bottom.  even if i pinch zoom to fill the screen  when i move to the next page it goes back to the original size.  hopefully they can address that issue and then start adding some of the other standard features of comic readers.  update 8/26/13: today's update still doesn't resolve the issue with comics rendering in about 2/3 of the screen.  while i'm happy to see that they've doubled the number of issues you can have offline  the first time i tried to open one the app crashed back to the launcher.  all in all  this app is still completely unusable on android imo.
+Label: negative
+Example Sentence: ? works ok it don't cause problems when u play but sometimes when u exit playing it the screen freezes then when i try to open up the app again it shows black that's it so then i'm forced to delete it and re download the app again can u fix that? otherwise i love it
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: great job! this is a super app  very useful and user friendly  easily personalized and adjustable. it works for me anyway. helps you stay on track and see how much time you are spending or wasting. if you forget to start it or want/need to input an activity/event you are tracking time for  it's easily done manually. "notes" space is useful for more detail/info associated with a specific day's task. so many ways this can be used to track time spent on tasks and projects for business  personal  family  pleasure  etc.
+Label:
+ASSISTANT: positive

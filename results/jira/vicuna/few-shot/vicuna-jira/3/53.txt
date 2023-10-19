@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: I didn't know we needed to retain backwards config capability across 3.x to 4.x  :-(  That sucks and it'll make old code stick around longer.
+Label: negative
+Example Sentence: Because, we don't care for this in cases where we there is no node that is down.
+Label: negative
+Example Sentence: -1 to jar hell.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Sorry, I took Martin's comment to mean the patch was committed and issue closed, which certainly discarded all the patches the first time around.
+Label:
+ASSISTANT: negative

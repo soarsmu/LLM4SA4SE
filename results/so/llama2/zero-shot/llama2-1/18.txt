@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: due to which spring dependency injection was working fine and was getting a bean through.
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+2. Neutral
+
+The sentence describes a situation where something was working fine, but then there was an issue with dependencies, which is a neutral topic. There is no positive or negative emotion expressed in the sentence.

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I swear I read somewhere on Smashing magazine along time ago that all pseudo selectors are less performant but I can't find such an article. I can only find these 2 references (not sure of there credibility):
+* http://stackoverflow.com/questions/4082077/first-child-is-too-slow-alternatives/4082105#4082105
+* http://www.onextrapixel.com/2012/05/03/css-tricks-how-to-speed-up-css-rendering/
+
+I think the main thing I would say is whilst integrating with VE we should avoid them where possible. Use of first-child might invite us to use last-child and other selectors based on the idea. I do think we should be avoid nth-of-type and nth-child at all costs but I'd expect first-child and last-child to be less evil!
+
+That said browsers are getting better and better these days and we could just make the decision that we will use them and wait for browsers and VE to catch up.
+
+As tech lead, let me know what approach you want us to take. Happy either way. Please can we get the outcome documented on the coding guidelines page?
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Maybe this could be outputWriter instead of writer2.
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Using event delegation, the dom can be interacted with before onload fires.""  Can you explain this briefly?  Thanks!"
+Label: positive
+Example Sentence: Great !"
+Label: positive
+Example Sentence: shouldn't this eat a const reference?"
+Label: neutral
+Example Sentence: AH.. I hate to be annoying, but why not just call it 'hash' if we're going to change it.   Either one is fine really."
+Label: negative
+Example Sentence: yaaay :)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why would the callback be null? Should this not be verified for integrity? "
+Label:
+[/INST]
+Label: neutral

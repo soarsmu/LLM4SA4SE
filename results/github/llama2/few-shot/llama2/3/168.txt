@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ^ that line and this one :)"
+Label: positive
+Example Sentence: Yes - test_process.rb needs a require for cookies middleware, fix coming."
+Label: neutral
+Example Sentence: they gave up deleting comments and marking spam.  then they gave up talking to us.  then they gave up reading this huge ass thread of sorrow"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Looks good with those changes thanks @davilla"
+Label:
+[/INST]
+Positive

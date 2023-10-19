@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I have reused some cmake code I had... It should be some left over from the copy-paste :/
+Label: non-negative
+Example Sentence: My change provides two options for clobber. So, the client can pass its own new rev id to couchdb or ask couchdb to generate a new rev id. This code path corresponds to the second case. So, the flag and expiration values here will be overwritten by couchdb, and you won't get them through your changes in mc_tap.
+Label: non-negative
+Example Sentence: Instead of putting everything in the collector and then looping through later when outputFormat==JSON why not switch here on outputFormat and thus allow results to be printed immediately for JSON and collected only for JSON_SINGLE?
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Sorry, this is still unacceptable. ImplEESdrWriter::ImplWriteShape() is used by both the binary export and the OOXML filter, you need to set the OOXML flag in the OOXML filter. Jut put a breakpoint on this line in the debugger, see its backtrace, and set the flag in the first method that is already OOXML-specific, and pass the bool around till this line.
+Label:
+ASSISTANT: non-negative

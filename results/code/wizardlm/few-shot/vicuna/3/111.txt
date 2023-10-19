@@ -1,0 +1,14 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: What happens if this fails? How do we ensure ssh is killed? Maybe a trap would be more supportable?
+Label: negative
+Example Sentence: I agree with the above comment ... the above logic change  should be in a separate patch than the channel handling
+Label: non-negative
+Example Sentence: OK.  I'll check if [1] still works with asiidoctor before pursuing it any further then.
+
+[1] https://gerrit-review.googlesource.com/#/c/49451/
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: How are these two arguments joined together into the target string?  Or maybe these should be passed as-is and let the XML RPC server join them together?
+Label:
+ASSISTANT: non-negative

@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Jeez Russ, great points as always. I've encountered this problem in the past; now I remember why we cannot export a function that returns a `git_tree_entry`.  We need to work around this. Put your thinking cap, @arrbee... How about pooling the memory for "
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: @Skixbmc @Karlson2k  ```""%s\%s""``` should be ```""%s\\%s""``` right?"
+Label:
+ASSISTANT: neutral

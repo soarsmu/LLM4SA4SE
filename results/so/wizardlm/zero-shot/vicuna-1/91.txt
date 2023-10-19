@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Someone saying here that.
+ASSISTANT: I'm sorry, but the sentence you provided doesn't contain enough context or information to categorize the sentiment as either positive, neutral, or negative. Could you please provide a full sentence or more context?

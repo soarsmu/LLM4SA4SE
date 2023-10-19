@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Maybe because I'd missed it while making a patch? :)"
+Label: positive
+Example Sentence: 1/12? wow, thats even more then I originally thought... Now I'm really disappointed in this commit. :/"
+Label: negative
+Example Sentence: What if we figure out if a default is provided?   We can control the default typeclass, so let's give it a real class name and throw an isInstanceOf before mangling?   Either that or we can wrap the typeclass on the way *in* to the hash map if it's an ins"
+Label: neutral
+Example Sentence: @josevalim What was the rationale for this change? It breaks nested conversion from BSON::OrderedHash."
+Label: neutral
+Example Sentence: a bit;) i'm gonna check it again temp i modified it with mover_guid.... dunno if that works but server uptime 13 h so far..."
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: cool thanks, I will do that!"
+Label:
+[/INST]
+Positive

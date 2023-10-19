@@ -1,0 +1,27 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Is this the right API? An alternative is:
+
+func If(s RuneSet, tTrue, tFalse Transformer) Transformer
+
+type RuneSet interface {
+  Contains(rune) bool
+}
+
+and have unicode.RangeTable implement this interface.
+
+If performance is a concern, the If function could do a type assertion to see if s is a *unicode.RangeTable, and switch to an optimized implementation, the same way that the image/draw package does in the stdlib.
+
+But I'm not sure if we even want a Ranges or If. The point of the Transformer interface is to transform things in bulk. If you're going to be chopping between two separate transformers depending on the input runes, then it seems like you're not getting the benefit of transforming in bulk. Instead, I'd just loop over the input and append to a []byte. It's not like you have some input that contains both Code Page 437 and Shift-JIS and you want to switch between them. Your phone number Ranges example seems a bit contrived, and again, I'd just for/range over the string for that particular task. As for title-casing latin but not greek, is that something that people really want to do??
+
+I wonder what Rob thinks. Can you start a separate e-mail thread just for API design?
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: You probably need to check for divide-by-zero here, since addr_len comes from compr, which is based on packet data.
+Label:
+[/INST]
+Label: neutral

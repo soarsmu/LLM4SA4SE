@@ -1,0 +1,22 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In the latest patch, you switched from glib memory to wmem memory. So you do not want to call g_free but you still want to destroy the hash table itself, otherwise you are leaking memory. So switch to g_hash_table_new instead of g_hash_table_new_full and put back the call to g_hash_table_destroy.
+Label: non-negative
+Example Sentence: It seems to me to be the case. There is a bug:
+https://b.corp.google.com/issues/17586779
+shertz probably knows more about it.
+Label: non-negative
+Example Sentence: Ahh that's funny! :D
+
+Good that you payed attention!
+
+Done
+Label: non-negative
+Example Sentence: please move command to system.py so this can be reduced to "cmd_node_init".
+Label: non-negative
+Example Sentence: Only the PatchSet.Id is required here. So cd.change(db).currentPatchSetId() is a better approach.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: u mentioned that is "good to have". i will try to convert tests for distribute volume.
+Label:
+ASSISTANT: non-negative

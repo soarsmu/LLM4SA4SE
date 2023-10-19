@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Your EntryListener will be called by Hazelcast's internal threads.
+Label: neutral
+Example Sentence: Check here for an example which returns a String.
+Label: neutral
+Example Sentence: Use CODE_FRAGMENT instead, and get this string from a CODE_FRAGMENT.
+Label: neutral
+Example Sentence: I did some modification and in the end it was working, but it does not support odata functionallity ( queries like $filter, $oderby,... ) and for each request I need a new instance.
+Label: neutral
+Example Sentence: or more concisely.
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Or simply use Maven repository.
+Label:
+ASSISTANT: neutral

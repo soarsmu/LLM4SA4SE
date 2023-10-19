@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Should this call Free(), or just remove Free() and put that code in here?
+Label: non-negative
+Example Sentence: This can probably be removed if the suggestions for performOk and performApply are implemented.
+Label: non-negative
+Example Sentence: I guess it's because hasRole only returns boolean, and the array key is needed as well..
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Hook parameter.  I need to print it, I think it holds the CentralAuth "Logging you in to the following wikis"
+Label:
+ASSISTANT: Label: positive

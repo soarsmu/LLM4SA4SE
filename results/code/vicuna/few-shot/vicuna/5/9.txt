@@ -1,0 +1,22 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: But then there's no need to re-define the gwt-maven-plugin's dependencies. So either we use ${gwtVersion} as the gwt-maven-plugin version and we remove the plugin dependencies, or we keep it that way, with identical but "unrelated" versions for GWT and the gwt-maven-plugin.
+
+I'd happily go with the former (which would simplify the POM and aligns with what people should write unless they really need different versions of GWT and the plugin Ã¢â‚¬â€œ e.g. they use a patched GWT, or a patched plugin, or the plugin hasn't yet been released for the version of GWT they want to use, or the plugin has had a bugfix release), but it makes it a bit harder to test the WebAppCreator with a GWT RC (not yet pushed to Central), where the plugin hasn't yet been released (because it cannot update its GWT dependencies yet).
+
+WDYT?
+Label: non-negative
+Example Sentence: I agree this can be discovered without the text. Deleted the comment. Same in OpenKey.
+Label: non-negative
+Example Sentence: If no version can be parsed "0.0.0" Ã¢â‚¬â€ "0.0.0" is the result
+Label: non-negative
+Example Sentence: perform this check before fetching the translations above? in the else-branch you then set $allOptions to array(); Maybe initialise it to an empty array as the first line of this function (as in functions before) and only fetch translations when needed here
+Label: non-negative
+Example Sentence: While we're changing the names of these triggers, let's fix the spelling of the word "exceed" as well. I think "unmark_quota_exceed_upd_set" should still be short enough.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I think we should make it very clear that this is an asynchronous process:
+
+"Enqueues a clean up of old cache files..."
+Label:
+ASSISTANT: positive

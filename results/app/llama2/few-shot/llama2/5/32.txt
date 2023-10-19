@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: iffy nice clean app but sometimes it works and other times it doesn't.  my os just updated and now it freezes all the time so i had to uninstall.
+Label: negative
+Example Sentence: good this game is very nice and very funny.
+Label: positive
+Example Sentence: lack of important functions 1/ you can not select multiple images to send at once in this same application. 2/ you can not send photos to friends they didn't move to telegram yet. 3/ no option for copying a fragment of a message. 4/ no automatic sending of any media if the connection is established again (you have to do it manually). not to mention that these features are available in whatsapp. implement these and you will be a serious challenger and gain 5 stars.
+Label: negative
+Example Sentence: cool wow.....i love dis and so does my lil bro....good job
+Label: positive
+Example Sentence: top application " love this app " it has everything " get it "'
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? cute but eats up alot of battery.
+Label:
+[/INST]
+Label: negative

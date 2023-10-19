@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: What about abstracting this even further: instead of requiring a region_device to describe the location, we could just accept the name of an FMAP region and look up its offset and size.
+Label: non-negative
+Example Sentence: We need to enter in this IF block only in case of unknown protocol, so when dissector_try_heuristic() return value is 0.
+Label: non-negative
+Example Sentence: Changed to check ahead and simply log the fact that we will not overwrite files.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: There is no need for a "continue" here, since it means the same as the normal program flow...
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Thanks for moving so quickly on this guys.
+ASSISTANT: Sentiment: Positive

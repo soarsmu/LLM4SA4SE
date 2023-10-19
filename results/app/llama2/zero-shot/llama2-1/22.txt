@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: helps to end arguments... there are some people that will not remember (or acknowledge) what was said during a phone conversation  replaying the call could jog their memory. also is great for replaying directions or instructions given to you during a call.
+Label:
+[/INST]  Sure! Here's the label for the sentiment expressed in the sentence:
+
+Label: Positive

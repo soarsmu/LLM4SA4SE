@@ -1,0 +1,15 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It would be helpful, if you get a moment. -> http://www.opera.com/browser/next/"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as neutral. The tone is polite and requesting, with no negative or positive connotations. Here's the breakdown:
+
+* "It would be helpful" - This phrase is neutral and indicates a desire for assistance or information.
+* "if you get a moment" - This phrase is also neutral and implies that the speaker is not in a rush and is willing to wait for a response.
+
+Overall, the sentiment of the sentence is neutral and polite, with no negative or positive emotions expressed.

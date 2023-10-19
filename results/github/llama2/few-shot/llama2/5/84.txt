@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: There are two `when`. Also, it's not clear what `its smallest key is larger than the number` means? I think it's just because your `units` hash does not contain the searched key, not actually because of `smallest` vs `larger`, not?"
+Label: neutral
+Example Sentence: Isn't this terribly inefficient? You're essentially loading and instantiating all the records to return just one? "
+Label: neutral
+Example Sentence: This appears to be only used in log output. If so, we should avoid calculating it in normal operation."
+Label: neutral
+Example Sentence: This code assumes that the filesystem uses 'utf-8', because that's what `force_str` defaults to.  Furthermore, under Python 2, when `force_str` (ie. `force_bytes`) is called on a bytestring with as encoding argument that isn't utf-8, it decodes the stri"
+Label: neutral
+Example Sentence: Warning about Coding Standards: - no tab - ident with 4 spaces - bad syntax for if look [PSR-2 5.1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#51-if-elseif-else)  ```php if (is_resource(/* ... */)) {     /* ."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: @SuperSpyTX or perhaps, just maybe, this is a place for discussion not internet memes."
+Label:
+[/INST]
+Label: neutral

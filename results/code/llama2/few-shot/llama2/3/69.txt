@@ -1,0 +1,27 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This causes a warning about missing UID in Eclipse.  Fixed with:
+
+https://gerrit-review.googlesource.com/#/c/59929/
+Label: non-negative
+Example Sentence: Sounds like it should be disabled. It is reasonable to run a whole multi-sim workflow (em, equil phases, simulate) in the same set of multi-dirs, so being able to use
+
+ mdrun_mpi -multidir the-dirs* -deffnm equil-npt
+
+would be a nice thing. I haven't tried -multidir with a non-default equil-npt that I remember though.
+
+Should we be looking at doing the directory change for -multidir earlier than we do?
+Label: non-negative
+Example Sentence: We should not reset the current filter here, but still need to use it for incoming read operations, and then replace it with the new filter in an atomic way below.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: strdup_printf with just a %s can be replaced with just strdup :)
+
+This copy is necessary though, since the string coming into the function might be packet-scope
+Label:
+[/INST]
+Label: non-negative

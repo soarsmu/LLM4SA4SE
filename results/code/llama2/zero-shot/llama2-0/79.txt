@@ -1,0 +1,16 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Use a proper sentence, and this routine does more than that, returning encoded version.
+Label:
+[/INST]  Sure, I'd be happy to help! Here's the sentence you provided:
+
+"Use a proper sentence, and this routine does more than that, returning encoded version."
+
+And here's the sentiment label I assign to it:
+
+Label: Positive

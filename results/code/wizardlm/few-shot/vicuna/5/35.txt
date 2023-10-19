@@ -1,0 +1,23 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Maybe you could add a real description - yes it's just something really minor :)
+Label: non-negative
+Example Sentence: Done
+
+it looks like Gerrit missing a feature:
+remove comments, that don't make any sense, like these below ;-)
+
+Thanks for the hint with java_library and resource.
+Label: non-negative
+Example Sentence: please move command to system.py so this can be reduced to "cmd_node_init".
+Label: non-negative
+Example Sentence: The type would be TestNamespace::PtrSecCertificateGetData vs PtrSecCertificateGetData though.
+
+I suggest moving the typedefs below the QT_BEGIN_NAMESPACE at line 94. Feel free to ignore this suggestion though since it's valid C++ either way.
+Label: non-negative
+Example Sentence: There are still several rows for the distinct blocks and up to one separate row with no related block element, so we still need the gorup by clause
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: nitpick: add a space between "if" and its opening pare
+Label:
+ASSISTANT: non-negative

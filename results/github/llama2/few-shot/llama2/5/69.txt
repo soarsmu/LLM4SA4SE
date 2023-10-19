@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Umm, there's plenty in there that don't :P"
+Label: positive
+Example Sentence: Why is the `-d dist` needed? I thought dist is the default?"
+Label: neutral
+Example Sentence: I see that `ykpers` has been in this repo longer than this one. Why did you choose that name over this one? It's totally cryptic. I see the linux packages are split: debian uses `yubikey-personalization` and fedora uses `ykpers`. Seems crazy to me to perpe"
+Label: negative
+Example Sentence: Is Hash yaml serialization busted on 1.9?"
+Label: neutral
+Example Sentence: Is there a null object for MetricsGossip so we don't create a new empty one?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: That source is not reputable, as they have published numerous erroneous statements and frequently allow code examples to become out dates. Furthermore, Chris Heilman is not an authority on the subject matter, nor does he back his claims with even the sligh"
+Label:
+[/INST]
+Negative

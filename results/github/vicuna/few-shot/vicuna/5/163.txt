@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Most enter vehicle commands are CMSG_SPELLCLICK. I'm working right now on removing the vehicle hacks related to that and add proper spellclick data for vehicles. "
+Label: neutral
+Example Sentence: code is better than documentation :-)"
+Label: positive
+Example Sentence: Could you add a <remark> tag that explains why this is here or we'll just end up forgetting why and removing it 6 months from now =)"
+Label: positive
+Example Sentence: I think it's related to https://github.com/nikitug/rails/blob/d2abfcbd8c55d5bfbbccaf0e34be8a67f4731ac3/activesupport/lib/active_support/core_ext/hash/conversions.rb#L100 (`not v.is_a?(String)`)"
+Label: neutral
+Example Sentence: very nice!"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Thanks Steven. For a dot release, 3.1 sure changed a lot of fundamental things. :("
+Label:
+ASSISTANT: negative

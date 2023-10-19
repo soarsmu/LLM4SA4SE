@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: How it pissible translate this messages?"
+Label: neutral
+Example Sentence: Can you tell xcodebuild to build to a different directory? This should get built within the `buildpath`."
+Label: neutral
+Example Sentence: Superb! Can't wait for the day when the spells are not hacked all over the core anymore"
+Label: positive
+Example Sentence: Yeah, you don't need it - we don't take `commandBlock`, `command`, or `name` as a method parameter, only as a class field (which is usually the only time you need it, unless you've got some single letter fields)"
+Label: neutral
+Example Sentence: Just as curiosity, I was looking the [`DateTime` documentation](http://us2.php.net/manual/en/class.datetime.php) today and they have the constant for the RFC formats.  Form the [cookie RFC](http://tools.ietf.org/html/rfc2616#section-3.3.1), it could be "
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: please remove before committing"
+Label:
+ASSISTANT: neutral

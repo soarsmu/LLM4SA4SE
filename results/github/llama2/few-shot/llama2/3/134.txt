@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Shouldn't this decorator live in `django.contrib.auth` somewhere instead of here?"
+Label: neutral
+Example Sentence: As in, a rogue library that has a malicious toString method?  We can completely remove it but the problem of sql injection is still there if the a user builds their own sql statement."
+Label: neutral
+Example Sentence: I agree. Will test and verify that it still works later.   But what's the best way to proceed? accept this and another pull request, or reject this and another complete pull request?"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: sorry I did not realize you were already there..."
+Label:
+[/INST]
+Label: neutral

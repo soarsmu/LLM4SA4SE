@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: i try to return an output ( type date ) in a web service but i receive a weird result.
+Label: negative
+Example Sentence: You absolutly need to be compiling FILE_NAME JRE NUMBER!!
+Label: neutral
+Example Sentence: See JIRA issue SPR-13217 for details.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Use this construct.
+Label:
+ASSISTANT: neutral

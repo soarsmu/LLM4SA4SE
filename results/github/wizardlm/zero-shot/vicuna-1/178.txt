@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: lol, maybe a forget by me, thanks for confirm that works North ^^  PD: still selling all things without achievement requirement? as I see this.. RequiredGuildLevel; RequiredAchievement;"
+ASSISTANT: The sentiment expressed in the given sentence is (2) neutral.

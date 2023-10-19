@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Although, we should open a separate issue for that :-)"
+ASSISTANT: The sentiment expressed in the sentence is neutral. The sentence is a response to a suggestion or issue, and the speaker is indicating that they agree with the suggestion but think it should be addressed in a separate issue. The tone is not particularly positive or negative, but rather neutral and practical.

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In ruby 1.8.6 and prior, date.rb has a bug wherein fractional seconds above 59 result in an invalid date. Try a ""2005-02-27T23:50:59.275038"".to_datetime and you'll see what I mean. Should we hack this to ignore fractional seconds above 59 when on broken ru"
+Label: neutral
+Example Sentence: BTW, there are issues with pathfinding even on smooth surfaces exists in some places in world. =( Edit: it seems problem with tile connections"
+Label: negative
+Example Sentence: Oops, I accidentally committed my work-in-progress liveHandler rewrite in this commit :-/ sorry about that! I'll be landing the correct code soon."
+Label: negative
+Example Sentence: It has to be removed in order to allow adding () to the other apply method: def apply[T <: Actor: ClassManifest](): Props Else both have the same signature after erasure."
+Label: neutral
+Example Sentence: If ""http://foo.com/"" is meant to be a variable it should be encoded. And after decoding it you have your needed value again to work with. And if it's encoded <code>/foo/{url}</code> would also match without changing the requirements. I don't see the probl"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Make it a `git__memzero` then and let's ship this.  The idea of allocating SSH credentials even when SSH is not available sounds just reasonable to me. Specially since you can also check for SSH availability using the `git_libgit2_features` api call."
+Label:
+[/INST]
+Label: positive

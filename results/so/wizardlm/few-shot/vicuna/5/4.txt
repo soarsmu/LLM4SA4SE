@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: And here is the result in an emulator.
+Label: neutral
+Example Sentence: I suspect that's why the language designers made that decision.
+Label: neutral
+Example Sentence: The following code therefore, might be ( as I have not attempted using it ) a better one, if you are willing to use Mojarra specific classes.
+Label: positive
+Example Sentence: I am using standout library, I added a videoView in it, Everything is running correctly, Except if i click on video then mediaController Is not Showing and i am getting null pointer exception.
+Label: negative
+Example Sentence: Problem solved.
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: So in order to instantiate ChromeDriver, you need to.
+Label:
+ASSISTANT: neutral

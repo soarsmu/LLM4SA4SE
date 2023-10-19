@@ -1,0 +1,15 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: huh? namedtuple() is a new-style class (otherwise __getattribute__ won't fly for it!).
+
+Note that namedtuple(verbose=True) shows that it uses __slot__=() by default, so I'm all for the removal of this redundant line. However the commit message is confusing.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Can we write a test for this? It seems to be an important semantic aspect of the interface, worth recording.
+Label:
+[/INST]
+Positive

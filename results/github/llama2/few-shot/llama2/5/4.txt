@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Break up this line, it should be <= 80 chars.  Zero the password and the salt after you're done with it."
+Label: neutral
+Example Sentence: It seams to work at the first sight. I will do further tests, but it is an improvement of this patch.  All non-Win'er will thank you ;)"
+Label: positive
+Example Sentence: <a href=https://github.com/TrinityCore/WowPacketParser/commit/20175283bcb0c4020e4753834b8e97b64ff23c5e>This</a> should help you with ""Display countdown when bg start (packet related)"" first uint32 - i've seen only 0 here, but i'm not sure about it.. it do"
+Label: neutral
+Example Sentence: frustrating code is frustrating"
+Label: negative
+Example Sentence: You'd need to escape every regexp special characters (think . for instance) in s.data so that you don't have false negative. Talk about a ""simple"" hack gone wrong in the convoluted department (not to mention performance and memory issues in older browsers"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Also, these tests have a typo (""Firs"") in their names  I suspect that this could the reason they weren't found when fixing this ticket.  And also suspect I'm the one that introduced these tests  :-( "
+Label:
+[/INST]
+Label: negative

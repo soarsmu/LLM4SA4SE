@@ -1,0 +1,38 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Should this just be
+func Run() { etc }
+and have callers explicitly call Register beforehand?
+Label: non-negative
+Example Sentence: That means we'll have to add an extra boolean field to every member. It'll make serialization size bigger as well as resident AST memory go up. 
+
+I'm happy to change it, but it seems like it trades off memory for readability.
+
+You'd still have to handle "", because that's the way Java annotations work, you cannot have a default value of 'null'
+Label: non-negative
+Example Sentence: These variables are only used in the next call, I'd remove them
+Label: non-negative
+Example Sentence: The 'all' link is a link that is js controlled - is 'follow' the right word to use here?
+Label: non-negative
+Example Sentence: Patch Set 2:
+
+Liron, so lets think:
+Reconstruct flow:
+Go throught all vds refresh and on case of some exception connect.
+Recovery flow:
+Go through all vds connect and after that refresh, no need for exception handling on case of exception at refresh.
+especially additional refresh.
+No need for additional method that u introduced.
+Where it is 99% percent common. You already introduced a method that at some flow should return only true and complicated a very simple code. "right now there is no need to copy the method in my opinion - 99%" - your change at connectAndRefreshAllUpHosts in order to solve bug at reconstruct flow caused to regression in recovery flow. I don't think that these means 99% common.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Is there a function for this query already? or should we make one for future?
+
+It is just that this is quite a big block of code, and would be more readable factored out
+Label:
+[/INST]
+Sentiment: neutral

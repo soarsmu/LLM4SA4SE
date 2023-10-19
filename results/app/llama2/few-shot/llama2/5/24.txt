@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: freezes when browser loads freezes when browser loads to play game
+Label: negative
+Example Sentence: perfect for moding ?
+Label: positive
+Example Sentence: there is room for improvement... the good thing  it lets you know when your moga (pro) has been connected to your android device and it displays current games that support the controller. the bad thing: a.its interface. it's boring  even my 14yr old cousin can make it look like tegra zone-based stylish themed or better. b.the bluetooth connection. when i'm using the game  the controller loses the connection with it for too long so i have to press the moga button and try to reconnect;or it happens for a few seconds and while i'm using the controller  my notification keeps showing the controller has been connected to my tablet. c.the moga pivot connects the controller to the android device  but why on earth does it not display the controller battery life? how much longer can my controller's built-in battery last? it should let me know. d.just let me know whenever a new game has support for the controller. i'm talking about pivot running in the background  self-updating its catalog and pushing a notification warning me a new game has entered the 'supported games' list. it'd be great. e.sometimes the controller takes too long to connect. what's with the hold up? please fix these issues. they are worth a new update.
+Label: neutral
+Example Sentence: ads great app but the ads come up all the time and it ruins it
+Label: negative
+Example Sentence: this is awasome don't compare
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: pls fix bugs nice apps!
+Label:
+[/INST]
+Label: negative

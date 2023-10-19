@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This means you've picked up a version built against Hadoop 1.x, hence the FILE_NAME vs interface exception.
+Label: neutral
+Example Sentence: It is not advisable to avoid an exception with an empty catch block even though you are completely sure that is not going to fail under any circumstance.
+Label: negative
+Example Sentence: CODE_FRAGMENT creates a capturing group, to be referenced later.
+Label: neutral
+Example Sentence: CODE_FRAGMENT is made of CODE_FRAGMENTs, not CODE_FRAGMENTs.
+Label: neutral
+Example Sentence: I'm new to FILE_NAME language.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: for problem number two are you adding anyting to the list.
+Label:
+ASSISTANT: neutral

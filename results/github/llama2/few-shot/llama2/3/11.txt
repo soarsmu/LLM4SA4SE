@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Point taken, I think instead of modifying the code I'll document what you said under the scripting documentation, and show that it is possible to easily hack the scripting engine to create global variables, but that we just avoid that this is done accident"
+Label: neutral
+Example Sentence: Sure, though I'm sure we'll only ever have one hehe."
+Label: positive
+Example Sentence: I'll add a ToDo in my local build :)."
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yeah, it's totally legal to end up in the null case. The question though is if we should change the signature to be a Function and then check if it's partial and then applyOrElse and just straight apply if it isn't. (this would also be a non-issue with t"
+Label:
+[/INST]
+Label: neutral

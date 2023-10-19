@@ -1,0 +1,35 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I started with standard ReentrantLocks here, but when adding the lookFor...() method, I realized that that is a read-only operation, so concurrent queries didn't need to block each other.
+Label: non-negative
+Example Sentence: For the final commit remove "[part 2of 2]" and join the "ODFF function FDIST" to the first summary line.
+Label: non-negative
+Example Sentence: As things like Twitter, Facebook, LinkedIn are very popular right now I think we should have them in the list so that their proper icons are used.
+
+Maybe we could have an Admin -> Extensions -> configuration form for this so an admin can add new options when needed that records the name that will appear in the dropdown and where to find it's related icon.
+
+But maybe this will be a patch for a later time
+Label: non-negative
+Example Sentence: Maybe TestChanges? 
+
+*I prefer FooBar over BarForFoo
+*"Util" is redundant with the package name
+*TestFoo says "implementation (e.g. fake) of Foo for tests" while TestFoos says "static methods for dealing with Foos"
+
+It's not super compelling, but hey, at least it's shorter.
+Label: non-negative
+Example Sentence: Just a suggestion: May be we can pass both channels as arguments ?
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think it should be optimizerCtx.getLastStepFor(NAME)+1, since the methods which are last modified by DeadCodeElimination are deadcode-free.
+
+Another concern is that when it is called by MethodInliner, actually we want to traverse the methods that modified by MethodInliner, not all the modified methods since last DeadCodeElimination. The result would be the same, but it may do unnecessary work in MethodInliner.
+Label:
+[/INST]
+Sentence: I think it should be optimizerCtx.getLastStepFor(NAME)+1, since the methods which are last modified by DeadCodeElimination are deadcode-free.
+
+Label: POSITIVE

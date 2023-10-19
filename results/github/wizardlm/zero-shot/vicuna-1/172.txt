@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: @kandera  Spell #365 does not exist in 3.3.5a DBCs nor in spell_dbc. What did you do ? :("
+ASSISTANT: The sentiment in the sentence is (3) negative.

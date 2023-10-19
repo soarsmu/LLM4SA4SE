@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Even in your own parsing approach, you can make it faster by returning the enum when you parse the list.
+Label: positive
+Example Sentence: If we move forward with this, this is what I envision.
+Label: neutral
+Example Sentence: The following is the error I keep getting.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: At the moment I am receiving a ClassNotFoundException to API_NAME.
+Label:
+[/INST]
+Label: negative

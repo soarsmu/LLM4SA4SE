@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: There are two `when`. Also, it's not clear what `its smallest key is larger than the number` means? I think it's just because your `units` hash does not contain the searched key, not actually because of `smallest` vs `larger`, not?"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Is exec actually used anywhere besides in this file?"
+Label:
+ASSISTANT: neutral

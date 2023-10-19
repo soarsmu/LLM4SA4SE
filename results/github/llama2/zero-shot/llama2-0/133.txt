@@ -1,0 +1,11 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: How about the following method? The 2nd parameter is driven from storm_conf. We add it here to make plugin development easier, and ensure all plugins use ""java.security.auth.login.config"" in storm configuration.        /**      * Invoked once immediate"
+Label:
+[/INST]
+Based on the given sentence, I would assign the sentiment label as "Neutral". The sentence seems to be describing a technical detail about a software plugin development, specifically about the configuration of a parameter in the plugin. The tone is informative and factual, without any apparent emotional or subjective tone.

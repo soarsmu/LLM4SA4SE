@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Turns out IE6 leaves a 1px faint trace of the text because `color:transparent` isn't supported by IE6/7/8 (but IE7/8 hide the text properly anyway). So if you to 100% remove any trace of text in IE6, you might have to throw an IE6 hack in there."
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(3) Negative.
+
+The sentence mentions that IE6 has a bug that leaves a faint trace of text, and that there is no proper way to completely remove the text in IE6. This implies that IE6 has a negative impact on the functionality of the code, and that a "hack" is needed to work around the issue.

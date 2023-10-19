@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: ? probally the biggest flop ever. as soon as you click on the game a message pops up saying ' can not connect please try later ' waste of battery. htc
+Label:
+[/INST]  Sentiment: Negative
+
+The user expresses their disappointment and frustration with the game, calling it a "flop" and stating that it was a "waste of battery." The negative sentiment is conveyed through the use of words such as "probably," "can not," and "waste."

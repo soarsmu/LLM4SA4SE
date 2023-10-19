@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Assuming you don't depend on deserialization and/or base64 decoding for verifying integrity (see my other comment below), then maybe you could defer deserialization until after you have verified expiry.  You don't need the deserialized object to verify in"
+ASSISTANT: The sentiment expressed in this sentence is neutral.

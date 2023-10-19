@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I would actually like a Poll on the decision too, it doesn't seem like comments are doing anything :("
+Label: negative
+Example Sentence: Would it not be clearer / more readable to stay with 0 instead of NULL here? (since VehicleSeat::passenger is no pointer anymore)"
+Label: neutral
+Example Sentence: Right. Since it is currently fixed size anyway an array would fit perfectly."
+Label: neutral
+Example Sentence: Don't need to interpolate 'prefix' here (`brew audit` will catch that)."
+Label: neutral
+Example Sentence: ENV is special (it acts like a Hash most of the time, but it is not actually an instance of Hash), so this is the only way I know how to do it:  ```rb class << ENV   alias_method :_store, :[]=    def []= k, v     puts k     _store(k, v)   end end ```  I al"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: i don't have solution either :( i was never have problems with compiling MaNGOS until revision 11619 (error C2248: 'ObjectGuid::ObjectGuid' : cannot access private member declared in class 'ObjectGuid') if I update to r11628+ i have (error C2664: 'std::t"
+Label:
+[/INST]
+Label: negative

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @LB-- We appreciated your comments, and we appreciate the discussion this has spawned.  I did not think you were trolling, and I felt you made some really good points."
+Label: positive
+Example Sentence: Moar bytes :("
+Label: negative
+Example Sentence: @bergerkiller https://github.com/Bukkit/CraftBukkit/commit/8f12382e8efc8c39a919af9180dd884caf3720ff#commitcomment-2270043 > @Wolvereness  Cont. You mentioned plugin developers using the hack described by Afforess. I recommend that instead you include thi"
+Label: neutral
+Example Sentence: This is pretty dangerous, don't you think so?"
+Label: negative
+Example Sentence: @MaxWayt Indeed he did, he sucks!"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: That Commented out code should be removed, if not used :)."
+Label:
+[/INST]
+Positive

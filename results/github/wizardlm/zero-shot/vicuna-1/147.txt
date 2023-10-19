@@ -1,0 +1,7 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: UTF-32 versus UTF-32LE ?  Any issues?"
+ASSISTANT: The sentiment expressed in the sentence "UTF-32 versus UTF-32LE?  Any issues?" from GitHub can be categorized as (2) neutral. 
+
+The sentence is a question that compares two different encoding schemes, UTF-32 and UTF-32LE, and asks if there are any issues with either of them. It does not express any strong positive or negative emotions, and it does not contain any negative words or phrases. Therefore, the sentiment is considered neutral.

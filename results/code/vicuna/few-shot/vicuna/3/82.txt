@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yes, and it does. I submitted an amendment with a better comment explaining that.
+Label: non-negative
+Example Sentence: Per our discussion, make this a class that's just the combobox? Maybe like AndroidApiCombo?
+Label: non-negative
+Example Sentence: I can't parse the part between this comma and the next one.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Maybe this could be outputWriter instead of writer2.
+Label:
+ASSISTANT: non-negative

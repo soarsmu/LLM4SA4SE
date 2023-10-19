@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: why is a hack for me work excellent , is like other script (sindragosa), and don't need more complications An answer all spells which are in dbc(like are defined) have theyer attributes and should be using for script of the boss/npc?"
+Label:
+[/INST]  Sentiment: Positive
+
+The user is expressing satisfaction and appreciation for a hack that works well for them, and they are comparing it favorably to other scripts (like Sindragosa). They also mention that the hack does not need more complications and that all spells defined in the DBC should have their attributes and be used in the script for the boss/NPC. The tone is positive and enthusiastic, with a hint of wonder or amazement at the effectiveness of the hack.

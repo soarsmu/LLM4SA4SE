@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: i don't have solution either :( i was never have problems with compiling MaNGOS until revision 11619 (error C2248: 'ObjectGuid::ObjectGuid' : cannot access private member declared in class 'ObjectGuid') if I update to r11628+ i have (error C2664: 'std::t"
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(3) Negative.
+
+The user is indicating that they have a problem with compiling MaNGOS and are expressing frustration that they do not have a solution. The use of the phrase "I was never have problems with compiling MaNGOS until revision 11619" suggests that the problem is a recent development and that the user is experiencing difficulty that they did not previously encounter. The sentence also includes a negative sentiment with the phrase "if I update to r11628+ i have" which implies that the user is experiencing a negative outcome (an error) when they update to a specific revision of the code.

@@ -1,0 +1,24 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Be consistent about inner class references. Here you use Metadata but above you use SecureStoreLoadUtil.Metadata. In this case I am OK with either form in the class but want them to be consistent within the ~60 lines of code you have.
+Label: non-negative
+Example Sentence: I think I have addressed this in the updated version too.
+Label: non-negative
+Example Sentence: Along the same vein of getting the class's METADATA_TYPE when deserializing the response, since you are checking if the METADATA_TYPE is located in the json_dict, you could reference the class's METADATA_TYPE directly.
+
+(I should have seen this in the last code review)
+
+  if DriverInfo.METADATA_TYPE in json_dict:
+      <body>
+
+The same applies for the properties keyword check in line 67.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think you're right that this seems only natural. I will leave the code for this commented out by a flag for now, and figure out a way to add a 'lint' mode to JSORestrictionsChecker later to warn when turned on.
+Label:
+[/INST]
+Label: non-negative

@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Good point. We need to make sure that we use jsonrpc.
+Label: non-negative
+Example Sentence: Because they need some more tweaking to supports booth modes: standalone and in tree?
+Label: non-negative
+Example Sentence: Yes, you are right, although I do not believe we ever did ;) I'll change it back.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: inefficient. instead of using contains() above and section() here, one can use indexOf() above and mid() here.
+Label:
+ASSISTANT: negative

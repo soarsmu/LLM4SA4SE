@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This parent should not be included in the 2.0 branch, or the SE should be modified to ship with Twig 1.2 as you use one of the new features"
+Label:
+[/INST]  Based on the sentence you provided, the sentiment expressed is:
+
+(3) Negative.
+
+The sentence suggests that the parent should not be included in the 2.0 branch, which implies that there is a problem or issue with the parent that needs to be addressed. Additionally, the sentence mentions that the SE (which stands for "Software Engineer") should be modified to ship with Twig 1.2, which implies that there is a need for change or improvement. Overall, the sentiment is negative because it highlights a problem or issue that needs to be fixed.

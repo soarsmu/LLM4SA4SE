@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: looks like you changed your line endings.. thus every line was changed. please fix your line endings and try again.. hard to see what you changed"
+Label: neutral
+Example Sentence: and you get a git wtf award!  git pull --rebase. NEVER push these commits to master."
+Label: negative
+Example Sentence: yes, i'm a little confuse too with this commit, what exactly clean?"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Good point, will update it"
+Label:
+ASSISTANT: positive

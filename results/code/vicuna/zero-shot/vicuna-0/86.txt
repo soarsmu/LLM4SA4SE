@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: I just noticed this: please change god_mode to override_state as in this change: https://review.openstack.org/#/c/156203/8/nailgun/nailgun/test/integration/test_capacity_handler.py
+ASSISTANT: neutral

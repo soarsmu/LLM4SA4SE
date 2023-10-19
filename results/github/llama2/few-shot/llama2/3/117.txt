@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: LOL Vladimir +1 xDD  ¡Congratulations for 10.000 MaNGOS revisions!"
+Label: positive
+Example Sentence: some weird indentation here..."
+Label: negative
+Example Sentence: Since nobody seem to care that we break working addons from Dharma.....  Then i think we atleast should make getcwd() fail the same fashion i made chdir() fail. That way we don't get weird subtile errors from addons using getcwd(). Imho they have no busi"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I find this way is much more concise and easy to read.. braces just clutter the code and make it harder to scan. example: http://gist.github.com/255605 Hell if you could use try / catch without braces I would lol but ya its preference I suppose... I used "
+Label:
+[/INST]
+Positive

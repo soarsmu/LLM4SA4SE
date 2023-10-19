@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: In the below code, a book time is a period of time in which appointments can be made.
+Label: neutral
+Example Sentence: I suspect it may be more efficient to both query and write your records within each CODE_FRAGMENT, but this is an assumption that would likely require testing.
+Label: positive
+Example Sentence: ( My question is here, how to list the music on JScrollPane?? )
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: They appear to have foresight about what the Map contains.
+Label:
+[/INST]
+Positive

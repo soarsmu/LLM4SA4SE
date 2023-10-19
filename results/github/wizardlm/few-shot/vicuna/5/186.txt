@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Omgf, i heard about this exploit TODAY :O  And what can be done about people who already used this exploit to benefit from passive auras? is there a way to ""clean"" it out? maybe reseting everyone's talents or by deleting certain auras from the character "
+Label: negative
+Example Sentence: Seriously, this is really immature (not to say unprofessional). Sorry about that folks."
+Label: negative
+Example Sentence: https://github.com/petteyg/code_check"
+Label: neutral
+Example Sentence: I second this. Please remove this :("
+Label: negative
+Example Sentence: sorry, took this over from Nikolay without checking, changed now."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: urllib3 does the right thing with threads so it shouldn't break, more connections will be spawned and pooled correctly from what I've seen in the code."
+Label:
+ASSISTANT: positive

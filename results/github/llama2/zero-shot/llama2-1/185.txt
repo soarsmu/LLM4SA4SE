@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Probably costs as much to do:  for(i <- v.inbound.averageValue; o <- v.outbound.averageValue) yield ((i,o))"
+Label:
+[/INST]  The sentiment of the sentence is neutral.
+
+The sentence is describing a cost analysis for a specific piece of code, and the cost is likely to be similar for both the inbound and outbound values. The tone is factual and objective, without any positive or negative emotions.

@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @ben @arrbee Bam! It now returns fully fledged references when the expression looks like a reference :wink: "
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: As this discussion is now officially over, I can finally resume my opinion without having to be neutral!  This commit was liked by staff so they would get fewer complaints, and liked by terrible developers because they never use CraftBukkit anyway. Thats"
+Label:
+ASSISTANT: negative

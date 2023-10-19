@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I actually like it quite a bit. Im just trying to be conservative."
+Label: positive
+Example Sentence: @WestLangley I think the only thing that stands out is the following:  * Shouldn't Matrix4.multiplyVector3Array also be made obsolete in favor of a applyProjectionVector3Array or applyMatrix4Vector3Array?    * Same issue with Matrix3.multiplyVector3Arr"
+Label: neutral
+Example Sentence: Would you mind porting this back to evaluate?  "
+Label: neutral
+Example Sentence: Good point:  given that aws-sdk takes a type, paperclip should take a type.  [65e0338](https://github.com/Sporky023/paperclip/commit/65e0338f3ed07ddf95958ce71265a0ba76e9c1c6) changes the format to:     :s3_server_side_encryption => :aes256"
+Label: positive
+Example Sentence: Figured out who the credits go to, it's @Fredi. :) https://gist.github.com/1497219"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Yes, I think it does make sense to add scope and response_type (and more generally, anything from the oauth2 spec) to the base class.    (and in case you missed it I had another comment in the diff from before, about the use of parse_qs_bytes vs json)"
+Label:
+ASSISTANT: neutral

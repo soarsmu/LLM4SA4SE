@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: ? eats battery life like the cookie monster eats cookies. has the most features of any other system app. slows the system to a crawl. unistalled.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: great app! i love this app! it's great to have my book lists with me wherever i go and i can easily keep track of which books i've read to each of my kids. one thing missing is the browse feature like the apple version has; i miss that! add that and i will rate 5 stars!
+Label:
+ASSISTANT: positive

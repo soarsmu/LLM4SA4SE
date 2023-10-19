@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Really you shouldn't relink it after, because they install the same binaries. Suggesting it is a bad idea!"
+Label: negative
+Example Sentence: I need `override` or ""The compiler says NO!"". I could change the name, but that feels weird."
+Label: negative
+Example Sentence: Unfortunately this solution creates a bug, since this aura affected by the type of weapon used ( e.g talent like 12284 and 13709 ) .  Implemented while back bit different solution: http://github.com/abcxaos/mangos/commit/7efab7fd38c3a753e967648ca8ef1f2c"
+Label: negative
+Example Sentence: This version number is being found from the URL; try `brew audit robovm`."
+Label: neutral
+Example Sentence: Indeed, it should not. Turn Evil has MECHANIC_TURN but not MECHANIC_FEAR. These mobs are not immune to that mechanic."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: I'll let someone else from the @Bukkit/pull-request-handling-team comment - removing the references is OK, but it makes for a larger diff."
+Label:
+ASSISTANT: neutral

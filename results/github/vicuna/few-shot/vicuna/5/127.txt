@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I don't like this, seems redundant and in the wrong place. We already have `git_odb_read_header` which does exactly this."
+Label: negative
+Example Sentence: My Hands :D"
+Label: positive
+Example Sentence: That's better, thanks!"
+Label: positive
+Example Sentence: Fair point, how about:  Note that using GZipMiddleware allows attacks that would nullify the security provided by SSL/TLS."
+Label: neutral
+Example Sentence: Cool! The only one problem is there's no aggregate error information at last, so I have to scroll back to find failed tests :("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: If the method signature is the same as the parent there's no need to redefine it.  I'm not sure why you're even trying to do so. :-)"
+Label:
+ASSISTANT: neutral

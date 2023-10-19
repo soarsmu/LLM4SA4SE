@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I thought the point of the platform file is to make it easier by requiring only one option. Of course the user can also simply use "CC=icc CXX=icpc CFLAGS=-mmic CXXFLAGS=-mmic". If I don't specify the compiler then what's the point of having a platform file at all? 
+
+I'm pretty sure gcc will never support the MIC vector instructions (compiling with gcc works but is of course useless without the vector instructions). And it seems also very unlikely that clang will ever support it.
+Label: negative
+Example Sentence: Is the model about logs (as the class name suggests) or about log rows (as the parameter name suggests)? At least one of them needs to be changed.
+Label: non-negative
+Example Sentence: I think I'll cherry-pick, rebase and add the bootblock.elf and coreboot.ram fixes in #750.. makefile half-baked output.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: I think that's just a mistake in make.bash.  It's better to fail fast and minimize distractions to stderr when you know you've already lost.
+
+I'd say add an exit failure here and then submit. If you feel strongly about keeping it as-is, you can submit this too and we can fix them both later if we decide to.
+Label:
+ASSISTANT: positive

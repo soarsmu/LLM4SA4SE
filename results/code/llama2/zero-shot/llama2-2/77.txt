@@ -1,0 +1,18 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Ahh, I see.  :)
+
+I'm not seeing an isEmpty() method for the Cursor class.  Should I check for moveToFirst == false instead?
+
+Also, while I'm on this, is there a reason we call the CursorLoader parameter CursorLoaderLoader and the Cursor parameter cursorLoader?  Can I change them to just cursorLoader and cursor?
+Label:
+[/INST]  Sure! Here's the sentiment of your sentence:
+
+Label: Neutral
+
+You're asking for clarification on the Cursor class and suggesting a possible alternative approach. The tone is inquisitive and polite, with a hint of playfulness (the winking face :))

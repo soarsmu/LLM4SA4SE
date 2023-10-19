@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: crazy, I remember writing this code awhile back... I put it up on the mailing list but never got around to writing a test for it... "
+Label: negative
+Example Sentence: thanks"
+Label: positive
+Example Sentence: remove newline"
+Label: neutral
+Example Sentence: Woopwoop, lol. Ctrl+H mistake. :P"
+Label: positive
+Example Sentence: rsa i not meaning as fix your horiable hack written wihout attempt understand real problem.  My patch in gist fix _real_ porblem with wrong ""future"" msecs time in object last update field. But not resolve all porblems.  You pointed ""fix"" just ""recorrupt"" b"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I use ""domain"" as a query parameter throughout my application.  Do I need to modify every route, url_for, link_to, and redirect_to to use something different?  :-("
+Label:
+[/INST]
+Label: negative

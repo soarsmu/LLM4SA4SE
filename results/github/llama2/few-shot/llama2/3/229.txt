@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @stof possible yes, but it wouldn't solve the problem. It needs to be overwritten later and AFAIR there's no update support for Bags. =("
+Label: negative
+Example Sentence: I disagree with this change. With conditional classes, it was very clear what styles were applied to which browser. CSS hacks don't have inherent meaning, which decreases maintainability in my opinion. They're probably fine if you're the only one writing t"
+Label: negative
+Example Sentence: Please, test without plugins.  One person already determined DynMap is the culprit, so try without plugins. To make sure. :)"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Still need the hash syntax update?"
+Label:
+[/INST]
+Label: neutral

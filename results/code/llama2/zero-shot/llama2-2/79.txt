@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Use a proper sentence, and this routine does more than that, returning encoded version.
+Label:
+[/INST]  Sentence: This routine not only encodes the input string but also provides detailed and helpful information about the encoding process.
+
+Label: Positive

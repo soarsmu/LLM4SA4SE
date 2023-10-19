@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: this commit is going to make writing tests so much more difficult :("
+Label: negative
+Example Sentence: Ahh, no. That was from when it was called CookieCollection, which is the same class name as in System.Net."
+Label: neutral
+Example Sentence: In [11337]. Thank you :)"
+Label: positive
+Example Sentence: Because we are locked in a version of webrat since it has Rails 3.x related bugs. :("
+Label: negative
+Example Sentence: The use of Empty that is imported from models.fields looks very weird until one looks at its definition. Can't you use object() directly?   Edit: No, you can't, Python2 won't let you. Still, the use of a class imported from fields feels hackish."
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Good point, will update it"
+Label:
+[/INST]
+Positive

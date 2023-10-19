@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Unsigned int or size_t? You're comparing it to unsigned values in node_crypto_bio.cc and I wager it's always going to be > 0 anyway."
+Label:
+[/INST]  Based on the sentence you provided, I would categorize the sentiment as:
+
+(2) Neutral
+
+The sentence is a statement of fact and does not express any emotion or opinion. It is a observation about the type of variable being used in the code and the potential consequences of that choice. The tone is informative and matter-of-fact, with no hint of positivity or negativity.

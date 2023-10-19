@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yes, I agree. Thanks for pointing that out.  Changed in: https://github.com/harvesthq/chosen/commit/a3c9ea9a299bae93c5d7a4647cde6a307001b392"
+Label: positive
+Example Sentence: What's the behavior of there's no match? I think this needs to be documented"
+Label: neutral
+Example Sentence: @mrdoob Hehe, indeed ;)."
+Label: positive
+Example Sentence: yeah, it's definitely outside of my comfort zone also. Correct me if there is a better way, but adding this compiles fine (without warnings also)      class ConsistentHash[T <: Any: ClassTag]       private val (nodeHashRing: Array[Int], nodeRing: Array[T])"
+Label: negative
+Example Sentence: Right you are! Fixed!"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: this is kinda lame, still not progressive"
+Label:
+[/INST]
+Label: negative

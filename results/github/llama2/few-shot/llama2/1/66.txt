@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I don't like the idea of this patch, I see no reason for us to be able to change tracking mid run (which this patch allows.) For that matter I'm kindof against the whole idea to change buffering number based on advancedsettings (which I have stated before"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: We can only compare our results to json.parse on browser that have the native method. I agree it's not optimal to test this everywhere but where we actually use it. Perhaps we dump this test's attempt to compare since we don't care about the native result."
+Label:
+[/INST]
+Label: neutral

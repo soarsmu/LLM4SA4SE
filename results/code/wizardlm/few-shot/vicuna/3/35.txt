@@ -1,0 +1,20 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: This is not following the style for the other source files
+Label: negative
+Example Sentence: Patch Set 1: Fails
+
+(1 inline comment)
+
+I just tried this change on tot gavd on my waluigi and it didn't detect headphone insertion. I went back to just tot, the change renaming udev_listen -> udev_sound, and it does work.
+
+I know the commands for alsa were not flushed out yet in the max98095 codec, is that the problem right now?
+Label: negative
+Example Sentence: Method descriptions in VTK must always start with this:
+  // Description:
+If this line is missing, then the automatic document generation will not work.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: nitpick: add a space between "if" and its opening pare
+Label:
+ASSISTANT: neutral

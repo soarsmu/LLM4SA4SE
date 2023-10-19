@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I am not sure why I can not get it to work and have been struggling with it for a while.
+Label: negative
+Example Sentence: If you see the source code of this method you will see that.
+Label: neutral
+Example Sentence: CODE_FRAGMENTs have default CODE_FRAGMENT methods that do as you expect.
+Label: neutral
+Example Sentence: I have looked to the JNA code of the extraction method.
+Label: neutral
+Example Sentence: I wrote this code to update a patient in a derby database but it throws a CODE_FRAGMENT.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Each node in the network sends periodically updated data from sensors ( voltage, current, temperature etc. ).
+Label:
+[/INST]
+Positive

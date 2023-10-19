@@ -1,0 +1,11 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: The whole point behind previously removing this line was that there's no point behind assigning this variable to the value of one that already exists. :) So, it should be better to update line 191 to:      $uri = substr($_SERVER['REQUEST_URI'], strlen($_S"
+Label:
+[/INST]
+Sentiment: Neutral

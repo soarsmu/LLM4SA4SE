@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Reformatted, sorry about that!"
+Label: negative
+Example Sentence: why not convert in aura script :-("
+Label: negative
+Example Sentence: Can you give me an example of a route? Because I'm pretty sure we don't need this weird `~` support."
+Label: negative
+Example Sentence: Interesting. In which case, it's glib's configure that sucks."
+Label: negative
+Example Sentence: @wsoltys  Sorry bother you but i still get no git version http://paste.ubuntu.com/782072/ also got some annoying virus warning. see xbmc forum"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: regex abuse.  just do: `process.platform.match === ""win32""`  also excessive parens"
+Label:
+ASSISTANT: negative

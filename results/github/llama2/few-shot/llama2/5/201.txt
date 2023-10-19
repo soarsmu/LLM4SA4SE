@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: so, what’s the rationale for not suspending the actor in this case? Or should it in fact be implicitly Resume’d? (I mean in the Directive sense)"
+Label: neutral
+Example Sentence: Doesn't that do a copy of the original collection? Would it be preferable to have a ""foreachChild""-method instead?"
+Label: neutral
+Example Sentence: Ugh, right. I haven't noticed this small detail. :("
+Label: negative
+Example Sentence: Purely out of interest. Do you know how to create a symbol so that dlsym() returns NULL when you try to resolve it?"
+Label: neutral
+Example Sentence: I can't put this together right now, but would greatly appreciate someone else doing so."
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: fork commits get applied much quicker than a diff in a ticket.. :)"
+Label:
+[/INST]
+Positive

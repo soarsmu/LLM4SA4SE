@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @Darkhand81  They are refusing to answer that. :("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: the `envir` argument is not used anywhere in this function, so please remove it  it is not worth many arguments for this R function; I think you can just write `rst2pdf(input, rst2pdf = 'rst2pdf', options = '')` and users can specify extra options like `o"
+Label:
+ASSISTANT: neutral

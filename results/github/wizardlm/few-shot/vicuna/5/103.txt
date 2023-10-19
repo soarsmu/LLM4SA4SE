@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I hate VS2010, it's too slow :s"
+Label: negative
+Example Sentence: It seems weird to me that this is setting the form field value after getting called by `search_field_disabled` which just read that value. I couldn't really think of a cleaner way to do this, though, so I'm not 100% sure what to suggest to make it better."
+Label: negative
+Example Sentence: Might be worth adding a .. warning:: section on that"
+Label: neutral
+Example Sentence: Much better!!"
+Label: positive
+Example Sentence: This is irrelevant to the actual necessary changes, but it's a definite improvement—nice one."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Please, Gacko, stop abusing the -f flag. If you forget something, just commit right after it and fix the file, don't throw dead nodes into the commit tree.."
+Label:
+ASSISTANT: negative

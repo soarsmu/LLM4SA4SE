@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Improving readability is a big plus. These changes may deprecate a lot of things, but it's for the better. Adapt to change where change is needed. It's not like this is another RBAC or anything... :P"
+Label: positive
+Example Sentence: -_- ok well like you said above then. Personally I don't like it, but there is no really good solution that I can see. where.not seems hard to explain and confusing to a newbie. I know you have to make hard decisions so all props to you on that."
+Label: negative
+Example Sentence: @alloy Good call. You can create a patch if you want.  But this is kind of temporary/experimental direction. We want to be more friendly about namespacing your application so multiple rails apps can exist in the same space."
+Label: neutral
+Example Sentence: It's not gnutls, but iksemel that is broken using an old method to get compile parameters for gnutls. The next version will use pkg-config to get gnutls libs compile flags, but it hasn't been released for a long time.  This just creates a script to act lik"
+Label: neutral
+Example Sentence: @Scottymeuk Read the associated ticket [#3283](http://cakephp.lighthouseapp.com/projects/42648/tickets/3283)"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Very nice!  I'm quite sure I'll forget about this by the time I would need it, though;-) Could you add some words to the CHANGELOG so people notice this little gem?"
+Label:
+ASSISTANT: positive

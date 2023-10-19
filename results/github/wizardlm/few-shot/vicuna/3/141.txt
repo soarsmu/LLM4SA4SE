@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: And everything else that came in that expansion and before too."
+Label: neutral
+Example Sentence: @trustin Ups sorry forgot to include one file here :/ "
+Label: negative
+Example Sentence: thx very much Vladimir, found this http://www.hellboundhackers.org/articles/914-c-c++-memory-structs-objects-and-unions.html - would never think that such thing is even possible."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Haha, come on, you can declare the `git_tree` here instead of doing this."
+Label:
+ASSISTANT: positive

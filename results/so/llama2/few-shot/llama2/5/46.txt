@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Anyone have any idea on the problem?
+Label: neutral
+Example Sentence: Wrong CODE_FRAGMENT CODE_FRAGMENT attribute.
+Label: negative
+Example Sentence: I am using Java SE version NUMBER.
+Label: neutral
+Example Sentence: The regex is.
+Label: neutral
+Example Sentence: Now you can write your Selenium WebDriver code as below.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I want update text by line number,.
+Label:
+[/INST]
+Label: neutral

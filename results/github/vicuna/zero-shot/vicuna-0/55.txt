@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: This bit of code used to be up in the driver() call, but was moved down here in #353 to support loading driver libraries with library(). With this change, that check to include the driver base classes needed to move a little deeper into _ci_load_class() f"
+ASSISTANT: neutral

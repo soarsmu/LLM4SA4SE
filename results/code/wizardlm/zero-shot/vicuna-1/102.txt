@@ -1,0 +1,9 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: 1. This seems like a hack to work around a bug -- why are we reading from the pty after it is closed?
+2. This hack also looks too broad -- if any error occurs we close the pipe and stop reading, while squelching the error. This seems bad.
+
+Same comments below.
+ASSISTANT: 1. Negative
+2. Negative

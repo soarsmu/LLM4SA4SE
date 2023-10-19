@@ -1,0 +1,18 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: what is the reason for having them private?
+
+I mean I usually like private stuff, but it's uncommon in TYPO3 CMS ;-)
+Label: negative
+Example Sentence: Hmm, I still don't like these ternery operators used as statements, I would prefer using an if statement
+Label: negative
+Example Sentence: the return value of NULL doesn't look right. it means even in the presence of read/write failures it will still reboot into recovery mode and show NO COMMAND to users. don't have a fix in mind though.
+Label: negative
+Example Sentence: mdrun -nstlist > 0 is not affected by this change, it will still change nstlist. Or do you mean to add a note even with nstlist=0? nstlist=0 is explained as guess and 1 with 1 seems ok to me.
+Label: non-negative
+Example Sentence: These variables are only used in the next call, I'd remove them
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: No need for Provider here, inject FlushCashe directly. Both PostCaches & FlushCache are singletons. So the Provider hurts more than it helps here. E. g. on line 105 it get called in a loop and returns allways the same singleton instance.
+Label:
+ASSISTANT: positive

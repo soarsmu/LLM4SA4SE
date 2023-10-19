@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: @JamesNorris  To be honest, that's just a dick move.  It's YOUR plugin and therefore YOUR responsibility, not the Bukkit teams. You are not supposed to be diving into OBC/NMS anyways, find a way to use the API. If you do some weird action within the se"
+ASSISTANT: The sentiment expressed in the sentence is negative.

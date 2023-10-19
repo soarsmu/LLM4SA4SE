@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Should each sensor have it's own filterable field?  I think that's what I was trying to determine (and came up with "yes").  I believe some are "common" (and share evtype_rvals), but I thought others have difference enumerations.  Don't necessarily want to share a field name just because the enumeration is shared.
+Label: non-negative
+Example Sentence: every bucket needs to have its own gen to avoid sharing updates/deletes with other buckets.
+Label: non-negative
+Example Sentence: Done (gerrit tells me off if the commit subject is too long:
+
+(W) 873ed2c: commit subject >65 characters; use shorter first paragraph
+
+but does the go project really care?)
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Style: Given totalCount is guaranteed to be zero here, just return zero - it's clearer to the reader what's being returned.
+Label:
+[/INST]
+Label: non-negative

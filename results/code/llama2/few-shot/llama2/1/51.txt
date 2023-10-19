@@ -1,0 +1,24 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Hi Nigel,
+
+Is it better to use "nbsp;" instead of "."?
+
+In case other screens want to use this in the future - it's more generic.
+
+But, it's up to you.  
+
+It actually works quite well the way it is.
+
+Thanks,
+Ghada
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: this should better be moved to a signal in IWizardFactory then, I suppose. but different patch.
+Label:
+[/INST]
+Negative

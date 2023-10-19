@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: there's an example of this in our code base:  https://github.com/scala/scala/blob/master/src/compiler/scala/tools/nsc/backend/icode/analysis/SemiLattice.scala#L22  ```  /Users/adriaan/git/scala/src/compiler/scala/tools/nsc/backend/icode/analysis/SemiLattic"
+Label: neutral
+Example Sentence: @Puremin0rez @stefansaraev Thanks for your feedback!"
+Label: positive
+Example Sentence: Rails is decidedly in favor of the Ruby 1.9 syntax. For the most part, Rubyists and Rails-ists tend to use plain symbols for keys in hashes, not objects. I don't see any places recommending other objects as keys, only a few people deciding to use it that w"
+Label: neutral
+Example Sentence: +1 e000...  Lets play ping pong :)"
+Label: positive
+Example Sentence: There is still a reference to cluster.eachWorker on line 83 of cluster.js: https://github.com/joyent/node/blob/d42006c80a9c827e4c147e22f56bb3d789f578ce/lib/cluster.js#L83"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think this may have broken something :("
+Label:
+[/INST]
+Label: negative

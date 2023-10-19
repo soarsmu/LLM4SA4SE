@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ahhh wtf. I'm removing this shit good catch."
+Label: negative
+Example Sentence: Hmmm, this is a bit.... suboptimal  Can we come up with a clean solution to this?"
+Label: negative
+Example Sentence: Booo! If you're not looking through the boilerplate to change these values, you're bad at your job."
+Label: negative
+Example Sentence: @riyad thanks. much better now ;)"
+Label: positive
+Example Sentence: Sorry for my last comment vcrx6, thanks for your help. I might have missed out on something for the outro/intro, sounds strange that its not working. Try to test the encounter as if you were in a raid, and skip the gm hacks except .damage :P.  "
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: There you go  ![Cookie](http://upload.wikimedia.org/wikipedia/commons/e/e5/Crystal_Project_cookie.png)"
+Label:
+[/INST]
+Label: positive

@@ -1,0 +1,25 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I do not like (long) very much, but that is something in the inode_ctx API :-/
+
+Maybe I find the courage one day to make it a (void*) instead.
+Label: negative
+Example Sentence: I don`t think that this could really happened. Because ptlrpc has single thread for rq_set, that means only one ptlrpc_check_set() could happened for a request. And ptl_send_rpc could not race with after_reply.
+Label: negative
+Example Sentence: FindBugs is complaining about these parameters being null.
+Label: non-negative
+Example Sentence: But what we are using is oslo version. I think this should be fixed in oslo. I submitted a patch to oslo https://review.openstack.org/56211
+Label: non-negative
+Example Sentence: If there is only one developer path, do not append '0' to the Xcode name. It looks weird.
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I think that's just a mistake in make.bash.  It's better to fail fast and minimize distractions to stderr when you know you've already lost.
+
+I'd say add an exit failure here and then submit. If you feel strongly about keeping it as-is, you can submit this too and we can fix them both later if we decide to.
+Label:
+[/INST]
+Label: negative

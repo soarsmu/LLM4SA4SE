@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Even if rubygems is there, we cannot assume that bcrypt ruby is coming through the gem. It could as well come from vendor/bcrypt-ruby.  And we don't depend on bundler as well (that's why it is a rails gem dependency). It is simple a convenience, people a"
+Label: neutral
+Example Sentence: @DouweM I think exploiting is (in this context) when you use a vulnerability to (""to"" as in ""on purpose, not by accident or carelessness"") achieve a personal gain or inflict a loss on somebody else. I consider what he did is a proof-of-concept, he demonstr"
+Label: neutral
+Example Sentence: Sorry, i guess it was too late for me to think :("
+Label: negative
+Example Sentence: Well, we didn't have a migration in a while but it is in the usual update workflow. Rails will also print a pretty clear error message in case you miss it. So I don't think that's necessary :)"
+Label: positive
+Example Sentence: lol, same time dave"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: why is a hack for me work excellent , is like other script (sindragosa), and don't need more complications An answer all spells which are in dbc(like are defined) have theyer attributes and should be using for script of the boss/npc?"
+Label:
+[/INST]
+Label: neutral

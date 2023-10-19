@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: airplane mode :/ i know you can't do anything about it  but the lack of airplane mode scheduling in kitkat just sucks. other features are very useful.
+Label:
+[/INST]  Sure! Here's the categorization of the sentiment in the sentence you provided:
+
+Label: Negative
+
+Reason: The user expresses frustration with the lack of airplane mode scheduling in KitKat, indicating a negative sentiment.

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: That's... really weird I'll fix it later"
+Label: negative
+Example Sentence: Why do you do this either way, ```options['login_form']``` is ```true``` or ```false```? Shouldn't this depend on ```icon```, instead? Something like: ```ruby if icon   Gitlab.config.omniauth.form_providers << provider end ```"
+Label: neutral
+Example Sentence: It should be setChestplateDropChance not setChestPlateDropChance.  But thank you for adding this =]"
+Label: positive
+Example Sentence: Thanks for clarification!  I've changed it to the version with hyphens, so everything should be fine :-)"
+Label: positive
+Example Sentence: What happens if the task completes just before the if runs? We'll never runs the continuation :smile: "
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: epic :D:D:D keep going :) good job"
+Label:
+ASSISTANT: positive

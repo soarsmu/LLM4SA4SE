@@ -1,0 +1,19 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: with proto_tree_add_item, last argument is encoding no value
+Label: non-negative
+Example Sentence: should this patch only be added if $(SYSTEM_MYSQL) is NO ?
+Label: non-negative
+Example Sentence: use mock.patch.object, also should be able to use the decorator like on the other method.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Patch Set 3: Code-Review-1
+
+@Sebastian: Yeah we already discussed that, but since we don't have time to implement promises or similar for 1.0 it's still better than before. So for now we make sure to fetch the stuff early, but I agree we should add a TODO in there
+Label:
+[/INST]
+Label: non-negative

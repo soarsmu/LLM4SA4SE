@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Really? sorry, I did not know"
+Label: negative
+Example Sentence: Who do you handle capacity violations? (In case of bounded Deque)"
+Label: neutral
+Example Sentence: It wouldn't be in net.minecraft.server or obfuscated if it were new :) The changed lines are always marked with //craftbukkit."
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: This promise juggling seems quite brittle, whose responsibility is it to complete it? Is it safe to call the exception-throwing ``success`` | ``failure`` | ``complete`` methods etc.  How about having ``setMode`` return a Future[Boolean] instead, and doi"
+Label:
+[/INST]
+Label: neutral

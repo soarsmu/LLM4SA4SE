@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: i find another place where use suggested by you way implement operator for if() use ^^ One more time thanks for point to it ^^"
+Label: positive
+Example Sentence: No one? Wrong! =("
+Label: negative
+Example Sentence: base64.b64encode would be even more efficient, I was simply reporting the bug"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: I know it's tempting, but I'm worried about false positives."
+Label:
+ASSISTANT: neutral

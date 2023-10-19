@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Forgot a comment here :-("
+Label: negative
+Example Sentence: @GuntherDW People like @GarretSidzaka are spamming the commit link everywhere apparently, so that's going to attract people who don't know the things you mentioned."
+Label: negative
+Example Sentence: +1 :D  I can't count times when I forget about adding multipart to forms ;-)"
+Label: positive
+Example Sentence: This actually have a pattern name, but it is ugly and confusing: Flyweight factory"
+Label: negative
+Example Sentence: Theaxiom, it was fixed (comment of ADmad) after the release 1.3.8 (current master version)."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: And most of other spells can be hardcoded. Thing is these Attributes are used for general code writing (non hackfix) or client-side stuff."
+Label:
+ASSISTANT: neutral

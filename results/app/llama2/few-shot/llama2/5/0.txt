@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: cool game this game is awesome
+Label: positive
+Example Sentence: off-the-record (otr) every time your phone will be on stand by or im+ is running in the background you will get otr error . im+ will close the encryption if you you want to do anything else on the phone except chating. please try to fix this bug is really really annoying . you cannot get the messages if you for example leave the phone with the display off in your pocket . you cannot open a internet browser and leave your im+ running in background.  please chek this big bug!  thanks manolescu2014 @ gmail com if you have already any solution
+Label: negative
+Example Sentence: ? its okay but then it freezes other than that's its ok
+Label: negative
+Example Sentence: a must have i love marvel
+Label: positive
+Example Sentence: nice.... ..... it is useful
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: its nice this apps is must lovely
+Label:
+[/INST]
+Label: positive

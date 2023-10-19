@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Yeah, a little bigger but cherry-pickable, and we might as well keep the two branches in sync on patches like these unless there's a good incentive the other way."
+Label: neutral
+Example Sentence: I was to stupid to not realise that ruby per default is greedy. Which IMHO is shit! See my next commit."
+Label: negative
+Example Sentence: MAke it so that the dispatcher to be used is specified through the constructor, in that way it'll be easier to configure it later."
+Label: neutral
+Example Sentence: Please add parentheses around the `and` block, precedence isn't obvious."
+Label: neutral
+Example Sentence: I think this will give 3 credits on the 1st 20 because the spell hits all of the creatures at the same time and the check is done almost at the same time. :("
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: sweet hopefully no more gcd exploits"
+Label:
+ASSISTANT: positive

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Seems legit."
+Label: neutral
+Example Sentence: No - but you can still do [[""Set-Cookie"", ""cookie1""], [""Set-Cookie"", ""cookie2""], ... ] Perhaps how you suggest is better though..."
+Label: neutral
+Example Sentence: weird indenting - mayaswell fix it up seeing as you're changing the lines here anyway."
+Label: negative
+Example Sentence: I love how all the weekend lawyers pop out of the woodwork lol."
+Label: positive
+Example Sentence: It seems you are right. I've just checked and indeed it has overwritten my own Return-Path."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Better not give the code sniffer reasons to complain :smile: "
+Label:
+ASSISTANT: neutral

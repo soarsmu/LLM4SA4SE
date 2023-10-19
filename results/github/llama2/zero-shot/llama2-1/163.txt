@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Thanks Steven. For a dot release, 3.1 sure changed a lot of fundamental things. :("
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The use of the word "changed" and the phrase "a lot of fundamental things" could be interpreted as a negative sentiment, but the overall tone of the sentence is one of gratitude and acknowledgement, which balances out the potential negativity.

@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from Stack Overflow. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Each date for which you want to create an appointment can be represented as a CODE_FRAGMENT, FILE_NAME for a date-only value without a time-of-day and without a time zone.
+Label:
+[/INST]  Sentiment: Neutral

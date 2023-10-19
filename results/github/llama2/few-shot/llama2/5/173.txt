@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: <pre>I wont release those or give you my scripts they are private</pre> Then STFU. (sorry for being rude but this is the opposite of the TC spirit)"
+Label: negative
+Example Sentence: `jsonProp` is pure brilliant!"
+Label: positive
+Example Sentence: so this fix is also related to my post here i see: http://www.trinitycore.org/f/topic/5197-can-this-cause-indeed-crashes/ thanks for the fix!"
+Label: positive
+Example Sentence: ye,  summoning works fine. Also totem timers work already well, what a feeling to play a shamy :D thx"
+Label: positive
+Example Sentence: WHEN REPORTING ERRORS, INCLUDE THE GOD DAMNED ERRORMESSAGE/COMPILERERRORS!"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Can this be handled in the actual database adapters? I.e. by putting PG specific code in the PG adapter.  Maybe by adding e.g. a `:fixed_string` entry to the `native_database_types` hash, and using `""fixed_#{type}"".to_sym` if fixed is true."
+Label:
+[/INST]
+Label: neutral

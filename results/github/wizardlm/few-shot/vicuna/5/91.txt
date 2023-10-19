@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: given that this could be arbitrary data, do we want to do a hex dump instead? (ChannelBuffers.hexDump(commandName))"
+Label: neutral
+Example Sentence: @gibson042, You're not gonna believe this but ... https://github.com/jquery/jquery-mobile/blob/4e2fef1dd1bf7cda10983adab7eeee641a8733bf/tests/jquery.testHelper.js#L124 :sob:  They're going to try switching to a direct $.ajax call for the script but it ha"
+Label: negative
+Example Sentence: Yes, readability suffers somewhat. On the plus side, shorter methods are favored by the JIT compiler. In fact, that was a consideration that led to Range.validateRangeBoundaries, but on closer inspection it brought its own disadvantages (basically, making"
+Label: neutral
+Example Sentence: That's weird?! I c&p'ed this from another place in DVDPlayer, which means it must be wrong there too. Are you sure?"
+Label: negative
+Example Sentence: Yes, this is the first tiem I noticed it and it's a pretty weird idea to add something like that to the grid in the first place, IMO."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: How about keeping the duck typing, but simply blacklist `String` instances? `respond_to?(:each) && !is_a?(String)` kinda thing."
+Label:
+ASSISTANT: neutral

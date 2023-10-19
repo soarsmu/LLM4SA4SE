@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Shouldn't this be after if (unitTarget->GetTypeId() == TYPEID_PLAYER)?"
+Label:
+[/INST]  Sentiment: Neutral
+
+The sentence you provided is a suggestion for improving the code by adding a check for the unit target's type ID before performing an action. The sentiment is neutral because the suggestion is not expressing any strong emotions or opinions, but rather providing a practical improvement to the code.

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Stack Overflow as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Say, after several text appended to a text area, I want this to be appended.
+Label:
+[/INST]  Sure! Based on the sentence you provided, the sentiment expressed is:
+
+(2) Neutral.
+
+The sentence is a request or instruction, and it is written in a straightforward and factual manner, without any positive or negative emotions or connotations.

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Will this not break SSL?"
+ASSISTANT: The sentiment expressed in the sentence is neutral. The sentence is a question and it does not contain any particularly positive or negative words. It is simply asking for clarification on whether a particular action will cause a problem with SSL.

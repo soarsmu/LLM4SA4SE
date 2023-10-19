@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Done."
+Label: neutral
+Example Sentence: And no even if the encoder produce nothing there is overhead as we need to store it on every encode as we not know if the next call will maybe not produce something"
+Label: neutral
+Example Sentence: Requests should really not be changed.. And as described in the commit, the problem is that it's always called twice for BC with frameworks that don't call setRequest"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I was a bit hesitant to use the boost libs here.  I think a lot of the string trimming code is duplicated in the `utils/monogutils/str.h` file, and should be replaced with boost--after all, we're already using boost here.  Let me know what you think--I rea"
+Label:
+[/INST]
+Label: neutral

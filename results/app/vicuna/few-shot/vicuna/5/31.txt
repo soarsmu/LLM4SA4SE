@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: very nice. great keyboard app. many great tools and a ton of customization.
+Label: positive
+Example Sentence: if only... i'm using this app on a note 10.1 and have also tried the obvious competition.   there are some features i really like and already miss in other apps  especially the very well implemented blending and the in-depth controls for setting pressure sensitivity. the deal breaker for me  at the moment: noticeably worse brush lag than in other apps. note: there is actually a "note mode" which limits the area to the current tile and is much smoother  but offers only a small selection of tools while active. i'd love to have that kind of performance with the full functionality (within reason when it comes to more demanding / bigger brushes).  short version: love nearly everything about it and will definitely buy the full version when the performance gets improved.
+Label: positive
+Example Sentence: edit profile "an error has occurred  please try again (8)" constantly. annoying the sh*t clean out of me! fix it please....love to uninstall but in mid chat!!??
+Label: negative
+Example Sentence: game this game is kool!!!!
+Label: positive
+Example Sentence: wont work even with the newest bug fix update  i can only play the demo and one song  because once it gets to the sign in screen  i sign in and it loads forever (not because of interneg issues  i have 4g lte). please fix for i want to play but simply can't on my galaxy s4. edit: even after some bug fix updates it still occurs.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: time time freezes and will not update since latest version.
+Label:
+ASSISTANT: negative

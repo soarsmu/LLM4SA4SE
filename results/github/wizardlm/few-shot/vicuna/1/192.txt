@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Perhaps I'm being pedantic, but I'd prefer the new validation to be added in a separate commit from the reshuffling. Ditto for other new code this commit that I might not have seen."
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: sql/updates/auth/2013_04_25_00_auth_misc.txt WTF!? Have you even read the commits that make?"
+Label:
+ASSISTANT: negative

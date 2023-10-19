@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Y U no look at 28daadeca8ebc889fd799ed8bb58293ebeb4fabd? :)"
+Label: positive
+Example Sentence: When I now read the first comment all that makes sense ^^ you are such a patient person :-P.  With your new code we would pass hSocketMax == 0 to select(), when -proxy is invalid (no BOOST_FOREACH pass), I'm not sure if this is valid. But you are right, w"
+Label: positive
+Example Sentence: This actually have a pattern name, but it is ugly and confusing: Flyweight factory"
+Label: negative
+Example Sentence: @rafaelfranca ah, thanks. I can see one broken test on my machine (railties/test/application/initializers/frameworks_test.rb:160) but I couldn't reproduce the one broken on travis-ci (railties/test/application/route_inspect_test.rb:72).  I'm running ruby"
+Label: positive
+Example Sentence: I mean:   - import `Zend\Json\Json` instead of `Zend\Json\Decoder` - Use `Json::decode()` instead of `Decoder::decode()`  In other words, continue with automated decoding, just change the mechanism. :)"
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Wouldn't it be better to return directly from this instead of creating a new object        if ( parameters === undefined ) return; "
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: heh ye, those procflags look kinda random. Ive made it 65876 (including proc on ranged hit, wont hurt being there), not sure if it should heal on aoe dmg and dot ticks too."
+Label: neutral
+Example Sentence: We don't accept `md5` hashes anymore as forgeries are too easy to create. Use `sha1` hashes instead."
+Label: neutral
+Example Sentence: Oh, thanks. I'm using such patch for 1,5 years, but always considered it as hack :) "
+Label: positive
+Example Sentence: Thank you, thank you, thank you. Completely slipped my mind."
+Label: positive
+Example Sentence: Do we need to have this one?   If we throw we'll know that the topic was not created successfully."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: an upgrade instruction starting with ``Added`` looks weird to me."
+Label:
+[/INST]
+Label: neutral

@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Isn't there a MurmurHash in Scala libs? In the nightlies there is a scala.util.hashing.MurmurHash3. Is ours customized somehow?"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the given sentence:
+
+Label: Neutral
+
+The sentence expresses a question and a hint of curiosity, but it does not convey any strong emotions or opinions. The tone is polite and professional, with a focus on factual information.

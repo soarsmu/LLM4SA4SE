@@ -1,0 +1,17 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: You're preforming this check multiple times.
+it's better to create a separate function, in case we will need to add a new "localhost" name/ip
+Label: non-negative
+Example Sentence: it seems to me that this operation is not optimal as it would try to find a number in a list, while you only need to check it against 0, 4095 boundaries.
+Label: negative
+Example Sentence: Removing onboard devices instead of setting them to off can break the chipset configuration. This is the entire reason for this stuff to be in a devicetree.cb and to make the static.c to point to the correct setup functions. These devices are always on the board and the chip configuration will enable and disable (and hide) them based on the platform configuration and the device tree.  Without this, everything would be a normal pci device enumeration and coreboot would be much much simpler... 
+
+I also agree with Martin that, as a reference design, it is important to show the configuration as clearly as possible.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: If it's not set, there's no way to get FSP failure data out.  I agree that it's not an absolute requirement, but without it, if there's a failure, you're going to be pretty lost.
+
+We could move it from here and put this below, surrounding the #if statements and not actually fail, but my opinion was this was the best option...
+Label:
+ASSISTANT: non-negative

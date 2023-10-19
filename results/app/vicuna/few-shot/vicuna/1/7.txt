@@ -1,0 +1,8 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: not so grand the features are great if they work  which unfortunately is nearly never. constantly loses connection to the server when i'm on stable wifi  crashes continuously  doesn't keep up the stream to chat and doesn't like to load lootables at all. this app hasn't been updated in over a year and it's easy to see the lack of support.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: pof i used to love this apps since they upgrade the apps i can't send no messages every times i try to send a message error pop up say i have no services please fix this problem.
+Label:
+ASSISTANT: negative

@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Is camera example supposed to be working? It's very confusing now ;/"
+ASSISTANT: Based on the sentiment expressed in the sentence, I would categorize it as (3) negative.

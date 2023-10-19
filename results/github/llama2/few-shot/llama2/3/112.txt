@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @mbax ItemMeta is great, but I want to add my own metadata."
+Label: positive
+Example Sentence: can we have string formatting using %s here? the + operator just fails too often compared to %s"
+Label: neutral
+Example Sentence: `protected[akka]` is weaker than `protected`, so what are you saying? Subclassing applies to ActorSystem or ActorCell, so I don’t see a problem which emerges from this line."
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: pet::Update call Creature::Update and in creature update before chnages exist explcit assign different value to regentTimer In some cases Pet regen timer updates conflict with unexpected Creature updates and timer never set less that normal diff values. "
+Label:
+[/INST]
+Label: neutral

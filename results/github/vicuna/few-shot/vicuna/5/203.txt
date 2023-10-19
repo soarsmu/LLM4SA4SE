@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I agree. It should never get called given the rest of the code so there's not much point in it being there."
+Label: neutral
+Example Sentence: Bro, we are freezing the hash otherwise Ruby is going to dup it internally in order to use it as key. Since _set_detail is unlikely to be called after the first template is rendered, the freeze version should perform better. amirite?"
+Label: neutral
+Example Sentence: according to click its a hack  https://github.com/TrinityCore/TrinityCore/pull/5828"
+Label: neutral
+Example Sentence: Oh yeah you are right.. missed that. Sorry!"
+Label: negative
+Example Sentence: you should inject the ``logger`` service and let MonologBundle change it based on the tag. This way, it remains compatible with alternate logger implementations if someone decides to use something else than MonologBundle"
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: wtf??"
+Label:
+ASSISTANT: negative

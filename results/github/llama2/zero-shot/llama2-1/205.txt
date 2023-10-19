@@ -1,0 +1,20 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: why is a hack for me work excellent , is like other script (sindragosa), and don't need more complications An answer all spells which are in dbc(like are defined) have theyer attributes and should be using for script of the boss/npc?"
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the given sentence:
+
+Label: Positive
+
+Reason:
+
+* The user expresses satisfaction with the current hack they are using, describing it as "excellent" and comparing it favorably to other scripts.
+* The user suggests that the current hack is simple and effective, without needing "more complications."
+* The user expresses a desire to use the hack for all spells defined in the DBC, indicating a positive attitude towards the hack and a desire to use it extensively.
+
+Overall, the sentiment of the sentence is positive, as the user is happy with the current hack and expresses a desire to continue using it.

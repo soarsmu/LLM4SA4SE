@@ -1,0 +1,22 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: could this moved to config.h instead of having it on the command line?
+Label: non-negative
+Example Sentence: s/the own/its own s/the a/the s/hello world/helloworld
+Label: non-negative
+Example Sentence: The same strange *.wdt.* package
+Should it be 'wst'?
+Label: non-negative
+Example Sentence: indent is not right: Use space and not TAB
+Label: negative
+Example Sentence: I think columnName is a property that indicates a column's name.  I'm going more for "which column should we extract from the file".  I thought about maybe columnToUse.  I'm not sure because this configuration is going on a wiki page.  I'll change it for clarity, we can think about it more when we do the mediawiki change.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: inefficient. instead of using contains() above and section() here, one can use indexOf() above and mid() here.
+Label:
+[/INST]
+Label: non-negative

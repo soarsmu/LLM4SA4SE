@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: i think it is better to use a dbc hack than using dirty exceptions"
+Label: negative
+Example Sentence: if the short SHA is sent in the ENV variable, this is still a problem right? I 'd suggest to remove the ENV check for the full version."
+Label: neutral
+Example Sentence: This kind of makes this commit (http://github.com/rails/rails/commit/888d5059bdb71e6d034d0c09d7e3b3e235fd8507) useless.."
+Label: negative
+Example Sentence: In overall php variables are camelCased, while array keys are written with underscore."
+Label: neutral
+Example Sentence: Miguel,  Thanks for the feedback. I can certainly look into it more, although especially for cookies it may be wise to always let the application handle bad cookies, since there are so many of them (bad cookies) floating out there. When mono kills the r"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: the reason was to keep `isOlderThan` clean, but I agree that this is a bit ugly I don't know what is best?"
+Label:
+[/INST]
+Label: neutral

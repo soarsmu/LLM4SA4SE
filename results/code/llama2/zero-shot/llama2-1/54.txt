@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from code reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Can the selection of the common part be moved one level higher until a Fintek chip comes along which is different? No idea if that is possible in Kconfig.
+Label:
+[/INST]  Sure! Here's the categorization of the sentiment in the given sentence:
+
+Label: Neutral
+
+The sentence expresses a question about the possibility of moving the selection of a common part to a higher level in the Kconfig system, and mentions that there may be a Fintek chip coming along that is different. The tone is inquiring and open-ended, without any strong positive or negative emotions. Therefore, the sentiment is classified as neutral.

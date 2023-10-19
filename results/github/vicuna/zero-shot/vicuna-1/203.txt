@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: wtf??"
+ASSISTANT: Based on the sentence "wtf??", it is difficult to determine the sentiment expressed as it is a short and ambiguous statement that could potentially have a variety of meanings. It could be interpreted as a negative sentiment, as the person may be expressing frustration or confusion. However, without more context, it is difficult to accurately categorize the sentiment as either positive, neutral, or negative.

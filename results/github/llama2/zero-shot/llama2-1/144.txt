@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: you should not change the signature of the protected method as this is a BC break. Do the call to ``$request->getRequestFormat()`` in the calling method"
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as (2) neutral. The sentence is advising against making a change that would break backward compatibility (BC), and instead suggests an alternative approach to achieve the desired result. The tone is informative and helpful, rather than positive or negative.

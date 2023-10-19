@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Yeah, this broke plugin gem loading for me too. Case in point: BackgrounDRb wants the packet gem, which is installed in vendor/gems -- worked fine in 4f53db0, broken in 2bf58aa."
+Label:
+[/INST]  Sure! Based on the sentence you provided, I would categorize the sentiment as:
+
+(2) Neutral
+
+The sentence expresses a factual observation that a specific feature is broken, but does not convey any strong emotions or opinions. The tone is matter-of-fact and informative, indicating that the speaker is simply reporting a problem they have encountered.

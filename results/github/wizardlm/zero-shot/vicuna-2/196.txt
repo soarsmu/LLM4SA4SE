@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: The MD5 is not wrong. Zsh 4.3.16 was released a few hours ago. Give it time to propagate onto the mirrors."
+ASSISTANT: The sentiment in the sentence is (1) positive.

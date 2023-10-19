@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: Sorry for the spam - but which test method - can't find any related to the SnapPuller on trunk.
+Label: negative
+Example Sentence: sorry for your time.
+Label: negative
+Example Sentence: I am new to Mina and the whole environment.
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: Forgot about these, sorry.
+Label:
+ASSISTANT: negative

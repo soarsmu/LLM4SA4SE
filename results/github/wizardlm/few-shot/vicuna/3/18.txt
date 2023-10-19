@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It's an unsigned int, so %u would be right. I wonder if we can somehow get the gcc type checks/warnings for printf to work for strprintf."
+Label: neutral
+Example Sentence: Wonderful :)"
+Label: positive
+Example Sentence: Ok, i would then prefer that the whole start stop time calc is done there. Don't have half in decode and half in get overlay."
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Yes. Thinking about it again the best approach might be to remove the `Send` and, in the `encrypt` method, copy only the next `maxBufferSize` bytes from the write ByteString into a ByteBuffer from the pool and have the SSLEngine `wrap` these bytes into an"
+Label:
+ASSISTANT: positive

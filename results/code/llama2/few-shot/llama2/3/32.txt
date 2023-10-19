@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Ãâ€¢Ã‘ï¿½Ã‘â€šÃ‘Å’ ÃÂ²ÃÂ½Ã‘Æ’Ã‘â€šÃ‘â‚¬ÃÂµÃÂ½ÃÂ½ÃÂµÃÂµ Ã‘â€¡Ã‘Æ’ÃÂ²Ã‘ï¿½Ã‘â€šÃÂ²ÃÂ¾, Ã‘â€¡Ã‘â€šÃÂ¾ ÃÂ¿Ã‘â‚¬ÃÂ°ÃÂ²ÃÂ¸ÃÂ»Ã‘Å’ÃÂ½ÃÂµÃÂµ "ÃÂ½ÃÂµÃÂ¾ÃÂ±Ã‘ï¿½ÃÂ·ÃÂ°Ã‘â€šÃÂµÃÂ»ÃÂµÃÂ½" )
+Label: non-negative
+Example Sentence: My change provides two options for clobber. So, the client can pass its own new rev id to couchdb or ask couchdb to generate a new rev id. This code path corresponds to the second case. So, the flag and expiration values here will be overwritten by couchdb, and you won't get them through your changes in mc_tap.
+Label: non-negative
+Example Sentence: As things like Twitter, Facebook, LinkedIn are very popular right now I think we should have them in the list so that their proper icons are used.
+
+Maybe we could have an Admin -> Extensions -> configuration form for this so an admin can add new options when needed that records the name that will appear in the dropdown and where to find it's related icon.
+
+But maybe this will be a patch for a later time
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Please don't hijack other chipsets. i82801gx is ICH7, not NM10
+Label:
+[/INST]
+Label: non-negative

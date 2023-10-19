@@ -1,0 +1,17 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Jira, assign a sentiment label from ['negative', 'positive']. Return label only without any other text.
+Example Sentence: Thanks, Amar!
+Label: positive
+Example Sentence: I am new to Mina and the whole environment.
+Label: negative
+Example Sentence: Thanks,
+Mayank
+Label: positive
+Example Sentence: CSS is really confusing sometimes.
+Label: negative
+Example Sentence: Thanks, Sravya!
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Thanks for your patience.
+Label:
+ASSISTANT: positive

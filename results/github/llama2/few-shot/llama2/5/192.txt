@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: VERY crashy - if GetCreatorGUID returns null, server crashes."
+Label: negative
+Example Sentence: thank you for improving movement system. now, i can see the face of boss when combat : ) "
+Label: positive
+Example Sentence: @gnif - see my ""i'm gonna regret it"" post in the internal forum thread: http://forum.xbmc.org/showthread.php?tid=141354  I do support davilla's quest on log spam reduction, but obviously don't want to remove what's necessary :)"
+Label: positive
+Example Sentence: The else isn't really needed since it's implicit - there is only one way to go if the if is not entered. Not a deal breaker though =)"
+Label: positive
+Example Sentence: Also, assigning vars inside a transformation?"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: sql/updates/auth/2013_04_25_00_auth_misc.txt WTF!? Have you even read the commits that make?"
+Label:
+[/INST]
+Negative.

@@ -1,0 +1,7 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+ASSISTANT: Sure!</s>
+USER: Sentence: If it's not set, there's no way to get FSP failure data out.  I agree that it's not an absolute requirement, but without it, if there's a failure, you're going to be pretty lost.
+
+We could move it from here and put this below, surrounding the #if statements and not actually fail, but my opinion was this was the best option...
+ASSISTANT: The sentiment label for this sentence is "negative".

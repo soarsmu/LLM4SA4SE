@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: the else if must be in its own line, add a linebreak after the }"
+Label: neutral
+Example Sentence: It's not working for me  Update: Fully reverting 65d269f6de2da9c7c26e9177d7cfcb0498782089 seems working fine, i've no time to figure out what's the problem, sorry"
+Label: negative
+Example Sentence: Thanks for feedback. Fixed."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Yes, I agree."
+Label:
+ASSISTANT: positive

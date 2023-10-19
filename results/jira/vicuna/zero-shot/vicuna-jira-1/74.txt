@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Hey, sorry I did not get back to you sooner.
+ASSISTANT: The sentiment in this sentence is neutral. It expresses an apology for not responding promptly, which is a polite and considerate sentiment. However, it does not contain any particularly positive or negative words or phrases that would indicate a strongly positive or negative sentiment.

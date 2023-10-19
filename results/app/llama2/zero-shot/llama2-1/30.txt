@@ -1,0 +1,20 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from APP reviews as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: great app! i love this app! it's great to have my book lists with me wherever i go and i can easily keep track of which books i've read to each of my kids. one thing missing is the browse feature like the apple version has; i miss that! add that and i will rate 5 stars!
+Label:
+[/INST]  Sure! Here's the categorization of the sentiment in the sentence:
+
+Label: Positive
+
+Reason:
+
+* The user loves the app and finds it great to have their book lists with them wherever they go.
+* The user appreciates the ability to easily keep track of which books they've read to each of their kids.
+* The user misses the browse feature that is available in the apple version, but would rate the app 5 stars if it had that feature.
+
+Overall, the sentiment in the sentence is positive because the user has a favorable view of the app and is willing to rate it highly once a specific feature is added.

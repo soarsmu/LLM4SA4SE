@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from APP reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: wow i love th          is game
+Label: positive
+Example Sentence: good for me 112089 come to my friend in the game.
+Label: positive
+Example Sentence: just love it! been using for 9 months now and it is perfect app! ?
+Label: positive
+Example Sentence: ? motorola devour. becoming more and more sure this game freezes my phones? very fun game though? it is a challenge  and addictive?
+Label: neutral
+Example Sentence: cool this is amazing
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: pof i used to love this apps since they upgrade the apps i can't send no messages every times i try to send a message error pop up say i have no services please fix this problem.
+Label:
+ASSISTANT: negative

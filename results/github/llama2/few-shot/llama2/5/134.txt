@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Fixed to be:  ``` ruby if addr && !addr.empty? ```"
+Label: neutral
+Example Sentence: +1 on inject from me."
+Label: neutral
+Example Sentence: Yeah, I’m feeling so BAD today."
+Label: negative
+Example Sentence: I wanted 'second' when I'm iterating hashes.  But 'third' to 'tenth' sugar doesn't seem to taste that sweet. :)"
+Label: positive
+Example Sentence: I guess @elnur could take a look at how it is done in the method Symfony\Bundle\SecurityBundle\DependencyInjection\Security\Factory->createAuthProvider()  There a new definition is created in the DI container for each instance. I guess that the same thi"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: sorry I did not realize you were already there..."
+Label:
+[/INST]
+Label: neutral

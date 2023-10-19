@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Used in CODE_FRAGMENT as well CODE_FRAGMENT methods.
+Label: neutral
+Example Sentence: I created a library project, exported it to a JAR file, and added to the build path of a couple of clients.
+Label: neutral
+Example Sentence: You have a lot of tuning parameters and I would challenge that you need the majority of them.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Someone saying here that.
+Label:
+ASSISTANT: Label: neutral

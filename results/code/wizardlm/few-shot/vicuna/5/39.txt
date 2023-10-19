@@ -1,0 +1,20 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: It's not clear to me what this really does. Given:
+
+  Dir("a", "b", "c")
+
+Does this create c as a file or an empty directory? The name 'Dir' suggests the latter, but the comment seems to suggest the former.
+Label: negative
+Example Sentence: Cosmetic: According to last changes related to tvb_captured_length and tvb_reported_length it is good point to start thinking about "reported" case (btsnoop format provide both frame length). In "reported" case we can have only part of frame: for example first 2 bytes. This dissector will fail at this line, so nothing will be dissected, but if you move lines 131-140,(169)171-181 directly before place when it will be use then we can dissect some fields. "context" can be filled somewhere about line current 202, "rf_channel" can be put between lines 144-145, "aa_offenses" can be fetch after 170 or where "context" is filled, the problem is "flags", but after moved it after line 147 you are able to decode "btle_rf_channel" field etc.
+Label: non-negative
+Example Sentence: Function is returning a guint. What's the intent of value -1? Are there cases where we cannot find the DNP header immediately?
+Label: non-negative
+Example Sentence: Woops! Sorry. I'll fix this in the upstream (well, it's my upstream after all) and add a patch to the queue to update the library.
+Label: non-negative
+Example Sentence: To address the previous concerns about constructing a massive QByteArray in the case of no terminating character: I set pos2 to pos so that the QByteArray is empty in that case.
+Label: non-negative
+ASSISTANT: Sure!</s>
+USER: Sentence: not worth including the regular version number too?
+Label:
+ASSISTANT: Label: non-negative

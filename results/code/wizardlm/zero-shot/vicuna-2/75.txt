@@ -1,0 +1,9 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from code reviews. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Which comment? :)
+
+Good idea. I'll update to explicitly call out CANARY_MASTER.
+
+It doesn't work b/c Initialize is mocked out in the sync_stage unit test, so self.repo never gets initialized and is None in the conditional logic. Haven't looked too far into why it's not being triggered for 'master-release', but I suspect that config simply doesn't run this unit test.
+ASSISTANT: Sentiment: (2) Neutral

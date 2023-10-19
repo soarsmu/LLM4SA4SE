@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: change the error message to reflect that key size is big.
+Label: non-negative
+Example Sentence: redundant, CUSTOMCONTEXT_HYBRISTEXTURE is defined for sure here
+Label: negative
+Example Sentence: In this case, we only need to set it (item->old_offset) to zero, because _wal_flush_cmp() function compares 'item->offset' instead when 'it->old_offset' is zero. Thanks.
+Label: non-negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Having nightmares about empty lines kidnapping you in an alien ship and performing colonoscopy?
+Label:
+[/INST]
+Label: negative

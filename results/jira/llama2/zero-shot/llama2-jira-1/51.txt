@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Please contact me if you need any clarifications.
+Label:
+[/INST]  Sure! Based on the sentence you provided, the sentiment is:
+
+(1) Positive. The tone is helpful and inviting, indicating a willingness to provide clarification and assist with any questions or concerns.

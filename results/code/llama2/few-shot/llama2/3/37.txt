@@ -1,0 +1,20 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from code reviews, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: s/the//
+
+Ã¢â‚¬Â¦ rebase the FSP with IntelÃ¢â‚¬â„¢s tool BCT.
+Label: non-negative
+Example Sentence: No it's not - leaving the dob blank means you just choose not to fill it in as the field itself is not compulsory.
+Label: negative
+Example Sentence: Is omitting other kinds of completion proposals on a specific purpose, or just a way to keep the patch small (and you currently don't need more)?
+This kinda contradicts the use of the general type Binding (rather than MethodBinding) - looks like you couldn't make up your mind ....
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: It makes sense that this is for the IOMMU since family 15 model xxx are the only parts that support it.
+Label:
+[/INST]
+Positive

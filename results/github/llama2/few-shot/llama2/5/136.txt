@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Method of ""trial and error"" - the most efficient in the case of the development of open source. Welcome to the real world :)"
+Label: positive
+Example Sentence: @stof possible yes, but it wouldn't solve the problem. It needs to be overwritten later and AFAIR there's no update support for Bags. =("
+Label: negative
+Example Sentence: forgot :D i'll fix this soonish"
+Label: positive
+Example Sentence: well the problem is that ""datetime"" also doesnt exist in english, it should be date in english too i guess, even if its not perfectly accurate i wouldn't know a more accurate word for it."
+Label: neutral
+Example Sentence: Seems unclean. Is this because we're abusing the default HubManager for all scenarios?"
+Label: negative
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why does everyone who hacks on Jekyll have to use the same Ruby version? Jekyll is [supposed to be compatible](https://github.com/mojombo/jekyll/blob/cc0f84197afc4b73781e2a800ea4d1990605981b/.travis.yml#L2-5) with all sorts of Rubies.  I think this file "
+Label:
+[/INST]
+Positive

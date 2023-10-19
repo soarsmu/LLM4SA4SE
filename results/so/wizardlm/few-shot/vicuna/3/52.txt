@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: I have page FILE_NAME / tml ).
+Label: neutral
+Example Sentence: You use the simple array with the fix size 5.
+Label: neutral
+Example Sentence: Or, assuming that CODE_FRAGMENT is a specific implementation of the CODE_FRAGMENT and AInterface is the central access we could just say, A uses a certain implementation of BInterface by default and so on and actually set them internally with new.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: Say, after several text appended to a text area, I want this to be appended.
+Label:
+ASSISTANT: neutral

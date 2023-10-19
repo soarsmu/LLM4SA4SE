@@ -1,0 +1,21 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Can you give me an example of a route? Because I'm pretty sure we don't need this weird `~` support."
+Label: negative
+Example Sentence: It was originally a hack that was only safe for android, so it had to be special-cased when patched. That's not the case anymore. Will make it 013."
+Label: neutral
+Example Sentence: that would be my idea as well yes."
+Label: neutral
+Example Sentence: This is inconsistent with the other UNIX implementations. The caller is responsible for not passing in NULL."
+Label: neutral
+Example Sentence: I'm holding off till the auth stuff is all done refactoring.  Then I'll revisit everything.  The reason I didn't do the icon-with-link route is because this is meant to be silent SSO -- e.g. you just visit gitlab and if you're already logged into openid"
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Isn't bumping iterations just a superficial tweak to add some processing time to otherwise quick hash algorithms?  Ideally, we'd want to use algorithms with a much slower execution time, in order to make each crack attempt too slow to be reasonably done en"
+Label:
+[/INST]
+Label: negative

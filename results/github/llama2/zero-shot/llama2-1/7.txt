@@ -1,0 +1,14 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: So it is always guaranteed that all `nacked` are sorted before all `nonAcked`? It seems that that would be the common case, but I was not instantly sure that it is a given."
+Label:
+[/INST]  Sure! Here's the sentiment analysis of the given sentence:
+
+Label: Neutral
+
+The sentence expresses a question and a degree of uncertainty, but it does not convey a positive or negative emotion. The user is seeking clarification on a specific aspect of the system and is unsure if it is a given, which suggests a neutral sentiment.

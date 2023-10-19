@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please categorize the sentiment expressed in the following sentence from Jira as either (1) positive or (2) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: Why on earth does createLink() need a request?
+Label:
+[/INST]  Sentiment: Negative
+
+The sentence expresses frustration and confusion about the need for a request in the createLink() function. The tone is critical and questioning, with a hint of incredulity.

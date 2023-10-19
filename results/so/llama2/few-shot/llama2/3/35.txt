@@ -1,0 +1,17 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Well I thought I am authorized, once I used my API_KEY to authorize my access to GoogleBook.
+Label: neutral
+Example Sentence: The repository description on MVNrepository lists several compile dependencies, including Selenium-Chrome-Driver, Selenium-FirefoSMILE_FACEriver, etc..
+Label: neutral
+Example Sentence: Hope this helps.
+Label: neutral
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: I develop Cursive.
+Label:
+[/INST]
+Label: positive

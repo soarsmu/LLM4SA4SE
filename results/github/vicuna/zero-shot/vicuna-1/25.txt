@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please categorize the sentiment expressed in the following sentence from GitHub as either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: Very nice!  I'm quite sure I'll forget about this by the time I would need it, though;-) Could you add some words to the CHANGELOG so people notice this little gem?"
+ASSISTANT: The sentiment expressed in this sentence is (2) neutral. The sentence contains both positive and negative elements. The phrase "Very nice!" expresses a positive sentiment, while the phrase "I'm quite sure I'll forget about this by the time I would need it" expresses a negative sentiment. The overall sentiment is neutral because the positive and negative elements are balanced.

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: @coelho  I'm a bit upset just to see @bergerkiller go, I've used NoLagg for so long..."
+Label: negative
+Example Sentence: It's nice to have backward combatiliaty!"
+Label: positive
+Example Sentence: true, though once could just be the same as `.max(1)` as a bit of extra sugar. just throwing ideas out there while we're at it :D"
+Label: positive
+Example Sentence: saw the ofSite PR, thanks :)  removing ""Element"" might be enough. let's see if anyone else has a feeling for what makes the most sense.  ``` bool setElementToChild(int index); bool setElement(const string& path); bool setElementToParent(); bool se"
+Label: positive
+Example Sentence: :'(  I'm keeping my hot pink!!!!"
+Label: negative
+ASSISTANT: Sure!</s>
+USER: Sentence: >I hate VS2010, it's too slow :s  If you're on a single-core CPU...yes."
+Label:
+ASSISTANT: negative

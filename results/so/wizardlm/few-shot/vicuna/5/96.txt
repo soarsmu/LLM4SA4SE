@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: Where is my mistake?
+Label: neutral
+Example Sentence: you could use.
+Label: neutral
+Example Sentence: This is not my intention.
+Label: negative
+Example Sentence: I think that you have a problem described in this bug report.
+Label: negative
+Example Sentence: Also, the compiled library is available by adding the following to API_NAME.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: You need to encapsulate the regex pattern in quotes.
+Label:
+ASSISTANT: neutral

@@ -1,0 +1,10 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: On this note.. My thoughts here has always been to separate m_decode and m_render. dvdplayer decodes, calls flippage, it signals app thread new frame, but doesn't make the new frame available for render yet. FlipPage blocks until a new decode buffer i ava"
+Label:
+[/INST]  Sentiment: Neutral

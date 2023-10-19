@@ -1,0 +1,5 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: I will give you a sentence from GitHub. You need to reply with the sentiment expressed in the following sentence, either (1) positive, (2) neutral, or (3) negative.
+ASSISTANT: Sure!</s>
+USER: Sentence: if has_items deleted in this place, his must be deleted in query code (PLAYER_LOGIN_QUERY_LOADMAILS) else all values after [5] is broken. solve - https://github.com/rsa/mangos/commit/3962fb4af354093cbe6594935882962e0cecc5f0"
+ASSISTANT: The sentiment expressed in the sentence is (3) negative.

@@ -1,0 +1,16 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from Stack Overflow, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: My previous code example used CODE_FRAGMENT to fuse the filter and map operations, but this was cumbersome and provided no advantage.
+Label: negative
+Example Sentence: I have looked and found that there are some packages that would automatically enter my keyring on login but that isn't really an option.
+Label: negative
+Example Sentence: It's best to do it right from the start.
+Label: neutral
+Example Sentence: Many thanks.
+Label: neutral
+Example Sentence: You could use a kind of strategy.
+Label: neutral
+ASSISTANT: Sure!</s>
+USER: Sentence: And running your CODE_FRAGMENT will succeed.
+Label:
+ASSISTANT: positive

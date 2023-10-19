@@ -1,0 +1,12 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+USER: Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: If you're looking at reducing output to the useful, have you looked into using  the 'brief' formatter ? It seems to do just that (look for the  formatter section in https://ant.apache.org/manual/Tasks/junit.html )"
+Label: neutral
+Example Sentence: most of the web uses '&', why do you use ';'?"" - it is shorter, it reads better, it just looks nicer and does not require encoding the '&'  about the cookie: i do not know where it is used exactly - but a better approach would be serialize() or json (ht"
+Label: neutral
+Example Sentence: If the internet wasn't full of spammers maybe :) I think github is fine, just needs some extra tweaks."
+Label: positive
+ASSISTANT: Sure!</s>
+USER: Sentence: Is camera example supposed to be working? It's very confusing now ;/"
+Label:
+ASSISTANT: negative

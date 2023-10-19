@@ -1,0 +1,13 @@
+<s>[INST] <<SYS>>
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+<</SYS>>
+Please perform Sentiment Classification task. Given the sentence from GitHub, assign a sentiment label from ['negative', 'neutral', 'positive']. Return label only without any other text.
+Example Sentence: The `as_json` requirement is a little looser than you are thinking :)  It's meant to produce a JSON representation of the object, which includes Ruby objects that have a clear meaning to the JSON encoder, like symbols and times. That's a natural way for a"
+Label: positive
+[/INST]
+Sure!
+</s><s>[INST]
+Sentence: that seems like a bug!"
+Label:
+[/INST]
+Label: negative
