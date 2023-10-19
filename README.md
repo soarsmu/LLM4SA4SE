@@ -48,6 +48,7 @@ python eval.py -d app -m vicuna -p vicuna-0 -s 0
 The results are saved in `./results/`.
 For instance, for the results of LLaMA2 on the APP dataset, the directory structure is as follows:
 
+```bash
 📦results
  ┣ 📂app
  ┃ ┣ 📂llama2
@@ -60,7 +61,7 @@ For instance, for the results of LLaMA2 on the APP dataset, the directory struct
  ┃ ┃ ┃ ┣ 📂llama2-0
  ┃ ┃ ┃ ┣ 📂llama2-1
  ┃ ┃ ┃ ┣ 📂llama2-2
-
+```
 
 ## Additional Scripts
 - `draw_figures.py`: draw figures for the paper.
