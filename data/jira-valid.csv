@@ -1,0 +1,111 @@
+sentence,label
+"I'm starting to think of ""DLL Hell.""",0
+I'm a pretty strong -0 on this.,0
+"Waaaaay cool! I especially like the ""upload file"" option.",1
+Stupid Maven,0
+"A feature with wrong functionality is as bad as, if not worse than, a bad performance.",0
+I've looked at what can be done within the NSIS framework we use to build the Windows installer.,0
+"Sorry, I thought issue (and provided patch) were about cocoon-servlet-service-impl, used by either C2.2 and C3 but only now I see that instead they are related to cocoon-servlet-service-components (C2.2 only).",0
+"Sorry, grabbed the wrong ticket.",0
+"Sorry, in rushing to commit I forgot to add author during the commit.",0
+Sorry I thought submit patch was the way to attach a patch.,0
+This way lies metadata hell.,0
+Thank you for the patch Sergey. ,1
+"Hello Leo
+
+The patch has been applied at revision r479576, thanks a lot for this enhancement, please verify that the problem is fully fixed as you expected.",1
+Thanks Tom!,1
+Thanks for you work on this Jayachandra.,1
+Tests no longer sleep,0
+"Sorry [~svenkat], I just committed this.",0
+sorry.. redeploy patch,0
+Sorry - the above comes across as terse.,0
+I wholeheartedly agree this API is confusing as hell.,0
+"Damn it, sry lost the orientation.",0
+Completely missed issue 614..,0
+"Sorry if this was not clear, and yes, by <blank> I meant an empty string.",0
+it belongs to faces 1.2 :),1
+"Well, that sucks.",0
+"Thanks, Oliver!",1
+> We can't let fear of back-compat prevent us from making progress.,0
+"Sorry, that should have said fixed via HADOOP-4980, not 6980.",0
+"What the hell, I'll give this a shot.",0
+"Thanks Areek, new patch looks great; I'll commit shortly.",1
+Sorry for the misspelling ;),0
+":)
+Sorry about that.",0
+"Excellent work, Doğacan - thank you.",1
+great. awesome job sergey!,1
+You are messing down deep below hbase in dfs.,0
+Seeking back is pretty inefficient in DFS.,0
+"Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option ""Show operational attributes"".",0
+Thanks henry and pat... we'll have to re submit all the PA's so trigger hudson.,1
+"Actually that's what this change did, sorry for the noise.",0
+"Sorry, but look at mapSubtract and further down in the source you will find plenty.",0
+huh ... i thought i did resolve this.,0
+"Awesome co-op. Thanks, Robert & Mike, for picking this up.",1
+"Of course, it could...  :-)  DOH!",0
+I sure as hell don't want to start attaching models for the sake of detaching them directly afterwards.,0
+If the different segments are somewhat homogeneous then these stats should pretty much be very close anyway.,0
+"Sorry for my poor review, didn't notice try/catch :(",0
+This half-reuse is more confusing for new devs who see this code for the first time.,0
+"but app developers should always explicitly set it based on their application
+
+My guess is that a large enough group of people take the defaults that it matters.",0
+"Wow, it's like Thrift is going out of their way to make life suck for us this month.",0
+Enjoy!,1
+This is always a really bad way to design software.,0
+sorry about this.,0
+This was very bad documented.,0
+I'd say to hell with windows minority :),0
+Sorry for the delay.,0
+"Thanks, Owen!",1
+Missed 2 new files - sorry !,0
+"Sweet! Git, I love git! :)",1
+The biggest problem is that we've had too many committers over the years and we'd have to get all of their permission to change it.,0
+Thanks for being patient Devaraj!,1
+"Sorry I didn't use your patch, but I think you'll like the end result.",0
+"Thanks for the patch Niall, +1",1
+"Interesting, I just replaced my src with the latest in the trunk and did a compleatly clean build and the problem seems to have gone away.",1
+Bloody hell !!!,0
+Stupid user error :),0
+"I'm not sure what the problem is, but the behavior (at least in 0.1.4) is that the _isClosed AtomicBoolean is not being set to closed in a timely manner.",0
+Cheers!,1
+"Thanks in advance
+Jens
+",1
+"Thanks again for this really great patch, Andrew.",1
+It was attached to the wrong bug.,0
+"Thanks, Ravi!",1
+Sorry - I just didn't read the issues carefull enough.,0
+"Sorry, that should be
+
+FileChannel inputChannel = input.getChannel();
+FileChannel outputChannel = output.getChannel();
+
+in the try block.
+",0
+My bad.,0
+Cool.,1
+"It is not yet tested - I ran into strange build problems with APR.
+",0
+Thanks Martina.,1
+My patch wouldn't compile.,0
+"Ugh, well that sucks.",0
+"Negative, I am against fetch groups in principle.",0
+"Great! Awesome work, Nick, and thanks for the clarification, Bill. ",1
+" if you want to make these optimizations, fix the APIs so its intuitive, otherwise, no way.",0
+"Sorry typo:  ""our part"" in place of  ""one part"" above.",0
+"Oopps, bad move !",0
+Hell or high water.,0
+Thanks to Fabrizio for the patch.,1
+Seems to be a faulty mailserver setup at laguna-industries.com.,0
+"Well it's me that didn't get the whole point, now i got more, sorry for the noise.",0
+Awesome stuff Stephen! ,1
+"Hi, very cool!",1
+"It seems some of the wrappers in ink_hrtime.h() might no longer be used either, e.g. ink_gettimeofday() is never used, so lets get rid of that shit.",0
+"Taking it over
+
+Thanks,
+Mayank",1
+"Sorry , fixed.",0

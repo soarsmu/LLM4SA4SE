@@ -1,0 +1,1141 @@
+sentence,label
+guys... this is so stupid...,0
+"I lost the whole morning cause HBase's RegionServer was dying with no logs, no nothing... how Am I supposed to debug the issue if u do not even generate a core dump?",0
+{quote}You are messing down deep below hbase in dfs.,0
+"And I think if we're going to do a sweep up of shit, we should just kill root.",0
+"@idiot Yeah, I was on that idiot-path for a good while but commons-lang is a hairball, at least where this hashcode making and equals is concerned.",0
+Pull it back in if you think different.,0
+i suck.,0
+Will still be stuck in the loop though if can't actually close regions.,0
+Original edited patch was messed up... stupid sed!,0
+Who made this stupid rule?,0
+Sorry but this is just stupid.,0
+"But I will quit committing to Hama then, because I'm not going to support ONLY a binary format.",0
+This is not what I build a framework for.,0
+"Well, damn.",0
+Blooper after blooper - I hate SVN.,0
+"This looks reasonable to me... sucks we have to special case handling of "" ""...",0
+You may want to carefully examine your assumption about this.,0
+"Ok, wow, welcome to Linux hell...",0
+If I get a chance I may even roll it into our dev environment but I am currently in the middle of mem leak hell.,0
+Both equally bad.,0
+"Negative, I am against fetch groups in principle.",0
+This way lies metadata hell.,0
+"Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option ""Show operational attributes"".",0
+Damn...,0
+Damn...,0
+Damn !,0
+The evil NPE strik back !!,0
+Bloody hell !!!,0
+Damn time has flown...,0
+Damn it !,0
+"This was a very bad bug, introduced by me being an idiot.",0
+"I have stupidly deleted the original test dir, but judging from the suite's output files, no output was created after 3 1/2 hours.",0
+damn this was assigned to you since months.,0
+Imo all this just doesn't make sense from a pure performance aspect.,0
+Inserting timestamps automagically would be bad because it would limit a whole swath of use cases.,0
+If they do then Suse's cpio works for old ascii but the -c switch is broken.,0
+This is pretty embarassing!,0
+When you install a node module globally it goes into /usr/local where you don't have permissions to move shit into unless you sudo.,0
+"That being said, I'm not totally opposed to making the limit configurable.",0
+"My bad, I screwed up the assertion -> RuntimeException transition.",0
+"Well, that sucks.",0
+"No, it's not off the table, but it's moot unless we decide we want cqlsh in-tree at all.",0
+Ok here is a patch that works. I was stupid enough not to see it...,0
+It was a pretty stupid idea to use a static array of instances for QuorumOpMonitor.,0
+All I'm trying to say is that it's pretty easy to end up in propagation failure hell here or change something else that blows things up for use cases that are not foreseen.,0
+"Just to clarify... you made the DTPE handle exceptions the same way as CassandraDaemon by updating it to use NBHS instead of CSLS... 
+
+Did you just tell me to go fuck myself?",0
+"+1 (damn intellij, it's not like patch format hasn't been standard for years)",0
+"Wow, it's like Thrift is going out of their way to make life suck for us this month.",0
+Here is quite bad.,0
+"
+The samples you gave are different.",0
+"I just noticed your public tweet...
+
+bq. ""@wilhelmbierbaum True. Fuck the Avro C API.""
+",0
+"if so, can you see if you can git bisect this bad boy?",0
+"It seems some of the wrappers in ink_hrtime.h() might no longer be used either, e.g. ink_gettimeofday() is never used, so lets get rid of that shit.",0
+"Heh, that's one hell of a bug, 275 bytes exactly, eh?",0
+What a stupid name I chose for that object... )-:,0
+I think it's time to just close this issue.,0
+"I'm not entering bogus reports for the hell of it ;)
+
+Matt",0
+I am currently trying to get it into AJDT dev builds but my git push is timing out (damn thing!,0
+Stupid Maven,0
+Ok. Stupid user Error here.,0
+"Why the hell do they deliver Duration, if they cannot instantiate it :-/",0
+"The defect  from hell 666, be scared..",0
+This really sucks!,0
+Why the hell is this not a bug?,0
+What the hell are you waiting for ?,0
+"I suspect it has nothing to do with the file system connector or Infinispan connectors, and is simply a (stupid) mistake in the federated join processor.",0
+I'm an idiot.,0
+It really sucks that there is now way currently to include transitive dependencies.,0
+I'm an idiot... there's nothing wrong with the readme.txt.,0
+"Crap, forgot to verify that this is inconsistant with MRI, it's not.",0
+Please close as this is just me being stupid.,0
+"Holy hell, I think I found one problem with turning a bignum into anything else.",0
+This sucks *so much*...,0
+"Damn, I would close this out from the fix to JBSEAM-3742, except the quartz and seampay examples use a custom XML namespace and the XML schema validator is not happy with that.",0
+"*Damn*, I forgot.",0
+"Also, your username was stupidly named and confusing, so I deleted it and created a new one more appropriate.",0
+"Damn, it seemed it didn't work.",0
+"It sucks to lose the code readability, but it seems like a reasonable price to pay.",0
+"I don't have to ensure that the classloader knows groovy classes, *you* must do that.",0
+"And debugging is hell, because the test environment needs to have the exact same loader setup.",0
+who the hell starts using our jira for typing lessons ?!?,0
+fuck u,0
+"Hell, this is gonna take me a lot of work to raise.",0
+"That irritated the hell out of me too, but I didn't realise it was configurable in the .launch file.",0
+This sucks badly.,0
+Why on earth does createLink() need a request?,0
+Finally closing this bug from hell.,0
+I sure as hell don't want to start attaching models for the sake of detaching them directly afterwards.,0
+"That sucks, why isn't the escape mechanism working?",0
+I am an idiot - this was a dupe of GUVNOR-84,0
+"Sun RI sucks, why the hell is saveState() and restoreState() not called with with javax.faces.STATE_SAVING_METHOD = server???",0
+"Swear to god, I'm not a total idiot.",0
+"I don't know how the hell my diff program decided to add seemingly random CR chars, but I've removed them now.",0
+"durrrh, that sucks.",0
+Im stuck with IE6 unfortunately.,0
+"What the hell, I'll give this a shot.",0
+"{quote}
+searcher.getAtomicReader().getSortedDocValues(uniqueKey);
+{quote}
+
+This is a performance killer.",0
+"As far as the query shit, i have no idea if solrdispatchfilter or whatever could/should do Thread.currentThread().setName(x) or whatever (and maybe restore after)",0
+"BTW: This is one reason why I hate this autoboxing shit since Java 5. I would love to have a way to prevent it in code (forbidden checks should detect this somehow).
+",0
+"Hmm, that sucks.",0
+tricky shit man! I think I found the issue!,0
+"Oh man ... it's a fucking precendence problem.
+",0
+"Ugh, well that sucks.",0
+I didn't know we needed to retain backwards config capability across 3.x to 4.x  :-(  That sucks and it'll make old code stick around longer.,0
+bq. this is solr's fault by having a getter that does some heavy duty xml shit.,0
+That sounds like some serious buck passing.,0
+This whole thing is very distressing to me.,0
+I think we all know it just sucks.,0
+"though I disagree with a signficant amount of statements you made,I don't think we would ever come to agreement anyway.",0
+"
+that's some freaky shit ...",0
+I think you made mistakes in ivy.xml.,0
+This is where it gets confusing.,0
+"If I can give you one advice on this one, I'd say this: fuck Derby, use H2 instead as the default embedded database.",0
+What the hell?!,0
+(Do nothing): Are you serious about that?,0
+"@Oleg, please accept that my ""logical"" is different from your ""logical"".",0
+"So, I'm fine with your logic, but given that I don't understand it please don't get upset when I ask questions on how I have to use it.",0
+This was my bad.,0
+The rest are *totally* unrelated.,0
+"Oh fuck :-) Sorry. Not my day, more beer needed!",0
+"Sorry, I guess I'm against ""never computing this shit""... because you guys think returning NaN is ok.
+",0
+" if you want to make these optimizations, fix the APIs so its intuitive, otherwise, no way.",0
+"who the fuck is asking for scores, but not the max score, and why does their insanely specialized use case justify all these booleans on a central lucene class.
+",0
+I don't care about code duplication here.,0
+" We should not invoke the global synced fieldnumbers shit for every element, only when the setting actually changes",0
+I disagree... and I guess I'm willing to go to bat for this.,0
+HOLY SHIT!,0
+" I think the comments here are a bad sign... I sent us down an unfortunate slippery slope
+
+we are a search engine library!
+
+don't put shit in the index directory! or we will delete your shit. dead simple.",0
+I wholeheartedly agree this API is confusing as hell.,0
+"Not only it's the first one in my life I'm seeing multiple ways of closing the same thing, it also conceals programming errors.",0
+Sucks to rush a commit when an issue is under discussion.,0
+"I'm against such heavy committing myself, without some consensus to do so.",0
+I'm confused.,0
+> I hated that aspect of working for commercial companies.,0
+My bad.,0
+My bad.,0
+"Igor is an idiot, and we *do* need gmake.",0
+"Shit, I missed a cast.",0
+"But, even if it wasn't it would be totally worthless where it is at.",0
+This is clearly bad webserver behaviour.,0
+Forget what I made(D8067).,0
+PreCommit-HDFS-Build is stuck.,0
+"So, it is stuck somewhere.",0
+I don't want one-offs like this to become lost and forgotten.,0
+"But now that I think about it, it may crap out when coming back to read even on a recovered file.",0
+"@Matt... I'm an idiot, I used the wrong patch. Sigh.",0
+I'm however very interested in this feature as it is essential to me.,0
+bq. this is solr's fault by having a getter that does some heavy duty xml shit.,0
+"Holy complicated-as-shit-algorithm, Batman!
+
+The complexity of our implementation vs the complexity of what we're actually doing is starting to worry me here.",0
+"It also happens at the very startup after he has loaded only 3 sstables (hence DataTracker likely have 3 sstables, not a shit load).",0
+"Shit, my bad. The posted patch is from a completely wrong branch of my git repo - I had not realized I ran the test-patch against a branch not branch-1.",0
+" (In this particular case, Hoss clearly intended to use the no-no word as an intensifier, and not to stir shit.)",0
+Maybe only one of us should play lawyer and the other one play engineer.,0
+" I used to be the latter, but then I went to law school and got a degree in this shit. ",0
+"Then, to make matters worse, since the mid-1990's I've been offering pro bono advice to non-profit foundations whose members insult me regularly and assume I'm an amateur.  ",0
+"Someone, but I'm not sure who, owes me a public apology here.  /Larry  ",0
+"Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option ""Show operational attributes"".",0
+that's bad Content-Type from gSOAP.,0
+Pull it back in if you think different.,0
+Hmm ... this is quite bad.,0
+You are messing down deep below hbase in dfs.,0
+"Damn it, sry lost the orientation.",0
+"Oh, my stupid:)",0
+oh ...geez I'm an idiot.,0
+@jira - I wish you didn't suck so much.,0
+Indeed that would be VERY bad design.,0
+My bad.,0
+(How bad is this?,0
+I'm confused.,0
+This is pretty trivial.,0
+"Of course, it could...  :-)  DOH!",0
+"Then you're pretty well screwed.
+",0
+"Damn, Chuck is scary.",0
+This is bad.,0
+"Well, that sucks.",0
+Bad memory.,0
+"The state stuck at ""Allocated state"", It is a dup of 3788.",0
+This is a pretty awful bug.,0
+Replaced patch with fix to catch more bad variables,0
+Does this suck?,0
+"Of course, StrFieldSource is a private class
+
+No it's not.",0
+CSS is really confusing sometimes.,0
+"Django is a fullstack framework, Click is not.",0
+My bad.,0
+"Credit, of course, goes to Dick.",0
+It seems really confusing.,0
++1 for this: my bad.,0
+Hell or high water.,0
+-1 to jar hell.,0
+That would suck.,0
+"If so, a test that succeeds with errors is confusing as hell...",0
+If the different segments are somewhat homogeneous then these stats should pretty much be very close anyway.,0
+"This is pretty trivial, just adds three asserts to TestPath#testNormalize.",0
+"I doubt that Squid is so
+bad at it.",0
+It's not too bad once CacheConfig is in.,0
+"Not too bad though, since clearing out commitlog segments is easily done.",0
+ah - my bad.,0
+"My bad, had a typo in the subscription e-mail.",0
+My bad.,0
+"Yep, my bad.",0
+Pull it back in if you think different.,0
+Tabs are evil.,0
+I looked at our distributed pom.xml and they're pretty obscure.,0
+once per every bad disk).,0
+"Hell, UnaryFunction might even be faster than all of these calls in a row.
+",0
+This was very bad documented.,0
+Damn.,0
+Pull it back in if you think different.,0
+"Ie, both at are bad.",0
+"durrrh, that sucks.",0
+My bad.,0
+I'm an idiot.,0
+Splitting an existing sub-shard gets stuck up.,0
+This is bad.,0
+"Oopps, bad move !",0
+the recommendation in the wiki is bad.,0
+My bad.,0
+"I'm starting to think of ""DLL Hell.""",0
+"- there were a hell of a bigger problem, though : as we were blocked in the executor until the SearchRequest was totally processed, all the responses were enqueued.",0
+Fix bad patch,0
+Logger on top of Log4J and its abstract base class for supporting other frameworks.,0
+My bad.,0
+"Well, either you query the database every damn time, and your plugin/tool/code will be super slow.",0
+Damn it.,0
+Hudson seems to be stuck on this. ,0
+My bad...,0
+which is silly -- bad package encapsulation).,0
+My bad.,0
+"Oops, had a bad comparator in the TestCLI config.",0
+My bad.,0
+The food is very bad.,0
+"<gmcdonald> , my bad
+",0
+My bad.,0
+My bad.,0
+Pull it back in if you think different.,0
+"Aaarrggh, how stupid of mine  to have a System.out, again!",0
+"Hell, UnaryFunction might even be faster than all of these calls in a row.
+",0
+I always get the same stupid error.,0
+Damn maven!,0
+"I don't care if everything is pretty or not, but we should at least support basic admin functionality in IE IMO (though I have not used it for years for just about anything).",0
+I've looked at what can be done within the NSIS framework we use to build the Windows installer.,0
+"A feature with wrong functionality is as bad as, if not worse than, a bad performance.",0
+Doh!,0
+Doh.,0
+"Sounds weird to me...
+Could you package a (totally!)",0
+Am I doing something stupid here?,0
+"* Replaced TreeMap with an Array of final 'Segment' objects
+** (now very slightly faster than trunk)
+* Rebased for trunk
+* Removed the patch renaming SSTableReaderTest to SegmentedFileTest
+
+I didn't remove the builder pattern, because the alternative seems pretty ugly (copying the segments array for every append).",0
+"HADOOP-2949:
+ - If tarball is specified, HOD no longer validates for the pkgs directory in gridservice-hdfs or mapred sections as these are not going to be used anyway.",0
+It must be lost somewhere.,0
+Too bad we can't use position:fixed in IE6.,0
+"I think the correct resolution is to ensure that the prefix stack mechanism 
+gets reset each time the XMLReader is used.",0
+This is always a really bad way to design software.,0
+"It may suck, but at least *I* won't be the one bringing in a dumb dependency to a logging library.",0
+How on earth is it buggy?,0
+"I didn't do that because that seems bad in hive, so I returned ""null"" from the operation.",0
+This sucks.,0
+"They don't vote, they
+whine that something (or everything) sucks.",0
+Damn dyslexia!,0
+Damn it !,0
+Doing it at the hackathon you'd have a few fellas at your shoulder to give you pointers should you get stuck.,0
+"Ah, that was my bad.",0
+My bad.,0
+it's my bad.,0
+My bad!,0
+"Ah, too bad.",0
+"Damn, Chuck is scary.",0
+Here is quite bad.,0
+This name gets confusing with all of our prenamed *Worker* and *Master* classes.,0
+* release of the framework.,0
+I'm a pretty strong -0 on this.,0
+Not pretty. ,0
+That's pretty unlikely.,0
+Pretty much everything that FSNamesystem (ie.,0
+Kind of sucks.,0
+Since this patch is so damn large already I won't be making anymore changes to this other than critical/blocker bug fixes.,0
+But please don't say that my reasoning is bad - because it is not.,0
+> We can't let fear of back-compat prevent us from making progress.,0
+I really don't care.,0
+I am planning to use this framework for some new RPCs I am adding.,0
+"Don't hate me, just throwing this out there.",0
+Weird.,0
+This is weird.,0
+Gav...(Hoping I'm not teaching you how to suck eggs :) ),0
+For those of us who don't care about ivy in fact lose something - a easy to build hbase.,0
+Where on earth are you anyway?,0
+My bad.,0
+"My bad, this is already done.",0
+That is bad.,0
+"Filling diags.log is bad mojo, since it's never rotated.",0
+How bad is it?,0
+My bad.,0
+My bad.,0
+Bad IE.,0
+"Bad.
+",0
+Pull it back in if you think different.,0
+Stupid user error :),0
+Weird.,0
+That's weird.,0
+"Actually I don't want to specify the encoding, because I don't care how the data is transported to me.",0
+"And boy, hell broke loose ;)
+
+So... the biggest issue I'm facing is indeed with Random sharing across threads.",0
+I don't care what we do as long as we don't change the attributes in JSP significantly.,0
+The Async API in http client 4.x really sucks.,0
+"
+Forget the patch for the moment.",0
+I'll just put fix in under this issue.,0
+"Please forget last comment, it is incorrect.",0
+"umm ... call me crazy, but why are we making this public?",0
+"[~cmccabe]: oh, hell no!",0
+Damn...,0
+I'd say to hell with windows minority :),0
+"Because, we don't care for this in cases where we there is no node that is down.",0
+"The eclipse ui was completly stuck, which was similiar to the other experinces.",0
+My bad.,0
+"Juhani..my bad, i was mistaken.",0
+My Bad.,0
+That's my bad.,0
+Seeking back is pretty inefficient in DFS.,0
+Doh!,0
+Hudson is stuck.,0
+Weird.,0
+Weird.,0
+That's weird.,0
+"If that would be the case, this would be bad design.",0
+This just seems really evil.,0
+"It may cause conflicts, but if your intent is to break system security, you probably don't care.",0
+"My bad, uploaded the wrong patch.",0
+"I just hate having no clue what a file is really depending on ;)
+",0
+"Ah, damn, I thought it was fixed :/
+
+Guillaume ?",0
+"I abbreviated the heck out of my arguments and thinking, but damn it thats what I think :)",0
+A stupid bug in a patch that is already applied.,0
+"In this case, data would pretty much just silently be lost.",0
+This whole thing is really pretty trivial.,0
+An output connector should also have a say in what URLs it will accept.,0
+"Turning off hints is basically intended as a ""oh shit, something is broken with hints, let's turn it off"" switch.",0
+"why on earth would it match anything, you have not even touched the Apache install.",0
+"> - FOUserAgent.getStream() is cool and very easy to use (now that it's properly
+> documented).",1
+"i kinda like the black acctually .. but that may largely be due to my prefering the ""fire"" solr logo over the futuristic magnifying glass (the red/orange contrasts nicely with the black/grey.
+
+to my mind, the ""Solr"" ""Sun"" connection has allways been really cool ... ",1
+Awesome discussion.,1
+"Got it, thanks for the explanation.",1
+The patch looks good.,1
+Cool cool - thanks stack!,1
+Awesome! This tool is cool.,1
+Thanks guys for saving mankind!,1
+This looks safe also,1
+I've just tested the shiro trunk with karaf-2.2 release and everything works fine :),1
+Pretty sure this was fixed by the time we released JRuby 1.6.,1
+"Interesting, I just replaced my src with the latest in the trunk and did a compleatly clean build and the problem seems to have gone away.",1
+This is Awesome Stefan - thanks a million!,1
+This is awesome - works in a one-liner. ,1
+Awesome!,1
+"Nice, I did not think about using the system tables.",1
+"You're results are awesome Paul. Great work :)
+Looking forward to see your new JSON parser in trunk whenever you think is ready.",1
+"Awesome, you rock, Drew!",1
+Very cool.,1
+Awesome speedup! Finally all this work shows great results!!,1
+"@Subbu:
+Glad I was able to help.",1
+I believe in relativity :-),1
+Great! It's been good to be able to contribute and I hope to be able to more for this awesome project when I have the spare time.,1
+Thanks Uwe!,1
+Code looks cool.,1
+Cool - good information to have.  Thanks Lance!,1
+Hey very cool. ,1
+"Hi, very cool!",1
+ I like the elegant parser!  ,1
+Thanks for fixing it so quickly!,1
+Jonathan: over to you :),1
+"Cool, looks good.",1
+Cool. sounds good to me.,1
+"Hi Carlos, This looks awesome! Lots of cool stuff.",1
+"Waaaaay cool! I especially like the ""upload file"" option.",1
+"cool stuff! a good candidate to put on myfaces-commons-utils, so the user can just add the resource handler on its webapp faces-config.",1
+"Thanks, Daryn!",1
+Thanks for the reviews..,1
+"Wow, thanks Raghu, that's awesome and will save me a ton of time. ",1
+"So very cool, and so very committed-- thanks Matthias, this is awesome.",1
+"Took me a few seconds to get it, but then I realized how awesome it is.  ",1
+"I'm happy to use it as the standard logo (i.e. website, etc.).",1
+"http://svn.apache.org/viewvc?view=rev&revision=468444
+
+Deepal,
+Thanks!",1
+Awesome stuff Stephen! ,1
+"Thanks Alexei, the patch is fine.
+",1
+"Awesome co-op. Thanks, Robert & Mike, for picking this up.",1
+Cheers!,1
+Thanks Galder:),1
+"Daryn, the current patch looks good.",1
+Sounds good.,1
+This is awesome!,1
+v2 Looks good to me.,1
+"Hey, you're right, that idea was probably not the best approach to the problem - 0.6 looks really nice, looking forward to it :)",1
+Thanks for moving so quickly on this guys.,1
+"Thanks, Sanjay!",1
+"Cool, thanks Daniel, we're actually cool with either updating it to e9ff8c4928 or flipping the write bit and we'll push the delta ourselves - whatever's the fastest to get to writeable:)
+
+Thanks,
+--tim",1
+This is a great suggestion.,1
+"great, thanks Joel.",1
+"Thanks for reporting, solved!",1
+it belongs to faces 1.2 :),1
+"Ok cool, this is just a matter of adding strings to the various [NotFound()|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L160] returns in files.cpp
+
+There are a number of error cases in the [browse|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L204] and [read|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L204] endpoints, I'd imagine one could change the javascript to generate bad requests which should be sufficient to test this :)",1
+"cool, no worries.",1
+"Cool feature!
+
+Performance:
+ - It looks like scripts are read from the resource loader and parsed again (eval) for every update request.",1
+"Thanks Ram,
+
+That seems like a definite improvement.",1
+Interesting that you decided not to detect the error based on finding two similarly-named operations.,1
+It's OK.,1
+"Hi Suran,
+
+The new catalogs_b.patch looks very good.",1
+"Nice feature, lars!!",1
+":)
+
+I've renamed ComponentColorProperty to be ComponentColorElement and RelationshipAggregation to TwistieAggregation.",1
+Looks like this is fixed :),1
+Version 2.2.0RC3 is fine.,1
+Sounds like a good idea.,1
+Many thanks for your help.,1
+Thank you!,1
+I've tested them out and everything is fine.,1
+Is that ok for this file (b/c I have no idea how to do the svn move now ... after I've made all the changes already) :),1
+Thanks once again.,1
+"bq. OK w/ the latest patch all tests pass for me! Great 
+Awesome! :)",1
+"Great! Awesome!
+
+thanks,
+Dims",1
+"Great! Awesome work, Nick, and thanks for the clarification, Bill. ",1
+"Great work...this is awesome stuff.
+",1
+great. awesome job sergey!,1
+Awesome - great stuff Maria.  Thanks!,1
+Thanks for doing that Uma.,1
+Wow!,1
+Thanks Bryan!,1
+Patch looks good to me.,1
+"Thanks, Jeff!",1
+It is good to have the test.,1
+"Thanks, Owen!",1
+Thanks!,1
+"Thanks, Dhruba!",1
+Patch applied with thanks!,1
+Looks quite perfect after solving PDFBOX-490.,1
+"Thanks, Ashish!",1
+"Many thanks, Neeme.",1
+Thanks for the help BJ!,1
+thanks Tomas!,1
+Thanks!,1
+Applied patch with thanks to Scott.,1
+Enjoy!,1
+thanks to Ernst Fastl for adding this.,1
+Thanks for the patch Mubarak.,1
+Thanks Koji!,1
+Long Life MyFacesssssssssss!,1
+"Looks good, thanks Laura!",1
+Thanks Ashish!,1
+"Thank you, guys!",1
+Thanks Ashutosh and Gunther for your help!,1
+I really appreciate your comments and I really enjoy our discussions:),1
+"Awesome work: this is a great first cut!
+",1
+Thanks to Edward and Brock for the reviews.,1
+Looks good.,1
+"Thank you, Ivan!",1
+:D,1
+"Thanks to both of you, and to Deepesh for the initiative.
+",1
+Cool.,1
+Sounds like a good idea. ,1
+"Cool, that's all good news too! Thanks guys. One less on my radar.",1
+cool man it looks good. we need a changes entry but from my side this looks good. we can tackle the todos on trunk,1
+"Looks pretty cool. Fresh and minimalist. Love it :-)
+Good work.",1
+"Cool, will do!  Thanks for the review and good questions... and the whole idea! :)",1
+This looks good to me.,1
+ Automatic location selection is very cool.,1
+Thanks Tony.,1
+Thanks for providing the patch.,1
+Thank you!,1
+Thanks Laura.,1
+Thanks Kathey.,1
+"Thanks Adrien for looking into this, nice explanation!",1
+"Super, I'll commit shortly -- thanks Yonik!",1
+"Thanks a lot, Jon for signing up this.",1
+"Thanks, Sravya!",1
+I like Richards update as well :) What I did was out of pure anger so it may not have been the sexiest.,1
+Thanks [~cnauroth] & [~tomwhite] for the reviews!,1
+Thanks for being patient Devaraj!,1
+"Hi Bruno,
+
+I like it, seems to work well at 1st glance
+
+Thanks!",1
+"Thanks, Adrian!",1
+Thanks Bob your patch is in trunk at r932317,1
+thanks again Uwe,1
+"Best regards,
+Andrew",1
+"Thanks, Alexei!",1
+"Thanks, Myrna.",1
+Thanks Tom!,1
+"Thank you,
++ Harit Himanshu
+
+
+",1
+"Thanks,
+Arvind",1
+"Committed a slightly cleaned up version of the patch in revision: 1464605
+
+Thanks for your help Todd.",1
+"897392
+Thanks Sharan !
+",1
+Thanks Karthik.,1
+"Thanks Andrew, committed in rev.",1
+thanks edgar for finding this one!,1
+Thanks Ilya.,1
+Thanks Jimmy.,1
+Thank you Jing for the review.,1
+"Thanks, Ravi!",1
+Thanks Sandy.,1
+"Hello Leo
+
+The patch has been applied at revision r479576, thanks a lot for this enhancement, please verify that the problem is fully fixed as you expected.",1
+"Best regards,
+Richard",1
+Thank you Jing.,1
+Thanks for your work on this Allen!,1
+Thank you.,1
+"Forgot to mention:
+
+Thanks to Alejandro and his team for pointing this one...",1
+Thanks Karl.,1
+Please contact me if you need any clarifications.,1
+Thanks Tom!,1
+thanks for the explanation.,1
+"Thanks Oliver, that's fixed it. ",1
+"Thanks a lot!
+
+",1
+"Adrian,
+
+thanks for the patch: rev.",1
+"thanks,
+nandana",1
+"Thanks for review and test case, Knut.",1
+Thanks Suresh.,1
+Thanks for your patience.,1
+"Hi Atul,
+that looks good at a first glace.",1
+Thank you Ravi.,1
+"+1, thanks Tom!",1
+"Thanks, Joseph!",1
+"Thanks again for this really great patch, Andrew.",1
+"Hi Edward
+
+Thanks for spotting it.",1
+Thanks Andrew - the patch was applied to SQL module at r525019.,1
+"Thanks for taking care of this, Alejandro.",1
+"Fixed in svn revision 533916.
+
+thanks,
+dims",1
+Thanks Oliver.,1
+Thanks a lot for your help!,1
+"Cheers,
+
+Ashwin...",1
+Thanks Martina.,1
+Thanks Christian.,1
+"Thanks for taking a look, Jiannan
+",1
+"@mahadev - I would love to help test a patch :) I'm currently using 3.3.1 + ZOOKEEPER-744 + ZOOKEEPER-790, applied in that order.",1
+"Thanks Atul,
+
+Your patch is in trunk at r933169
+
+I just added some ""mod for OFBiz layered lookups"" comments around changes as suggested Sascha",1
+Thanks for you work on this Jayachandra.,1
+"Thanks Areek, new patch looks great; I'll commit shortly.",1
+"Thanks a lot, Kiran for the patch.",1
+"Thanks,
+Mayank",1
+Thank you Thejas for the patch and Ivan for the review.,1
+Thanks Alejandro .,1
+"Thanks,
+Mayank",1
+"I would love it in 3.3.2, will upload a patch for that version.",1
+"Thanks, Mike!",1
+Thanks Ravi.,1
+"Sweet! Git, I love git! :)",1
+Thanks Sijie.,1
+Thank you for the patch Sergey. ,1
+I love a solution that's simpler and easier to understand than the original.,1
+"Hi Henry, Thanks for checking it out. 
+",1
+"In fact, if you happen to know why ObserverHammerQuorumTest is failing with this latest patch, I'd love to hear.",1
+"Thanks, Jing!",1
+That sounds like a plan. I love peer-reviews... :-),1
+"Thanks for the very clear explanation of the needed change, Dag.",1
+"Thanks for reminding me; I agree, I'll do it.
+
+",1
+"Thanks, JinJie!",1
+Thanks Brock!,1
+Thanks Thomas!,1
+"Thanks Divesh,
+
+Your patch is commited at revision: 762863  
+",1
+"Hi Sagara,
+
+Thank you very much for looking into this.",1
+A pleasure :>.,1
+Thanks Tom.,1
+I would love to have it right now for storm too. If you want me to sign up as a use case I am happy to.,1
+Thanks for the patch Erik (and Jon),1
+"Thanks for figuring this one out and providing the patch, Jamie!",1
+@Ashutosh: thanks a lot for the comments.,1
+Thanks for the quick patching Donald!,1
+"Thanks Bilgin,  it is working fine now.",1
+Thanks henry and pat... we'll have to re submit all the PA's so trigger hudson.,1
+Thanks senaka for the patch.,1
+"Thank you very much, Richard.",1
+"Thanks for the patch Niall, +1",1
+thanks henry!,1
+"Taking it over
+
+Thanks,
+Mayank",1
+":)
+
+Best regards,
+Fabian.",1
+Thanks  Rishi Solanki  to review the patch.,1
+Thanks Hari!,1
+"Best regards,
+Richard",1
+"Hello George,
+
+The fix looks fine, many thanks!",1
+"Best regards,
+
+Andrew",1
+Thank you Brandon.,1
+I really like what I am seeing so far.,1
+This is quality work.,1
+Thanks Dianne!,1
+Thanks Elena.,1
+Thanks Suresh,1
+Thanks to both for these usability enhancements !,1
+"Thanks a lot for the reviews, Todd.",1
+Thanks Stepan.,1
+Thanks Doug for the change.,1
+Great investigations Doron!,1
+"Thanks for your patience.
+",1
+Thanks Ivan.,1
+"Hi Sandy,
+Thanks so much to give me such comments, that's really helpful, I will update this later.",1
+"ahhh sweet, i'm guessing you have an IDE that does this? If the tests pass commit, this kinda crap goes out of date too fast!",1
+I want to integrate the sweet sweet logo Andrew crafted.,1
+"Thanks, Oliver!",1
+Thanks to Fabrizio for the patch.,1
+Regex is your friend.,1
+Thanks Awdesh - Done at r821748.,1
+"Thanks Richard,
+
+Patch applied to NIO_CHAR module java.nio.CharsetEncoder at repo revision 389784.",1
+"Thanks, Tom",1
+"Thanks for your comments, Konstantin.",1
+"Marcelo, thanks for pointing out this; it is now fixed in rev.",1
+"looks fine, thank you.",1
+"Thanks for spotting this, fixed at r487519",1
+"Thanks Areek, patch looks good!",1
+"Hi James,
+
+This patch has been applied by chirino in the revision 576522  at Sep 17.",1
+This patch really helped.,1
+It will be great if you could confirm it either way first.,1
+"Thanks Todd, glad to be on board!",1
+"Sweet, I will review and apply.",1
+"Thanks, Amar!",1
+Thanks for sweet patch Erik.,1
+"Owen, thanks for the slides.",1
+I'm glad we were able to resolve this issue.,1
+"Megan, Glad to be of service : )",1
+Thanks Andi.,1
+"Hi Daniel, thanks in advance for your support.",1
+Thanks Hairong!,1
+Thank you very much for your effort David.,1
+"Thanks in advance
+Jens
+",1
+"Aha,, thanks for the information. That makes sense. Glad to hear that it helped! :)",1
+Thanks for looking into this Suresh.,1
+"Thanks a lot for sharing that, Josh!",1
+Thanks a lot Subin.,1
+"Brilliant feedback, thanks! I'm glad you found the issue, and the solution!",1
+Sweet :) You got there before me,1
+bq. First of welcome :) Thank you. ,1
+Thats sweet that you have the prior experience hacking this on top of a store already.,1
+"Excellent work, Doğacan - thank you.",1
+This looks simple and sweet to me.,1
+Sweet kickstart for our new wiki!,1
+"Hello,
+
+Thanks a lot!
+
+It works.
+
+Lisa
+",1
+"Yes please - pull request away, my friend!",1
+"If someone wants to take this over, that's cool - I'm unlikely to have time in the next week and a half, though.",0
+"It is a nasty bug that I've seen in real life, though.",0
+Yes exactly -- sorry to be so unclear.,0
+"I'm not sure what the problem is, but the behavior (at least in 0.1.4) is that the _isClosed AtomicBoolean is not being set to closed in a timely manner.",0
+"Sorry for the delay and thanks for the good work, works like a charm!",0
+Sorry I thought submit patch was the way to attach a patch.,0
+"I don't have very much experience on branch-1, would you like to take a shot at the port?",0
+Especially I don't know very much about the test framework differences.,0
+I will figure out the details and do the port later this week if you don't get to it first.,0
+"sorry, unassigning myself from this backport.",0
+Another backport (for a different jira) of mine is failing and I want to see if I can figure out what might be wrong there before doing a new backport.,0
+"To upgrade to a recent version of Jackrabbit, see http://wiki.apache.org/jackrabbit/BackupAndMigration
+I'm afraid I can't say much about the risk.
+
+",0
+"I've tried something similar (I removed the handlers and kept the readers), but the performance was not visible.",0
+The responder seemed to be a bottleneck.,0
+"But it was not the only issue: we also want to manage priorities between the tasks, but we need to read them to get enough information to make the right priorities.
+",0
+While creating the DerbyTest I did notice that this problem is caused by the Database pool because it tries to connect to the database in the background.,0
+Sorry [~fiberlijun] - havent had a chance to look at it yet.,0
+(I could not get what KEYWORD means.),0
+"I am checking out the dojo fixes and patching them in, sorry for the delay, it has been a long time
+",0
+"> then we don't save IO by limiting the buffer size to 1 KB
+
+I'm confused by this.",0
+"Seems to be failing for a different reason now
+
+testContainerLaunch(org.apache.hadoop.yarn.server.nodemanager.TestLinuxContainerExecutorWithMocks)  Time elapsed: 0.523 sec  <<< FAILURE!",0
+"Sorry, for all the issue mails, I forgot to mention the second:
+
+2) There is commented source in the test, should it be enabled or removed?",0
+I'm very sorry.,0
+"Sorry guys... :(
+I was the reason for this trouble.",0
+I should have been very careful before doing this.,0
+"My bad, forgot to include the test file in the patch... Resubmitting in a second. ",0
+*sorry*,0
+Damn.,0
+Git is tricky that way.,0
+"Sigh, I don't like this overall if can't reuse everywhere.",0
+Sorry to let you lose a wild goose chase.,0
+"You are going to kill me when I say this, but it seems like we should just commit your first patch.",0
+This half-reuse is more confusing for new devs who see this code for the first time.,0
+"Sorry, probably a misunderstanding from my side....",0
+I meet the same problem on Eclipse recently but haven't figured out how to get through.,0
+"Sorry Chris,
+
+I missed it, done !",0
+One of the error is that hiddenActivations cannot be resolved.,0
+"I'm very busy for the moment so I didn't know when I 'd be able to the change myself, so if you can, your contribution would be one more time really appreciated.",0
+"Oh, I didn't consider one flow like after the edit log conversion, immediately #store failed.",0
+I misunderstood the case and sorry for the confusion.,0
+"Aside from the job succeeding (it doesn't), what effect should I be able to measure (in order to see if this is doing anything)?",0
+You misunderstood the response: StopFilter indeed did not change.,0
+You would need to implement session resume; thats a whole new can of worms.,0
+"Sorry for a mess in uploaded files, my connection got broken during first upload.",0
+"Here are 2 patches ... one for adjustExamplePaths.bat & .sh
+and the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIB
+Not sure where this should go ...",0
+i found the class - so there is no bug - sorry,0
+I was not aware of being required to call that method.,0
+This is a silly one.,0
+"Seems we didn't enforce an exec for sh, but we did for fs.",0
+"The patch should be relatively trivial, but like I said, I have no idea if there is other important stuff going on there or not.",0
+"Igor, sorry it took me so long to get back to this.",0
+"Hey, sorry I did not get back to you sooner.",0
+I found the (sad) attempt at a script you asked about and uploaded it to MAPREDUCE-4282.,0
+Sorry for the delay.,0
+I don't have resources to hand to test this at mo.,0
+"Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)",0
+Forgot to add that I also tried this with and without HBASE-5864,0
+"but app developers should always explicitly set it based on their application
+
+My guess is that a large enough group of people take the defaults that it matters.",0
+App developers never do what they should :),0
+"problem - the bit to sign the source-release is being called when the source-release isn't being built because the source-release is only built at the ""executionroot"".  ",0
+Excuse me for stolen assignement.,0
+In current version the same error cause different messages because there are many commiters.,0
+Sorry for the missing class src/java/org/apache/jdo/tck/lifecycle/StateTransitionsReturnedObjects.java.,0
+"Sorry if this was not clear, and yes, by <blank> I meant an empty string.",0
+"Qianshi is working on the SSL session reuse, but this buggy Bug system does not allow him assign this ticket, sigh",0
+"Hi Guillaume,
+
+I did not have an answer right away, so I sent you question to Leonard Rosenthol.",0
+"Sorry, should have commented on this much sooner.",0
+"It is not yet tested - I ran into strange build problems with APR.
+",0
+"Done, sorry for all the mess on a simple patch.",0
+"Secondly reading this code I can see why this bug is happening, after completing stage 2 above when adding the new item the code does ""ordered - cancelled = quantity"" which equates to ""1 - 1 = 0"".",0
+"Keep repeating this and the problem just gets worse.
+",0
+Please ignore attachment (id=6938).,0
+It was attached to the wrong bug.,0
+"(back from holidays, so a bit delayed, but) I confirm Andrzej's suggestion -- a plain-text only summarized is ideal for clustering for example.",0
+HTML is quite uncomfortable to work with.,0
+"Hi Marco,
+
+I changed the name of patch because it was made in Java earliar, sorry for inconvenience.",0
+Sorry for the mistake.,0
+Not sure I want the transient inability to clean up some local log or other trivial task to kill a whole pig job?,0
+First guess: something's getting confused about reversed-ness.,0
+"Sorry, I took Martin's comment to mean the patch was committed and issue closed, which certainly discarded all the patches the first time around.",0
+I don't know what just happened.,0
+The patch went to the wrong bug.,0
+Sorry again!,0
+Our caller may not notice what happend right now.,0
+"Sorry for my poor review, didn't notice try/catch :(",0
+It does not look very useful.,0
+"Oh, I'm sorry, I was unclear.",0
+"Sorry Jacques, I'll upload another file.",0
+I did it wrong this time.,0
+"Sorry, I had attached an older version... let's try this one.",0
+"However, I figured it was better to get it in the public domain sooner and let the iterative process do it's work.",0
+This is only a problem with exceptions from java.,0
+Incidentally if we all nag Joe Walnes enough we might be able to persuade him to release a new qdox which can ignore annotations etc (though it will still struggle with generics I think),0
+"Sorry, I kind of forget about this one.",0
+I don't have strong opinions about it either way.,0
+Bugs like this make me sad.,0
+SnappyCodec check for Hadoop native lib is wrong.,0
+"Sorry for the delay, I'm recreating the mirror now.",0
+"Brandon, sorry.",0
+I misread.,0
+"Ignore comment.
+
+",0
+Seems to be a faulty mailserver setup at laguna-industries.com.,0
+"Unfortunately, in these days where everyone that can put a CD
+the right way up in a drive is a Linux/Unix/Windows/Internet Expert, this has become pretty common.",0
+"And with a network that
+tolerates almost everything to get a mail somehow in the right place, it is only seldom noticed (or when it is, it is blamed on
+Microsoft.",0
+"Mac, looks like the tests are failing (especially TestHarFileSystem).",0
+"@Luke, Sorry for the late, attaching latest version patch",0
+"RMAppAttemptImpl.recoverAppAttemptTokens()
+
+Looks like all changes in RMAppImpl are unnecessary.",0
+Bug in existing testDelegationTokenRestoredOnRMrestart().,0
+"Sorry, we are no longer using Xerces.",0
+That is a bit too lax I think.,0
+The cause is that the call to SpecificResponder.writeError in Responder.respond ultimately calls GenericData.resolveUnion which in turn calls GenericData.getSchemaName before the line where the UnresolvedUnionException gets thrown.,0
+I am new to Mina and the whole environment.,0
+"I have this issue, where my server and client is creating a lot of loopback threads, that I believe must be related to this issue.",0
+Any word on whether it will be fixed?,0
+I did not have time to do it yesterday.,0
+Sorry for being confusing.,0
+"I am not really sure what does the receive payment do before the shipment, it doesn't sound as if it is doing what we expect it to do.",0
+Unable to reproduce issue.,0
+"Oh, ok.",0
+"Sorry, this affects 0.9.3 version too.",0
+Phabricator is being a little buggy.,0
+Tests no longer sleep,0
+"Sorry, this should be YARN JIRA - filed YARN-350 instead",0
+"Sorry if this spam's things, however it's unlikely that I'll work on these.",0
+"Forgot about these, sorry.",0
+Maurice I don't have such option or maybe I don't know where it is.,0
+":)
+Sorry about that.",0
+"Sorry about the noise, was trying out the precommit job.",0
+Sorry about that...,0
+"Grumble, grumble...",0
+"I was in too much of a hurry, sorry hold on a sec.",0
+"Sorry, I see that you say the same, Mike :)",0
+Sorry for the huge delay Fabio.,0
+yup sorry just fixed.,0
+I screwed up the encoding of the stopwords file (sorry).,0
+"So I also changed a test to test a non-ascii stopword :)
+",0
+Sorry about the confusion before,0
+Sorry.,0
+"Sorry folks, the full fix was committed in rather a messy manner due to some platform specific issues.",0
+"Sorry, didn't look at the code until commit...
+
+Can you test making it hash to a Long or a 8-byte ByteBuffer?",0
+Sorry - the above comes across as terse.,0
+I really don't know how to solve this problem.,0
+"If you know of a way, please describe it.",0
+Sorry.,0
+"Ha sorry Varun, thanks for the reminder, I will have a look at it soon...",0
+Sorry.,0
+Sorry for the wild goose chase!,0
+"Sorry, db name is TPCDB, user name TPC, pwd whatever...",0
+"Sorry, my code base is a little old, looks like HADOOP-9147 add some new test in TestFileStatus. ",0
+I'm sorry.,0
+Sorry; I hit close by accident.,0
+Sorry I've been MIA on this issue.,0
+"I haven't had any time to try re-upgrading after having to back out 2.0.8, but I will be sure to let you know how it works out as soon as I get the opportunity.",0
+Sorry for that.,0
+"Sorry, missed that select-box.",0
+Sorry for letting you guys wait.,0
+"[~shazron]Sorry, that was weird.",0
+Missed 2 new files - sorry !,0
+"Sorry, no longer working on this",0
+"Sorry, patch is attached ",0
+"On 2008-10-20 11:43:52.354 woflexair commented:
+Joan,
+
+sorry for the noise in the bugbase but it's not a bug.",0
+"Sorry once again for the wrong report,
+Stephane",0
+"Sorry, I forgot to change the priority of this one.",0
+sorry.,0
+"Sorry, that should have said fixed via HADOOP-4980, not 6980.",0
+Sorry about the report.,0
+"Ugh, sorry :(  Thanks!",0
+Sorry about that.,0
+"Sorry I didn't use your patch, but I think you'll like the end result.",0
+"Some file were missing in the last patch, sorry.",0
+The biggest problem is that we've had too many committers over the years and we'd have to get all of their permission to change it.,0
+"So, sorry I can't be more obliging.",0
+Last try.,0
+Sorry.,0
+sorry.. redeploy patch,0
+Sorry for the trouble Vikram!,0
+Sorry for the misspelling ;),0
+(sorry if that was confusing),0
+sorry for your time.,0
+I must have looked at this before my morning coffee..,0
+"Sorry ;-) +1
+",0
+"Wow, that was some bad copy/paste work.",0
+sorry.,0
+sorry....,0
+"Sorry about that...
+
+http://bit.ly/12UiaS",0
+"Sorry, Thiru, I hope you haven't already started working on this!",0
+huh ... i thought i did resolve this.,0
+sorry.,0
+"Sorry, misunderstood the issue!",0
+Sorry for the delay.,0
+sorry for delay,0
+"Sorry for the delay, was away.",0
+Sorry.,0
+This was my bad.,0
+"Sorry, it seems I forgot a few references to 2.0.2 in ./deps/cxf-all
+I'm attaching a new patch to fix these references.",0
+Thanks Jukka for fixing this :) (sorry),0
+"Sorry, that should be
+
+FileChannel inputChannel = input.getChannel();
+FileChannel outputChannel = output.getChannel();
+
+in the try block.
+",0
+"Sorry [~svenkat], I just committed this.",0
+No sorry.,0
+Didn't got the time to try it yet.,0
+"Sorry to have not spotted this one, and thanks for your care.",0
+"Sorry I missed the ""overwrite"" keyword.",0
+This might be a bug indeed.,0
+Sorry everyone.,0
+"sorry, last patch was missing new files",0
+sorry for misleading attachment name.,0
+"Sorry Avdhesh, I forgot to add these two files to the patch, here is the new patch containing the missing files",0
+"Hey Vikram-- sorry about that, I haven't paid much attention to this issue.",0
+"Sorry, should ask first.",0
+Thanks to Mathias Werlitz - sorry for the delay.,0
+Sorry.,0
+The problems I was talking about are mostly fixed by [HADOOP-3575] and [HADOOP-3480].,0
+"I opened [HADOOP-3607] to fix a wrong URL, but appart from that I don't there's still references to the old structure.",0
+"no, sorry - priorities have been shifted around...",0
+"Um sorry, i thought this ticket was about something else - patch attached, David would you give a try?",0
+Sorry for the noise.,0
+Sorry about that.,0
+Sorry I missed some of this the first time.,0
+"Sorry , fixed.",0
+"Sorry Gav
+DONE
+Committed @revision 2487.",0
+"Sorry, but look at mapSubtract and further down in the source you will find plenty.",0
+"Sorry ;-)
+
+",0
+"Thanks for the report, and sorry its taken so long to fix it.",0
+"well sorry, i didn't upload the right files",0
+"Whoops, sorry.",0
+Sorry about the trouble.,0
+"Sorry, in rushing to commit I forgot to add author during the commit.",0
+"Actually that's what this change did, sorry for the noise.",0
+Sorry for the noise..,0
+Completely missed issue 614..,0
+"Sorry typo:  ""our part"" in place of  ""one part"" above.",0
+"Sorry, I thought issue (and provided patch) were about cocoon-servlet-service-impl, used by either C2.2 and C3 but only now I see that instead they are related to cocoon-servlet-service-components (C2.2 only).",0
+"I'm sorry Mark,
+
+I came back here to remove my comment as after building the app from scratch I have found that by default it used 
+WhenExhaustedAction = GROW and not BLOCK!",0
+"Sorry  about that, tiredness.",0
+Sorry about the error guys.,0
+"Yes, sorry.",0
+"sorry, this bug is *not* fixed.",0
+Sorry.,0
+Resolving again....,0
+"Sorry, yes I believe this has been resolved.",0
+Sorry for the spam - but which test method - can't find any related to the SnapPuller on trunk.,0
+Sorry about that.,0
+"Yes, the patch is badly named - sorry!",0
+"Sorry, attached the file to the wrong issue.",0
+Sorry about that.,0
+I have a really bad habit of not reading thru all the bug comments before asking questions.,0
+"Sorry,
+I tought I could commit this patch but I did not realize that one of the files is in the framework (and I have not access to it).
+",0
+"Sorry, on holiday last week and just catching up.",0
+"Thanks so much, sorry that this isn't in the appropriate place.",0
+"Sorry guys, I've been pretty busy @ work but I have been watching this.",0
+Sorry for the confusion :),0
+"Sorry, https://bugzilla.mozilla.org/show_bug.cgi?id=514760 is related but not same.",0
+"Sorry,I haven't tried you patch.",0
+Sorry for the noise.,0
+I will try to do more research on it.,0
+"Sorry, I meant to have this patch in sooner but got quite busy, I expect to have it soon.",0
+"Oh, sorry.",0
+I missed the context.,0
+"For some reason, I couldn't upload the straight patch.",0
+Sorry guys,0
+"Oh, signed shift!",0
+sorry :),0
+Sorry - the federated build is still working out kinks...,0
+"The problem is that it builds awt, and that requires some dependencies.",0
+"if someone wants to work on this please go ahead, I still plan to, just no time yet.",0
+Sorry.,0
+Sorry for the hassle.,0
+WOW....you are right...I'm deeply sorry to bother you guys (and I'm also a bit embarrassed).,0
+Sorry to nag.,0
+"sorry, should have been getDataModel not getDataTable.",0
+Sorry I'm wrong about #2.,0
+Brain fart.,0
+"No unit test, sorry (but there's not much deltaQuery coverage anyway).",0
+Sorry for that.,0
+"Ah, sorry I misunderstood you.",0
+Sorry for the noise.,0
+"Aaron, sorry about this.",0
+"The guy on our team that was going to do this was swamped, so I re-assigned this to you.",0
+"Sorry, missed this.",0
+Sorry for the noise.,0
+My patch wouldn't compile.,0
+Here is addendum to fix (Sorry about build breakage),0
+"Sorry, you're right.",0
+"Line 1664 (sorry, the 0.94 codeline)",0
+Sorry - I just didn't read the issues carefull enough.,0
+"Sorry about that, fixed now.",0
+sorry about this.,0
+My error.,0
+Tried some more stuff and realized I was doing it wrong.,0
+Sorry.,0
+"Sorry, here's the test that reproduces the issue.",0
+"Sorry if this spam's things, however it's unlikely that I'll work on these.",0
+Sorry for the trouble.,0
+"sorry old xml here is the used one:
+
+<?xml version=""1.0"" encoding=""UTF-8""?>
+<root><value>?¤?¶?¼ und ??????",0
+"Sorry [~kumarr], let's just do this in 0.96.",0
+"Sorry for the super-slow uptake on this, the new job is using up all of my limited brain resources. ",0
+"Well it's me that didn't get the whole point, now i got more, sorry for the noise.",0
+"Sorry, I was trying to get to the wiki but it's been a busy week.
+",0
+"s/[~apurtell]/[~lhofhansl]/
+
+Sorry guys.",0
+"Sorry, grabbed the wrong ticket.",0
+Sorry that I think I missed some discussion in the mailing list.,0
+"Unless we switch to Antlr 3.0 ( and even though, I'm not sure this would fix the problem), there is nothing we can do.",0

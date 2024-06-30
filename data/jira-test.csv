@@ -1,0 +1,124 @@
+sentence,label
+"Oh, I didn't consider one flow like after the edit log conversion, immediately #store failed.",0
+Blooper after blooper - I hate SVN.,0
+My bad.,0
+"Hey, sorry I did not get back to you sooner.",0
+Sorry - the federated build is still working out kinks...,0
+Kind of sucks.,0
+"sorry, unassigning myself from this backport.",0
+If they do then Suse's cpio works for old ascii but the -c switch is broken.,0
+Sorry for the noise..,0
+Hmm ... this is quite bad.,0
+Doh!,0
+"It may suck, but at least *I* won't be the one bringing in a dumb dependency to a logging library.",0
+I like Richards update as well :) What I did was out of pure anger so it may not have been the sexiest.,1
+"Cool, will do!  Thanks for the review and good questions... and the whole idea! :)",1
+"Hello,
+
+Thanks a lot!
+
+It works.
+
+Lisa
+",1
+"Sorry about the noise, was trying out the precommit job.",0
+My Bad.,0
+This whole thing is very distressing to me.,0
+"Committed a slightly cleaned up version of the patch in revision: 1464605
+
+Thanks for your help Todd.",1
+"@idiot Yeah, I was on that idiot-path for a good while but commons-lang is a hairball, at least where this hashcode making and equals is concerned.",0
+"great, thanks Joel.",1
+"For some reason, I couldn't upload the straight patch.",0
+who the hell starts using our jira for typing lessons ?!?,0
+:D,1
+Please contact me if you need any clarifications.,1
+Not pretty. ,0
+Thanks for your patience.,1
+damn this was assigned to you since months.,0
+Sucks to rush a commit when an issue is under discussion.,0
+"To upgrade to a recent version of Jackrabbit, see http://wiki.apache.org/jackrabbit/BackupAndMigration
+I'm afraid I can't say much about the risk.
+
+",0
+"If you know of a way, please describe it.",0
+This is awesome - works in a one-liner. ,1
+Phabricator is being a little buggy.,0
+"I lost the whole morning cause HBase's RegionServer was dying with no logs, no nothing... how Am I supposed to debug the issue if u do not even generate a core dump?",0
+"Well, damn.",0
+"I'm sorry Mark,
+
+I came back here to remove my comment as after building the app from scratch I have found that by default it used 
+WhenExhaustedAction = GROW and not BLOCK!",0
+Thank you.,1
+"But, even if it wasn't it would be totally worthless where it is at.",0
+Great investigations Doron!,1
+Sorry for letting you guys wait.,0
+"Sorry, I kind of forget about this one.",0
+"Filling diags.log is bad mojo, since it's never rotated.",0
+"Thank you,
++ Harit Himanshu
+
+
+",1
+Sorry for the huge delay Fabio.,0
+Thanks Thomas!,1
+"Forgot about these, sorry.",0
+Doh.,0
+Why on earth does createLink() need a request?,0
+Thanks Karthik.,1
+Sorry.,0
+Damn.,0
+"Best regards,
+Richard",1
+"sorry, last patch was missing new files",0
+Maurice I don't have such option or maybe I don't know where it is.,0
+That sounds like some serious buck passing.,0
+"Swear to god, I'm not a total idiot.",0
+Sorry; I hit close by accident.,0
++1 for this: my bad.,0
+i found the class - so there is no bug - sorry,0
+"Thanks, Myrna.",1
+Thanks guys for saving mankind!,1
+"BTW: This is one reason why I hate this autoboxing shit since Java 5. I would love to have a way to prevent it in code (forbidden checks should detect this somehow).
+",0
+"Hi Henry, Thanks for checking it out. 
+",1
+"Sorry ;-)
+
+",0
+"Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)",0
+Thanks for your work on this Allen!,1
+Awesome speedup! Finally all this work shows great results!!,1
+This really sucks!,0
+"Holy hell, I think I found one problem with turning a bignum into anything else.",0
+"Took me a few seconds to get it, but then I realized how awesome it is.  ",1
+Thanks Brock!,1
+"Thanks for figuring this one out and providing the patch, Jamie!",1
+"Hmm, that sucks.",0
+That would suck.,0
+"Sorry, no longer working on this",0
+"Best regards,
+Andrew",1
+Thanks Sandy.,1
+"Ah, damn, I thought it was fixed :/
+
+Guillaume ?",0
+"Here are 2 patches ... one for adjustExamplePaths.bat & .sh
+and the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIB
+Not sure where this should go ...",0
+"Sorry, I took Martin's comment to mean the patch was committed and issue closed, which certainly discarded all the patches the first time around.",0
+The food is very bad.,0
+thanks henry!,1
+"Marcelo, thanks for pointing out this; it is now fixed in rev.",1
+"> - FOUserAgent.getStream() is cool and very easy to use (now that it's properly
+> documented).",1
+Pull it back in if you think different.,0
+What the hell are you waiting for ?,0
+My bad.,0
+Inserting timestamps automagically would be bad because it would limit a whole swath of use cases.,0
+I really don't know how to solve this problem.,0
+Thanks for moving so quickly on this guys.,1
+App developers never do what they should :),0
+This whole thing is really pretty trivial.,0
+Tabs are evil.,0

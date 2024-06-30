@@ -8,10 +8,10 @@ public_data/
 __pycache__/
 *.py[cod]
 *$py.class
-*.csv
 # C extensions
 *.so
 *.png
+prediction.csv
 
 # Distribution / packaging
 .Python

@@ -1,0 +1,375 @@
+sentence,label
+This should really check self.client.can_send_version() and send the primitive of the object with the old version if you can't send the new one. You can find examples of this in compute/rpcapi.,0
+"I think there's a function for doing this. Maybe display_name()? I think you pass it a whole ""usr"" record and viewer and it figures out how to display it.",0
+"So in the end, you don't even need the AGESA struct. You might think that casting to a struct makes the code more readable, but in this case, it also hides nasty bugs.",1
+"Just put ""Sync groups in these contexts only"" as field text. And put the rest in a note beneath the text field:
+
+""Note: Leaving this field blank, the user authentication contexts will be used.""
+
+Help needed to let admins know how they need to enter the context.",0
+quotad count already there. please remove this from your code.,0
+"Field length expected here is 2, but field below is FT_INT32.
+Is this an unsigned short (FT_UINT16) ?",0
+"Yep, I've merged the two into |supportedSignatureAlgorithms|.",0
+"is this equivalent to:
+
+lmm->lmm_pattern &= ~cpu_to_le32(LOV_PATTERN_F_HOLE)",0
+s / GD_MSG_VOLINFO_SET_FAIL /GD_MSG_VOLINFO_STORE_FAIL,0
+I'll let peter decide what he wants to email; but changed the subject to include the host name.,0
+This condition is always true. I assume the condition you meant was n != ptrSize. Though I see you removed this condition altogether in CL 9704 (rebase failure?).,0
+There's already bunch of strcpy calls scattered throughout this file anyways.,1
+These two comments seem to be for the block of commands.,0
+"No need for indentation on the last line, or even the preceding newline for that matter.",1
+"Why not put this in begin(), so that all subclasses will have the trxFname logic?",0
+"You're right. The issue is that the onSampleSelected() callback uses the Combo index to fetch the sample from mSamplePath, so the way you have it they don't match (if you try, selecting a sample will load a different one). The trivial solution is to sort mSamplePaths alphabetically like it should have been done in the first place anyway (my fault for forgetting that).",0
+Non-standard ports (And other more exotic configs) now have their own section that I've added in this commit,0
+"I think the copyright is ""Eike Stepper (Berlin, Germany) and others.""",0
+"Hi Gregor,
+
+Need to make this accessible by adding ""class='accessible-hidden'"" with relevant details to labels; also add spans for hidden text; anchors with spans; buttons need to have ""alt"" text; etc.
+
+Please refer to: https://wiki.mahara.org/index.php/Accessibility 
+for more details.
+
+Thanks,
+Ghada",0
+"Hmm notification sounds like a QObject::signals, I'd say that's somewhat misleading. So I'd name that with something indicating the progress Bar.",1
+"split to chunks was added, no vms/templates in memory during vds operation.",0
+ThreadIdType numberOfThreads = this->GetNumberOfThreadsUsed();,0
+"Patch Set 5:
+
+> David - it used to be that you needed to land both the 
+> stable and the 9999 cros workon ebuild at the same time.  
+> Has that been fixed and you can just land the 9999?
+
+That's right, you only need to land the 9999 now. (Actually it's been supported since at least Oct 2010, but yeah there used to be a bug)",0
+"We take an ""error_list"" from the framework here, but ""message"" is passed as an argument. Looking at how message is constructed, this also could be generated here (there is no need to pass it through argument).
+
+So either both message and error_list are this function arguments, or none of them.",0
+"The column names shouldn't be in curly brackets, because that adds the dbprefix, and we only want that on the table names.",0
+'git commit --amend' and everything up until the last Change-Id line can be removed.,0
+"well, since we're doing this, might as well do this instead, since it's cleaner and looks better (and sanitized).
+
+        elements = getattr(self._conn, class_name)(ElementName=element_name)
+        data = self._get_first_item(elements)
+
+And before you dismiss the usage of getattr, That's actually how wmi namespaces work: the __getattr__ method is overriden and it will lookup and cache that class_name and return it, as it does not have it defined. This way it is more flexible, same wmi module works for any namespace.",0
+This doesn't seem right -- should it not be left as destination dir?,1
+This should now depend on a python_library() that contains tools/gerrit/api.py.,0
+"Patch Set 1:
+
+Thanks for your reviews.
+
+To be honest, it would be nice, if you could be a bit more friendly to - not first time in case of Thomas, but occasional - contributors. IMHO one or two -1 are enough for the beginning.
+
+Bjrn and Philipp, you're really helpful contributors, thanks for that. We were discussing the ""patch for a patch rule"" over the last days, which we enjoined on ourselves as core team members some time ago (and it works in at least most of the cases I think).
+
+Please don't treat this as harsh words, I just want to make you aware of the fact that motivating every new contributor is very important for us, and hopefully also for you as an essential part of the TYPO3 community.
+
+Thanks for your support!
+Steffen
+
+P.S: The reason, why Jenkins fails is probably, because of the parent commit is very old and the patch has to be rebased. Will try to get this done now (if network connection allows)",1
+"""throws"" should be indented an additional 4 spaces comapred to the begining of the function (private/protected/etc.)",0
+"change this to /srv/deployment/mathoid/mathoid
+
+the duplicate mathoid is so if you have any other repos (eventually) or a temp dir, or an output dir, it can all be in the same place",0
+"I can do that in an extra commit, here I only wanted to add the possibility to access the created proto_item. But if you want me to, I can add the change to this commit also.",0
+"the method does not what the name says. It should just be named ""updateCommitButtons"" and take a boolean. So you can use this in another place too.",1
+"as Shawn mentioned in another comment: s/wild project/AllProjects project/
+
+more occurrences below",0
+You ca use directly val_to_str on HF VALS(xip_serval_proto_vals...),0
+"Please note that according to http://www.w3schools.com, the values ""table"", ""table-row"", and ""table-cell"" are not supported in IE7 and earlier. IE8 requires a !DOCTYPE.
+
+http://www.w3schools.com/cssref/pr_class_display.asp",0
+"[error] Got an exception - expecting EOF, found '}'",0
+"I don't think there is an easy way to do this, but it feels like these error messages should be shared with the ones from the WUI (ApprovalTable).",1
+"Does this change apply to all uses of this rule?
+
+I suggest making this plural form optional so people can transition to using it over time rather than flooding them with warnings.",0
+"If the methods of this class are only called from the request handler (worker) thread, then I think locking is not necessary.
+
+A comment describing which member variables the mutex is protecting would be helpful. See the comment in the header file.",0
+Please add the tab. ItÃ¢â‚¬â„¢s sad that the latest clean up patches for the Butterfly were not adapted.,1
+"Hi Tobias,
+
+ 1. Please include the file comment at the top:
+
+/**
+ *
+ * @package    mahara
+ * @subpackage artefact-multirecipientnotification
+ * @author     David Ballhausen, Tobias Zeuch
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
+ *
+ */
+
+ 2. Also, please include:
+
+defined('INTERNAL') || die();
+
+Thanks,
+Ghada",0
+now the test doesn't install SG at all. it will fall on the first run if SG is already installed on vm.,1
+"After seeing this live on gerrit-review, I think this is noisy. Every change seems to have 10+ conflicting changes, which I think is just an artifact of there being lots of old, unlikely-to-merge but still open changes in the project.
+
+I would prefer something like including ""-age:30d"" and/or ""limit:5"" with a link to the full search without that restriction.",1
+"hmm, why this should be a problem? attr is a local (to this thread) storage, nobody else will see that?",1
+Do we have a working solution if one still need the Gerrit-Module?,0
+"Just cleaning, this regex remove  empty string concatenation:  + ("""")
+
+This can happen when we start a new group of concatenation (see appendConcatOperation()) and there is nothing to print afterwards. In this case the string ends with a concatenation of an empty string",0
+"P.S. - now that this is an attribute of the campaign, not an action, we need to change the i18n string to ""Archived""",0
+I guess above versioning should be updated since API changed,0
+What about setting tv->arg = arg and remove g_free(arg)?,0
+"Various tests won't link if I leave the macros out. F.e. tst_qpropertyanimation, tst_qitemmodel, tst_qsettings, ...",0
+This should be rather initialized with an empty collection.,0
+"Same here, toQt or just toVariant as it is taking a Json::Value.",0
+All the msgs above have significance that they are trying to modify PGFID. Create one message id say 'P_MSG_PGFID_OP' and log errors there.,0
+don't confuse algorithm with implementation. env is not supposed to be used this way as it's touched from different places. it was said many times that using env to pass data between different codepaths is a bad idea.,1
+It seems to me that we have a more serious issue here.,1
+The indentation on these lines seems to be wrong (same for Backend call below).,1
+"Just delete this line, have one empty line in between the background and the scenario.",0
+"Prefer ordered includes, i.e. VTK headers, vtksys headers, STL/system headers.",0
+"s/exit/continue/
+
+Exiting the loop doesn't do a final update of v. The write to conflict with this read must happen during the setup for a subsequent iteration. 
+
+This one does bother me. To be clear, what's going on is:
+
+v = a[0]
+go func() { x = v }()
+v = a[1]
+go func() { y = v }()
+
+There is no race involving the second goroutine, since its read is guaranteed to happen after the write of v = a[1]. The race is between the x = v and the v = a[1]. I don't understand why the race detector does not detect that misordering 100% of the time. I filed #10589 about this. At least this fixes the build so that we can detect future breakages while Dmitriy thinks about this one.",1
+"Damn it, that wasn't supposed to be there. I'll remove it.",1
+"This conditional is always true, so it should be removed as confusing.",1
+I assume this is something that's required if signature is not provided? If so; throw an exception here; or remove it completely from code.,0
+"Thanks a lot for your review.
+What do you think about ""in the adapted class""?
+
+Anyway, I'm going to bother some of the guru to hear what they think about it...",0
+This check was removed along with the corresponding GenFramebuffers and GenRenderbuffers calls because they are redundant(see CheckFBOResources bellow) and the allocated buffers are leaked. This is one of the bugs that my patch fixes. In my patch the buffers are allocated only once(with error checking) in the AllocateFBOResources method.,0
+"I have tested this race using gdb (as result I commented below code), here we are just stopping new threads, we are not destroying rpc structure/any resource.
+
+There might be already running threads which may be try to request rpc/uds calls(submit and reply) after rpc and uds stop, in this scenario i was getting error from rpc layer. I dint see any seg fault.
+
+I will try to do some more tests in this race condition.",0
+"What happens if match is missing or empty? Does it do something sensible when trying to match against an empty pattern, or should such commentlink rules be skipped (e.g., with a 'continue;' statement here)?",0
+you can remove the access tag and set the function actually to private,0
+This comment doesn't sound right.  This if statement should be removed as lapd_handle should already be populated.,1
+"For consistency, this could be named ""storeInHttpSession"".",0
+"please remove ""border"" and blank line between class definition and comment and consequently reduce it to a single line",0
+"I wouldn't bother with bufio.NewReader, just read 100 bytes or something rather than bothering with ReadString.",1
+cpu_allocation_ratio is a global config option fro the core filter - not a per hypervisor setting ?,0
+"did you want to save the three characters ""urn""? not worth it IMO ;)",1
+as you suggested (in person) that probably should go into a template,0
+"Do we need to enforce the same type for all elements in the array, or do we not care as long it's one of the string/numeric/numeric string primitives?",0
+"We can address it in a separate commit, but I rather use only one approach for the compaction instead of having a sorted compaction as an option. Sorting will be expensive especially when we have a large number of items. If we don't have not much performance gain, I rather use an unsorted option.",0
+This follows the common toXXX naming convention and implementation style used in Guava. I need fix the documentation.,0
+My idea was just to drop the parent class and move the methods down to the only inheriting class. But I can modify the __str__ in one shot.,0
+"nit: wording.  the sentence doesn't make sense. perhaps:
+
+Support creating a request for authentication of a remote...",1
+"Line lengths, seems like most of these would be easier to read if they were placed on the preceding line before the variables.",0
+"These two variables were defined separately in the previous version. Now that you need them in every method, you could just declare them at the first utilization (applies to the other methods too).",0
+Function call for single line that removes from dict?,0
+Call getResource() with false for the parameter loadOnDemand instead of true to be lazy ?,1
+"The size here is now just the size of the struct, hence the names (old/new) will not be a part of the dict.
+
+Further, dict_set_bin, takes in a pointer, that it strores in the xattr/dict and later is freed when this dict is destroyed. In the case of passing a pointer which is a structure containing another pointer, the dict routines cannot encode this into the dict.
+
+Overall, as info is passed to be stored as a dict, the above mechanism of allocating a pointer within info and passing this would fail to send these values across and also leak memory for the allocated info->buffer.",0
+"- Should be like below:
+textDirection = SWT.AUTO_TEXT_DIRECTION;",0
+"Ohhh. I have a white background, so I didn't catch the yellow highlight. Thanks!",0
+"We kept this in r46 to keep some minor behaviour consistent.
+
+By omitting this in r50, we are actually keeping the behaviour of rc and final consistent, modulo the bug fix - see this function in git diff 53fc9d0 -- src/gromacs/mdlib/coupling.c. Since the r50 tests are already generated with the new RNG, we should expect those tests to continue to pass.",0
+"ec_combine_statfs is updates the avail size to max, with this we are not getting the correct value. In the below output, avail size should be 99.7G.
+
+root@rh1:~/workspace/git/glusterfs # df -h /mnt
+Filesystem      Size  Used Avail Use% Mounted on
+rh1:/vol1       100G  290M  100G   1% /mnt",0
+Release after main inode is what patchset 2 has done I think.,0
+"Done, although this filter is specialized for 3D only.",0
+Maybe include a warning if the assumption is not met?,0
+Because total bytes of addrs should be greater than size.,0
+I think we use spaces instead of tabs after variable name (all  @foo above).,0
+"Not all build tools use -j. Thus the simpler approach of directly setting build_cmd=""make -j2""/""jom -j4"" might be better.",0
+Suggestion: so it is recommended that it not block...,0
+possibly add a commented out example of packet-foo.src,0
+It would help to have a DHT_MSG_DISK_LAYOUT_MISSING msgid here,0
+You should put it into memcached_defaults instead. That handles the upgrade scenario and will allow us to change the value easily in future.,0
+"IMHO this two functions are unnecessary.
+There are only validates (oh my...)
+Better if will be done in the level using the parameters.",1
+"I actually misguided you here. typeName was already fully qualified and looks enough to figure out what the message was saying and find culprits. (for some reason I thought this was the member name and not qualified).
+Anyway sorry about that.
+You may consider reverting the related change to keep it consistent and make the code slightly simpler by getting rid of maps.
+Anyway I will leave it up to you how to proceed.",1
+"Just use 10px. I also rebased on latest master and adjusted look and feel of buttons here to match the changes made in context of [1].
+
+ [1] https://gerrit-review.googlesource.com/62460.",0
+"I don't see this as needing more prominence here, so much as the increase in docs is *an entire second proposal* wedged into this one. I'd vote for merging as is, and making the docs process a standalone follow-up.",1
+"personally, i prefer to have only with space after comma",0
+Will take a look after we decide how to move forward.,0
+"I have no idea what to write here other than copying the dictionary definition of the word virtual....
+At the moment it basically means entities that are not backed by a file, but defining things by what they are not is bad, and also might not be true in the future.",1
+"No need for the above...
+
+The commit log & diff & etc provides info about the change.",0
+"...except for the fact that get_initial_timestamp() doesn't exist for Fam10h, and implementation looks non-trivial.",1
+Can I call GetMatrix w/out having called SetDataFrameObject? Add a bried usage description here.,0
+"i think you can use here getAndSetVdsStatic() to get the vds name, so we will have it in the log, i think it is called anyway for the logging infrastructure (""FINISH"")",0
+"* ""@return void"" is redundant, leave it out
+
+* but do add a line ""@since LibreOffice 4.4""",0
+"(minor) I suspect these CLASSERT() lines were removed in an earlier version of the patch, but not restored when the padding was added back?
+
+Without these, it us likely that a defect will be added on big-endian machines when these fields are actually used.",1
+We backed away from that. It is simply impractical. Too many tools and users use refs/for/ to remove support for it.,1
+"This is better, but the registered variable is unnecessary:
+
+while True:
+    ...
+    if register_models():
+        return # or break",0
+"I want to keep it for now - there might be new architectures/optimizations where we suddenly realize it would be useful. Having them in config.h.cmakein is a reasonable compromise to remember we can use them, although they aren't selectable directly in Cmake for the moment.",0
+"if your job is parse the service_profile to then pass it to the driver, just let the driver take care of this directly. Less cross-talk and better separation.",0
+"I did not suggest that the acquire/release functions would be called globally for all NI.  I said ""each time an interface that needs the acceptor"".  If the interface doesn't use the acceptor don't call acquire at startup, and don't call release at shutdown.
+
+I don't much care about the length of the list or the time involved.  I am looking for code that is more easy to read and maintain.",1
+"So that means to also change comparisons with STRING_NOTFOUND (which is defined to 0xFFFF), lastIndexOf() returns -1 if not found, so the condition here can be simplified to
+
+    if (nPos > 0)",0
+"Patch Set 1: Fails
+
+@Aske, really nice UI changes and the image GUI has improved a lot.
+
+One thins thou when trying to hide and element on a page which not has been published. An exception is thrown, maybe something that should be handled inside the PHP code instead.",0
+"as discussed, change it to 
+if (ret && !mismatch)
+         break;",0
+"this is escapable, p['title'] could be something like '""><script>dodgycode</script><a href=""'",0
+"next time, describe to which repository they're going.",0
+Please use uint64 or uint32 or uint16 if the size is known.,0
+i don't think this is ever defined on Android. it's a BSD thing.,1
+Don't you need to unlink all the socket files as well?,1
+"Good idea. Although I could now just have a single stat and remove scrubber:status? If we have a stat called scrubber:runs we can infer the status.
+
+Is there a policy though of maintaining stats? any external tools reliant upon them that would be unhappy with removal of a stat?",0
+Omit the err at the end.  Its the result of the last possible test making it probably meaningless and possibly misleading.,1
+with the suggested while loop this would become i =0,0
+"That was actually the original code. If dest <= src and you're only copying one byte at a time, if you start from the top you'll never overwrite the data you haven't copied yet. Otherwise, you have to start from the other end. *dest++ = *src memcpy;, but memcpy is not *dest++ = *src;.
+
+To quote from the pretty short man page:
+
+The memory areas must not overlap.
+
+That's the difference between memcpy and memmove. If there was no overlap at all (which we could check for) then you could use memcpy, and that would make the normal case work like it always has.
+
+But I'm working on a change to add optimized versions of memmove for x86 and ARM. In order to test them I'm going to implement them in the chromeos tree, and then to transfer them over I've put together a big series of patches to upstream so they should just apply.",0
+We don't need to drop the function as it will be dropped in the function db_create_trigger(),0
+"(minor) could use:
+
+                 list_move_tail(&com->lc_link, &lfsck->li_list_idle);
+
+Don't delete the list_del_init(), which is on a different list...",0
+"> I think it's cleaner. We do not have to re-implement and maintain different versions start-needed-srv in each script. Just one ""vdsm_init_common.sh --start-needed-srv"" to rule them all.
+
+Here we disagree.
+
+But we repeat our-selves... and not progressing, so we can stop doing that... and progress... as whatever we have now is much better than whatever existed before.
+
+When a user/downstream maintainer opens the service/unit/script whatever he expects to actually understand what happens there and why, and not start to dig within application to find issues and modify downstream specific logic.
+
+At upstart of have the start/stop convention (yeah... you need something for legacy sysv, but simple if is doing the work), for systemd you need nothing as it handles the dependencies, for openrc you need nothing as it handles the dependencies.
+
+So the discussion is entirely around the sysv scripts... I do remember that debian does have dependency management based on the header of scripts[1]
+
+So we left with rhel only to handle...
+
+This is why I do not understand why we need any common application downstream specific logic.
+
+[1] https://wiki.debian.org/LSBInitScripts",1
+"Say what the commit does (add release notes, apply CSS only to content, formatting fix).
+
+If you want to put an ID, put it in the body (and using the git SHA of the previously merged commit is better so it works on both GitHub etc. and Gerrit).",0
+"This should be references with an 's' Ã¢â‚¬â€œ see Cite.git, i18n/core/en.json line 38.",0
+"You can't make changes directly to OOJS directly here.
+You need to check out the oojs repos (gerrit.wikimedia.org:29418/oojs/core.git & gerrit.wikimedia.org:29418/oojs/ui.gt), make changes there, and once they are merged create a separate change which updates this concatenated file. Then you can rebase onto that change.",1
+Would be better to name this view rather than window,0
+Why would you remove it ? Please keep gid_File_Bin_UnpackUpdate untouched.,1
+This will cause a double free. The previous GF_REF_PUT() will already call auth_cache_entry_free() (where entry is free'd) if auth_cache_add() has failed.,0
+Why not do dict_get_str and use the ptr to find the index. That will avoid more book keeping,0
+"My bad, I did add one but then removed it again and forgot to change that line back",0
+"Just curious, how come you use a RandomAccessFile here? It might be simpler to just Guava (which lint already depends on):
+String firstLine = Files.readFirstLine(file, Charsets.US_ASCII);
+(that's com.google.common.io.Files)",1
+"if we've got this, do we still need the flag?
+
+this field should probably be called something more like ""allocated_stack_size"".",0
+"[optionally] extend SSH based acceptance test too:
+
+ acceptance/ssh/GarbageCollectionIT.java",0
+Create static BugzillaRestCreateTaskSchema.getFieldNameFromAttributeName() and add an ImmutableMap,0
+"s/data/key/
+
+This variable name (in docs) is more important than conflicting with internal variable names.
+
+""data"" isn't much more descriptive than ""variable"", ""thing"" or ""stuff"".",0
+"Ja, if there were a clean way to have the old name mean a new -q version that'd be fine, but I think this is the best we can do.",0
+"Good point, I missed that.  Determinism is a key feature.  Fixed.",0
+"Better would be to have
+
+ if (nGlobalError)
+ {
+     PushError( nGlobalError);
+     return;
+ }
+ if (aInputString.isEmpty())
+ {
+     if (GetGlobalConfig().mbEmptyStringAsZero)
+         PushDouble(0);
+     else
+         PushNoValue();
+     return;
+ }",0
+Are you intending to add more artefact plugin settings?,0
+"Why define this as a new function instead of replacing the one that expects a NamedElement? getFuncName is invoked on actions, but also on guards, and we need to apply the new naming on guards as well.
+
+If we replace the old getFuncName with this one, but keeping the NamedElement parameter, we can move the ""translator.getSource"" part here and be able to reuse the same function without modifying the ActionDeclarationGenerator or the GuardDeclarationGenerator.",1
+"indeed!
+Sorry, I assumed that this function was tested and it seems trivial to me since in Oracle/Sybase this works like a charm
+would you mind sending a patch fixing the fn_db_delete_config_values as well and put me as a reviewer ?
+thanks",0
+"Do you mean ""will be removed from the group""? If so, I'd add the ""From the group"" to avoid confusion. Some might think that the user is going to be removed from the system, i.e. deleted.
+
+There are a couple of minor white spaces here (shown in red).",0
+"Since you are rewriting the entire file anyway, please try to put callers before callees, in general, so that reading the file top to bottom you usually know what a function is for when you see it. So:
+
+gen
+casebody
+caseClauses
+genCases",0
+"we must make sure the paste file is in absolute path mode:
+config_path = os.path.abspath(config_path)
+?",0
+"Not sure where these param are from args or kwargs? Suggest to doc them clearly:
+
+        :param args: ...
+        :param kwargs:  A dict of keyword arguments to be passed to the method, 
+                        which should contain: Ã¢â‚¬ËœusernameÃ¢â‚¬â„¢, Ã¢â‚¬ËœpasswordÃ¢â‚¬â„¢, Ã¢â‚¬Ëœauth_urlÃ¢â‚¬â„¢, Ã¢â‚¬Ëœapi_versionÃ¢â‚¬â„¢ parameters.",0
+"(style) remove empty line in middle of variable declaration, and convert few lines after to tabs",0
+C++ style comments and I guess includ pcap.h *should* be garded with #ifdef HAVE_LIBPCAP,0
+"Why not simply do:
+
+    connect(groupSeparatorChkBox, SIGNAL(toggled(bool)),
+            groupSeparatorSpinBox, SLOT(setGroupSeparatorShown(bool)));
+
+?",1
+"Thanks Ian, I was not aware of this. Created b/15574371.",0

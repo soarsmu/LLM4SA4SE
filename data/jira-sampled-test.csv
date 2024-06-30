@@ -1,0 +1,103 @@
+sentence,label
+I really don't know how to solve this problem.,0
+"If you know of a way, please describe it.",0
+This whole thing is very distressing to me.,0
+Sorry for the noise..,0
+"Sorry, no longer working on this",0
+The food is very bad.,0
+"Yes it is a dup, thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)",0
+Thanks Sandy.,1
+"Filling diags.log is bad mojo, since it's never rotated.",0
+"Thanks, Myrna.",1
+"I lost the whole morning cause HBase's RegionServer was dying with no logs, no nothing... how Am I supposed to debug the issue if u do not even generate a core dump?",0
+That sounds like some serious buck passing.,0
+Thanks for your patience.,1
+Thanks guys for saving mankind!,1
+Sucks to rush a commit when an issue is under discussion.,0
+Sorry for the huge delay Fabio.,0
+Maurice I don't have such option or maybe I don't know where it is.,0
+My bad.,0
+Sorry - the federated build is still working out kinks...,0
+This is awesome - works in a one-liner. ,1
+"Hi Henry, Thanks for checking it out. 
+",1
+who the hell starts using our jira for typing lessons ?!?,0
+"@idiot Yeah, I was on that idiot-path for a good while but commons-lang is a hairball, at least where this hashcode making and equals is concerned.",0
+"Sorry, I kind of forget about this one.",0
+Doh.,0
+My Bad.,0
+"Marcelo, thanks for pointing out this; it is now fixed in rev.",1
+Inserting timestamps automagically would be bad because it would limit a whole swath of use cases.,0
+"great, thanks Joel.",1
+"Committed a slightly cleaned up version of the patch in revision: 1464605
+
+Thanks for your help Todd.",1
+Thanks Karthik.,1
+thanks henry!,1
+"Sorry ;-)
+
+",0
+"Took me a few seconds to get it, but then I realized how awesome it is.  ",1
+:D,1
+"sorry, last patch was missing new files",0
+That would suck.,0
+Thank you.,1
+"Cool, will do!  Thanks for the review and good questions... and the whole idea! :)",1
+i found the class - so there is no bug - sorry,0
+damn this was assigned to you since months.,0
+Doh!,0
+Sorry for letting you guys wait.,0
+Tabs are evil.,0
+Sorry; I hit close by accident.,0
+"sorry, unassigning myself from this backport.",0
+"Best regards,
+Andrew",1
+Sorry.,0
+Thanks for moving so quickly on this guys.,1
+"It may suck, but at least *I* won't be the one bringing in a dumb dependency to a logging library.",0
+"Hello,
+
+Thanks a lot!
+
+It works.
+
+Lisa
+",1
+Please contact me if you need any clarifications.,1
+Why on earth does createLink() need a request?,0
+"Sorry, I took Martin's comment to mean the patch was committed and issue closed, which certainly discarded all the patches the first time around.",0
+If they do then Suse's cpio works for old ascii but the -c switch is broken.,0
+Thanks Brock!,1
+"Thanks for figuring this one out and providing the patch, Jamie!",1
+"Swear to god, I'm not a total idiot.",0
+"Thank you,
++ Harit Himanshu
+
+
+",1
+"Forgot about these, sorry.",0
+"But, even if it wasn't it would be totally worthless where it is at.",0
+Phabricator is being a little buggy.,0
+Not pretty. ,0
+"To upgrade to a recent version of Jackrabbit, see http://wiki.apache.org/jackrabbit/BackupAndMigration
+I'm afraid I can't say much about the risk.
+
+",0
+This whole thing is really pretty trivial.,0
+Thanks for your work on this Allen!,1
+"I'm sorry Mark,
+
+I came back here to remove my comment as after building the app from scratch I have found that by default it used 
+WhenExhaustedAction = GROW and not BLOCK!",0
++1 for this: my bad.,0
+"Best regards,
+Richard",1
+Blooper after blooper - I hate SVN.,0
+This really sucks!,0
+"Hmm, that sucks.",0
+What the hell are you waiting for ?,0
+"Here are 2 patches ... one for adjustExamplePaths.bat & .sh
+and the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIB
+Not sure where this should go ...",0
+"Hey, sorry I did not get back to you sooner.",0
+"Holy hell, I think I found one problem with turning a bignum into anything else.",0

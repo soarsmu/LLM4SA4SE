@@ -1,0 +1,341 @@
+sentence,label
+"I will do this for all remaining get_top_of_ram() in one go, separate from this fam10 patch.",0
+"I did not make comments on all of these before because it was the same comment every time. Unless there is a good documented reason, these should all be set to ignore.",1
+might as well drop the conditional and just assign it,0
+The doc comments are inheritted from the parent class(es),0
+"Right, changing an SwField, which is part of the document model during export is bad. An export operation should just read the document model and serialize it in some format. Can't you set m_bCitation depending on what the field type is? Just put a breakpoint on the SwField constructor, get a backtrace and see where it's created -- hopefully the caller knows the field type.",0
+[error] 'static' modifier out of order with the JLS suggestions.,0
+"These are wrapper functions, and will use in test cases directly.",0
+"FYI this probably doesn't always work. Booleans are stored as CHAR(1) with value Y for true and N for false. Not every JDBC driver out is going to grok this as a boolean value. It would be safer to use ""Y"".equals(rs.getString()) in code such as this.
+
+Can't this statement also be written as an UPDATE:
+
+  UPDATE accounts SET reverse_patch_set_order = 'Y'
+  WHERE display_patch_sets_in_reverse_order = 'Y';
+
+  UPDATE accounts SET show_username_in_review_category = 'Y'
+  WHERE display_person_name_in_review_category = 'Y';
+
+This should be much faster to process, and every SQL server we support will grok those two small statements. And it avoids the problem with boolean conversion.",1
+"It is pretty inconsitent. Some have very short descriptions (like this one) others only point to the jdk doc (which is what I will do).
+
+Big TODO update all url pointers.",1
+docstrings please and thank you :D,0
+"Style: Given totalCount is guaranteed to be zero here, just return zero - it's clearer to the reader what's being returned.",0
+"You probably need to check for divide-by-zero here, since addr_len comes from compr, which is based on packet data.",0
+"In the follow-up change [1] this method is renamed to 'canEditChangeLabels' [2]. I would propose to name it already here 'canEditChangeLabels' so that it doesn't need to be renamed in the next change.
+
+[1] https://gerrit-review.googlesource.com/24661
+
+[2] https://gerrit-review.googlesource.com/#/c/24661/4/gerrit-server/src/main/java/com/google/gerrit/server/project/ChangeControl.java",0
+Do we really need a separate header for two trivial definitions?,1
+"Also here, not MX/RX but instead
+
+ {..., 4, 6, V, { VR }, ...}
+
+compare with ""BETADIST"" and ""BETAINV"".",0
+Can we not use CONFIG_MMCONF_BASE_ADDRESS for these constants?,0
+"possible way to remove this constant and use information from setup.cfg:
+
+    import os
+    # Read setup.cfg of OSProfiler
+    open(os.path.join(os.path.dirname(os.path.dirname(__file__))), 'setup.cfg') as setup_file:
+        setup_lines = setup_file.readlines()
+
+    #Parse version
+    for line in setup_lines:
+        if line.startswith('version'):
+            version = line.split()[-1]",0
+This just feels wrong. The test setup code should not be writing to the notedb separately; there should be a method in PatchLineCommentsUtil that writes to the appropriate storage(s) based on the config.,1
+About { on the same line? yeah it's probably on the one below.,0
+"s/logical//
+
+(logical as opposed to what? it's all logical in software... - leave away)
+
+how about:
+
+Loading is controlled by this dependency graph.",1
+"There is no need for a ""continue"" here, since it means the same as the normal program flow...",0
+"Hi, so should we keep this as ""local"" or change to ""mergeStrategies""?",0
+"You are mixing two different use cases. Use case 1:
+
+  beginTransaction()
+  commit()
+
+this works, because beginTransaction() set autoCommit=false and commit is successful even though nothing to commit.
+
+Use case 2:
+
+  open Connection with autoCommit=true
+  commit()
+
+Evidently, this doesn't work on all Jdbc dialects supported by Gerrit. E. g. this doesn't work on PostgreSQL for the same reason why rollback() doesn't work. To see the failure, remove this if-guard above and run PostgreSQL unit test:
+
+  testRollbackNoTransaction()
+
+it is failing with:
+
+  Cannot commit when autoCommit is enabled.
+
+or some such.",1
+These nOpCode have of course to be eFacOpCode then.,0
+"strdup_printf with just a %s can be replaced with just strdup :)
+
+This copy is necessary though, since the string coming into the function might be packet-scope",0
+This should be alright to change as if it wasn't updated in the last install this one will run. Both work as upgrade paths as it tests with no salt set if nessecary,0
+"Is this only relevant for new Js interop or was it also a bug with regular JSOs?
+
+If it was a bug with JSOs, we should add the relevant regression test.",0
+"If it's not set, there's no way to get FSP failure data out.  I agree that it's not an absolute requirement, but without it, if there's a failure, you're going to be pretty lost.
+
+We could move it from here and put this below, surrounding the #if statements and not actually fail, but my opinion was this was the best option...",0
+"Use a proper sentence, and this routine does more than that, returning encoded version.",0
+"There is no need to reference $wizard, it's an object",1
+Not needed (in this case) since a 'set' is being done immediately following,0
+Having nightmares about empty lines kidnapping you in an alien ship and performing colonoscopy?,1
+not worth including the regular version number too?,1
+(improvement) It should be possible to test this with only 2 OSTs.  With a two-stripe file it would be missing stripe index 0.,0
+we will need to log the error since it is ignored by caller,0
+"Can we write a test for this? It seems to be an important semantic aspect of the interface, worth recording.",0
+"The value is having an ABI compatible way to pass the proper information to ramstage from romstage. There's no reason to allow something that can change to break in the future. Take for example the current different sizes of the previous space reserved in the cache_as_ram.inc files. Things that are brittle will break.
+
+What is the bare minimum amount of info that needs to be passed? Isn't it just a bar and a couple of endpoints?",1
+Use tvb_ip_to_str.  That should eliminate the need for arpa/inet.h,0
+"1. This seems like a hack to work around a bug -- why are we reading from the pty after it is closed?
+2. This hack also looks too broad -- if any error occurs we close the pipe and stop reading, while squelching the error. This seems bad.
+
+Same comments below.",1
+"The point is to use double quotation marks "" instead of single quotation marks ' for consistency within MediaWiki core and all extensions.",0
+"Currently, bucket name cannot contain symbols from html. That is why I remove escaping.",0
+"Patch Set 3: Code-Review-1
+
+@Sebastian: Yeah we already discussed that, but since we don't have time to implement promises or similar for 1.0 it's still better than before. So for now we make sure to fetch the stuff early, but I agree we should add a TODO in there",0
+"Ah, ok. Let me explain a bit: The USBIP server/client is split into two parts. On the server side, there's an userspace daemon (usbipd) and a kernel module usbip-host.ko. The client has a userspace tool (usbip) and a virtual usb hcd vhci-hcd.ko. 
+
+So, get_usbip_message_len is split in the same manner.
+
+The Device List, Import, .... Request/Response stuff (which has a protocl version 0x111) is the user space portion. The usbip-host.ko and vhci-hcd.ko part (aka URBs handling, version = 0x0000) is part of the kernel. You are right, I'll add comment which explains why the function got so convoluted.",0
+"Patch Set 2: I would prefer that you didn't submit this
+
+This bug is a duplicate 841534 of and will be handled in http://gerrit.ovirt.org/#/c/6593.
+
+After discussing, the correct behavior is to allow diskless templates, so this patch is no longer relevant.
+Please abandon it.
+
+
+Sorry for the hassle.",1
+"If this line is removed the rDescription parameter name (and only the name) needs to be commented out because otherwise in an --enable-werror build the build breaks with ""unused variable"".",0
+We only move bonds to the same place or back. So bond j is always tested. In the extreme case there are no H-bonds and the loop is simply a copy from i to j=i. Also note that this code has been tested in the nbnxn_hybrid_acc branch.,0
+"No need to check for NULL because g_strdup will do this.
+And if value == NULL then tv->value will be uninitialised.",0
+"I think you're right that this seems only natural. I will leave the code for this commented out by a flag for now, and figure out a way to add a 'lint' mode to JSORestrictionsChecker later to warn when turned on.",0
+"Change to:
+
+$string['pendingsince'] = 'pending since %s';",0
+That is intended. We are already making sure that multiple events are okay for us (see onHashChanged). So I think this is the most practical way.,0
+"This is not necessary. The same array can be used as multiple ""things"" without any problems. Just make sure that code handles it correctly. Don't forget to update the documentation in the header.",1
+"Not currently. It's somewhat different from what the current reference data approach uses, as I guess that you would want to generate that state using some code that is not part of the test (since if you can generate the state with code that runs anywhere, you do not really benefit from serialization).
+
+Generic serialization is also a significant amount of code, even if straightforward (and with C++, it requires some careful thinking on what kind of constraints it enforces on the serializable types, unless you make the object itself responsible for the serialization).",0
+I will update the currently commented font.family in another change. I will need to add the font first.,0
+"Patch Set 3: I would prefer that you didn't submit this
+
+(2 inline comments)
+
+I don't see the need for this change. If you built with the ebuild unmodified, you'd get an image.bin which would be what you want. As far as I could tell looking at the new function, it's identical to the old one except that you're leaving out the original image.bin.
+
+The difference between image.bin and image.rw.bin is that cros_bundle_firmware is being passed the --force-rw option in one case and not in the other. What that does is it changes the way parts of the image are put together so that vboot doesn't allow the RO only optimization even if the RO firmware claims it supports it.
+
+The RO only optimization is where you run the whole firmware out of RO instead of jumping into an RW copy partway through. If you really don't want to enable that optimization, you can not pass that flag to vboot when running VbInit.
+
+Even if you do want to split things out like this, it would be better to take the existing depthcharge function and to selectively build the RO image based on a use flag.
+
+
+Independent of whether splitting things up is a good idea, if Mike (who knows bash much better than I do, I think) likes the style of the new function you've made, it would be nice to incorporate the style changes back into the original function.",1
+"Doc string needs to be changed. This does not return anything. it can be something like-
+This function verify detail of referenced datastore.",0
+"I think they are trying to match with the access control section data, which uses local because it used to also have the inherited rules from parent projects, and the local rules were in their own collection so the UI could tell them apart.",0
+How are these two arguments joined together into the target string?  Or maybe these should be passed as-is and let the XML RPC server join them together?,0
+warn: lnet_ping():check that 'tmpid' doesn't leak information (struct has a hole after 'pid'),0
+"Move up with other ""just set reserved = 7"" case statements?",0
+"needs to be space around the => 
+eg 
+ $postid => $post",0
+"I'll add a comment. 
+I don't think #ifdef is a good idea. It makes bugs more likely because you have more code and that code is less tested (because only one version is only compiled and run on any one system).  But I will include the non-workaround version in the comment.",1
+"On HTTP /abandon and /restore accept no body. This results in null being passed to the apply() method, which handles it gracefully by creating an empty input.
+
+I think its common to call /abandon and /restore with no input. Your tests are certainly showing that. Perhaps we should overload abandon() and restore() methods to also have a no-arg form that passes null to apply the same way the HTTP interface does when the client doesn't supply a body.",0
+divider/spacer not needed any more - spaces should be created by t3skin itself,0
+"As you noticed in your former review, my patch originally allowed this by the presence of a MSG_IS_ERROR flag that was passed to the callback. John suggested we leave llapi_printf() alone.
+
+Next patchset implements your suggestion with two distinct callbacks, which I find clean & flexible.",0
+"Our convention here is to have URL like this:
+
+/node/controller/reloadCertificate",0
+"Please add constant for TEST_OTHER_DC_ID, it is confusing you're using the TEST_NETWORK_ID.",1
+Maybe this could be outputWriter instead of writer2.,0
+"It's now streaming the progress to the client.
+
+Done",0
+Removed 'to' as the assertion is there for mostly documentation purposes.,0
+"This is a weird format. It won't close twice actually, and it's not to handle the exception. There is an infinite loop from L1537 to L1581. In each iteration, it opens the zipfile. Before getting into another iteration, it needs to close the zipfile... I've moved L1583 inside the loop to make it less weird.",1
+"In which case, shouldn't the code just say that all other open projects should already have their SDK's pointing to the SDK used by the IDE?
+
+i.e., now that we do this, we shouldn't have to modify other projects, only this project since all others should already be in sync.
+
+The fishy part here is just that choosing something in a project import dialog affects other projects which doesn't make sense. If you want that experience, then the dialog should be more of a global IDE preference.",1
+"follow up? hate all this stuff getting bikeshed for weeks for that sort of thing.
+
+can you also check out 6465, 6463.",1
+I just noticed this: please change god_mode to override_state as in this change: https://review.openstack.org/#/c/156203/8/nailgun/nailgun/test/integration/test_capacity_handler.py,0
+"Since BE was IE10 (as of the member var above) I think changing the member to edge is not a problem, but I would keep the IE8 default here, which does not hurt us, and will also not hurt third party stuff then.",0
+"I think it should be optimizerCtx.getLastStepFor(NAME)+1, since the methods which are last modified by DeadCodeElimination are deadcode-free.
+
+Another concern is that when it is called by MethodInliner, actually we want to traverse the methods that modified by MethodInliner, not all the modified methods since last DeadCodeElimination. The result would be the same, but it may do unnecessary work in MethodInliner.",0
+Combine both the if statements into one single if statement.,0
+"The word ""Selected"" should be capitalized. I'm unsure of the use of ""Area"" here, BTW. Maybe ""Cut Selection""?",0
+this could probably be determined dynamically at build time. but not in this patch.,0
+"I think that's just a mistake in make.bash.  It's better to fail fast and minimize distractions to stderr when you know you've already lost.
+
+I'd say add an exit failure here and then submit. If you feel strongly about keeping it as-is, you can submit this too and we can fix them both later if we decide to.",0
+"Do not remove the entire statement, SeekGroup() has side effects.",1
+"This TODO will have to wait for a later bug fix, because it's used when users belong to multiple institutions (the progress bar gives them a menu to determine which institution to show, and that relies on the param).
+
+It's not a *huge* security issue having this. It just allows users to see what the completion goals are for other institutions they're not members of.",0
+"u mentioned that is ""good to have"". i will try to convert tests for distribute volume.",0
+"It is possible to kept alcatel-lucent.xylan (and remove the other)
+
+Xylan has buy by Alcatel in 1999... (if i remember..)",0
+"here we are changing the default to 0666 but in open it is 0777, we should have only one. I think 0777 was chosen based on what python os module does, but could be wrong...",0
+Sorry but I didn't get why we need 199 here - to trigger some update to 200 afterwards? What if we just fix the update for afterwards then?!?,1
+"Please don't hijack other chipsets. i82801gx is ICH7, not NM10",1
+Is this marked 'latest' in the other place it's defined?,0
+You assume here that size of phdr entry is sizeof (*phdr). You should use phentsize instead.,0
+"The documentation here is pretty much the same, but the errors occur in different circumstances.",0
+"This is the same as in the underlying OS calls, and this same construct is also used in the nbsearch pair loop, as it minimizes the amount of code the caller needs to write for correct looping (and is quite easy to implement, as there's only one function that returns something).",0
+"never mind. found it in ""notification_internal_activity"" :) will see what I can do",0
+"If we agree to always treat a single number as JSON even if the client doesn't enable datatype support, then we can always set its datatype to JSON regardless of that.",0
+"Ok, I've changed the method name to 'validate'. Not sure though if it's worth the effort to change the already existing listeners.",1
+"Ah good point - I hadn't noticed that patch get merged.
+
+Have removed the field_exists and table_exists checks",0
+Using the . seems to be the preferred way of doing this and orca screenreader does not read out the fullstop so that is good,0
+"Same WERROR_COMMON_FLAGS note, guard by if(WERROR_COMMON_FLAGS)?",0
+Can the selection of the common part be moved one level higher until a Fintek chip comes along which is different? No idea if that is possible in Kconfig.,0
+not if you want to compare from a raw byte array used to serialize object IDs,1
+"This was directly copied by Special:Random, but you are right.",0
+:-/ no really there is a mix on indent (and it is tab by majority (i will fix rest of file) and add modelines...,1
+"Whitespace matters. We use tabs, and trailing whitespace has to be removed.",0
+This is a special and important message. May be use something like P_MSG_STALE_HANDLE_REMOVE_FAILED here?,0
+I think the bytes.Buffer version was more readable.,0
+"This || breaks -e. If you need this information you need to reimplement -e yourself.
+
+if ! go build -a std; then
+    failed=true
+    if $sete; then
+        exit 1
+    fi
+fi",0
+"But not how it's currently implemented. Instead the interwikimap should be consulted to see whether a interwiki link is local, and as soon as a non-local interwiki link is happening throwing this exception (but as InvalidTitle of course).
+
+How is en:meatball:Foo an invalid link? I've added that to the link tests and it's fine. And en:meatball:en:Foo doesn't work as the meatball wiki appears to have no interwiki map.",1
+You may want to check for NULL because cbmem allocations can fail.,0
+"No need for indirection here.
+Merge benchmarkTCPConcurrentReadWrite into this function, and use the addr ""127.0.0.1:0"" directly.",1
+"How is determined which of the opcodes is actually taken during import of _xlfn.CEILING.MATH ? I think that's missing.
+
+Note that now that we use RID_STRLIST_FUNCTION_NAMES_ENGLISH_OOXML with the formula compiler, the tables in sc/source/filter/oox/formulabase.cxx are only provided for API support (of which we actually don't know if anyone is using it at all). Our internal OOXML import/export doesn't use them anymore, so any ""only for import / only for export"" usage needs to be implemented differently.",0
+"No need for Provider here, inject FlushCashe directly. Both PostCaches & FlushCache are singletons. So the Provider hurts more than it helps here. E. g. on line 105 it get called in a loop and returns allways the same singleton instance.",0
+"nitpick: add a space between ""if"" and its opening pare",0
+"planning to do that in a separate changelist for MB-14866:
+1. merge lock with seqno_list into the same structure
+2. maintain a vbMap instead of vbList in this service, so as to make vbno lookup/validation faster
+3. do vbno validation in all relevant places in the service
+
+you mentioned that we could use list of list instead of map of list to avoid issues with map. Feel that it makes the code harder to read. we may have to understandard the behavior with maps anyway. Plan to make the changes above and see if the issue in MB-14866 re-cur.",0
+"Hook parameter.  I need to print it, I think it holds the CentralAuth ""Logging you in to the following wikis""",0
+"inefficient. instead of using contains() above and section() here, one can use indexOf() above and mid() here.",1
+should probably also mention the the optimizer scale estmation was pushed into the parent class,0
+Should this be all of the groups and not just controllers?,0
+Flow control keywords must be followed by a single space,0
+"I think this switch statement is getting big enough that this dissector should create a dissector table and have these dissectors register with it, not the other way around.",0
+"These are nice tests. Can we put them on AbstractHasData directly instead of the Table subclass?
+The one bit that you'd have to keep here would be the test with the alternative TableBuilder.",0
+Reuse the ChangeControl instance instead of loading the change again.,0
+I think you also need to add -.7em to this 24px. That number comes from the .fulltext-search left and right margins. Otherwise there is a horizontal scroll on the page.,0
+Please don't declare symbols weak. Provide weak definitions.,0
+"This isn't C. Stop comparing it with C. What you are doing here with the brightness is just redefining the same thing. Both boards you touched have the same definitions for the brightness, \DSPC.BRTU and \DSPC.BRTD, so it makes limited sense to redefine them as something interim.",1
+"I don't think it needs to be set, which means it doesn't need to be in the input.",1
+hmm.. GetPosition doesn't handle errors but Seek does. :(,1
+"Is there a function for this query already? or should we make one for future?
+
+It is just that this is quite a big block of code, and would be more readable factored out",0
+"The ""git commit"" line needs a continuation character to include the following '-m' line.  However, you should be able to fold the entire commit message into one quoted string starting on the above line.  Be sure to leave the second line blank.",0
+"I think we should make it very clear that this is an asynchronous process:
+
+""Enqueues a clean up of old cache files...""",0
+"The Slerp I was thinking of, http://en.wikipedia.org/wiki/Slerp doesn't seem to be in all caps - is this something else? It does say somewhere to avoid acronyms but there are exceptions (this may be one of them).",0
+What happen if groups were imported to an institution different from 'mahara'?,0
+"should another patchset be pushed, please change the leading blanks to tabs",0
+":(  So we need to either port this file over to kernel style or not use goto's.  Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/",1
+Instead of malloc() maybe you can use stack: gchar tmpname[41]; 41 is enough? Cannot be greater?,0
+"Which comment? :)
+
+Good idea. I'll update to explicitly call out CANARY_MASTER.
+
+It doesn't work b/c Initialize is mocked out in the sync_stage unit test, so self.repo never gets initialized and is None in the conditional logic. Haven't looked too far into why it's not being triggered for 'master-release', but I suspect that config simply doesn't run this unit test.",0
+"I'm not sure we would ever remove this. When running the Super Dev Mode from a static html page instead of a server, people link directly to .nocache.js, so it should always exist.",1
+"Sure, I can switch over to a white-list. I just killed the ones I really didn't like (e.g. MD5 :).",0
+"this should better be moved to a signal in IWizardFactory then, I suppose. but different patch.",0
+Not having doxygen documentation for the defines will generate warnings when merged to master.,0
+"Patch Set 4: Code-Review+2
+
+Now it looks good, yeah it worked in the first patch set but the rebase missed the comma",0
+"Looks like the order of the parameters are reversed. It should be expected, actual.
+self.assertEqual('available', volume['status'])",0
+"oh, good catch! funny this slipped in ... btw: ArrayUtility from extbase should be reviewed and at first glance it seems most of it could be merged to core ArrayUtility.",0
+I think it might be worth a comment up here what this class is intended to do and how it does it.,0
+"I guess this must be an unsigned integer because of the way we shift bits in the next file. However, in that case the width too is likely important, and I would suggest using gmx_uint32_t for clarity.",0
+Oh right the $ to global is a nicer idea.  I have just removed jquery statement and did not add the global.  That is just a few errors and they do need fixing.,0
+"There is no VDSM action here, only database - just make the command transactive, and save yourself all this hassle.",1
+"Patch Set 1: Fails
+
+this CL is breaking the CQ.  please try running it against a 32bit x86 board (like x86-alex or x86-generic) before re-submitting.
+
+ make -j32 BUILD=/build/butterfly/tmp/portage/chromeos-base/vboot_reference-1.0-r811/work/vboot_reference-1.0/build-main ARCH=x86 MINIMAL=minimal runtests 
+ Using qemu for testing.
+    Copying qemu binary.
+ cp: cannot stat '/usr/bin/qemu-x86': No such file or directory
+ make: *** [qemu_install] Error 1
+  * ERROR: chromeos-base/vboot_reference-1.0-r811 failed (test phase):",1
+Shift + left click or drag to extend T1 of a current range always changes T1 to T2 (and T2 to T1),0
+mw-mf-overlay-header seems like a rather meaningless class name. I wonder if we should move away from it to something more meaningful?,1
+"Use existing $GLOBALS['LANG']->sL('LLL:EXT:lang/locallang_core.xml:show_item.php.uid') 
+with ""Uid:"" ?",0
+"Well - these files are still generated by autogen.sh, if no autogen.input is present. And when I asked on IRC, people told me they are still used.
+
+Actually I was told to keep the minimized info message to move config from autogen.lastrun.bak to autogen.input, instead of some more prominent header.
+
+I actually don't see a reason to deprecate the configuration via autogen.sh commandline arguments. For me autogen.input is just an other way to configure stuff.",0
+I'd probably make this _parseMemInfo. If we see that we need it outside this module we can always drop the leading underscore.,0
+"We should have a log for non-connect events as well, probably at trace or debug levels.",0
+I agree if the file exist we should skip the conversion and print a information message,0
+"no, I'd like to keep the API of this class close to ObjectId",1
+"Actually, I think initLineModel() should be no-op too; the semantics of it are what happens when a different key is picked, but in this case nothing should change when a different key is picked, right? Both value boxes (constrained value and free text) are hidden all along.
+
+So I would hide them originally, say by extending the createNewLineModel() method, and implement this as no-op.",0
+"Ahh, I see.  :)
+
+I'm not seeing an isEmpty() method for the Cursor class.  Should I check for moveToFirst == false instead?
+
+Also, while I'm on this, is there a reason we call the CursorLoader parameter CursorLoaderLoader and the Cursor parameter cursorLoader?  Can I change them to just cursorLoader and cursor?",0
+"This is more obvious in this file than the other. You should be escaping the periods in your regular expressions. I know that it will match the period in the URL anyway, but we want it to *only* match the period.
+
+Also, you should use specific matches for scid, height and width, rather than the period (match anything). Assuming that you're just matching numbers, '[0-9]+', or tentatively '\d+' would be better here.
+
+One more thing, if these sites provide copy-and-paste embed tags, these matches will need to be able to deal with those too - currently they look like they will just modify the URL in-place, and this is definitely not what we want.",1
+"Sorry, this is still unacceptable. ImplEESdrWriter::ImplWriteShape() is used by both the binary export and the OOXML filter, you need to set the OOXML flag in the OOXML filter. Jut put a breakpoint on this line in the debugger, see its backtrace, and set the flag in the first method that is already OOXML-specific, and pass the bool around till this line.",1
+It makes sense that this is for the IOMMU since family 15 model xxx are the only parts that support it.,0
+how about use default wikitext namespace (see getDefaultWikitextNS below) or allow specifying namespace as an argument?,0
+I will remove all of the debug and most of the other messages after the VectorImage is working.  Main reason to use the Logger is to print interleaved messages from multiple threads legibly.  Other reason I'm avoiding debugMacro until VectorImage is working is so that I can continue to see debug messages even when compiled in Release mode for speed.,0
